@@ -114,6 +114,6 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ---
 
-## 🔗 Integração com projeto de BI
+## 🔗 Integração com Projeto de BI
 
 Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards.
