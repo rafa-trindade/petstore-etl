@@ -37,17 +37,17 @@ graph TD
 
 ---
 
-## 🏪 Redes Suportadas
+## 📊 Estrutura do Projeto Final
 
-Atualmente, o projeto coleta dados das seguintes redes:
-
-* **Petz**
-* **Cobasi**
-* **Petlove**
+| Repositório | Função | Camada | Principais Tecnologias |
+| ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
+| [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) | Coleta de Dados de Franquias | 🟤 Bronze | Selenium, BeautifulSoup4, lxml, pandas |
+| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, Nominatim |
+| [`petstore-bi`](https://github.com/rafa-trindade/petstore-etl) | BIo e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
 
 ---
 
-## ⚙️ Tecnologias e Bibliotecas
+## ⚙️ Tecnologias e Bibliotecas `petstore-etl`
 
 * [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
 * [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidade e estado  
@@ -59,7 +59,7 @@ O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações d
 
 ---
 
-## 🖥️ Log de Execução
+## 🖥️ Log de Execução `petstore-etl`
 
 ```text
 ----------------------------------------------
@@ -117,3 +117,13 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 ## 🔗 Integração com Projeto de BI
 
 Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards.
+
+---
+
+## 🏪 Redes Suportadas
+
+Atualmente, o projeto coleta dados das seguintes redes:
+
+* **Petz**
+* **Cobasi**
+* **Petlove**
