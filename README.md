@@ -110,7 +110,7 @@ Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
 
 Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 ```
-🔗 [Ver log completo]([logs/log.txt](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt))
+🔗 [Ver log completo](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
 
 ---
 
