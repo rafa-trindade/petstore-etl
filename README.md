@@ -1,23 +1,26 @@
 # 🐾 petstore-etl
 
-Projeto responsável pela **extração, transformação e carga (ETL)** de dados coletados pelo repositório `petstore-scraping`.  
+Projeto responsável pela **extração, transformação e carga (ETL)** de dados coletados pelo projeto [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping).  
+
 Esta etapa compõe as camadas **Silver e Gold** da arquitetura de dados, realizando **limpeza, padronização, enriquecimento e carga no banco de dados**.
+
+Os dados tratados nesse projeto serão consumidos pelo projeto [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) para BI e Dashboards.
 
 ---
 
 ## 📌 Descrição
 
-O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo `petstore-scraping` e executa as seguintes etapas:
+O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) e executa as seguintes camadas:
 
-* **Extract:** coleta dos arquivos brutos disponibilizados pelo `petstore-scraping` via link público (raw).  
-* **Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.  
-* **Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no `petstore-bi`.
+* **🟤 Extractc (Bronze):** coleta dos arquivos brutos disponibilizados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) via link público (raw).  
+* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.  
+* **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no `petstore-bi`.
 
 ---
 
-## 📊 Estrutura dos dados
+## 📊 Estrutura dos Dados
 
-As principais colunas tratadas e enriquecidas são:
+As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) são:
 
 | empresa | nome | logradouro | bairro | cidade | estado | cep | latitude | longitude |
 | ------- | ---- | ---------- | ------ | ------ | ------ | --- | -------- | --------- |
@@ -34,7 +37,21 @@ graph TD
 
 ---
 
-## 🌐 API de Geolocalização
+## 🏪 Redes Suportadas
+
+Atualmente, o projeto coleta dados das seguintes redes:
+
+* **Petz**
+* **Cobasi**
+* **Petlove**
+
+---
+
+## ⚙️ Tecnologias e Bibliotecas
+
+* [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
+* [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidade e estado  
+* [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas
 
 O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado).  
 
@@ -42,15 +59,7 @@ O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações d
 
 ---
 
-## ⚙️ Tecnologias e bibliotecas
-
-* [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
-* [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidade e estado  
-* [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
-
----
-
-## ⚙️ Log de Execução
+## 🖥️ Log de Execução
 
 ```text
 ----------------------------------------------
@@ -108,9 +117,3 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 ## 🔗 Integração com projeto de BI
 
 Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards.
-
-## 🚀 Possíveis usos
-
-* Preenchimento automático de CEPs, endereços e coordenadas de lojas.  
-* Geração de datasets prontos para análise geográfica e regional.  
-* Alimentação de dashboards e pipelines de BI no projeto `petstore-bi`.
