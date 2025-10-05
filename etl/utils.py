@@ -5,7 +5,7 @@ import time
 import traceback
 from brazilcep import get_address_from_cep
 
-USER_AGENT = "preencher-bairro-cep-lograd-latlong/1.0"
+USER_AGENT = "petstore-etl/1.0"
 
 def padronizar_logradouro(logradouro_full):
     if not logradouro_full:

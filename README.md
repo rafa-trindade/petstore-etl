@@ -50,6 +50,61 @@ O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações d
 
 ---
 
+## ⚙️ Log de Execução
+
+```text
+----------------------------------------------
+- Camada Bronze - Extraindo Dados...
+----------------------------------------------
+Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
+
+- Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
+
+----------------------------------------------
+- Camada Silver - Transformando Dados...
+----------------------------------------------
+Processado 1/533: petz - Petz Abelardo Bueno
+Processado 2/533: petz - Petz Aclimação
+Processado 3/533: petz - Petz Afonso Pena
+Processado 4/533: petz - Petz Agamenon
+Processado 5/533: petz - Petz Águas Claras
+...
+Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
+
+----------------------------------------------
+- Camada Gold - Padronizando Dados...
+----------------------------------------------
+>> type(df): <class 'pandas.core.frame.DataFrame'>
+>> shape: (533, 9)
+>> colunas: ['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'cep', 'latitude', 'longitude']
+>> colunas de endereço garantidas no DataFrame.
+>> 515 CEP(s) únicos encontrados para consulta (ex.: ['22775-040' '01534-000' '79005-671' '50050-290' '71928-720'])
+[1/515] 22775-040 -> {'logradouro': 'Avenida Embaixador Abelardo Bueno', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[2/515] 01534-000 -> {'logradouro': 'Rua Muniz de Sousa', 'bairro': 'Aclimação', 'cidade': 'São Paulo', 'estado': 'SP'}
+[3/515] 79005-671 -> {'logradouro': 'Avenida Bandeirantes', 'bairro': 'Amambaí', 'cidade': 'Campo Grande', 'estado': 'MS'}
+[4/515] 50050-290 -> {'logradouro': 'Avenida Governador Agamenon Magalhães', 'bairro': 'Boa Vista', 'cidade': 'Recife', 'estado': 'PE'}
+[5/515] 71928-720 -> {'logradouro': 'Avenida Sibipiruna', 'bairro': 'Sul (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
+...
+>> Campo 'logradouro' preenchido com base no CEP.
+>> Campo 'bairro' preenchido com base no CEP.
+>> Campo 'cidade' preenchido com base no CEP.
+>> Campo 'estado' preenchido com base no CEP.
+>> Preenchimento concluído com sucesso!
+         cep                             logradouro                                    bairro          cidade estado
+0  22775-040      Avenida Embaixador Abelardo Bueno                           Barra da Tijuca  Rio de Janeiro     RJ
+1  01534-000                     Rua Muniz de Sousa                                 Aclimação       São Paulo     SP
+2  79005-671                   Avenida Bandeirantes                                   Amambaí    Campo Grande     MS
+3  50050-290  Avenida Governador Agamenon Magalhães                                 Boa Vista          Recife     PE
+4  71928-720                     Avenida Sibipiruna                        Sul (Águas Claras)        Brasília     DF
+5  01419-001                         Alameda Santos                           Cerqueira César       São Paulo     
+...
+
+Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
+```
+🔗 [Ver log completo](logs/log.txt)
+
+---
+
 ## 🚀 Possíveis usos
 
 * Preenchimento automático de CEPs, endereços e coordenadas de lojas.  

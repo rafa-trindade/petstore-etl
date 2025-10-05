@@ -1,0 +1,1087 @@
+----------------------------------------------
+- Camada Bronze - Extraindo Dados...
+----------------------------------------------
+Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
+
+- Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
+
+----------------------------------------------
+- Camada Silver - Transformando Dados...
+----------------------------------------------
+Processado 1/533: petz - Petz Abelardo Bueno
+Processado 2/533: petz - Petz Aclimação
+Processado 3/533: petz - Petz Afonso Pena
+Processado 4/533: petz - Petz Agamenon
+Processado 5/533: petz - Petz Águas Claras
+Processado 6/533: petz - Petz Alameda Santos
+Processado 7/533: petz - Petz Aldeota
+Processado 8/533: petz - Petz Alphaville
+Processado 9/533: petz - Petz Alto da Boa Vista
+Processado 10/533: petz - Petz Americana
+Processado 11/533: petz - Petz Ana Costa
+Processado 12/533: petz - Petz Anália Franco
+Processado 13/533: petz - Petz Angélica
+Processado 14/533: petz - Petz Anhaia Mello
+Processado 15/533: petz - Petz Aracaju
+Processado 16/533: petz - Petz Araçatuba
+Processado 17/533: petz - Petz Araraquara
+Processado 18/533: petz - Petz Arujá
+Processado 19/533: petz - Petz Assaí Anchieta
+Processado 20/533: petz - Petz Assaí Colinas
+Processado 21/533: petz - Petz Assaí Maracanã
+Processado 22/533: petz - Petz Assaí Penha
+Processado 23/533: petz - Petz Assis Chateaubriand
+Processado 24/533: petz - Petz Augusta
+Processado 25/533: petz - Petz Avenida das Américas Recreio
+Processado 26/533: petz - Petz Avenida do Contorno
+Processado 27/533: petz - Petz Avenida Dos Estados
+Processado 28/533: petz - Petz Avenida Goiás
+Processado 29/533: petz - Petz Avenida Interlagos
+Processado 30/533: petz - Petz Avenida Milão
+Processado 31/533: petz - Petz Balneário Camboriú
+Processado 32/533: petz - Petz Bandeirantes
+Processado 33/533: petz - Petz Bangu Shopping
+Processado 34/533: petz - Petz Barra Américas
+Processado 35/533: petz - Petz Barreiro
+Processado 36/533: petz - Petz Bauru
+Processado 37/533: petz - Petz Belém
+Processado 38/533: petz - Petz Belford Roxo
+Processado 39/533: petz - Petz Bento Gonçalves
+Processado 40/533: petz - Petz BestCenter Jacareí
+Processado 41/533: petz - Petz Betim
+Processado 42/533: petz - Petz Blumenau
+Processado 43/533: petz - Petz Boa Viagem
+Processado 44/533: petz - Petz Bosque Maia
+Processado 45/533: petz - Petz Botafogo
+Processado 46/533: petz - Petz Botucatu
+Processado 47/533: petz - Petz Brasília Asa Norte
+Processado 48/533: petz - Petz Brasília Epia
+Processado 49/533: petz - Petz Brasília Jardim Botânico
+Processado 50/533: petz - Petz Brasília SIA
+Processado 51/533: petz - Petz Brasília W3 Norte
+Processado 52/533: petz - Petz Brusque
+Processado 53/533: petz - Petz Bueno T63
+Processado 54/533: petz - Petz Butantã
+Processado 55/533: petz - Petz Cambuí
+Processado 56/533: petz - Petz Campinas Norte Sul
+Processado 57/533: petz - Petz Campo Grande
+Processado 58/533: petz - Petz Campo Grande Rio
+Processado 59/533: petz - Petz Canoas
+Processado 60/533: petz - Petz Caraguatatuba
+Processado 61/533: petz - Petz Carapicuíba
+Processado 62/533: petz - Petz Carlos Berta
+Processado 63/533: petz - Petz Carlos Luz
+Processado 64/533: petz - Petz Carrefour Anchieta
+Processado 65/533: petz - Petz Carrefour Imigrantes
+Processado 66/533: petz - Petz Carrefour Manilha
+Processado 67/533: petz - Petz Carrefour Ribeirão Shopping
+Processado 68/533: petz - Petz Carrefour São Caetano
+Processado 69/533: petz - Petz Carrefour Tietê
+Processado 70/533: petz - Petz Cascavel
+Processado 71/533: petz - Petz Castelo
+Processado 72/533: petz - Petz Catuai Londrina
+Processado 73/533: petz - Petz Cavalhada
+Processado 74/533: petz - Petz Caxias do Sul
+Processado 75/533: petz - Petz Ceilândia
+Processado 76/533: petz - Petz Center Minas
+Processado 77/533: petz - Petz Center Shopping Uberlândia
+Processado 78/533: petz - Petz Cerro Corá
+Processado 79/533: petz - Petz Chapecó
+Processado 80/533: petz - Petz Cidade Jardim
+Processado 81/533: petz - Petz Congonhas
+Processado 82/533: petz - Petz Contagem
+Processado 83/533: petz - Petz Contagem João Cesar
+Processado 84/533: petz - Petz Continente
+Processado 85/533: petz - Petz Copacabana
+Processado 86/533: petz - Petz Cotia
+Processado 87/533: petz - Petz Criciúma
+Processado 88/533: petz - Petz Cristiano Machado
+Processado 89/533: petz - Petz Diadema
+Processado 90/533: petz - Petz Diário de Notícias
+Processado 91/533: petz - Petz Divinópolis
+Processado 92/533: petz - Petz Djalma Batista
+Processado 93/533: petz - Petz Dom Pedro
+Processado 94/533: petz - Petz Dourados
+Processado 95/533: petz - Petz Edgar Facó
+Processado 96/533: petz - Petz Enseada
+Processado 97/533: petz - Petz Estação Goiânia
+Processado 98/533: petz - Petz Fernando Corrêa
+Processado 99/533: petz - Petz Ferraz de Vasconcelos
+Processado 100/533: petz - Petz Florianópolis
+Processado 101/533: petz - Petz Foz do Iguaçu
+Processado 102/533: petz - Petz Franca
+Processado 103/533: petz - Petz Gama Leste
+Processado 104/533: petz - Petz Gastão Vidigal
+Processado 105/533: petz - Petz Gilberto Salomão
+Processado 106/533: petz - Petz Giovanni Gronchi
+Processado 107/533: petz - Petz Giovanni Pirelli
+Processado 108/533: petz - Petz Governador Valadares
+Processado 109/533: petz - Petz Gravataí
+Processado 110/533: petz - Petz Guarujá
+Processado 111/533: petz - Petz Guarulhos
+Processado 112/533: petz - Petz Guarulhos Pimentas
+Processado 113/533: petz - Petz Hiper Sales Aracaju
+Processado 114/533: petz - Petz Hortolândia
+Processado 115/533: petz - Petz Iguatemi Esplanada
+Processado 116/533: petz - Petz Ilha do Governador
+Processado 117/533: petz - Petz Indaiatuba
+Processado 118/533: petz - Petz Independência Shopping
+Processado 119/533: petz - Petz Ipatinga
+Processado 120/533: petz - Petz Ipiranga
+Processado 121/533: petz - Petz Itaim
+Processado 122/533: petz - Petz Itajaí
+Processado 123/533: petz - Petz Itanhaém
+Processado 124/533: petz - Petz Itapecerica
+Processado 125/533: petz - Petz Itapetininga
+Processado 126/533: petz - Petz Itatiba
+Processado 127/533: petz - Petz Itu
+Processado 128/533: petz - Petz Jaboatão dos Guararapes
+Processado 129/533: petz - Petz Jacu Pêssego
+Processado 130/533: petz - Petz Jaguaré
+Processado 131/533: petz - Petz Jardim Botânico
+Processado 132/533: petz - Petz Jardim Icaraí
+Processado 133/533: petz - Petz Jaú
+Processado 134/533: petz - Petz João Firmino
+Processado 135/533: petz - Petz João Pessoa
+Processado 136/533: petz - Petz Joinville
+Processado 137/533: petz - Petz Juiz de Fora
+Processado 138/533: petz - Petz Jundiaí
+Processado 139/533: petz - Petz Jundiaí Anhanguera
+Processado 140/533: petz - Petz Lauzane Paulista
+Processado 141/533: petz - Petz Limão
+Processado 142/533: petz - Petz Linha Verde
+Processado 143/533: petz - Petz Litoral Plaza
+Processado 144/533: petz - Petz Londrina Tiradentes
+Processado 145/533: petz - Petz Manuel Gaya
+Processado 146/533: petz - Petz Maraponga
+Processado 147/533: petz - Petz Marechal Tito
+Processado 148/533: petz - Petz Marginal Tietê 24h
+Processado 149/533: petz - Petz Maringá
+Processado 150/533: petz - Petz Mateus Leme
+Processado 151/533: petz - Petz Mauro Ramos
+Processado 152/533: petz - Petz Miguel Sutil
+Processado 153/533: petz - Petz Mogi das Cruzes
+Processado 154/533: petz - Petz Mogi Guaçu
+Processado 155/533: petz - Petz Moinhos de Vento
+Processado 156/533: petz - Petz Mooca
+Processado 157/533: petz - Petz Mooca Plaza Shopping
+Processado 158/533: petz - Petz Morumbi
+Processado 159/533: petz - Petz Nações Unidas
+Processado 160/533: petz - Petz Natal
+Processado 161/533: petz - Petz Natal Zona Norte
+Processado 162/533: petz - Petz Nordestina
+Processado 163/533: petz - Petz Norte Sul Plaza
+Processado 164/533: petz - Petz Nossa Senhora do Carmo
+Processado 165/533: petz - Petz Nova Iguaçu
+Processado 166/533: petz - Petz Novo Hamburgo
+Processado 167/533: petz - Petz Olinda
+Processado 168/533: petz - Petz Osasco
+Processado 169/533: petz - Petz Pacaembu
+Processado 170/533: petz - Petz Palmas
+Processado 171/533: petz - Petz Pampulha
+Processado 172/533: petz - Petz Pão de Açúcar Jabaquara
+Processado 173/533: petz - Petz Parada de Taipas
+Processado 174/533: petz - Petz ParkShopping Brasília
+Processado 175/533: petz - Petz Parnamirim
+Processado 176/533: petz - Petz Parque Flamboyant
+Processado 177/533: petz - Petz Parque Shopping Bahia
+Processado 178/533: petz - Petz Parque Shopping Maceió
+Processado 179/533: petz - Petz Passeio das Águas
+Processado 180/533: petz - Petz Pelotas
+Processado 181/533: petz - Petz Pereira Barreto
+Processado 182/533: petz - Petz Pindamonhangaba
+Processado 183/533: petz - Petz Piracicaba
+Processado 184/533: petz - Petz Pituba
+Processado 185/533: petz - Petz Plaza Avenida Shopping
+Processado 186/533: petz - Petz Poços de Caldas
+Processado 187/533: petz - Petz Pompeia
+Processado 188/533: petz - Petz Ponta Verde
+Processado 189/533: petz - Petz Porto Velho Shopping
+Processado 190/533: petz - Petz Praia Grande
+Processado 191/533: petz - Petz Presidente Kennedy
+Processado 192/533: petz - Petz Presidente Prudente
+Processado 193/533: petz - Petz Protásio Alves
+Processado 194/533: petz - Petz Radial Leste
+Processado 195/533: petz - Petz Raja Gabaglia
+Processado 196/533: petz - Petz Ribeirão Independência
+Processado 197/533: petz - Petz Ribeirão Presidente Vargas
+Processado 198/533: petz - Petz Ricardo Jafet
+Processado 199/533: petz - Petz Rio Claro
+Processado 200/533: petz - Petz Rio Grande
+Processado 201/533: petz - Petz Riomar
+Processado 202/533: petz - Petz Rio Verde
+Processado 203/533: petz - Petz Rita Maria
+Processado 204/533: petz - Petz Roberto Freire
+Processado 205/533: petz - Petz Ruben Bento Alves
+Processado 206/533: petz - Petz Salvador Bonocô
+Processado 207/533: petz - Petz Salvador Paralela
+Processado 208/533: petz - Petz Samambaia do Sul
+Processado 209/533: petz - Petz Santa Bárbara D'Oeste
+Processado 210/533: petz - Petz Santa Cecília
+Processado 211/533: petz - Petz Santa Maria
+Processado 212/533: petz - Petz Santo André
+Processado 213/533: petz - Petz Santo André Dom Pedro
+Processado 214/533: petz - Petz Santos Dumont
+Processado 215/533: petz - Petz Santos Macuco
+Processado 216/533: petz - Petz São Bernardo
+Processado 217/533: petz - Petz São Carlos
+Processado 218/533: petz - Petz São José do Rio Preto
+Processado 219/533: petz - Petz São Leopoldo
+Processado 220/533: petz - Petz São Luís
+Processado 221/533: petz - Petz São Miguel
+Processado 222/533: petz - Petz São Vicente
+Processado 223/533: petz - Petz Seminário
+Processado 224/533: petz - Petz Serra
+Processado 225/533: petz - Petz Sete Lagoas
+Processado 226/533: petz - Petz Shopping CenterVale
+Processado 227/533: petz - Petz Shopping Golden Square
+Processado 228/533: petz - Petz Shopping Grande Rio
+Processado 229/533: petz - Petz Shopping Grand Plaza
+Processado 230/533: petz - Petz Shopping Itaguaçu
+Processado 231/533: petz - Petz Shopping Jockey Plaza
+Processado 232/533: petz - Petz Shopping Mauá
+Processado 233/533: petz - Petz Shopping Pantanal
+Processado 234/533: petz - Petz Shopping Sul Valparaíso
+Processado 235/533: petz - Petz Silva Jardim
+Processado 236/533: petz - Petz Silviano Brandão
+Processado 237/533: petz - Petz Sorocaba
+Processado 238/533: petz - Petz Sorocaba Tauste
+Processado 239/533: petz - Petz Sumaré
+Processado 240/533: petz - Petz Suzano
+Processado 241/533: petz - Petz Taboão da Serra
+Processado 242/533: petz - Petz Taguatinga
+Processado 243/533: petz - Petz Tamboré
+Processado 244/533: petz - Petz Tatuí
+Processado 245/533: petz - Petz Tauste Campinas
+Processado 246/533: petz - Petz Teodoro Sampaio
+Processado 247/533: petz - Petz Teotônio Vilela
+Processado 248/533: petz - Petz Teresina
+Processado 249/533: petz - Petz Torquato Tapajós
+Processado 250/533: petz - Petz Torres
+Processado 251/533: petz - Petz Trimais
+Processado 252/533: petz - Petz Uberaba
+Processado 253/533: petz - Petz Uberlândia
+Processado 254/533: petz - Petz Várzea Grande
+Processado 255/533: petz - Petz Vicente Rao
+Processado 256/533: petz - Petz Vila Galvão
+Processado 257/533: petz - Petz Vila Isabel
+Processado 258/533: petz - Petz Vila Mariana
+Processado 259/533: petz - Petz Vila Matilde
+Processado 260/533: petz - Petz Vila Velha
+Processado 261/533: petz - Petz Vitória
+Processado 262/533: petz - Petz Vitória da Conquista
+Processado 263/533: petz - Petz Washington Luís
+Processado 264/533: petz - Petz Washington Soares
+Processado 265/533: cobasi - Cobasi Getúlio Vargas - Osasco
+Processado 266/533: cobasi - Cobasi Jandira Mall
+Processado 267/533: cobasi - Cobasi João Pessoa
+Processado 268/533: cobasi - Cobasi Marília Esmeralda
+Processado 269/533: cobasi - Cobasi Presidente Prudente
+Processado 270/533: cobasi - Cobasi Riviera de São Lourenço
+Processado 271/533: cobasi - Pet Shop Cobasi Alphaville
+Processado 272/533: cobasi - Pet Shop Cobasi Alto da Boa Vista
+Processado 273/533: cobasi - Pet Shop Cobasi Alto de Pinheiros
+Processado 274/533: cobasi - Pet Shop Cobasi Americana
+Processado 275/533: cobasi - Pet Shop Cobasi Andradas
+Processado 276/533: cobasi - Pet Shop Cobasi Aracaju Rio Mar
+Processado 277/533: cobasi - Pet Shop Cobasi Araraquara
+Processado 278/533: cobasi - Pet Shop Cobasi Araraquara Savegnago
+Processado 279/533: cobasi - Pet Shop Cobasi Araçatuba
+Processado 280/533: cobasi - Pet Shop Cobasi Assai Anhanguera
+Processado 281/533: cobasi - Pet Shop Cobasi Assaí Interlagos
+Processado 282/533: cobasi - Pet Shop Cobasi Assaí Marginal Tietê
+Processado 283/533: cobasi - Pet Shop Cobasi Atibaia
+Processado 284/533: cobasi - Pet Shop Cobasi Atibaia II
+Processado 285/533: cobasi - Pet Shop Cobasi Atlântica
+Processado 286/533: cobasi - Pet Shop Cobasi Augusta
+Processado 287/533: cobasi - Pet Shop Cobasi Av. Jundiaí
+Processado 288/533: cobasi - Pet Shop Cobasi Av. Morumbi
+Processado 289/533: cobasi - Pet Shop Cobasi Avenida São Miguel
+Processado 290/533: cobasi - Pet Shop Cobasi BH Belvedere
+Processado 291/533: cobasi - Pet Shop Cobasi BH Castelo
+Processado 292/533: cobasi - Pet Shop Cobasi BH Contorno
+Processado 293/533: cobasi - Pet Shop Cobasi BH Del Rey
+Processado 294/533: cobasi - Pet Shop Cobasi Barra Carrefour
+Processado 295/533: cobasi - Pet Shop Cobasi Barra Guanabara
+Processado 296/533: cobasi - Pet Shop Cobasi Barra Sul
+Processado 297/533: cobasi - Pet Shop Cobasi Barreiros
+Processado 298/533: cobasi - Pet Shop Cobasi Barretos
+Processado 299/533: cobasi - Pet Shop Cobasi Bauru
+Processado 300/533: cobasi - Pet Shop Cobasi Belém Bosque Grão Pará
+Processado 301/533: cobasi - Pet Shop Cobasi Birigui
+Processado 302/533: cobasi - Pet Shop Cobasi Blumenau Neumarkt
+Processado 303/533: cobasi - Pet Shop Cobasi Blumenau Norte Shopping
+Processado 304/533: cobasi - Pet Shop Cobasi Botafogo
+Processado 305/533: cobasi - Pet Shop Cobasi Botucatu Mall
+Processado 306/533: cobasi - Pet Shop Cobasi Bragança Paulista
+Processado 307/533: cobasi - Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes
+Processado 308/533: cobasi - Pet Shop Cobasi Brasilia Venancio
+Processado 309/533: cobasi - Pet Shop Cobasi Brasília Asa Norte
+Processado 310/533: cobasi - Pet Shop Cobasi Brasília CasaPark
+Processado 311/533: cobasi - Pet Shop Cobasi Brasília Pistão Sul
+Processado 312/533: cobasi - Pet Shop Cobasi Brasília Sia
+Processado 313/533: cobasi - Pet Shop Cobasi Brasília Taquari
+Processado 314/533: cobasi - Pet Shop Cobasi Braz Leme
+Processado 315/533: cobasi - Pet Shop Cobasi Brooklin
+Processado 316/533: cobasi - Pet Shop Cobasi Buritis
+Processado 317/533: cobasi - Pet Shop Cobasi Butantã
+Processado 318/533: cobasi - Pet Shop Cobasi Cachoeirinha
+Processado 319/533: cobasi - Pet Shop Cobasi Caminho do Mar
+Processado 320/533: cobasi - Pet Shop Cobasi Campinas Abolição
+Processado 321/533: cobasi - Pet Shop Cobasi Campinas Amoreiras
+Processado 322/533: cobasi - Pet Shop Cobasi Campinas Cambuí
+Processado 323/533: cobasi - Pet Shop Cobasi Campinas Cambuí II
+Processado 324/533: cobasi - Pet Shop Cobasi Campinas Princesa d’ Oeste
+Processado 325/533: cobasi - Pet Shop Cobasi Campinas Shopping Galleria
+Processado 326/533: cobasi - Pet Shop Cobasi Campinas Taquaral
+Processado 327/533: cobasi - Pet Shop Cobasi Campo Grande MS
+Processado 328/533: cobasi - Pet Shop Cobasi Campo Limpo
+Processado 329/533: cobasi - Pet Shop Cobasi Candangolandia
+Processado 330/533: cobasi - Pet Shop Cobasi Canoas
+Processado 331/533: cobasi - Pet Shop Cobasi Canoas BR116
+Processado 332/533: cobasi - Pet Shop Cobasi Cantareira Norte Shopping
+Processado 333/533: cobasi - Pet Shop Cobasi Carapicuíba
+Processado 334/533: cobasi - Pet Shop Cobasi Carrefour Nações
+Processado 335/533: cobasi - Pet Shop Cobasi Carrão
+Processado 336/533: cobasi - Pet Shop Cobasi Casa Forte
+Processado 337/533: cobasi - Pet Shop Cobasi Cascavel
+Processado 338/533: cobasi - Pet Shop Cobasi Caxias do Sul
+Processado 339/533: cobasi - Pet Shop Cobasi Cerro Corá
+Processado 340/533: cobasi - Pet Shop Cobasi Comendador Agostinho - Limeira II
+Processado 341/533: cobasi - Pet Shop Cobasi Conselheiro Rodrigues Alves
+Processado 342/533: cobasi - Pet Shop Cobasi Continente Shopping
+Processado 343/533: cobasi - Pet Shop Cobasi Copacabana Posto 2
+Processado 344/533: cobasi - Pet Shop Cobasi Corifeu
+Processado 345/533: cobasi - Pet Shop Cobasi Cotia
+Processado 346/533: cobasi - Pet Shop Cobasi Criciúma
+Processado 347/533: cobasi - Pet Shop Cobasi Cuiabá CPA
+Processado 348/533: cobasi - Pet Shop Cobasi Curitiba Linha Verde
+Processado 349/533: cobasi - Pet Shop Cobasi Curitiba Mario Tourinho
+Processado 350/533: cobasi - Pet Shop Cobasi Curitiba Novo Mundo
+Processado 351/533: cobasi - Pet Shop Cobasi DF Gama
+Processado 352/533: cobasi - Pet Shop Cobasi DF Planaltina
+Processado 353/533: cobasi - Pet Shop Cobasi DF Plaza Shopping
+Processado 354/533: cobasi - Pet Shop Cobasi Diadema
+Processado 355/533: cobasi - Pet Shop Cobasi Eco Mall Pinheirinho
+Processado 356/533: cobasi - Pet Shop Cobasi Embu das Artes
+Processado 357/533: cobasi - Pet Shop Cobasi Embu das Artes II
+Processado 358/533: cobasi - Pet Shop Cobasi Engenheiro Caetano Alvares
+Processado 359/533: cobasi - Pet Shop Cobasi Epitácio Pessoa
+Processado 360/533: cobasi - Pet Shop Cobasi Ermano Marchetti
+Processado 361/533: cobasi - Pet Shop Cobasi Estr. do Campo Limpo
+Processado 362/533: cobasi - Pet Shop Cobasi Estrada de Itapecerica
+Processado 363/533: cobasi - Pet Shop Cobasi Feira de Santana
+Processado 364/533: cobasi - Pet Shop Cobasi Florianópolis
+Processado 365/533: cobasi - Pet Shop Cobasi Florianópolis Centro
+Processado 366/533: cobasi - Pet Shop Cobasi Fortaleza Aldeota
+Processado 367/533: cobasi - Pet Shop Cobasi Fortaleza Meireles
+Processado 368/533: cobasi - Pet Shop Cobasi Fortaleza Open Mall
+Processado 369/533: cobasi - Pet Shop Cobasi Franca
+Processado 370/533: cobasi - Pet Shop Cobasi Frei Gaspar
+Processado 371/533: cobasi - Pet Shop Cobasi Goiânia Decathlon
+Processado 372/533: cobasi - Pet Shop Cobasi Goiânia T63
+Processado 373/533: cobasi - Pet Shop Cobasi Granja Vianna
+Processado 374/533: cobasi - Pet Shop Cobasi Guarujá
+Processado 375/533: cobasi - Pet Shop Cobasi Guarulhos
+Processado 376/533: cobasi - Pet Shop Cobasi Guarulhos Centro
+Processado 377/533: cobasi - Pet Shop Cobasi Guarulhos Sakamoto
+Processado 378/533: cobasi - Pet Shop Cobasi Guarulhos Timóteo Penteado
+Processado 379/533: cobasi - Pet Shop Cobasi Higienópolis
+Processado 380/533: cobasi - Pet Shop Cobasi Iguatemi Campinas
+Processado 381/533: cobasi - Pet Shop Cobasi Iguatemi Fortaleza
+Processado 382/533: cobasi - Pet Shop Cobasi Imigrantes
+Processado 383/533: cobasi - Pet Shop Cobasi Imirim
+Processado 384/533: cobasi - Pet Shop Cobasi Indaiatuba
+Processado 385/533: cobasi - Pet Shop Cobasi Interlar Interlagos
+Processado 386/533: cobasi - Pet Shop Cobasi Itajaí
+Processado 387/533: cobasi - Pet Shop Cobasi Itaquaquecetuba D'avó
+Processado 388/533: cobasi - Pet Shop Cobasi Itaquera
+Processado 389/533: cobasi - Pet Shop Cobasi Jabaquara
+Processado 390/533: cobasi - Pet Shop Cobasi Jaboatão Dos Guararapes
+Processado 391/533: cobasi - Pet Shop Cobasi Jacareí Tenda
+Processado 392/533: cobasi - Pet Shop Cobasi Jardim Japão
+Processado 393/533: cobasi - Pet Shop Cobasi Jaú
+Processado 394/533: cobasi - Pet Shop Cobasi Jd. Botânico
+Processado 395/533: cobasi - Pet Shop Cobasi Joinville
+Processado 396/533: cobasi - Pet Shop Cobasi Juiz de Fora Jardim Norte
+Processado 397/533: cobasi - Pet Shop Cobasi Jundiaí
+Processado 398/533: cobasi - Pet Shop Cobasi Lauro de Freitas
+Processado 399/533: cobasi - Pet Shop Cobasi Limeira
+Processado 400/533: cobasi - Pet Shop Cobasi Londrina Centro
+Processado 401/533: cobasi - Pet Shop Cobasi Londrina Madre Leônia
+Processado 402/533: cobasi - Pet Shop Cobasi M'Boi Mirim
+Processado 403/533: cobasi - Pet Shop Cobasi Maceió Fernandes Lima
+Processado 404/533: cobasi - Pet Shop Cobasi Maracanaú
+Processado 405/533: cobasi - Pet Shop Cobasi Marechal Tito
+Processado 406/533: cobasi - Pet Shop Cobasi Marginal Pinheiros
+Processado 407/533: cobasi - Pet Shop Cobasi Marginal Tietê
+Processado 408/533: cobasi - Pet Shop Cobasi Maringá
+Processado 409/533: cobasi - Pet Shop Cobasi Marília
+Processado 410/533: cobasi - Pet Shop Cobasi Minas Shopping
+Processado 411/533: cobasi - Pet Shop Cobasi Moema Pássaros
+Processado 412/533: cobasi - Pet Shop Cobasi Moinhos dos Ventos
+Processado 413/533: cobasi - Pet Shop Cobasi Mooca
+Processado 414/533: cobasi - Pet Shop Cobasi Morumbi
+Processado 415/533: cobasi - Pet Shop Cobasi Natal
+Processado 416/533: cobasi - Pet Shop Cobasi Niterói
+Processado 417/533: cobasi - Pet Shop Cobasi Nossa Senhora do Carmo
+Processado 418/533: cobasi - Pet Shop Cobasi Nova Cantareira
+Processado 419/533: cobasi - Pet Shop Cobasi Novo Hamburgo
+Processado 420/533: cobasi - Pet Shop Cobasi Osasco
+Processado 421/533: cobasi - Pet Shop Cobasi Osasco João Andrade
+Processado 422/533: cobasi - Pet Shop Cobasi POA Assis Brasil
+Processado 423/533: cobasi - Pet Shop Cobasi POA Av. Brasil
+Processado 424/533: cobasi - Pet Shop Cobasi POA Bollogna Mall
+Processado 425/533: cobasi - Pet Shop Cobasi POA Central Parque
+Processado 426/533: cobasi - Pet Shop Cobasi Palmas
+Processado 427/533: cobasi - Pet Shop Cobasi Park Shopping Jacarepaguá
+Processado 428/533: cobasi - Pet Shop Cobasi Parque Olímpico
+Processado 429/533: cobasi - Pet Shop Cobasi Passo Fundo Shopping
+Processado 430/533: cobasi - Pet Shop Cobasi Paulínia
+Processado 431/533: cobasi - Pet Shop Cobasi Pelotas
+Processado 432/533: cobasi - Pet Shop Cobasi Pinhais
+Processado 433/533: cobasi - Pet Shop Cobasi Piracicaba
+Processado 434/533: cobasi - Pet Shop Cobasi Piracicaba Independência
+Processado 435/533: cobasi - Pet Shop Cobasi Poa Wenceslau Escobar
+Processado 436/533: cobasi - Pet Shop Cobasi Pompéia
+Processado 437/533: cobasi - Pet Shop Cobasi Ponta Grossa
+Processado 438/533: cobasi - Pet Shop Cobasi Ponta Grossa II
+Processado 439/533: cobasi - Pet Shop Cobasi Portal do Morumbi
+Processado 440/533: cobasi - Pet Shop Cobasi Porto Alegre Iguatemi
+Processado 441/533: cobasi - Pet Shop Cobasi Porto Alegre Ipiranga
+Processado 442/533: cobasi - Pet Shop Cobasi Praia Grande
+Processado 443/533: cobasi - Pet Shop Cobasi Praia Grande Ocian
+Processado 444/533: cobasi - Pet Shop Cobasi Praça da Árvore
+Processado 445/533: cobasi - Pet Shop Cobasi RJ Norte Shopping
+Processado 446/533: cobasi - Pet Shop Cobasi Raposo Tavares
+Processado 447/533: cobasi - Pet Shop Cobasi Rebouças
+Processado 448/533: cobasi - Pet Shop Cobasi Recife
+Processado 449/533: cobasi - Pet Shop Cobasi Ribeirão Dom Pedro I
+Processado 450/533: cobasi - Pet Shop Cobasi Ribeirão Preto II (loja Maurilio Biagi)
+Processado 451/533: cobasi - Pet Shop Cobasi Ribeirão Preto Iguatemi
+Processado 452/533: cobasi - Pet Shop Cobasi Ribeirão Preto Presidente Vargas
+Processado 453/533: cobasi - Pet Shop Cobasi Ricardo Jafet
+Processado 454/533: cobasi - Pet Shop Cobasi Rio das Pedras
+Processado 455/533: cobasi - Pet Shop Cobasi Rio de Janeiro Campo Grande
+Processado 456/533: cobasi - Pet Shop Cobasi Rui Barbosa
+Processado 457/533: cobasi - Pet Shop Cobasi SBC Faria Lima
+Processado 458/533: cobasi - Pet Shop Cobasi SP Ipiranga
+Processado 459/533: cobasi - Pet Shop Cobasi Sabará
+Processado 460/533: cobasi - Pet Shop Cobasi Salto
+Processado 461/533: cobasi - Pet Shop Cobasi Salvador Rio Vermelho
+Processado 462/533: cobasi - Pet Shop Cobasi Santa Bárbara d’Oeste Tivoli
+Processado 463/533: cobasi - Pet Shop Cobasi Santana
+Processado 464/533: cobasi - Pet Shop Cobasi Santo André Av. dos Estados
+Processado 465/533: cobasi - Pet Shop Cobasi Santo André P. Barreto
+Processado 466/533: cobasi - Pet Shop Cobasi Santo André Prestes Maia
+Processado 467/533: cobasi - Pet Shop Cobasi Santos Afonso Pena
+Processado 468/533: cobasi - Pet Shop Cobasi Santos Conselheiro Nébias
+Processado 469/533: cobasi - Pet Shop Cobasi Santos Francisco Glicério
+Processado 470/533: cobasi - Pet Shop Cobasi Sena Madureira
+Processado 471/533: cobasi - Pet Shop Cobasi Shop. Estação Cuiabá
+Processado 472/533: cobasi - Pet Shop Cobasi Shopping Aricanduva
+Processado 473/533: cobasi - Pet Shop Cobasi Shopping Eldorado
+Processado 474/533: cobasi - Pet Shop Cobasi Sorocaba Av. São Paulo
+Processado 475/533: cobasi - Pet Shop Cobasi Sorocaba Itavuvu
+Processado 476/533: cobasi - Pet Shop Cobasi Sorocaba Pannunzio
+Processado 477/533: cobasi - Pet Shop Cobasi Sorocaba Panorâmico
+Processado 478/533: cobasi - Pet Shop Cobasi Sumaré
+Processado 479/533: cobasi - Pet Shop Cobasi Sumaré ParkCity Shopping
+Processado 480/533: cobasi - Pet Shop Cobasi São Bernardo Jurubatuba
+Processado 481/533: cobasi - Pet Shop Cobasi São Caetano
+Processado 482/533: cobasi - Pet Shop Cobasi São Carlos
+Processado 483/533: cobasi - Pet Shop Cobasi São José do Rio Preto Falavina
+Processado 484/533: cobasi - Pet Shop Cobasi São José do Rio Preto Iguatemi
+Processado 485/533: cobasi - Pet Shop Cobasi São José dos Campos
+Processado 486/533: cobasi - Pet Shop Cobasi São José dos Campos Jardim Oriente
+Processado 487/533: cobasi - Pet Shop Cobasi São José dos Campos Nelson D'Ávila
+Processado 488/533: cobasi - Pet Shop Cobasi São José dos Pinhais Av. Torres
+Processado 489/533: cobasi - Pet Shop Cobasi São Judas
+Processado 490/533: cobasi - Pet Shop Cobasi São Vicente
+Processado 491/533: cobasi - Pet Shop Cobasi Tamboré
+Processado 492/533: cobasi - Pet Shop Cobasi Tatuapé
+Processado 493/533: cobasi - Pet Shop Cobasi Taubaté
+Processado 494/533: cobasi - Pet Shop Cobasi Taubaté II
+Processado 495/533: cobasi - Pet Shop Cobasi Teodoro Sampaio
+Processado 496/533: cobasi - Pet Shop Cobasi Teotônio Vilela
+Processado 497/533: cobasi - Pet Shop Cobasi Tutoia
+Processado 498/533: cobasi - Pet Shop Cobasi Uberaba
+Processado 499/533: cobasi - Pet Shop Cobasi Uberlândia
+Processado 500/533: cobasi - Pet Shop Cobasi Valinhos
+Processado 501/533: cobasi - Pet Shop Cobasi Via Parque Shopping
+Processado 502/533: cobasi - Pet Shop Cobasi Viamão
+Processado 503/533: cobasi - Pet Shop Cobasi Vila Velha
+Processado 504/533: cobasi - Pet Shop Cobasi Villa Lobos
+Processado 505/533: cobasi - Pet Shop Cobasi Vinhedo
+Processado 506/533: cobasi - Pet Shop Cobasi Várzea Grande
+Processado 507/533: cobasi - Pet Shop Cobasi Água Branca
+Processado 508/533: cobasi - Pet Shop Cobasi Águas Claras
+Processado 509/533: cobasi - Pet Shop Mundo Pet Cobasi Aldeota
+Processado 510/533: cobasi - Pet Shop Mundo Pet Cobasi Batista Campos
+Processado 511/533: cobasi - Pet Shop Mundo Pet Cobasi Brasília Águas Claras
+Processado 512/533: cobasi - Pet Shop Mundo Pet Cobasi Eusébio
+Processado 513/533: cobasi - Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares
+Processado 514/533: cobasi - Pet Shop Mundo Pet Cobasi Goiânia Oeste
+Processado 515/533: cobasi - Pet Shop Mundo Pet Cobasi Manaíra Shopping
+Processado 516/533: cobasi - Pet Shop Mundo Pet Cobasi Salvador Graça
+Processado 517/533: cobasi - Pet Shop Mundo Pet Cobasi Salvador Shopping
+Processado 518/533: cobasi - Pet Shop Mundo Pet Cobasi Tirol Natal
+Processado 519/533: cobasi - Pet&Fácil Washington Luis
+Processado 520/533: petlove - Loja Braz Leme
+Processado 521/533: petlove - Loja Campo Belo
+Processado 522/533: petlove - Loja Cidade Jardim
+Processado 523/533: petlove - Loja Moema
+Processado 524/533: petlove - Loja Oscar Freire
+Processado 525/533: petlove - Loja Perdizes
+Processado 526/533: petlove - Loja Petlove Ponta da Praia
+Processado 527/533: petlove - Loja Portugal
+Processado 528/533: petlove - Loja Ribeirão Preto
+Processado 529/533: petlove - Loja Santos
+Processado 530/533: petlove - Loja Sócrates
+Processado 531/533: petlove - Loja Tatuapé
+Processado 532/533: petlove - Loja Tutóia
+Processado 533/533: petlove - Quiosque Veros Hospital Veterinário
+
+Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
+
+----------------------------------------------
+- Camada Gold - Padronizando Dados...
+----------------------------------------------
+>> type(df): <class 'pandas.core.frame.DataFrame'>
+>> shape: (533, 9)
+>> colunas: ['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'cep', 'latitude', 'longitude']
+>> colunas de endereço garantidas no DataFrame.
+>> 515 CEP(s) únicos encontrados para consulta (ex.: ['22775-040' '01534-000' '79005-671' '50050-290' '71928-720'])
+[1/515] 22775-040 -> {'logradouro': 'Avenida Embaixador Abelardo Bueno', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[2/515] 01534-000 -> {'logradouro': 'Rua Muniz de Sousa', 'bairro': 'Aclimação', 'cidade': 'São Paulo', 'estado': 'SP'}
+[3/515] 79005-671 -> {'logradouro': 'Avenida Bandeirantes', 'bairro': 'Amambaí', 'cidade': 'Campo Grande', 'estado': 'MS'}
+[4/515] 50050-290 -> {'logradouro': 'Avenida Governador Agamenon Magalhães', 'bairro': 'Boa Vista', 'cidade': 'Recife', 'estado': 'PE'}
+[5/515] 71928-720 -> {'logradouro': 'Avenida Sibipiruna', 'bairro': 'Sul (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
+[6/515] 01419-001 -> {'logradouro': 'Alameda Santos', 'bairro': 'Cerqueira César', 'cidade': 'São Paulo', 'estado': 'SP'}
+[7/515] 60120-001 -> {'logradouro': 'Avenida Barão de Studart', 'bairro': 'Aldeota', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[8/515] 06472-010 -> {'logradouro': 'Avenida Alphaville', 'bairro': 'Dezoito do Forte Empresarial/Alphaville.', 'cidade': 'Barueri', 'estado': 'SP'}
+[9/515] 04734-004 -> {'logradouro': 'Avenida Adolfo Pinheiro', 'bairro': 'Santo Amaro', 'cidade': 'São Paulo', 'estado': 'SP'}
+[10/515] 13478-580 -> {'logradouro': 'Avenida Paulista', 'bairro': 'Vila Nossa Senhora de Fátima', 'cidade': 'Americana', 'estado': 'SP'}
+[11/515] 11060-001 -> {'logradouro': 'Avenida Ana Costa', 'bairro': 'Gonzaga', 'cidade': 'Santos', 'estado': 'SP'}
+[12/515] 03342-000 -> {'logradouro': 'Avenida Regente Feijó', 'bairro': 'Vila Regente Feijó', 'cidade': 'São Paulo', 'estado': 'SP'}
+[13/515] 01227-200 -> {'logradouro': 'Avenida Angélica', 'bairro': 'Consolação', 'cidade': 'São Paulo', 'estado': 'SP'}
+[14/515] 03295-000 -> {'logradouro': 'Avenida Professor Luiz Ignácio Anhaia Mello', 'bairro': 'Vila Graciosa', 'cidade': 'São Paulo', 'estado': 'SP'}
+[15/515] 49026-900 -> {'logradouro': 'Avenida Ministro Geraldo Barreto Sobral 215', 'bairro': 'Jardins', 'cidade': 'Aracaju', 'estado': 'SE'}
+[16/515] 16018-000 -> {'logradouro': 'Avenida Brasília', 'bairro': 'Jardim Nova Yorque', 'cidade': 'Araçatuba', 'estado': 'SP'}
+[17/515] 14802-000 -> {'logradouro': 'Avenida Padre Francisco Sales Colturato', 'bairro': 'Centro', 'cidade': 'Araraquara', 'estado': 'SP'}
+[18/515] 07432-575 -> {'logradouro': 'Rua Tomi Saburo Yamamoto', 'bairro': 'Jardim das Cerejeiras', 'cidade': 'Arujá', 'estado': 'SP'}
+[19/515] 09695-000 -> {'logradouro': 'Rua Garcia Lorca', 'bairro': 'Paulicéia', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[20/515] 12243-081 -> {'logradouro': 'Avenida Jorge Zarur', 'bairro': 'Vila Ema', 'cidade': 'São José dos Campos', 'estado': 'SP'}
+[21/515] 20520-201 -> {'logradouro': 'Rua José Higino', 'bairro': 'Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[22/515] 03620-000 -> {'logradouro': 'Avenida São Miguel', 'bairro': 'Vila Marieta', 'cidade': 'São Paulo', 'estado': 'SP'}
+[23/515] 74130-015 -> {'logradouro': 'Avenida Assis Chateaubriand', 'bairro': 'Setor Oeste', 'cidade': 'Goiânia', 'estado': 'GO'}
+[24/515] 01305-000 -> {'logradouro': 'Rua Augusta', 'bairro': 'Consolação', 'cidade': 'São Paulo', 'estado': 'SP'}
+[25/515] 22793-329 -> {'logradouro': 'Rua César Lattes', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[26/515] 30110-017 -> {'logradouro': 'Avenida do Contorno', 'bairro': 'Santa Efigênia', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[27/515] 09270-270 -> {'logradouro': 'Avenida dos Estados', 'bairro': 'Tamanduateí 8', 'cidade': 'Santo André', 'estado': 'SP'}
+[28/515] 09521-310 -> {'logradouro': 'Avenida Goiás', 'bairro': 'Santo Antônio', 'cidade': 'São Caetano do Sul', 'estado': 'SP'}
+[29/515] 04660-002 -> {'logradouro': 'Avenida Interlagos', 'bairro': 'Jardim Marajoara', 'cidade': 'São Paulo', 'estado': 'SP'}
+[30/515] 74325-030 -> {'logradouro': 'Avenida Milão', 'bairro': 'Jardim Europa', 'cidade': 'Goiânia', 'estado': 'GO'}
+[31/515] 88339-060 -> {'logradouro': 'Avenida do Estado Dalmo Vieira', 'bairro': 'Estados', 'cidade': 'Balneário Camboriú', 'estado': 'SC'}
+[32/515] 04553-902 -> {'logradouro': 'Avenida dos Bandeirantes 2040', 'bairro': 'Vila Olímpia', 'cidade': 'São Paulo', 'estado': 'SP'}
+[33/515] 21820-005 -> {'logradouro': 'Rua Fonseca', 'bairro': 'Bangu', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[34/515] 22793-080 -> {'logradouro': 'Avenida das Américas', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[35/515] 30640-000 -> {'logradouro': 'Avenida Sinfrônio Brochado', 'bairro': 'Barreiro', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[36/515] 17016-210 -> {'logradouro': 'Rua Rubens Pagani', 'bairro': 'Jardim Estoril IV', 'cidade': 'Bauru', 'estado': 'SP'}
+[37/515] 66035-445 -> {'logradouro': 'Avenida Nazaré', 'bairro': 'Nazaré', 'cidade': 'Belém', 'estado': 'PA'}
+[38/515] 26130-010 -> {'logradouro': 'Avenida Prefeito Jorge Júlio Costa dos Santos', 'bairro': 'Centro', 'cidade': 'Belford Roxo', 'estado': 'RJ'}
+[39/515] ERRO ao buscar 95700-000: 
+[40/515] 12308-000 -> {'logradouro': 'Rua Barão de Jacareí', 'bairro': 'Centro', 'cidade': 'Jacareí', 'estado': 'SP'}
+[41/515] 32671-072 -> {'logradouro': 'Avenida Juiz Marco Túlio Isaac', 'bairro': 'Jardim das Alterosas 1ª Seção', 'cidade': 'Betim', 'estado': 'MG'}
+[42/515] 89030-001 -> {'logradouro': 'Rua São Paulo', 'bairro': 'Itoupava Seca', 'cidade': 'Blumenau', 'estado': 'SC'}
+[43/515] 51020-000 -> {'logradouro': 'Avenida Boa Viagem', 'bairro': 'Boa Viagem', 'cidade': 'Recife', 'estado': 'PE'}
+[44/515] 07111-000 -> {'logradouro': 'Avenida Paulo Faccini', 'bairro': 'Macedo', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[45/515] 22280-004 -> {'logradouro': 'Rua General Polidoro', 'bairro': 'Botafogo', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[46/515] 18603-193 -> {'logradouro': 'Avenida Doutor Vital Brasil', 'bairro': 'Vila São Lúcio', 'cidade': 'Botucatu', 'estado': 'SP'}
+[47/515] 70770-100 -> {'logradouro': 'Setor STN', 'bairro': 'Asa Norte', 'cidade': 'Brasília', 'estado': 'DF'}
+[48/515] 71738-010 -> {'logradouro': 'Setor de Postos e Motéis Sul I', 'bairro': 'Setor de Postos e Motéis Sul (Núcleo Bandeirante)', 'cidade': 'Brasília', 'estado': 'DF'}
+[49/515] 71681-025 -> {'logradouro': 'Quadra 1 Lote E', 'bairro': 'Setor Habitacional Jardim Botânico', 'cidade': 'Brasília', 'estado': 'DF'}
+[50/515] 71200-207 -> {'logradouro': 'Trecho SIA Trecho 17 Rua 03', 'bairro': 'Zona Industrial (Guará)', 'cidade': 'Brasília', 'estado': 'DF'}
+[51/515] 70297-400 -> {'logradouro': 'Quadra EQS 414/415', 'bairro': 'Asa Sul', 'cidade': 'Brasília', 'estado': 'DF'}
+[52/515] 88353-020 -> {'logradouro': 'Rua Gustavo Schlosser', 'bairro': 'Centro II', 'cidade': 'Brusque', 'estado': 'SC'}
+[53/515] 74230-105 -> {'logradouro': 'Avenida T 63', 'bairro': 'Setor Bueno', 'cidade': 'Goiânia', 'estado': 'GO'}
+[54/515] 05512-200 -> {'logradouro': 'Avenida Professor Francisco Morato', 'bairro': 'Butantã', 'cidade': 'São Paulo', 'estado': 'SP'}
+[55/515] 13100-201 -> {'logradouro': 'Avenida Doutor Moraes Salles', 'bairro': 'Jardim Guarani', 'cidade': 'Campinas', 'estado': 'SP'}
+[56/515] 13092-123 -> {'logradouro': 'Avenida José de Sousa Campos', 'bairro': 'Nova Campinas', 'cidade': 'Campinas', 'estado': 'SP'}
+[57/515] 79040-010 -> {'logradouro': 'Avenida Afonso Pena', 'bairro': 'Chácara Cachoeira', 'cidade': 'Campo Grande', 'estado': 'MS'}
+[58/515] 23040-125 -> {'logradouro': 'Rua João Barbosa de Morais', 'bairro': 'Campo Grande', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[59/515] 92020-020 -> {'logradouro': 'Avenida Doutor Sezefredo Azambuja Vieira', 'bairro': 'Marechal Rondon', 'cidade': 'Canoas', 'estado': 'RS'}
+[60/515] 11665-100 -> {'logradouro': 'Rua Vereador Antônio Cruz Arouca', 'bairro': 'Indaiá', 'cidade': 'Caraguatatuba', 'estado': 'SP'}
+[61/515] 06380-021 -> {'logradouro': 'Avenida Inocêncio Seráfico', 'bairro': 'Vila Silva Ribeiro', 'cidade': 'Carapicuíba', 'estado': 'SP'}
+[62/515] 91340-020 -> {'logradouro': 'Rua Antônio Carlos Berta', 'bairro': 'Jardim Europa', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[63/515] 31230-010 -> {'logradouro': 'Avenida Presidente Carlos Luz', 'bairro': 'Caiçaras', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[64/515] 04246-900 -> {'logradouro': 'Via Anchieta 3398', 'bairro': 'Vila Vermelha', 'cidade': 'São Paulo', 'estado': 'SP'}
+[65/515] 04147-020 -> {'logradouro': 'Rua Alfredo de Salles Oliveira Netto', 'bairro': 'Vila do Bosque', 'cidade': 'São Paulo', 'estado': 'SP'}
+[66/515] 24425-005 -> {'logradouro': 'Rua Oliveira Botelho', 'bairro': 'Neves (Neves)', 'cidade': 'São Gonçalo', 'estado': 'RJ'}
+[67/515] 14026-020 -> {'logradouro': 'Avenida Coronel Fernando Ferreira Leite', 'bairro': 'Jardim Califórnia', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[68/515] 09550-400 -> {'logradouro': 'Avenida do Estado', 'bairro': 'Prosperidade', 'cidade': 'São Caetano do Sul', 'estado': 'SP'}
+[69/515] 02063-902 -> {'logradouro': 'Avenida Morvan Dias de Figueiredo 3177', 'bairro': 'Vila Guilherme', 'cidade': 'São Paulo', 'estado': 'SP'}
+[70/515] 85812-000 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Centro', 'cidade': 'Cascavel', 'estado': 'PR'}
+[71/515] ERRO ao buscar 30840-535: 
+[72/515] 86055-585 -> {'logradouro': 'Rodovia Mabio Gonçalves Palhano', 'bairro': 'Gleba Fazenda Palhano', 'cidade': 'Londrina', 'estado': 'PR'}
+[73/515] 91751-000 -> {'logradouro': 'Avenida Eduardo Prado', 'bairro': 'Cavalhada', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[74/515] 95012-393 -> {'logradouro': 'Avenida Ruben Bento Alves', 'bairro': 'Cinqüentenário', 'cidade': 'Caxias do Sul', 'estado': 'RS'}
+[75/515] 72145-100 -> {'logradouro': 'Quadra Q 1', 'bairro': 'Setor de Desenvolvimento Econômico (Taguatinga)', 'cidade': 'Brasília', 'estado': 'DF'}
+[76/515] 31170-678 -> {'logradouro': 'Avenida Pastor Anselmo Silvestre', 'bairro': 'Dom Joaquim', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[77/515] 38405-140 -> {'logradouro': 'Avenida João Naves de Ávila', 'bairro': 'Tibery', 'cidade': 'Uberlândia', 'estado': 'MG'}
+[78/515] 05061-300 -> {'logradouro': 'Rua Cerro Corá', 'bairro': 'Vila Romana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[79/515] 89802-111 -> {'logradouro': 'Avenida Fernando Machado - D', 'bairro': 'Centro', 'cidade': 'Chapecó', 'estado': 'SC'}
+[80/515] 05670-000 -> {'logradouro': 'Avenida dos Tajurás', 'bairro': 'Cidade Jardim', 'cidade': 'São Paulo', 'estado': 'SP'}
+[81/515] 04074-030 -> {'logradouro': 'Avenida Moreira Guimarães', 'bairro': 'Indianópolis', 'cidade': 'São Paulo', 'estado': 'SP'}
+[82/515] 32210-180 -> {'logradouro': 'Avenida Babita Camargos', 'bairro': 'Cidade Industrial', 'cidade': 'Contagem', 'estado': 'MG'}
+[83/515] 32040-000 -> {'logradouro': 'Avenida João César de Oliveira', 'bairro': 'Beatriz', 'cidade': 'Contagem', 'estado': 'MG'}
+[84/515] 88106-110 -> {'logradouro': 'Rua Martinho Boschetti', 'bairro': 'Picadas do Sul', 'cidade': 'São José', 'estado': 'SC'}
+[85/515] 22070-012 -> {'logradouro': 'Avenida Nossa Senhora de Copacabana', 'bairro': 'Copacabana', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[86/515] 06709-015 -> {'logradouro': 'Rodovia Raposo Tavares', 'bairro': 'Lageadinho', 'cidade': 'Cotia', 'estado': 'SP'}
+[87/515] 88801-001 -> {'logradouro': 'Avenida Centenário', 'bairro': 'Centro', 'cidade': 'Criciúma', 'estado': 'SC'}
+[88/515] 31742-005 -> {'logradouro': 'Rua José Vieira Muniz', 'bairro': 'Floramar', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[89/515] 09920-578 -> {'logradouro': 'Avenida Fábio Eduardo Ramos Esquivel', 'bairro': 'Centro', 'cidade': 'Diadema', 'estado': 'SP'}
+[90/515] 90810-080 -> {'logradouro': 'Avenida Diário de Notícias', 'bairro': 'Cristal', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[91/515] 35500-007 -> {'logradouro': 'Rua Minas Gerais', 'bairro': 'Centro', 'cidade': 'Divinópolis', 'estado': 'MG'}
+[92/515] 69050-010 -> {'logradouro': 'Avenida Djalma Batista', 'bairro': 'Chapada', 'cidade': 'Manaus', 'estado': 'AM'}
+[93/515] 13087-901 -> {'logradouro': 'Avenida Guilherme Campos 500', 'bairro': 'Jardim Santa Genebra', 'cidade': 'Campinas', 'estado': 'SP'}
+[94/515] 79830-000 -> {'logradouro': 'Avenida Marcelino Pires', 'bairro': 'Jardim Caramuru', 'cidade': 'Dourados', 'estado': 'MS'}
+[95/515] 02924-400 -> {'logradouro': 'Avenida General Edgar Facó', 'bairro': 'Vila Pereira Cerca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[96/515] 11440-110 -> {'logradouro': 'Avenida Santa Maria', 'bairro': 'Enseada', 'cidade': 'Guarujá', 'estado': 'SP'}
+[97/515] 74010-010 -> {'logradouro': 'Avenida Goiás', 'bairro': 'Setor Central', 'cidade': 'Goiânia', 'estado': 'GO'}
+[98/515] 78065-000 -> {'logradouro': 'Avenida Fernando Correa da Costa', 'bairro': 'Pico do Amor', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[99/515] 08529-310 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Vila Romanópolis', 'cidade': 'Ferraz de Vasconcelos', 'estado': 'SP'}
+[100/515] 88032-005 -> {'logradouro': 'Rodovia José Carlos Daux', 'bairro': 'Saco Grande', 'cidade': 'Florianópolis', 'estado': 'SC'}
+[101/515] 85863-754 -> {'logradouro': 'Rua Alfredo Nunes do Nascimento', 'bairro': 'Polo Centro', 'cidade': 'Foz do Iguaçu', 'estado': 'PR'}
+[102/515] 14400-190 -> {'logradouro': 'Rua Professora Suzana Ribeiro Sandoval', 'bairro': 'Vila Champagnat', 'cidade': 'Franca', 'estado': 'SP'}
+[103/515] 72445-010 -> {'logradouro': 'Quadra Quadra 1', 'bairro': 'Setor Industrial (Gama)', 'cidade': 'Brasília', 'estado': 'DF'}
+[104/515] 05314-000 -> {'logradouro': 'Avenida Doutor Gastão Vidigal', 'bairro': 'Vila Leopoldina', 'cidade': 'São Paulo', 'estado': 'SP'}
+[105/515] 71615-560 -> {'logradouro': 'Quadra SHIS QI 5 Bloco F', 'bairro': 'Setor de Habitações Individuais Sul', 'cidade': 'Brasília', 'estado': 'DF'}
+[106/515] 05651-002 -> {'logradouro': 'Avenida Giovanni Gronchi', 'bairro': 'Morumbi', 'cidade': 'São Paulo', 'estado': 'SP'}
+[107/515] 09111-340 -> {'logradouro': 'Rua Giovanni Battista Pirelli', 'bairro': 'Vila Homero Thon', 'cidade': 'Santo André', 'estado': 'SP'}
+[108/515] 35010-070 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Centro', 'cidade': 'Governador Valadares', 'estado': 'MG'}
+[109/515] 94030-000 -> {'logradouro': 'Avenida Dorival Cândido Luz de Oliveira', 'bairro': 'COHAB C', 'cidade': 'Gravataí', 'estado': 'RS'}
+[110/515] 11430-003 -> {'logradouro': 'Avenida Adhemar de Barros', 'bairro': 'Vila Santa Rosa', 'cidade': 'Guarujá', 'estado': 'SP'}
+[111/515] 07022-020 -> {'logradouro': 'Rua Guarulhos', 'bairro': 'Gopoúva', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[112/515] 07252-000 -> {'logradouro': 'Estrada Presidente Juscelino Kubitschek de Oliveira', 'bairro': 'Jardim Albertina', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[113/515] 49097-670 -> {'logradouro': 'Avenida Augusto Franco', 'bairro': 'Ponto Novo', 'cidade': 'Aracaju', 'estado': 'SE'}
+[114/515] 13184-210 -> {'logradouro': 'Avenida Santana', 'bairro': 'Parque Ortolândia', 'cidade': 'Hortolândia', 'estado': 'SP'}
+[115/515] 18110-650 -> {'logradouro': 'Avenida Gisele Constantino', 'bairro': 'Parque Bela Vista', 'cidade': 'Votorantim', 'estado': 'SP'}
+[116/515] 21931-524 -> {'logradouro': 'Estrada do Galeão', 'bairro': 'Jardim Carioca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[117/515] 13344-580 -> {'logradouro': 'Alameda Filtros Mann', 'bairro': 'Jardim Tropical', 'cidade': 'Indaiatuba', 'estado': 'SP'}
+[118/515] 36025-290 -> {'logradouro': 'Avenida Presidente Itamar Franco', 'bairro': 'São Mateus', 'cidade': 'Juiz de Fora', 'estado': 'MG'}
+[119/515] 35164-840 -> {'logradouro': 'Rua Cláudio Moura', 'bairro': 'Novo Cruzeiro', 'cidade': 'Ipatinga', 'estado': 'MG'}
+[120/515] 04287-010 -> {'logradouro': 'Avenida Presidente Tancredo Neves', 'bairro': 'Vila Nancy', 'cidade': 'São Paulo', 'estado': 'SP'}
+[121/515] 04532-003 -> {'logradouro': 'Rua Bandeira Paulista', 'bairro': 'Itaim Bibi', 'cidade': 'São Paulo', 'estado': 'SP'}
+[122/515] 88307-302 -> {'logradouro': 'Avenida Vereador Abrahão João Francisco', 'bairro': 'Ressacada', 'cidade': 'Itajaí', 'estado': 'SC'}
+[123/515] 11740-000 -> {'logradouro': '', 'bairro': '', 'cidade': 'Itanhaém', 'estado': 'SP'}
+[124/515] 05835-003 -> {'logradouro': 'Estrada de Itapecerica', 'bairro': 'Vila das Belezas', 'cidade': 'São Paulo', 'estado': 'SP'}
+[125/515] 18200-160 -> {'logradouro': 'Avenida Peixoto Gomide', 'bairro': 'Centro', 'cidade': 'Itapetininga', 'estado': 'SP'}
+[126/515] 13255-350 -> {'logradouro': 'Avenida Marechal Castelo Branco', 'bairro': 'Jardim da Luz', 'cidade': 'Itatiba', 'estado': 'SP'}
+[127/515] 13301-000 -> {'logradouro': 'Avenida Doutor Otaviano Pereira Mendes', 'bairro': 'Liberdade', 'cidade': 'Itu', 'estado': 'SP'}
+[128/515] 54420-700 -> {'logradouro': 'Avenida Ayrton Senna da Silva', 'bairro': 'Piedade', 'cidade': 'Jaboatão dos Guararapes', 'estado': 'PE'}
+[129/515] 08215-115 -> {'logradouro': 'Avenida Jacu-Pêssego', 'bairro': 'Itaquera', 'cidade': 'São Paulo', 'estado': 'SP'}
+[130/515] 05339-003 -> {'logradouro': 'Avenida Corifeu de Azevedo Marques', 'bairro': 'Vila Lageado', 'cidade': 'São Paulo', 'estado': 'SP'}
+[131/515] 22470-051 -> {'logradouro': 'Rua Jardim Botânico', 'bairro': 'Jardim Botânico', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[132/515] 24240-000 -> {'logradouro': 'Rua Doutor Paulo César', 'bairro': 'Santa Rosa', 'cidade': 'Niterói', 'estado': 'RJ'}
+[133/515] 17210-110 -> {'logradouro': 'Avenida Doutor Quinzinho', 'bairro': 'Chácara Peccioli', 'cidade': 'Jaú', 'estado': 'SP'}
+[134/515] 09810-250 -> {'logradouro': 'Avenida João Firmino', 'bairro': 'Assunção', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[135/515] 58039-180 -> {'logradouro': 'Avenida Senador Ruy Carneiro', 'bairro': 'Manaíra', 'cidade': 'João Pessoa', 'estado': 'PB'}
+[136/515] 89204-070 -> {'logradouro': 'Alameda Rolf Colin', 'bairro': 'América', 'cidade': 'Joinville', 'estado': 'SC'}
+[137/515] 36026-500 -> {'logradouro': 'Avenida Barão do Rio Branco', 'bairro': 'Alto dos Passos', 'cidade': 'Juiz de Fora', 'estado': 'MG'}
+[138/515] 13215-010 -> {'logradouro': 'Avenida Antônio Frederico Ozanan', 'bairro': 'Vila de Vito', 'cidade': 'Jundiaí', 'estado': 'SP'}
+[139/515] 13211-685 -> {'logradouro': 'Avenida Doutor Adilson Rodrigues', 'bairro': 'Jardim das Samambaias', 'cidade': 'Jundiaí', 'estado': 'SP'}
+[140/515] 02475-001 -> {'logradouro': 'Avenida Direitos Humanos', 'bairro': 'Imirim', 'cidade': 'São Paulo', 'estado': 'SP'}
+[141/515] 02501-000 -> {'logradouro': 'Avenida Otaviano Alves de Lima', 'bairro': 'Casa Verde Baixa', 'cidade': 'São Paulo', 'estado': 'SP'}
+[142/515] 82840-123 -> {'logradouro': 'Avenida Caviúna', 'bairro': 'Bairro Alto', 'cidade': 'Curitiba', 'estado': 'PR'}
+[143/515] 11726-000 -> {'logradouro': 'Avenida Ayrton Senna da Silva', 'bairro': 'Sítio do Campo', 'cidade': 'Praia Grande', 'estado': 'SP'}
+[144/515] 86071-000 -> {'logradouro': 'Avenida Tiradentes', 'bairro': 'Rodocentro', 'cidade': 'Londrina', 'estado': 'PR'}
+[145/515] 02313-000 -> {'logradouro': 'Rua Manuel Gaya', 'bairro': 'Vila Nova Mazzei', 'cidade': 'São Paulo', 'estado': 'SP'}
+[146/515] 60710-684 -> {'logradouro': 'Avenida Godofredo Maciel', 'bairro': 'Maraponga', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[147/515] 08115-100 -> {'logradouro': 'Avenida Marechal Tito', 'bairro': 'Itaim Paulista', 'cidade': 'São Paulo', 'estado': 'SP'}
+[148/515] 03035-040 -> {'logradouro': 'Rua Doutor Miguel Paulo Capalbo', 'bairro': 'Pari', 'cidade': 'São Paulo', 'estado': 'SP'}
+[149/515] 87020-085 -> {'logradouro': 'Avenida Paraná', 'bairro': 'Zona 07', 'cidade': 'Maringá', 'estado': 'PR'}
+[150/515] 80520-174 -> {'logradouro': 'Rua Mateus Leme', 'bairro': 'Bom Retiro', 'cidade': 'Curitiba', 'estado': 'PR'}
+[151/515] 88020-302 -> {'logradouro': 'Avenida Mauro Ramos', 'bairro': 'Centro', 'cidade': 'Florianópolis', 'estado': 'SC'}
+[152/515] 78040-790 -> {'logradouro': 'Avenida Miguel Sutil', 'bairro': 'Jardim Mariana', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[153/515] 08840-000 -> {'logradouro': 'Avenida Francisco Rodrigues Filho', 'bairro': 'Botujuru', 'cidade': 'Mogi das Cruzes', 'estado': 'SP'}
+[154/515] 13844-110 -> {'logradouro': 'Avenida Mogi Mirim', 'bairro': 'Areião', 'cidade': 'Mogi Guaçu', 'estado': 'SP'}
+[155/515] 90440-051 -> {'logradouro': 'Rua Quintino Bocaiúva', 'bairro': 'Rio Branco', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[156/515] 03114-001 -> {'logradouro': 'Avenida Paes de Barros', 'bairro': 'Mooca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[157/515] 03126-000 -> {'logradouro': 'Rua Capitão Pacheco e Chaves', 'bairro': 'Vila Prudente', 'cidade': 'São Paulo', 'estado': 'SP'}
+[158/515] 05727-160 -> {'logradouro': 'Rua Aureliano Guimarães', 'bairro': 'Vila Andrade', 'cidade': 'São Paulo', 'estado': 'SP'}
+[159/515] 04795-100 -> {'logradouro': 'Avenida das Nações Unidas', 'bairro': 'Vila Almeida', 'cidade': 'São Paulo', 'estado': 'SP'}
+[160/515] 59075-000 -> {'logradouro': 'Avenida Senador Salgado Filho', 'bairro': 'Lagoa Nova', 'cidade': 'Natal', 'estado': 'RN'}
+[161/515] 59108-550 -> {'logradouro': 'Avenida Doutor João Medeiros Filho', 'bairro': 'Potengi', 'cidade': 'Natal', 'estado': 'RN'}
+[162/515] 08042-117 -> {'logradouro': 'Avenida Nordestina', 'bairro': 'Cidade Nova São Miguel', 'cidade': 'São Paulo', 'estado': 'SP'}
+[163/515] 79080-105 -> {'logradouro': 'Avenida Presidente Ernesto Geisel', 'bairro': 'Jardim Jockey Club', 'cidade': 'Campo Grande', 'estado': 'MS'}
+[164/515] 30330-000 -> {'logradouro': 'Avenida Nossa Senhora do Carmo', 'bairro': 'Carmo', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[165/515] 26265-090 -> {'logradouro': 'Avenida Abílio Augusto Távora', 'bairro': 'Jardim Alvorada', 'cidade': 'Nova Iguaçu', 'estado': 'RJ'}
+[166/515] 93310-270 -> {'logradouro': 'Rua Castro Alves', 'bairro': 'Rio Branco', 'cidade': 'Novo Hamburgo', 'estado': 'RS'}
+[167/515] 53130-645 -> {'logradouro': 'Rua Carmelita Soares Muniz de Araújo', 'bairro': 'Casa Caiada', 'cidade': 'Olinda', 'estado': 'PE'}
+[168/515] 06090-010 -> {'logradouro': 'Avenida dos Autonomistas', 'bairro': 'Centro', 'cidade': 'Osasco', 'estado': 'SP'}
+[169/515] 01234-010 -> {'logradouro': 'Praça Charles Miller', 'bairro': 'Pacaembu', 'cidade': 'São Paulo', 'estado': 'SP'}
+[170/515] 77015-002 -> {'logradouro': 'Quadra ACSU SO 10 Avenida Joaquim Teotônio Segurado', 'bairro': 'Plano Diretor Sul', 'cidade': 'Palmas', 'estado': 'TO'}
+[171/515] 31270-652 -> {'logradouro': 'Avenida Professor Magalhães Penido', 'bairro': 'Aeroporto', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[172/515] 04308-001 -> {'logradouro': 'Avenida Engenheiro Armando de Arruda Pereira', 'bairro': 'Jabaquara', 'cidade': 'São Paulo', 'estado': 'SP'}
+[173/515] 02989-095 -> {'logradouro': 'Avenida Raimundo Pereira de Magalhães', 'bairro': 'Jardim Marilu', 'cidade': 'São Paulo', 'estado': 'SP'}
+[174/515] 71219-900 -> {'logradouro': 'SMAS', 'bairro': 'Zona Industrial (Guará)', 'cidade': 'Brasília', 'estado': 'DF'}
+[175/515] 52060-590 -> {'logradouro': 'Avenida Dezessete de Agosto', 'bairro': 'Parnamirim', 'cidade': 'Recife', 'estado': 'PE'}
+[176/515] 74810-100 -> {'logradouro': 'Avenida Deputado Jamel Cecílio', 'bairro': 'Jardim Goiás', 'cidade': 'Goiânia', 'estado': 'GO'}
+[177/515] 42702-400 -> {'logradouro': 'Avenida Santos Dumont', 'bairro': 'Centro', 'cidade': 'Lauro de Freitas', 'estado': 'BA'}
+[178/515] 57038-000 -> {'logradouro': 'Avenida Comendador Gustavo Paiva', 'bairro': 'Cruz das Almas', 'cidade': 'Maceió', 'estado': 'AL'}
+[179/515] 74445-360 -> {'logradouro': 'Avenida Perimetral Norte', 'bairro': 'Fazenda Caveiras', 'cidade': 'Goiânia', 'estado': 'GO'}
+[180/515] 96085-000 -> {'logradouro': 'Avenida Ferreira Viana', 'bairro': 'Areal', 'cidade': 'Pelotas', 'estado': 'RS'}
+[181/515] 09751-020 -> {'logradouro': 'Rua Thales dos Santos Freire', 'bairro': 'Baeta Neves', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[182/515] 12422-050 -> {'logradouro': 'Avenida Doutor Jorge Tibiriçá', 'bairro': 'Chácara da Galega', 'cidade': 'Pindamonhangaba', 'estado': 'SP'}
+[183/515] 13416-000 -> {'logradouro': 'Avenida Centenário', 'bairro': 'São Dimas', 'cidade': 'Piracicaba', 'estado': 'SP'}
+[184/515] 41830-001 -> {'logradouro': 'Avenida Manoel Dias da Silva', 'bairro': 'Pituba', 'cidade': 'Salvador', 'estado': 'BA'}
+[185/515] 15085-350 -> {'logradouro': 'Avenida José Munia', 'bairro': 'Jardim Redentor', 'cidade': 'São José do Rio Preto', 'estado': 'SP'}
+[186/515] 37701-387 -> {'logradouro': 'Avenida João Pinheiro', 'bairro': 'Centro', 'cidade': 'Poços de Caldas', 'estado': 'MG'}
+[187/515] 05001-200 -> {'logradouro': 'Avenida Francisco Matarazzo', 'bairro': 'Água Branca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[188/515] 57035-230 -> {'logradouro': 'Avenida Professor Sandoval Arroxelas', 'bairro': 'Ponta Verde', 'cidade': 'Maceió', 'estado': 'AL'}
+[189/515] 76820-408 -> {'logradouro': 'Avenida Prefeito Chiquilito Erse', 'bairro': 'Flodoaldo Pontes Pinto', 'cidade': 'Porto Velho', 'estado': 'RO'}
+[190/515] ERRO ao buscar 11600-000: 
+[191/515] 60355-503 -> {'logradouro': 'Avenida Sargento Hermínio Sampaio', 'bairro': 'Presidente Kennedy', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[192/515] 19010-000 -> {'logradouro': 'Rua Barão do Rio Branco', 'bairro': 'Centro', 'cidade': 'Presidente Prudente', 'estado': 'SP'}
+[193/515] 91310-000 -> {'logradouro': 'Avenida Protásio Alves', 'bairro': 'Três Figueiras', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[194/515] 03102-007 -> {'logradouro': 'Avenida Alcântara Machado', 'bairro': 'Brás', 'cidade': 'São Paulo', 'estado': 'SP'}
+[195/515] 30360-670 -> {'logradouro': 'Avenida Raja Gabaglia', 'bairro': 'Santa Lúcia', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[196/515] 14025-393 -> {'logradouro': 'Avenida Independência', 'bairro': 'Jardim Sumaré', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[197/515] 14020-525 -> {'logradouro': 'Avenida Presidente Vargas', 'bairro': 'Jardim Santa Ângela', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[198/515] 04260-000 -> {'logradouro': 'Avenida Doutor Ricardo Jafet', 'bairro': 'Ipiranga', 'cidade': 'São Paulo', 'estado': 'SP'}
+[199/515] 13501-270 -> {'logradouro': 'Avenida Presidente Kennedy', 'bairro': 'Estádio', 'cidade': 'Rio Claro', 'estado': 'SP'}
+[200/515] 96202-188 -> {'logradouro': 'Avenida Presidente Vargas', 'bairro': 'Vila Junção', 'cidade': 'Rio Grande', 'estado': 'RS'}
+[201/515] 51110-131 -> {'logradouro': 'Avenida Herculano Bandeira', 'bairro': 'Pina', 'cidade': 'Recife', 'estado': 'PE'}
+[202/515] 75908-420 -> {'logradouro': 'Avenida Presidente Vargas', 'bairro': 'Jardim Presidente', 'cidade': 'Rio Verde', 'estado': 'GO'}
+[203/515] 88010-220 -> {'logradouro': 'Rua Henrique Valgas', 'bairro': 'Centro', 'cidade': 'Florianópolis', 'estado': 'SC'}
+[204/515] 59078-570 -> {'logradouro': 'Rua Leôncio Etelvino de Medeiros', 'bairro': 'Capim Macio', 'cidade': 'Natal', 'estado': 'RN'}
+[205/515] ERRO ao buscar 95032-440: 
+[206/515] 40285-600 -> {'logradouro': 'Avenida Mário Leal Ferreira', 'bairro': 'Brotas', 'cidade': 'Salvador', 'estado': 'BA'}
+[207/515] 41720-200 -> {'logradouro': 'Avenida Luís Viana Filho', 'bairro': 'Imbuí', 'cidade': 'Salvador', 'estado': 'BA'}
+[208/515] 72300-630 -> {'logradouro': 'Quadra Quadra 302', 'bairro': 'Samambaia Sul (Samambaia)', 'cidade': 'Brasília', 'estado': 'DF'}
+[209/515] 13450-088 -> {'logradouro': 'Avenida Corifeu Azevedo Marques', 'bairro': 'Loteamento Colina Santa Bárbara', 'cidade': "Santa Bárbara D'Oeste", 'estado': 'SP'}
+[210/515] 01150-000 -> {'logradouro': 'Avenida General Olímpio da Silveira', 'bairro': 'Santa Cecília', 'cidade': 'São Paulo', 'estado': 'SP'}
+[211/515] 97070-805 -> {'logradouro': 'Avenida Hélvio Basso', 'bairro': 'Nossa Senhora Medianeira', 'cidade': 'Santa Maria', 'estado': 'RS'}
+[212/515] 09040-160 -> {'logradouro': 'Avenida Ramiro Colleoni', 'bairro': 'Centro', 'cidade': 'Santo André', 'estado': 'SP'}
+[213/515] 09080-110 -> {'logradouro': 'Avenida Dom Pedro II', 'bairro': 'Jardim', 'cidade': 'Santo André', 'estado': 'SP'}
+[214/515] 60192-018 -> {'logradouro': 'Avenida Santos Dumont', 'bairro': 'Cocó', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[215/515] 11015-031 -> {'logradouro': 'Rua Doutor Manoel Tourinho', 'bairro': 'Macuco', 'cidade': 'Santos', 'estado': 'SP'}
+[216/515] 09721-000 -> {'logradouro': 'Avenida Rotary', 'bairro': 'Centro', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[217/515] 13561-250 -> {'logradouro': 'Avenida Francisco Pereira Lopes', 'bairro': 'Parque Santa Mônica', 'cidade': 'São Carlos', 'estado': 'SP'}
+[218/515] 15092-175 -> {'logradouro': 'Avenida Presidente Juscelino Kubitschek de Oliveira', 'bairro': 'Jardim Maracanã', 'cidade': 'São José do Rio Preto', 'estado': 'SP'}
+[219/515] 93020-566 -> {'logradouro': 'Avenida Getúlio Vargas', 'bairro': 'Fião', 'cidade': 'São Leopoldo', 'estado': 'RS'}
+[220/515] 65074-115 -> {'logradouro': 'Avenida Daniel de La Touche', 'bairro': 'Cohama', 'cidade': 'São Luís', 'estado': 'MA'}
+[221/515] 08070-001 -> {'logradouro': 'Avenida São Miguel', 'bairro': 'Vila Norma', 'cidade': 'São Paulo', 'estado': 'SP'}
+[222/515] 11390-001 -> {'logradouro': 'Avenida Antônio Emmerick', 'bairro': 'Vila Cascatinha', 'cidade': 'São Vicente', 'estado': 'SP'}
+[223/515] 80440-000 -> {'logradouro': 'Avenida Nossa Senhora Aparecida', 'bairro': 'Seminário', 'cidade': 'Curitiba', 'estado': 'PR'}
+[224/515] 29165-680 -> {'logradouro': 'Avenida Eldes Scherrer Souza', 'bairro': 'Parque Residencial Laranjeiras', 'cidade': 'Serra', 'estado': 'ES'}
+[225/515] 35700-293 -> {'logradouro': 'Avenida Raquel Teixeira Viana', 'bairro': 'Canaã', 'cidade': 'Sete Lagoas', 'estado': 'MG'}
+[226/515] 12215-900 -> {'logradouro': 'Avenida Deputado Benedito Matarazzo 9403', 'bairro': 'Jardim Paulista', 'cidade': 'São José dos Campos', 'estado': 'SP'}
+[227/515] 09726-252 -> {'logradouro': 'Avenida Kennedy', 'bairro': 'Jardim do Mar', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[228/515] 25575-825 -> {'logradouro': 'Rua Maria Soares Sendas', 'bairro': 'Venda Velha', 'cidade': 'São João de Meriti', 'estado': 'RJ'}
+[229/515] 09080-510 -> {'logradouro': 'Avenida Industrial', 'bairro': 'Campestre', 'cidade': 'Santo André', 'estado': 'SP'}
+[230/515] 88117-292 -> {'logradouro': 'Rua Gerôncio Thives', 'bairro': 'Barreiros', 'cidade': 'São José', 'estado': 'SC'}
+[231/515] 82821-020 -> {'logradouro': 'Rua Konrad Adenauer', 'bairro': 'Tarumã', 'cidade': 'Curitiba', 'estado': 'PR'}
+[232/515] 09390-040 -> {'logradouro': 'Avenida Governador Mário Covas Júnior', 'bairro': 'Centro', 'cidade': 'Mauá', 'estado': 'SP'}
+[233/515] 78050-250 -> {'logradouro': 'Avenida G', 'bairro': 'Jardim Aclimação', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[234/515] 72876-902 -> {'logradouro': 'Quadra 1', 'bairro': 'Parque Esplanada III', 'cidade': 'Valparaíso de Goiás', 'estado': 'GO'}
+[235/515] 82590-300 -> {'logradouro': 'Rodovia BR-116', 'bairro': 'Tarumã', 'cidade': 'Curitiba', 'estado': 'PR'}
+[236/515] 31015-015 -> {'logradouro': 'Avenida Silviano Brandão', 'bairro': 'Horto', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[237/515] 18035-095 -> {'logradouro': 'Praça Dom Tadeu Strunck', 'bairro': 'Centro', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[238/515] 18043-003 -> {'logradouro': 'Avenida General Carneiro', 'bairro': 'Vila Lucy', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[239/515] 13175-646 -> {'logradouro': 'Avenida da Amizade', 'bairro': 'Parque Jatobá (Nova Veneza)', 'cidade': 'Sumaré', 'estado': 'SP'}
+[240/515] 08673-900 -> {'logradouro': 'Rua Sete de Setembro 555', 'bairro': 'Parque Suzano', 'cidade': 'Suzano', 'estado': 'SP'}
+[241/515] 06754-190 -> {'logradouro': 'Rua do Tesouro', 'bairro': 'Parque Santos Dumont', 'cidade': 'Taboão da Serra', 'estado': 'SP'}
+[242/515] 71950-550 -> {'logradouro': 'Quadra QS 1 Rua 212', 'bairro': 'Areal (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
+[243/515] 06455-000 -> {'logradouro': 'Alameda Araguaia', 'bairro': 'Alphaville Industrial', 'cidade': 'Barueri', 'estado': 'SP'}
+[244/515] 18270-820 -> {'logradouro': 'Rua São Bento', 'bairro': 'Centro', 'cidade': 'Tatuí', 'estado': 'SP'}
+[245/515] 13097-172 -> {'logradouro': 'Avenida dos Imbés', 'bairro': 'Alphaville Dom Pedro', 'cidade': 'Campinas', 'estado': 'SP'}
+[246/515] 05406-100 -> {'logradouro': 'Rua Teodoro Sampaio', 'bairro': 'Pinheiros', 'cidade': 'São Paulo', 'estado': 'SP'}
+[247/515] 04864-001 -> {'logradouro': 'Avenida Senador Teotônio Vilela', 'bairro': 'Jardim São Rafael', 'cidade': 'São Paulo', 'estado': 'SP'}
+[248/515] 64049-010 -> {'logradouro': 'Avenida João XXIII', 'bairro': 'Jóquei', 'cidade': 'Teresina', 'estado': 'PI'}
+[249/515] ERRO ao buscar 69048-660: 
+[250/515] 81520-000 -> {'logradouro': 'Avenida Comendador Franco', 'bairro': 'Guabirotuba', 'cidade': 'Curitiba', 'estado': 'PR'}
+[251/515] 02305-002 -> {'logradouro': 'Avenida Tucuruvi', 'bairro': 'Tucuruvi', 'cidade': 'São Paulo', 'estado': 'SP'}
+[252/515] 38010-000 -> {'logradouro': 'Avenida Leopoldino de Oliveira', 'bairro': 'Centro', 'cidade': 'Uberaba', 'estado': 'MG'}
+[253/515] 38400-242 -> {'logradouro': 'Avenida Rondon Pacheco', 'bairro': 'Tabajaras', 'cidade': 'Uberlândia', 'estado': 'MG'}
+[254/515] 78030-485 -> {'logradouro': 'Avenida Miguel Sutil', 'bairro': 'Cidade Alta', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[255/515] 04636-001 -> {'logradouro': 'Avenida Professor Vicente Ráo', 'bairro': 'Jardim Petrópolis', 'cidade': 'São Paulo', 'estado': 'SP'}
+[256/515] 07056-040 -> {'logradouro': 'Rua Maria Primo de Jesus', 'bairro': 'Vila Galvão', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[257/515] 20560-025 -> {'logradouro': 'Rua Teodoro da Silva', 'bairro': 'Vila Isabel', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[258/515] 04102-000 -> {'logradouro': 'Rua Vergueiro', 'bairro': 'Vila Mariana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[259/515] 03501-000 -> {'logradouro': 'Avenida Conde de Frontin', 'bairro': 'Tatuapé', 'cidade': 'São Paulo', 'estado': 'SP'}
+[260/515] 29102-320 -> {'logradouro': 'Travessa Santa Leopoldina', 'bairro': 'Coqueiral de Itaparica', 'cidade': 'Vila Velha', 'estado': 'ES'}
+[261/515] 29056-075 -> {'logradouro': 'Avenida Nossa Senhora da Penha', 'bairro': 'Santa Lúcia', 'cidade': 'Vitória', 'estado': 'ES'}
+[262/515] 45028-610 -> {'logradouro': 'Avenida Olívia Flores', 'bairro': 'Candeias', 'cidade': 'Vitória da Conquista', 'estado': 'BA'}
+[263/515] 04662-003 -> {'logradouro': 'Avenida Washington Luís', 'bairro': 'Santo Amaro', 'cidade': 'São Paulo', 'estado': 'SP'}
+[264/515] 60810-350 -> {'logradouro': 'Avenida Washington Soares', 'bairro': 'Engenheiro Luciano Cavalcante', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[265/515] 06236-020 -> {'logradouro': 'Avenida João del Papa', 'bairro': 'I.A.P.I.', 'cidade': 'Osasco', 'estado': 'SP'}
+[266/515] 06600-042 -> {'logradouro': 'Rua José Manoel da Conceição', 'bairro': 'Centro', 'cidade': 'Jandira', 'estado': 'SP'}
+[267/515] 58036-570 -> {'logradouro': 'Rua Pastor Josebias Fialho Marinho', 'bairro': 'Aeroclube', 'cidade': 'João Pessoa', 'estado': 'PB'}
+[268/515] 17516-280 -> {'logradouro': 'Rua dos Topázios', 'bairro': 'Jardim Maria Izabel', 'cidade': 'Marília', 'estado': 'SP'}
+[269/515] 19014-000 -> {'logradouro': 'Avenida Quatorze de Setembro', 'bairro': 'Jardim Paulistano', 'cidade': 'Presidente Prudente', 'estado': 'SP'}
+[270/515] 11260-357 -> {'logradouro': 'Rua Washington Curvelo de Aguiar', 'bairro': 'Indaiá', 'cidade': 'Bertioga', 'estado': 'SP'}
+[271/515] 06454-000 -> {'logradouro': 'Alameda Rio Negro', 'bairro': 'Alphaville Centro Industrial e Empresarial/Alphaville.', 'cidade': 'Barueri', 'estado': 'SP'}
+[272/515] 04702-002 -> {'logradouro': 'Avenida Santo Amaro', 'bairro': 'Santo Amaro', 'cidade': 'São Paulo', 'estado': 'SP'}
+[273/515] 05465-070 -> {'logradouro': 'Avenida General Furtado Nascimento', 'bairro': 'Alto de Pinheiros', 'cidade': 'São Paulo', 'estado': 'SP'}
+[274/515] 13468-000 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Jardim São Paulo', 'cidade': 'Americana', 'estado': 'SP'}
+[275/515] 30280-020 -> {'logradouro': 'Avenida dos Andradas', 'bairro': 'Pompéia', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[276/515] 49035-500 -> {'logradouro': 'Avenida Delmiro Gouveia', 'bairro': 'Coroa do Meio', 'cidade': 'Aracaju', 'estado': 'SE'}
+[277/515] 14804-300 -> {'logradouro': 'Avenida Alberto Benassi', 'bairro': 'Jardim Bandeirantes', 'cidade': 'Araraquara', 'estado': 'SP'}
+[278/515] 16015-445 -> {'logradouro': 'Rua Luiz Pereira Barreto', 'bairro': 'Vila São Paulo', 'cidade': 'Araçatuba', 'estado': 'SP'}
+[279/515] 05077-903 -> {'logradouro': 'Rua Samuel Klabin 193', 'bairro': 'Bela Aliança', 'cidade': 'São Paulo', 'estado': 'SP'}
+[280/515] 04674-225 -> {'logradouro': "Avenida Sargento Geraldo Sant'Ana", 'bairro': 'Jardim Taquaral', 'cidade': 'São Paulo', 'estado': 'SP'}
+[281/515] 03704-000 -> {'logradouro': 'Avenida Condessa Elisabeth de Robiano', 'bairro': 'Jardim América da Penha', 'cidade': 'São Paulo', 'estado': 'SP'}
+[282/515] 12940-750 -> {'logradouro': 'Rua José Alvim', 'bairro': 'Centro', 'cidade': 'Atibaia', 'estado': 'SP'}
+[283/515] 12940-284 -> {'logradouro': 'Avenida Brigadeiro José Vicente Faria Lima', 'bairro': 'Centro', 'cidade': 'Atibaia', 'estado': 'SP'}
+[284/515] 04772-005 -> {'logradouro': 'Avenida Atlântica', 'bairro': 'Interlagos', 'cidade': 'São Paulo', 'estado': 'SP'}
+[285/515] 01412-000 -> {'logradouro': 'Rua Augusta', 'bairro': 'Cerqueira César', 'cidade': 'São Paulo', 'estado': 'SP'}
+[286/515] 13208-051 -> {'logradouro': 'Avenida Jundiaí', 'bairro': 'Anhangabaú', 'cidade': 'Jundiaí', 'estado': 'SP'}
+[287/515] 05606-200 -> {'logradouro': 'Avenida Morumbi', 'bairro': 'Morumbi', 'cidade': 'São Paulo', 'estado': 'SP'}
+[288/515] 08070-002 -> {'logradouro': 'Avenida São Miguel', 'bairro': 'Vila Norma', 'cidade': 'São Paulo', 'estado': 'SP'}
+[289/515] 30360-740 -> {'logradouro': 'Rua Maria Luiza Santiago', 'bairro': 'Santa Lúcia', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[290/515] 30840-032 -> {'logradouro': 'Avenida Heráclito Mourão de Miranda', 'bairro': 'Alípio de Melo', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[291/515] 31250-010 -> {'logradouro': 'Avenida Presidente Carlos Luz', 'bairro': 'Caiçaras', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[292/515] 22640-102 -> {'logradouro': 'Avenida das Américas', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[293/515] 22631-003 -> {'logradouro': 'Avenida das Américas', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[294/515] 88117-001 -> {'logradouro': 'Avenida Leoberto Leal', 'bairro': 'Barreiros', 'cidade': 'São José', 'estado': 'SC'}
+[295/515] 14783-085 -> {'logradouro': 'Avenida Engenheiro Necker Carvalho de Camargos', 'bairro': 'América', 'cidade': 'Barretos', 'estado': 'SP'}
+[296/515] 17012-170 -> {'logradouro': 'Rua São Gonçalo', 'bairro': 'Vila Altinópolis', 'cidade': 'Bauru', 'estado': 'SP'}
+[297/515] 66640-840 -> {'logradouro': 'Passagem Cruzeiro', 'bairro': 'Mangueirão', 'cidade': 'Belém', 'estado': 'PA'}
+[298/515] 16204-000 -> {'logradouro': 'Avenida Euclides Miragaia', 'bairro': 'Jardim Jussara Maria', 'cidade': 'Birigüi', 'estado': 'SP'}
+[299/515] 89010-201 -> {'logradouro': 'Rua Sete de Setembro', 'bairro': 'Centro', 'cidade': 'Blumenau', 'estado': 'SC'}
+[300/515] 89065-800 -> {'logradouro': 'Rodovia BR-470', 'bairro': 'Salto do Norte', 'cidade': 'Blumenau', 'estado': 'SC'}
+[301/515] 25075-030 -> {'logradouro': 'Rua Voluntários da Pátria', 'bairro': 'Jardim Vinte e Cinco de Agosto', 'cidade': 'Duque de Caxias', 'estado': 'RJ'}
+[302/515] 18606-125 -> {'logradouro': 'Avenida Professor José Pedretti Neto', 'bairro': 'Conjunto Residencial Frei Fidelis', 'cidade': 'Botucatu', 'estado': 'SP'}
+[303/515] 12916-010 -> {'logradouro': 'Rua Alpheu Grimello', 'bairro': 'Taboão', 'cidade': 'Bragança Paulista', 'estado': 'SP'}
+[304/515] ERRO ao buscar 12802-000: 
+[305/515] 70333-900 -> {'logradouro': 'SCS Quadra 8 Bloco B Lotes 50/60', 'bairro': 'Asa Sul', 'cidade': 'Brasília', 'estado': 'DF'}
+[306/515] 70770-525 -> {'logradouro': 'Quadra SEPN 516 Bloco E', 'bairro': 'Asa Norte', 'cidade': 'Brasília', 'estado': 'DF'}
+[307/515] 71215-900 -> {'logradouro': 'SGCV Lote 09', 'bairro': 'Zona Industrial (Guará)', 'cidade': 'Brasília', 'estado': 'DF'}
+[308/515] 72020-111 -> {'logradouro': 'Quadra Setor D Sul', 'bairro': 'Taguatinga Sul (Taguatinga)', 'cidade': 'Brasília', 'estado': 'DF'}
+[309/515] 71200-020 -> {'logradouro': 'Trecho SIA Trecho 2', 'bairro': 'Zona Industrial (Guará)', 'cidade': 'Brasília', 'estado': 'DF'}
+[310/515] 71551-010 -> {'logradouro': 'Avenida Comercial', 'bairro': 'Setor Habitacional Taquari (Lago Norte)', 'cidade': 'Brasília', 'estado': 'DF'}
+[311/515] 02511-000 -> {'logradouro': 'Avenida Braz Leme', 'bairro': 'Casa Verde', 'cidade': 'São Paulo', 'estado': 'SP'}
+[312/515] 04627-003 -> {'logradouro': 'Avenida Washington Luís', 'bairro': 'Santo Amaro', 'cidade': 'São Paulo', 'estado': 'SP'}
+[313/515] 30575-180 -> {'logradouro': 'Avenida Professor Mário Werneck', 'bairro': 'Buritis', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[314/515] 05513-300 -> {'logradouro': 'Avenida Professor Francisco Morato', 'bairro': 'Butantã', 'cidade': 'São Paulo', 'estado': 'SP'}
+[315/515] 02611-002 -> {'logradouro': 'Avenida Parada Pinto', 'bairro': 'Vila Nova Cachoeirinha', 'cidade': 'São Paulo', 'estado': 'SP'}
+[316/515] 09609-000 -> {'logradouro': 'Avenida Caminho do Mar', 'bairro': 'Rudge Ramos', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[317/515] 13041-445 -> {'logradouro': 'Rua da Abolição', 'bairro': 'Ponte Preta', 'cidade': 'Campinas', 'estado': 'SP'}
+[318/515] 13060-192 -> {'logradouro': 'Avenida Ruy Rodriguez', 'bairro': 'Jardim Novo Campos Elíseos', 'cidade': 'Campinas', 'estado': 'SP'}
+[319/515] 13024-045 -> {'logradouro': 'Avenida Orosimbo Maia', 'bairro': 'Cambuí', 'cidade': 'Campinas', 'estado': 'SP'}
+[320/515] 13025-190 -> {'logradouro': 'Rua Coronel Francisco Andrade Coutinho', 'bairro': 'Cambuí', 'cidade': 'Campinas', 'estado': 'SP'}
+[321/515] 13100-040 -> {'logradouro': "Avenida Princesa D'Oeste", 'bairro': 'Jardim Paraíso', 'cidade': 'Campinas', 'estado': 'SP'}
+[322/515] 13091-910 -> {'logradouro': 'Avenida Doutor José Bonifácio Coutinho Nogueira 225', 'bairro': 'Jardim Madalena', 'cidade': 'Campinas', 'estado': 'SP'}
+[323/515] 13075-630 -> {'logradouro': 'Avenida Doutor Theodureto de Almeida Camargo', 'bairro': 'Jardim Nossa Senhora Auxiliadora', 'cidade': 'Campinas', 'estado': 'SP'}
+[324/515] 79020-000 -> {'logradouro': 'Avenida Afonso Pena', 'bairro': 'Jardim dos Estados', 'cidade': 'Campo Grande', 'estado': 'MS'}
+[325/515] 05788-290 -> {'logradouro': 'Rua Doutor Joviano Pacheco de Aguirre', 'bairro': 'Jardim Bom Refúgio', 'cidade': 'São Paulo', 'estado': 'SP'}
+[326/515] 71727-800 -> {'logradouro': 'Setor de Postos e Motéis Sul I', 'bairro': 'Candangolândia', 'cidade': 'Brasília', 'estado': 'DF'}
+[327/515] 92020-475 -> {'logradouro': 'Avenida Farroupilha', 'bairro': 'Marechal Rondon', 'cidade': 'Canoas', 'estado': 'RS'}
+[328/515] ERRO ao buscar 92010-013: 
+[329/515] 02984-035 -> {'logradouro': 'Avenida Raimundo Pereira de Magalhães', 'bairro': 'Jardim Pirituba', 'cidade': 'São Paulo', 'estado': 'SP'}
+[330/515] 06328-330 -> {'logradouro': 'Avenida Desembargador Doutor Eduardo Cunha de Abreu', 'bairro': 'Vila Municipal', 'cidade': 'Carapicuíba', 'estado': 'SP'}
+[331/515] 04794-000 -> {'logradouro': 'Avenida das Nações Unidas', 'bairro': 'Vila Gertrudes', 'cidade': 'São Paulo', 'estado': 'SP'}
+[332/515] 03317-001 -> {'logradouro': 'Rua Serra de Botucatu', 'bairro': 'Vila Gomes Cardim', 'cidade': 'São Paulo', 'estado': 'SP'}
+[333/515] 52060-030 -> {'logradouro': 'Rua Leonardo Bezerra Cavalcanti', 'bairro': 'Santana', 'cidade': 'Recife', 'estado': 'PE'}
+[334/515] 85812-500 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Região do Lago', 'cidade': 'Cascavel', 'estado': 'PR'}
+[335/515] 95110-195 -> {'logradouro': 'Avenida Therezinha Pauletti Sanvitto', 'bairro': 'Sanvitto', 'cidade': 'Caxias do Sul', 'estado': 'RS'}
+[336/515] 05061-400 -> {'logradouro': 'Rua Cerro Corá', 'bairro': 'Vila Romana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[337/515] 13482-220 -> {'logradouro': 'Avenida Comendador Agostinho Prada', 'bairro': 'Jardim Maria Bruschi Modeneis', 'cidade': 'Limeira', 'estado': 'SP'}
+[338/515] 88104-800 -> {'logradouro': 'Rodovia BR-101', 'bairro': 'Distrito Industrial', 'cidade': 'São José', 'estado': 'SC'}
+[339/515] 22020-002 -> {'logradouro': 'Avenida Nossa Senhora de Copacabana', 'bairro': 'Copacabana', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[340/515] 05582-000 -> {'logradouro': 'Avenida Corifeu de Azevedo Marques', 'bairro': 'Butantã', 'cidade': 'São Paulo', 'estado': 'SP'}
+[341/515] 06716-030 -> {'logradouro': 'Rua Luiz Silva', 'bairro': 'Parque Rincão', 'cidade': 'Cotia', 'estado': 'SP'}
+[342/515] 88813-390 -> {'logradouro': 'Avenida Jorge Elias de Lucca', 'bairro': 'Nossa Senhora da Salete', 'cidade': 'Criciúma', 'estado': 'SC'}
+[343/515] 78050-000 -> {'logradouro': 'Avenida Historiador Rubens de Mendonça', 'bairro': 'Bosque da Saúde', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[344/515] 80215-270 -> {'logradouro': 'Avenida Senador Salgado Filho', 'bairro': 'Prado Velho', 'cidade': 'Curitiba', 'estado': 'PR'}
+[345/515] 80740-016 -> {'logradouro': 'Rua General Mário Tourinho', 'bairro': 'Campina do Siqueira', 'cidade': 'Curitiba', 'estado': 'PR'}
+[346/515] 81050-030 -> {'logradouro': 'Rua Isaac Guelmann', 'bairro': 'Novo Mundo', 'cidade': 'Curitiba', 'estado': 'PR'}
+[347/515] 72405-550 -> {'logradouro': 'Quadra Quadra 55', 'bairro': 'Setor Central (Gama)', 'cidade': 'Brasília', 'estado': 'DF'}
+[348/515] 73340-190 -> {'logradouro': 'Área AEN 19', 'bairro': 'Setor Norte (Planaltina)', 'cidade': 'Brasília', 'estado': 'DF'}
+[349/515] 71919-540 -> {'logradouro': 'Rua Copaíba', 'bairro': 'Norte (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
+[350/515] 09913-000 -> {'logradouro': 'Avenida Presidente Kennedy', 'bairro': 'Centro', 'cidade': 'Diadema', 'estado': 'SP'}
+[351/515] 81690-300 -> {'logradouro': 'Rodovia BR-116', 'bairro': 'Xaxim', 'cidade': 'Curitiba', 'estado': 'PR'}
+[352/515] 06803-045 -> {'logradouro': 'Rua Alexandre Kadunc', 'bairro': 'Tingidor', 'cidade': 'Embu das Artes', 'estado': 'SP'}
+[353/515] 06840-050 -> {'logradouro': 'Rua São Luiz', 'bairro': 'Centro', 'cidade': 'Embu das Artes', 'estado': 'SP'}
+[354/515] 02521-005 -> {'logradouro': 'Avenida Engenheiro Caetano Álvares', 'bairro': 'Casa Verde Média', 'cidade': 'São Paulo', 'estado': 'SP'}
+[355/515] 58042-006 -> {'logradouro': 'Avenida Presidente Epitácio Pessoa', 'bairro': 'Tambauzinho', 'cidade': 'João Pessoa', 'estado': 'PB'}
+[356/515] 05038-150 -> {'logradouro': 'Rua Luiz Gatti', 'bairro': 'Água Branca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[357/515] 05787-000 -> {'logradouro': 'Estrada do Campo Limpo', 'bairro': 'Pirajussara', 'cidade': 'São Paulo', 'estado': 'SP'}
+[358/515] 05835-005 -> {'logradouro': 'Estrada de Itapecerica', 'bairro': 'Vila Maracanã', 'cidade': 'São Paulo', 'estado': 'SP'}
+[359/515] 44090-008 -> {'logradouro': 'Avenida Governador João Durval Carneiro', 'bairro': 'Tomba', 'cidade': 'Feira de Santana', 'estado': 'BA'}
+[360/515] 88010-200 -> {'logradouro': 'Rua Francisco Tolentino', 'bairro': 'Centro', 'cidade': 'Florianópolis', 'estado': 'SC'}
+[361/515] 60150-162 -> {'logradouro': 'Avenida Santos Dumont', 'bairro': 'Aldeota', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[362/515] 60120-024 -> {'logradouro': 'Avenida Barão de Studart', 'bairro': 'Aldeota', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[363/515] 14405-000 -> {'logradouro': 'Avenida Doutor Antônio Barboza Filho', 'bairro': 'Jardim Francano', 'cidade': 'Franca', 'estado': 'SP'}
+[364/515] 09720-010 -> {'logradouro': 'Avenida Brigadeiro Faria Lima', 'bairro': 'Centro', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[365/515] 74810-075 -> {'logradouro': 'Avenida I', 'bairro': 'Jardim Goiás', 'cidade': 'Goiânia', 'estado': 'GO'}
+[366/515] 74335-104 -> {'logradouro': 'Avenida T 63', 'bairro': 'Anhanguera', 'cidade': 'Goiânia', 'estado': 'GO'}
+[367/515] 06708-030 -> {'logradouro': 'Avenida Jornalista Luiz Eduardo de Freitas Soares', 'bairro': 'Parque São George', 'cidade': 'Cotia', 'estado': 'SP'}
+[368/515] 11410-160 -> {'logradouro': 'Avenida Leomil', 'bairro': 'Pitangueiras', 'cidade': 'Guarujá', 'estado': 'SP'}
+[369/515] 07013-000 -> {'logradouro': 'Avenida Aniello Pratici', 'bairro': 'Jardim Santa Francisca', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[370/515] 07115-180 -> {'logradouro': 'Rua Egisto Thomaz', 'bairro': 'Jardim Maia', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[371/515] 07180-041 -> {'logradouro': 'Viela Inúbia Paulista', 'bairro': 'Jardim Cumbica', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[372/515] 07094-000 -> {'logradouro': 'Avenida Doutor Timóteo Penteado', 'bairro': 'Vila Hulda', 'cidade': 'Guarulhos', 'estado': 'SP'}
+[373/515] 01228-000 -> {'logradouro': 'Avenida Angélica', 'bairro': 'Santa Cecília', 'cidade': 'São Paulo', 'estado': 'SP'}
+[374/515] 13092-500 -> {'logradouro': 'Avenida Iguatemi', 'bairro': 'Vila Brandina', 'cidade': 'Campinas', 'estado': 'SP'}
+[375/515] 60810-060 -> {'logradouro': 'Rua Albert Sabin', 'bairro': 'Guararapes', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[376/515] 04123-011 -> {'logradouro': 'Avenida Professor Abraão de Morais', 'bairro': 'Saúde', 'cidade': 'São Paulo', 'estado': 'SP'}
+[377/515] 02465-300 -> {'logradouro': 'Avenida Imirim', 'bairro': 'Imirim', 'cidade': 'São Paulo', 'estado': 'SP'}
+[378/515] 13334-085 -> {'logradouro': 'Avenida Presidente Vargas', 'bairro': 'Cidade Nova', 'cidade': 'Indaiatuba', 'estado': 'SP'}
+[379/515] 04661-100 -> {'logradouro': 'Avenida Interlagos', 'bairro': 'Jardim Umuarama', 'cidade': 'São Paulo', 'estado': 'SP'}
+[380/515] 88306-600 -> {'logradouro': 'Avenida Osvaldo Reis', 'bairro': 'Praia Brava de Itajaí', 'cidade': 'Itajaí', 'estado': 'SC'}
+[381/515] 08573-000 -> {'logradouro': 'Avenida Ítalo Adami', 'bairro': 'Vila Zeferina', 'cidade': 'Itaquaquecetuba', 'estado': 'SP'}
+[382/515] 03587-000 -> {'logradouro': 'Rua Serra das Divisões', 'bairro': 'Cidade Líder', 'cidade': 'São Paulo', 'estado': 'SP'}
+[383/515] 04345-001 -> {'logradouro': 'Avenida Engenheiro George Corbisier', 'bairro': 'Jabaquara', 'cidade': 'São Paulo', 'estado': 'SP'}
+[384/515] 54410-010 -> {'logradouro': 'Avenida Bernardo Vieira de Melo', 'bairro': 'Piedade', 'cidade': 'Jaboatão dos Guararapes', 'estado': 'PE'}
+[385/515] 12306-090 -> {'logradouro': 'Praça Charles Gates', 'bairro': 'Jardim das Indústrias', 'cidade': 'Jacareí', 'estado': 'SP'}
+[386/515] 02221-001 -> {'logradouro': 'Avenida Jardim Japão', 'bairro': 'Jardim Brasil (Zona Norte)', 'cidade': 'São Paulo', 'estado': 'SP'}
+[387/515] 17203-381 -> {'logradouro': 'Avenida Anna Claudina', 'bairro': 'Jardim Estádio', 'cidade': 'Jaú', 'estado': 'SP'}
+[388/515] 89223-005 -> {'logradouro': 'Avenida Rolf Wiest', 'bairro': 'Bom Retiro', 'cidade': 'Joinville', 'estado': 'SC'}
+[389/515] 36080-000 -> {'logradouro': 'Rua Bernardo Mascarenhas', 'bairro': 'Mariano Procópio', 'cidade': 'Juiz de Fora', 'estado': 'MG'}
+[390/515] 13201-141 -> {'logradouro': 'Rua José Amato', 'bairro': 'Ponte de Campinas', 'cidade': 'Jundiaí', 'estado': 'SP'}
+[391/515] 42701-260 -> {'logradouro': 'Avenida Santos Dumont', 'bairro': 'Pitangueiras', 'cidade': 'Lauro de Freitas', 'estado': 'BA'}
+[392/515] 13485-905 -> {'logradouro': 'Avenida Carlos Kuntz Busch', 'bairro': 'Parque Egisto Ragazzo', 'cidade': 'Limeira', 'estado': 'SP'}
+[393/515] 86010-170 -> {'logradouro': 'Rua Minas Gerais', 'bairro': 'Centro', 'cidade': 'Londrina', 'estado': 'PR'}
+[394/515] 86050-270 -> {'logradouro': 'Avenida Madre Leônia Milito', 'bairro': 'Bela Suiça', 'cidade': 'Londrina', 'estado': 'PR'}
+[395/515] 04905-002 -> {'logradouro': "Estrada do M'Boi Mirim", 'bairro': 'Jardim Regina', 'cidade': 'São Paulo', 'estado': 'SP'}
+[396/515] 57055-000 -> {'logradouro': 'Avenida Fernandes Lima', 'bairro': 'Farol', 'cidade': 'Maceió', 'estado': 'AL'}
+[397/515] 61900-150 -> {'logradouro': 'Rua João de Alencar', 'bairro': 'Centro', 'cidade': 'Maracanaú', 'estado': 'CE'}
+[398/515] 08022-000 -> {'logradouro': 'Avenida Marechal Tito', 'bairro': 'São Miguel Paulista', 'cidade': 'São Paulo', 'estado': 'SP'}
+[399/515] 02047-000 -> {'logradouro': 'Rua Maria Prestes Maia', 'bairro': 'Vila Guilherme', 'cidade': 'São Paulo', 'estado': 'SP'}
+[400/515] 87020-015 -> {'logradouro': 'Avenida João Paulino Vieira Filho', 'bairro': 'Zona 01', 'cidade': 'Maringá', 'estado': 'PR'}
+[401/515] 17500-022 -> {'logradouro': 'Avenida Sampaio Vidal', 'bairro': 'Centro', 'cidade': 'Marília', 'estado': 'SP'}
+[402/515] 31160-959 -> {'logradouro': 'Avenida Cristiano Machado', 'bairro': 'União', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[403/515] 04028-002 -> {'logradouro': 'Avenida Ibirapuera', 'bairro': 'Indianópolis', 'cidade': 'São Paulo', 'estado': 'SP'}
+[404/515] 90430-060 -> {'logradouro': 'Rua Miguel Tostes', 'bairro': 'Rio Branco', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[405/515] 03101-000 -> {'logradouro': 'Avenida Alcântara Machado', 'bairro': 'Brás', 'cidade': 'São Paulo', 'estado': 'SP'}
+[406/515] 05724-003 -> {'logradouro': 'Avenida Giovanni Gronchi', 'bairro': 'Vila Andrade', 'cidade': 'São Paulo', 'estado': 'SP'}
+[407/515] 59076-000 -> {'logradouro': 'Avenida Senador Salgado Filho', 'bairro': 'Lagoa Nova', 'cidade': 'Natal', 'estado': 'RN'}
+[408/515] 24030-060 -> {'logradouro': 'Rua Marechal Deodoro', 'bairro': 'Centro', 'cidade': 'Niterói', 'estado': 'RJ'}
+[409/515] 30335-300 -> {'logradouro': 'Beco São Paulo', 'bairro': 'Santa Rita de Cássia', 'cidade': 'Belo Horizonte', 'estado': 'MG'}
+[410/515] 02330-000 -> {'logradouro': 'Avenida Nova Cantareira', 'bairro': 'Tucuruvi', 'cidade': 'São Paulo', 'estado': 'SP'}
+[411/515] 93320-102 -> {'logradouro': 'Avenida Primeiro de Março', 'bairro': 'Pátria Nova', 'cidade': 'Novo Hamburgo', 'estado': 'RS'}
+[412/515] 06132-006 -> {'logradouro': 'Avenida João de Andrade', 'bairro': 'Santo Antônio', 'cidade': 'Osasco', 'estado': 'SP'}
+[413/515] 91010-003 -> {'logradouro': 'Avenida Assis Brasil', 'bairro': 'Jardim Lindóia', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[414/515] 90230-061 -> {'logradouro': 'Avenida Brasil', 'bairro': 'Navegantes', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[415/515] 91760-000 -> {'logradouro': 'Avenida Coronel Marcos', 'bairro': 'Pedra Redonda', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[416/515] 91530-000 -> {'logradouro': 'Avenida Ipiranga', 'bairro': 'Jardim Botânico', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[417/515] 77001-048 -> {'logradouro': 'Quadra ARNO 12 Alameda das Aroeiras', 'bairro': 'Plano Diretor Norte', 'cidade': 'Palmas', 'estado': 'TO'}
+[418/515] 22753-045 -> {'logradouro': 'Rua Francisco Dantas', 'bairro': 'Freguesia (Jacarepaguá)', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[419/515] 99064-000 -> {'logradouro': 'Avenida Presidente Vargas', 'bairro': 'São Cristóvão', 'cidade': 'Passo Fundo', 'estado': 'RS'}
+[420/515] 13140-723 -> {'logradouro': 'Avenida José Paulino', 'bairro': 'Morumbi', 'cidade': 'Paulínia', 'estado': 'SP'}
+[421/515] 83323-020 -> {'logradouro': 'Rua Primeiro de Maio', 'bairro': 'Centro', 'cidade': 'Pinhais', 'estado': 'PR'}
+[422/515] 13414-018 -> {'logradouro': 'Avenida Limeira', 'bairro': 'Areião', 'cidade': 'Piracicaba', 'estado': 'SP'}
+[423/515] 13419-160 -> {'logradouro': 'Avenida Independência', 'bairro': 'Cidade Alta', 'cidade': 'Piracicaba', 'estado': 'SP'}
+[424/515] 91900-000 -> {'logradouro': 'Avenida Wenceslau Escobar', 'bairro': 'Cristal', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[425/515] 05033-070 -> {'logradouro': 'Rua Carlos Vicari', 'bairro': 'Água Branca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[426/515] 84070-000 -> {'logradouro': 'Avenida Ernesto Vilela', 'bairro': 'Nova Rússia', 'cidade': 'Ponta Grossa', 'estado': 'PR'}
+[427/515] 84035-000 -> {'logradouro': 'Rua Ermelino de Leão', 'bairro': 'Olarias', 'cidade': 'Ponta Grossa', 'estado': 'PR'}
+[428/515] 05640-902 -> {'logradouro': 'Avenida Doutor Guilherme Dumont Vilares 1210/1230', 'bairro': 'Jardim Londrina', 'cidade': 'São Paulo', 'estado': 'SP'}
+[429/515] 90610-001 -> {'logradouro': 'Avenida Ipiranga', 'bairro': 'Partenon', 'cidade': 'Porto Alegre', 'estado': 'RS'}
+[430/515] 11704-105 -> {'logradouro': 'Avenida Presidente Kennedy', 'bairro': 'Ocian', 'cidade': 'Praia Grande', 'estado': 'SP'}
+[431/515] 04046-000 -> {'logradouro': 'Avenida Jabaquara', 'bairro': 'Mirandópolis', 'cidade': 'São Paulo', 'estado': 'SP'}
+[432/515] 20771-900 -> {'logradouro': 'Avenida Dom Hélder Câmara 5474', 'bairro': 'Cachambi', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[433/515] 05576-000 -> {'logradouro': 'Rodovia Raposo Tavares', 'bairro': 'Conjunto Residencial Butantã', 'cidade': 'São Paulo', 'estado': 'SP'}
+[434/515] 05402-300 -> {'logradouro': 'Avenida Rebouças', 'bairro': 'Pinheiros', 'cidade': 'São Paulo', 'estado': 'SP'}
+[435/515] ERRO ao buscar 50020-280: 
+[436/515] 14055-630 -> {'logradouro': 'Avenida Dom Pedro I', 'bairro': 'Ipiranga', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[437/515] 14020-750 -> {'logradouro': 'Avenida Maurílio Biagi', 'bairro': 'Santa Cruz do José Jacques', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[438/515] 14027-250 -> {'logradouro': 'Avenida Luiz Eduardo Toledo Prado', 'bairro': 'Vila do Golf', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[439/515] 14093-129 -> {'logradouro': 'Praça Presidente Vargas', 'bairro': 'Vila Abranches', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[440/515] 04123-030 -> {'logradouro': 'Avenida Doutor Ricardo Jafet', 'bairro': 'Vila Firmiano Pinto', 'cidade': 'São Paulo', 'estado': 'SP'}
+[441/515] 03471-000 -> {'logradouro': 'Rua Jorge Ogushi', 'bairro': 'Jardim Vila Formosa', 'cidade': 'São Paulo', 'estado': 'SP'}
+[442/515] 23045-830 -> {'logradouro': 'Estrada do Monteiro', 'bairro': 'Campo Grande', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[443/515] 80010-030 -> {'logradouro': 'Praça Rui Barbosa', 'bairro': 'Centro', 'cidade': 'Curitiba', 'estado': 'PR'}
+[444/515] 09720-000 -> {'logradouro': 'Avenida Brigadeiro Faria Lima', 'bairro': 'Centro', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[445/515] 04674-150 -> {'logradouro': 'Rua Moacir Simões da Rocha', 'bairro': 'Jardim Itapeva', 'cidade': 'São Paulo', 'estado': 'SP'}
+[446/515] 13327-300 -> {'logradouro': 'Avenida José Maria Marques de Oliveira', 'bairro': 'Vila Norma', 'cidade': 'Salto', 'estado': 'SP'}
+[447/515] 41940-060 -> {'logradouro': 'Avenida Juracy Magalhães Júnior', 'bairro': 'Rio Vermelho', 'cidade': 'Salvador', 'estado': 'BA'}
+[448/515] 13456-625 -> {'logradouro': 'Rua do Osmio', 'bairro': 'Jardim Mollon', 'cidade': "Santa Bárbara D'Oeste", 'estado': 'SP'}
+[449/515] 02402-200 -> {'logradouro': 'Rua Voluntários da Pátria', 'bairro': 'Santana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[450/515] 09290-520 -> {'logradouro': 'Avenida dos Estados', 'bairro': 'Parque Jaçatuba', 'cidade': 'Santo André', 'estado': 'SP'}
+[451/515] 09190-695 -> {'logradouro': 'Praça Engenheiro Roldão dos Santos Ferreira', 'bairro': 'Paraíso', 'cidade': 'Santo André', 'estado': 'SP'}
+[452/515] 09071-220 -> {'logradouro': 'Praça Uirapuru', 'bairro': 'Santa Maria', 'cidade': 'Santo André', 'estado': 'SP'}
+[453/515] 11020-002 -> {'logradouro': 'Avenida Affonso Penna', 'bairro': 'Aparecida', 'cidade': 'Santos', 'estado': 'SP'}
+[454/515] 11015-440 -> {'logradouro': 'Praça Padre Champagnat', 'bairro': 'Encruzilhada', 'cidade': 'Santos', 'estado': 'SP'}
+[455/515] 11065-400 -> {'logradouro': 'Avenida General Francisco Glicério', 'bairro': 'Encruzilhada', 'cidade': 'Santos', 'estado': 'SP'}
+[456/515] 04021-001 -> {'logradouro': 'Rua Sena Madureira', 'bairro': 'Vila Clementino', 'cidade': 'São Paulo', 'estado': 'SP'}
+[457/515] 78040-365 -> {'logradouro': 'Avenida Miguel Sutil', 'bairro': 'Santa Rosa', 'cidade': 'Cuiabá', 'estado': 'MT'}
+[458/515] 03527-900 -> {'logradouro': 'Avenida Aricanduva', 'bairro': 'Jardim Santa Terezinha (Zona Leste)', 'cidade': 'São Paulo', 'estado': 'SP'}
+[459/515] 05402-600 -> {'logradouro': 'Avenida Rebouças', 'bairro': 'Pinheiros', 'cidade': 'São Paulo', 'estado': 'SP'}
+[460/515] 18016-510 -> {'logradouro': 'Rua Antônio Fernandes', 'bairro': 'Jardim Gonçalves', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[461/515] 18076-005 -> {'logradouro': 'Avenida Itavuvu', 'bairro': 'Jardim Maria Antônia Prado', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[462/515] 18050-000 -> {'logradouro': 'Avenida Doutor Armando Pannunzio', 'bairro': 'Jardim Vera Cruz', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[463/515] 18030-005 -> {'logradouro': 'Avenida Comendador Pereira Inácio', 'bairro': 'Jardim Vergueiro', 'cidade': 'Sorocaba', 'estado': 'SP'}
+[464/515] 05016-090 -> {'logradouro': 'Avenida Sumaré', 'bairro': 'Perdizes', 'cidade': 'São Paulo', 'estado': 'SP'}
+[465/515] 13171-065 -> {'logradouro': 'Avenida Rebouças', 'bairro': 'Jardim Paulista', 'cidade': 'Sumaré', 'estado': 'SP'}
+[466/515] 09725-001 -> {'logradouro': 'Rua Jurubatuba', 'bairro': 'Centro', 'cidade': 'São Bernardo do Campo', 'estado': 'SP'}
+[467/515] 09530-200 -> {'logradouro': 'Avenida Guido Aliberti', 'bairro': 'Santo Antônio', 'cidade': 'São Caetano do Sul', 'estado': 'SP'}
+[468/515] 13561-352 -> {'logradouro': 'Passeio dos Flamboyants', 'bairro': 'Parque Faber Castell I', 'cidade': 'São Carlos', 'estado': 'SP'}
+[469/515] 15046-265 -> {'logradouro': 'Avenida Domingos Falavina', 'bairro': 'Jardim Marajó', 'cidade': 'São José do Rio Preto', 'estado': 'SP'}
+[470/515] 15093-340 -> {'logradouro': 'Avenida Presidente Juscelino Kubitschek de Oliveira', 'bairro': 'Iguatemi', 'cidade': 'São José do Rio Preto', 'estado': 'SP'}
+[471/515] 12246-840 -> {'logradouro': 'Avenida Deputado Benedito Matarazzo', 'bairro': 'Parque Residencial Aquarius', 'cidade': 'São José dos Campos', 'estado': 'SP'}
+[472/515] 12235-050 -> {'logradouro': 'Rua Andorra', 'bairro': 'Jardim América', 'cidade': 'São José dos Campos', 'estado': 'SP'}
+[473/515] 12245-030 -> {'logradouro': "Avenida Doutor Nelson D'Avila", 'bairro': 'Jardim São Dimas', 'cidade': 'São José dos Campos', 'estado': 'SP'}
+[474/515] 83005-450 -> {'logradouro': 'Avenida das Torres', 'bairro': 'São Pedro', 'cidade': 'São José dos Pinhais', 'estado': 'PR'}
+[475/515] 04045-003 -> {'logradouro': 'Avenida Jabaquara', 'bairro': 'Mirandópolis', 'cidade': 'São Paulo', 'estado': 'SP'}
+[476/515] 11320-001 -> {'logradouro': 'Avenida Presidente Wilson', 'bairro': 'Itararé', 'cidade': 'São Vicente', 'estado': 'SP'}
+[477/515] 03308-050 -> {'logradouro': 'Rua Visconde de Itaboraí', 'bairro': 'Vila Azevedo', 'cidade': 'São Paulo', 'estado': 'SP'}
+[478/515] 12081-810 -> {'logradouro': 'Avenida Dom Pedro I', 'bairro': 'Terra Nova', 'cidade': 'Taubaté', 'estado': 'SP'}
+[479/515] 12040-000 -> {'logradouro': 'Avenida Charles Schnneider', 'bairro': 'Parque Senhor do Bonfim', 'cidade': 'Taubaté', 'estado': 'SP'}
+[480/515] 05418-020 -> {'logradouro': 'Rua Navarro de Andrade', 'bairro': 'Pinheiros', 'cidade': 'São Paulo', 'estado': 'SP'}
+[481/515] 04833-000 -> {'logradouro': 'Avenida Senador Teotônio Vilela', 'bairro': 'Vila São José (Cidade Dutra)', 'cidade': 'São Paulo', 'estado': 'SP'}
+[482/515] 04007-002 -> {'logradouro': 'Rua Tutóia', 'bairro': 'Vila Mariana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[483/515] 38050-590 -> {'logradouro': 'Praça Santos Dumont', 'bairro': 'Santos Dumont', 'cidade': 'Uberaba', 'estado': 'MG'}
+[484/515] 13271-570 -> {'logradouro': 'Rua Luiz Spiandorelli Neto', 'bairro': 'Loteamento Paiquerê', 'cidade': 'Valinhos', 'estado': 'SP'}
+[485/515] 22775-904 -> {'logradouro': 'Avenida Ayrton Senna 3000', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
+[486/515] 94440-000 -> {'logradouro': 'Avenida Senador Salgado Filho', 'bairro': 'Querência', 'cidade': 'Viamão', 'estado': 'RS'}
+[487/515] 29107-900 -> {'logradouro': 'Rua Luciano das Neves 2418', 'bairro': 'Divino Espírito Santo', 'cidade': 'Vila Velha', 'estado': 'ES'}
+[488/515] 05319-010 -> {'logradouro': 'Rua Manoel Velasco', 'bairro': 'Vila Hamburguesa', 'cidade': 'São Paulo', 'estado': 'SP'}
+[489/515] 13289-020 -> {'logradouro': 'Estrada da Boiada', 'bairro': 'Santa Rosa', 'cidade': 'Vinhedo', 'estado': 'SP'}
+[490/515] 78125-100 -> {'logradouro': 'Avenida Presidente Arthur Bernardes', 'bairro': 'Centro-Sul', 'cidade': 'Várzea Grande', 'estado': 'MT'}
+[491/515] 05001-000 -> {'logradouro': 'Avenida Francisco Matarazzo', 'bairro': 'Água Branca', 'cidade': 'São Paulo', 'estado': 'SP'}
+[492/515] 60170-078 -> {'logradouro': 'Avenida Senador Virgílio Távora', 'bairro': 'Aldeota', 'cidade': 'Fortaleza', 'estado': 'CE'}
+[493/515] 66023-570 -> {'logradouro': 'Travessa São Pedro', 'bairro': 'Campina', 'cidade': 'Belém', 'estado': 'PA'}
+[494/515] 71919-000 -> {'logradouro': 'Rua 35', 'bairro': 'Norte (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
+[495/515] 61765-070 -> {'logradouro': 'Avenida Eusébio de Queiroz', 'bairro': 'Coité', 'cidade': 'Eusébio', 'estado': 'CE'}
+[496/515] 74140-020 -> {'logradouro': 'Avenida Portugal', 'bairro': 'Setor Oeste', 'cidade': 'Goiânia', 'estado': 'GO'}
+[497/515] 58102-835 -> {'logradouro': 'Avenida Governador Flávio Ribeiro Coutinho', 'bairro': 'Parque Verde', 'cidade': 'Cabedelo', 'estado': 'PB'}
+[498/515] 40150-120 -> {'logradouro': 'Avenida Euclydes da Cunha', 'bairro': 'Graça', 'cidade': 'Salvador', 'estado': 'BA'}
+[499/515] 41820-910 -> {'logradouro': 'Avenida Tancredo Neves 2915', 'bairro': 'Caminho das Árvores', 'cidade': 'Salvador', 'estado': 'BA'}
+[500/515] 59020-510 -> {'logradouro': 'Avenida Prudente de Morais', 'bairro': 'Tirol', 'cidade': 'Natal', 'estado': 'RN'}
+[501/515] 04627-002 -> {'logradouro': 'Avenida Washington Luís', 'bairro': 'Santo Amaro', 'cidade': 'São Paulo', 'estado': 'SP'}
+[502/515] 02525-050 -> {'logradouro': 'Rua Frei Machado', 'bairro': 'Jardim São Bento', 'cidade': 'São Paulo', 'estado': 'SP'}
+[503/515] 04616-001 -> {'logradouro': 'Rua Pascal', 'bairro': 'Campo Belo', 'cidade': 'São Paulo', 'estado': 'SP'}
+[504/515] 16202-055 -> {'logradouro': 'Avenida Cidade Jardim', 'bairro': 'Jardim São Braz', 'cidade': 'Birigüi', 'estado': 'SP'}
+[505/515] 04520-000 -> {'logradouro': 'Avenida Juriti', 'bairro': 'Vila Uberabinha', 'cidade': 'São Paulo', 'estado': 'SP'}
+[506/515] 01426-000 -> {'logradouro': 'Rua Oscar Freire', 'bairro': 'Cerqueira César', 'cidade': 'São Paulo', 'estado': 'SP'}
+[507/515] 05015-000 -> {'logradouro': 'Rua Ministro Godói', 'bairro': 'Perdizes', 'cidade': 'São Paulo', 'estado': 'SP'}
+[508/515] 11030-350 -> {'logradouro': 'Avenida Dino Bueno', 'bairro': 'Ponta da Praia', 'cidade': 'Santos', 'estado': 'SP'}
+[509/515] 09040-011 -> {'logradouro': 'Avenida Portugal', 'bairro': 'Centro', 'cidade': 'Santo André', 'estado': 'SP'}
+[510/515] 14027-000 -> {'logradouro': 'Avenida Doutor Ângelo Gennaro Gallo', 'bairro': 'Jardim Nova Aliança Sul', 'cidade': 'Ribeirão Preto', 'estado': 'SP'}
+[511/515] 11055-000 -> {'logradouro': 'Avenida Washington Luís', 'bairro': 'Gonzaga', 'cidade': 'Santos', 'estado': 'SP'}
+[512/515] 04671-072 -> {'logradouro': 'Rua Sócrates', 'bairro': 'Vila Sofia', 'cidade': 'São Paulo', 'estado': 'SP'}
+[513/515] 03310-010 -> {'logradouro': 'Rua Airi', 'bairro': 'Vila Gomes Cardim', 'cidade': 'São Paulo', 'estado': 'SP'}
+[514/515] 04007-001 -> {'logradouro': 'Rua Tutóia', 'bairro': 'Vila Mariana', 'cidade': 'São Paulo', 'estado': 'SP'}
+[515/515] 01401-002 -> {'logradouro': 'Avenida Brigadeiro Luís Antônio', 'bairro': 'Jardim Paulista', 'cidade': 'São Paulo', 'estado': 'SP'}
+>> Campo 'logradouro' preenchido com base no CEP.
+>> Campo 'bairro' preenchido com base no CEP.
+>> Campo 'cidade' preenchido com base no CEP.
+>> Campo 'estado' preenchido com base no CEP.
+>> Preenchimento concluído com sucesso!
+         cep                             logradouro                                    bairro          cidade estado
+0  22775-040      Avenida Embaixador Abelardo Bueno                           Barra da Tijuca  Rio de Janeiro     RJ
+1  01534-000                     Rua Muniz de Sousa                                 Aclimação       São Paulo     SP
+2  79005-671                   Avenida Bandeirantes                                   Amambaí    Campo Grande     MS
+3  50050-290  Avenida Governador Agamenon Magalhães                                 Boa Vista          Recife     PE
+4  71928-720                     Avenida Sibipiruna                        Sul (Águas Claras)        Brasília     DF
+5  01419-001                         Alameda Santos                           Cerqueira César       São Paulo     SP
+6  60120-001               Avenida Barão de Studart                                   Aldeota       Fortaleza     CE
+7  06472-010                     Avenida Alphaville  Dezoito do Forte Empresarial/Alphaville.         Barueri     SP
+8  04734-004                Avenida Adolfo Pinheiro                               Santo Amaro       São Paulo     SP
+9  13478-580                       Avenida Paulista              Vila Nossa Senhora de Fátima       Americana     SP
+
+Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
