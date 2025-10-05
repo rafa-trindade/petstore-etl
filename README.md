@@ -28,8 +28,8 @@ As principais colunas tratadas e enriquecidas são:
 
 ```mermaid
 graph TD
-    A[petstore-scraping<br>Bronze] --> B[petstore-etl<br>Silver e Gold]
-    B --> C[[petstore-bi<br>BI e dashboards]]
+    A[petstore-scraping<br>Bronze] --> B[[petstore-etl<br>Silver e Gold]]
+    B --> C[petstore-bi<br>BI e dashboards]
 ```
 
 ---
