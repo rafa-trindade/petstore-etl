@@ -105,18 +105,9 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ---
 
-## 🔗 Integração com projetos de transformação
+## 🔗 Integração com projeto de BI
 
-Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards
-
-Exemplo de leitura de CSV bruto:
-
-```python
-import pandas as pd
-
-df = pd.read_csv("data/bronze/lojas_bronze.csv", sep=";", encoding="utf-8")
-```
-
+Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards.
 
 ## 🚀 Possíveis usos
 
