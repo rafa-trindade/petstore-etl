@@ -14,7 +14,7 @@ O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore
 
 * **🟤 Extractc (Bronze):** coleta dos arquivos brutos disponibilizados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) via link público (raw).  
 * **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.  
-* **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no `petstore-bi`.
+* **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi).
 
 ---
 
