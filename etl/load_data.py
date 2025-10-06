@@ -3,7 +3,6 @@ from sqlalchemy import text
 from config.db_config import engine
 
 csv_path = "data/gold/lojas_gold.csv"
-
 table_name = "lojas_gold"
 
 def load_data():
@@ -15,6 +14,11 @@ def load_data():
     df['data_extracao'] = pd.to_datetime(df['data_extracao'], errors='coerce').dt.date
     df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
     df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
+
+    df['nome'] = df['nome'].astype(str).str.strip().str.lower()
+    df['logradouro'] = df['logradouro'].astype(str).str.strip().str.lower()
+
+    df = df.drop_duplicates(subset=['nome', 'logradouro'])
 
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS {table_name} (
@@ -74,11 +78,19 @@ def load_data():
     """
 
     with engine.begin() as conn:
+        total_antes = conn.execute(text(f"SELECT COUNT(*) FROM {table_name};")).scalar()
+        print(f"--- Registros antes da carga: {total_antes}")
+
         conn.execute(text(upsert_query))
+
+        total_depois = conn.execute(text(f"SELECT COUNT(*) FROM {table_name};")).scalar()
+        print(f"--- Registros depois da carga: {total_depois}")
+
         conn.execute(text(f"DROP TABLE IF EXISTS {temp_table};"))
-        print(f"5 Dados mesclados na tabela '{table_name}' com sucesso.")
+        print(f"5. Dados mesclados na tabela '{table_name}' com sucesso.")
 
     print("6. Processo de carga concluído com sucesso!")
+
 
 if __name__ == "__main__":
     load_data()

@@ -71,5 +71,23 @@ def main():
         print(e)
 
 
+def run_test():
+    gold_path = os.path.join(GOLD_DIR, "lojas_gold.csv")
+    df_gold = pd.read_csv(gold_path, sep=";", encoding="utf-8-sig")
+
+    print("\n----------------------------------------------")
+    print("- Load - Carregando no Banco de Dados...")
+    print("----------------------------------------------")
+
+    df_gold['data_extracao'] = pd.to_datetime(df_gold['data_extracao'], errors='coerce').dt.date
+    try:
+        load_data()
+        print("7. Dados carregados com sucesso no PostgreSQL.")
+    except Exception as e:
+        print("\nErro durante a etapa de carga:")
+        print(e)
+
+
 if __name__ == "__main__":
     main()
+    #run_test()

@@ -135,7 +135,9 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 2. Tabela 'lojas_gold' verificada/criada com sucesso.
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
-5 Dados mesclados na tabela 'lojas_gold' com sucesso.
+--- Registros antes da carga: 0
+--- Registros depois da carga: 533
+5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
 ```
