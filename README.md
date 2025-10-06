@@ -61,7 +61,6 @@ graph TD
 ## ⚙️ Tecnologias e Bibliotecas `petstore-etl`
 
 * [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
-* [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidades e estados  
 * [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
 * [**numpy**](https://pypi.org/project/numpy/) → operações numéricas e vetoriais  
 * [**tabulate**](https://pypi.org/project/tabulate/) → exibição de tabelas no terminal de forma legível  
@@ -70,7 +69,7 @@ graph TD
 * [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
 
 
-O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado).  
+O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
 
 > Identificação da aplicação: `USER_AGENT = "petstore-etl/1.0"`
 
@@ -87,46 +86,15 @@ Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
 - Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
 
 ----------------------------------------------
-- Camada Silver - Transformando Dados...
+- Camada Silver / Gold - Padronizando Dados...
 ----------------------------------------------
-Processado 1/533: petz - Petz Abelardo Bueno
-Processado 2/533: petz - Petz Aclimação
-Processado 3/533: petz - Petz Afonso Pena
-Processado 4/533: petz - Petz Agamenon
-Processado 5/533: petz - Petz Águas Claras
+Processando (1/533): Petz - Petz Abelardo Bueno
+Processando (2/533): Petz - Petz Aclimação
+Processando (3/533): Petz - Petz Afonso Pena
+Processando (4/533): Petz - Petz Agamenon
+Processando (5/533): Petz - Petz Águas Claras
 ...
-Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
-
-----------------------------------------------
-- Camada Gold - Padronizando Dados...
-----------------------------------------------
->> type(df): <class 'pandas.core.frame.DataFrame'>
->> shape: (533, 9)
->> colunas: ['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'cep', 'latitude', 'longitude']
->> colunas de endereço garantidas no DataFrame.
->> 515 CEP(s) únicos encontrados para consulta (ex.: ['22775-040' '01534-000' '79005-671' '50050-290' '71928-720'])
-[1/515] 22775-040 -> {'logradouro': 'Avenida Embaixador Abelardo Bueno', 'bairro': 'Barra da Tijuca', 'cidade': 'Rio de Janeiro', 'estado': 'RJ'}
-[2/515] 01534-000 -> {'logradouro': 'Rua Muniz de Sousa', 'bairro': 'Aclimação', 'cidade': 'São Paulo', 'estado': 'SP'}
-[3/515] 79005-671 -> {'logradouro': 'Avenida Bandeirantes', 'bairro': 'Amambaí', 'cidade': 'Campo Grande', 'estado': 'MS'}
-[4/515] 50050-290 -> {'logradouro': 'Avenida Governador Agamenon Magalhães', 'bairro': 'Boa Vista', 'cidade': 'Recife', 'estado': 'PE'}
-[5/515] 71928-720 -> {'logradouro': 'Avenida Sibipiruna', 'bairro': 'Sul (Águas Claras)', 'cidade': 'Brasília', 'estado': 'DF'}
-...
->> Campo 'logradouro' preenchido com base no CEP.
->> Campo 'bairro' preenchido com base no CEP.
->> Campo 'cidade' preenchido com base no CEP.
->> Campo 'estado' preenchido com base no CEP.
->> Preenchimento concluído com sucesso!
-         cep                             logradouro                                    bairro          cidade estado
-0  22775-040      Avenida Embaixador Abelardo Bueno                           Barra da Tijuca  Rio de Janeiro     RJ
-1  01534-000                     Rua Muniz de Sousa                                 Aclimação       São Paulo     SP
-2  79005-671                   Avenida Bandeirantes                                   Amambaí    Campo Grande     MS
-3  50050-290  Avenida Governador Agamenon Magalhães                                 Boa Vista          Recife     PE
-4  71928-720                     Avenida Sibipiruna                        Sul (Águas Claras)        Brasília     DF
-5  01419-001                         Alameda Santos                           Cerqueira César       São Paulo     
-...
-
 Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
-
 
 ----------------------------------------------
 - Load - Carregando no Banco de Dados...
@@ -140,6 +108,7 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
+
 ```
 🔗 [Ver log completo](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
 

@@ -2,10 +2,9 @@ import pandas as pd
 from sqlalchemy import text
 from config.db_config import engine
 
-csv_path = "data/gold/lojas_gold.csv"
 table_name = "lojas_gold"
 
-def load_data():
+def load_data(csv_path):
     print("1. Iniciando processo de carga...")
 
     df = pd.read_csv(csv_path, sep=";", encoding="utf-8-sig")

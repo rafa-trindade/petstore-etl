@@ -1,129 +1,57 @@
-import pandas as pd
+import os
 import requests
-import re
-import time
-import traceback
-from brazilcep import get_address_from_cep
+import pandas as pd
+from dotenv import load_dotenv
 
-USER_AGENT = "petstore-etl/1.0"
+load_dotenv()
 
-def padronizar_logradouro(logradouro_full):
-    if not logradouro_full:
-        return None
-    logradouro = re.sub(r'\s*(?:,|\d+).*$', '', logradouro_full)
-    return logradouro.strip()
+API_TOKEN = os.getenv("API_TOKEN")
+HEADERS = {"Authorization": f"Token {API_TOKEN}"}
 
-def preencher_dados(endereco, cidade, estado):
-    if pd.isna(endereco) or pd.isna(cidade):
-        return None, endereco, None, None, estado
+def normaliza_endereco(df):
+    df["cep"] = df["cep"].astype(str).str.strip()
 
-    params = {
-        "street": endereco,
-        "city": cidade,
-        "state": estado if pd.notna(estado) else "",
-        "country": "Brasil",
-        "format": "json",
-        "addressdetails": 1,
-        "limit": 1
-    }
+    total = len(df)
+    contador = {"i": 0}
 
-    try:
-        resp = requests.get(
-            "https://nominatim.openstreetmap.org/search",
-            params=params,
-            headers={"User-Agent": USER_AGENT},
-            timeout=5
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        if not data:
-            return None, endereco, None, None, estado
+    def atualiza_linha(row):
+        contador["i"] += 1
+        i = contador["i"]
+        cep_limpo = row["cep"].replace("-", "").strip()
+        print(f"Processando ({i}/{total}): {row['empresa'].capitalize()} - {row['nome']}")
 
-        address = data[0].get("address", {})
-        logradouro_full = address.get("road") or endereco
-        logradouro = padronizar_logradouro(logradouro_full)
-        latitude = float(data[0].get("lat")) if data[0].get("lat") else None
-        longitude = float(data[0].get("lon")) if data[0].get("lon") else None
+        if not cep_limpo or cep_limpo.lower() in ["nan", "none", ""]:
+            row["cep"] = "indisponivel"
+            return row
 
-        estado_api = address.get("state")
-        siglas = {
-            "Acre": "AC", "Alagoas": "AL", "Amapá": "AP", "Amazonas": "AM",
-            "Bahia": "BA", "Ceará": "CE", "Distrito Federal": "DF", "Espírito Santo": "ES",
-            "Goiás": "GO", "Maranhão": "MA", "Mato Grosso": "MT", "Mato Grosso do Sul": "MS",
-            "Minas Gerais": "MG", "Pará": "PA", "Paraíba": "PB", "Paraná": "PR",
-            "Pernambuco": "PE", "Piauí": "PI", "Rio de Janeiro": "RJ", "Rio Grande do Norte": "RN",
-            "Rio Grande do Sul": "RS", "Rondônia": "RO", "Roraima": "RR", "Santa Catarina": "SC",
-            "São Paulo": "SP", "Sergipe": "SE", "Tocantins": "TO"
-        }
-        estado_sigla = siglas.get(estado_api, estado) if estado_api else estado
+        if not cep_limpo.isdigit() or len(cep_limpo) != 8:
+            row["cep"] = "invalido"
+            return row
 
-        return address.get("postcode"), logradouro, latitude, longitude, estado_sigla
+        url = f"https://www.cepaberto.com/api/v3/cep?cep={cep_limpo}"
+        response = requests.get(url, headers=HEADERS)
 
-    except Exception as e:
-        print(f"Erro ao consultar {endereco}, {cidade}: {e}")
-        return None, endereco, None, None, estado
+        if response.status_code == 200:
+            data = response.json()
 
+            if not data or (not data.get("logradouro") and not data.get("bairro") and not data.get("cidade")):
+                print(f" - CEP {cep_limpo} não reconhecido pela API.")
+                row["cep"] = "invalido"
+                return row
 
-def preencher_endereco_campos(df, coluna_cep='cep'):
-    print(">> type(df):", type(df))
-    if not isinstance(df, pd.DataFrame):
-        raise TypeError("df não é um pandas.DataFrame. Verifique a variável.")
-    print(">> shape:", df.shape)
-    print(">> colunas:", df.columns.tolist())
+            row["logradouro"] = data.get("logradouro", row.get("logradouro"))
+            row["bairro"] = data.get("bairro", row.get("bairro"))
+            row["cidade"] = data.get("cidade", {}).get("nome", row.get("cidade"))
+            row["estado"] = data.get("estado", {}).get("sigla", row.get("estado"))
+            row["latitude"] = data.get("latitude", row.get("latitude"))
+            row["longitude"] = data.get("longitude", row.get("longitude"))
+            row["cep"] = f"{cep_limpo[:5]}-{cep_limpo[5:]}"
+        else:
+            print(f" - Erro ao consultar API: {response.status_code}")
 
-    if coluna_cep not in df.columns:
-        raise KeyError(f"Coluna '{coluna_cep}' não encontrada no DataFrame.")
+            row["cep"] = "invalido"
 
-    for col in ['logradouro', 'bairro', 'cidade', 'estado']:
-        if col not in df.columns:
-            df[col] = None
-    print(">> colunas de endereço garantidas no DataFrame.")
+        return row
 
-    ceps = df.loc[df[coluna_cep].notna(), coluna_cep].astype(str).str.strip().unique()
-    print(f">> {len(ceps)} CEP(s) únicos encontrados para consulta (ex.: {ceps[:5]})")
-
-    cache = {}
-    for i, cep in enumerate(ceps, start=1):
-        if cep in cache:
-            continue
-        try:
-            e = get_address_from_cep(cep)
-            cache[cep] = {
-                'logradouro': e.get('street'),
-                'bairro': e.get('complement') or e.get('district'),
-                'cidade': e.get('city'),
-                'estado': e.get('uf')
-            }
-            print(f"[{i}/{len(ceps)}] {cep} -> {cache[cep]}")
-        except Exception as exc:
-            cache[cep] = {'logradouro': None, 'bairro': None, 'cidade': None, 'estado': None}
-            print(f"[{i}/{len(ceps)}] ERRO ao buscar {cep}: {exc}")
-        time.sleep(0.1)
-
-    def map_cache(cep, campo):
-        if pd.isna(cep):
-            return None
-        cep = str(cep).strip()
-        return cache.get(cep, {}).get(campo)
-
-    for campo in ['logradouro', 'bairro', 'cidade', 'estado']:
-        df[campo] = df[coluna_cep].apply(lambda x: map_cache(x, campo))
-        print(f">> Campo '{campo}' preenchido com base no CEP.")
-
-    print(">> Preenchimento concluído com sucesso!")
-    print(df[['cep', 'logradouro', 'bairro', 'cidade', 'estado']].head(10))
-    return df
-
-    def map_cache(cep, campo):
-        if pd.isna(cep):
-            return None
-        cep = str(cep).strip()
-        return cache.get(cep, {}).get(campo)
-
-    for campo in ['endereco', 'bairro', 'cidade', 'estado']:
-        df[campo] = df[coluna_cep].apply(lambda x: map_cache(x, campo))
-        print(f">> Campo '{campo}' preenchido com base no CEP.")
-
-    print(">> Preenchimento concluído com sucesso!")
-    print(df[['cep', 'endereco', 'bairro', 'cidade', 'estado']].head(10))
+    df = df.apply(atualiza_linha, axis=1)
     return df
