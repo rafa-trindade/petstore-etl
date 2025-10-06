@@ -78,7 +78,7 @@ def load_data():
         conn.execute(text(f"DROP TABLE IF EXISTS {temp_table};"))
         print(f"5 Dados mesclados na tabela '{table_name}' com sucesso.")
 
-    print("5. Processo de carga concluído com sucesso!")
+    print("6. Processo de carga concluído com sucesso!")
 
 if __name__ == "__main__":
     load_data()

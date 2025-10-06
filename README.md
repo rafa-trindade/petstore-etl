@@ -18,12 +18,23 @@ O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore
 
 ---
 
-## 📊 Estrutura dos Dados
+## 📊 Estrutura dos Dados e Metadados
 
 As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) são:
 
-| id | empresa | nome | logradouro | bairro | cidade | estado | cep | latitude | longitude | data_extracao |
-| -- | ------- | ---- | ---------- | ------ | ------ | ------ | --- | -------- | --------- | ------------- |
+| Coluna        | Tipo   | Descrição                   | Valores possíveis / Observações | Unidade | Camada          | Origem       | Última Atualização |
+| ------------- | ------ | --------------------------- | ------------------------------- | ------- | --------------- | ------------ | ------------------ |
+| id            | string | Identificador único da loja | Sequencial (autoincrement)      | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| empresa       | string | Nome da rede                | Petz, Cobasi, Petlove...        | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| nome          | string | Nome da loja                | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| logradouro    | string | Logradouro simplificado     | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| bairro        | string | Bairro                      | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| cidade        | string | Cidade                      | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| estado        | string | Sigla do estado             | SP, RJ, MG...                   | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| cep           | string | CEP normalizado             | 00000-000                       | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
+| latitude      | float  | Latitude geográfica         | -90 a 90                        | graus   | Silver / Gold   | petstore-etl | 2025-10-06         |
+| longitude     | float  | Longitude geográfica        | -180 a 180                      | graus   | Silver / Gold   | petstore-etl | 2025-10-06         |
+| data_extracao | date   | Data da extração do dado    | YYYY-MM-DD                      | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
 
 ---
 
@@ -125,8 +136,8 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 5 Dados mesclados na tabela 'lojas_gold' com sucesso.
-5. Processo de carga concluído com sucesso!
-6. Dados carregados com sucesso no PostgreSQL.
+6. Processo de carga concluído com sucesso!
+7. Dados carregados com sucesso no PostgreSQL.
 ```
 🔗 [Ver log completo](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
 
