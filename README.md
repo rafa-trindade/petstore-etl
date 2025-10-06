@@ -2,9 +2,9 @@
 
 Projeto responsável pela **extração, transformação e carga (ETL)** de dados coletados pelo projeto [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping).  
 
-Esta etapa compõe as camadas **Silver e Gold** da arquitetura de dados, realizando **limpeza, padronização, enriquecimento e carga no banco de dados**.
+Esta etapa compõe as camadas **Silver e Gold** da arquitetura de dados, realizando **limpeza, padronização, enriquecimento e carga no PostgreSQL**.
 
-Os dados tratados nesse projeto serão consumidos pelo projeto [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) para BI e Dashboards.
+Os dados tratados e carregados no **PostgreSQL** nesse projeto serão consumidos pelo projeto [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) para BI e Dashboards.
 
 ---
 
@@ -13,7 +13,7 @@ Os dados tratados nesse projeto serão consumidos pelo projeto [`petstore-bi`](h
 O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) e executa as seguintes camadas:
 
 * **🟤 Extractc (Bronze):** coleta dos arquivos brutos disponibilizados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) via link público (raw).  
-* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.  
+* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.
 * **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi).
 
 ---
@@ -22,8 +22,8 @@ O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore
 
 As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) são:
 
-| empresa | nome | logradouro | bairro | cidade | estado | cep | latitude | longitude |
-| ------- | ---- | ---------- | ------ | ------ | ------ | --- | -------- | --------- |
+| id | empresa | nome | logradouro | bairro | cidade | estado | cep | latitude | longitude | data_extracao |
+| -- | ------- | ---- | ---------- | ------ | ------ | ------ | --- | -------- | --------- | ------------- |
 
 ---
 
@@ -31,7 +31,7 @@ As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) s
 
 ```mermaid
 graph TD
-    A[petstore-scraping<br>Bronze] --> B[[petstore-etl<br>Silver e Gold]]
+    A[petstore-scraping<br>Bronze] --> B[[petstore-etl<br>Silver e Gold<br>📦 PostgreSQL]]
     B --> C[petstore-bi<br>BI e Dashboards]
 ```
 
@@ -42,16 +42,22 @@ graph TD
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
 | [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) | Coleta de Dados de Franquias | 🟤 Bronze | Selenium, BeautifulSoup4, lxml, pandas |
-| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, Nominatim |
-| [`petstore-bi`](https://github.com/rafa-trindade/petstore-etl) | BIo e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
+| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, numpy, tabulate, SQLAlchemy, psycopg2-binary, python-dotenv |
+| [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) | BI e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
 
 ---
 
 ## ⚙️ Tecnologias e Bibliotecas `petstore-etl`
 
 * [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
-* [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidade e estado  
-* [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas
+* [**brazilcep**](https://pypi.org/project/brazilcep/) → padronização de logradouros, bairros, cidades e estados  
+* [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
+* [**numpy**](https://pypi.org/project/numpy/) → operações numéricas e vetoriais  
+* [**tabulate**](https://pypi.org/project/tabulate/) → exibição de tabelas no terminal de forma legível  
+* [**SQLAlchemy**](https://pypi.org/project/SQLAlchemy/) → conexão e manipulação de bancos de dados SQL de forma programática  
+* [**psycopg2-binary**](https://pypi.org/project/psycopg2-binary/) → driver PostgreSQL para Python  
+* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
+
 
 O projeto utiliza a API **Nominatim (OpenStreetMap)** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado).  
 
@@ -109,6 +115,18 @@ Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
 ...
 
 Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
+
+
+----------------------------------------------
+- Load - Carregando no Banco de Dados...
+----------------------------------------------
+1. Iniciando processo de carga...
+2. Tabela 'lojas_gold' verificada/criada com sucesso.
+3. Constraint única verificada/criada.
+4. Dados carregados na tabela temporária 'lojas_gold_staging'.
+5 Dados mesclados na tabela 'lojas_gold' com sucesso.
+5. Processo de carga concluído com sucesso!
+6. Dados carregados com sucesso no PostgreSQL.
 ```
 🔗 [Ver log completo](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
 
@@ -116,13 +134,21 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ## 🔗 Integração com Projeto de BI
 
-Os arquivos gerados na pasta `data/gold/` devem ser consumidos pelo projeto **`petstore-bi`** BI e Dashboards.
+Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumidos pelo projeto **`petstore-bi`** para BI e Dashboards.
+
+---
+
+## 🗄️ Tabela Temporária `lojas_gold_staging`
+
+- Durante o processo de carga, os dados do CSV são inseridos nessa tabela temporária.  
+- Em seguida, é feito o **UPSERT** para a tabela principal `lojas_gold`, garantindo que não haja duplicatas.  
+- Ao final da execução, a tabela `lojas_gold_staging` é **removida automaticamente**, garantindo que apenas os dados finais permaneçam na tabela principal.
 
 ---
 
 ## 🏪 Redes Suportadas
 
-Atualmente, o projeto coleta dados das seguintes redes:
+Atualmente, o projeto coleta e trata dados das seguintes redes:
 
 * **Petz**
 * **Cobasi**

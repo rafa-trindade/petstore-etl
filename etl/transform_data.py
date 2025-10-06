@@ -14,7 +14,7 @@ def transform_data_silver(csv_path):
     df_silver["latitude"] = pd.to_numeric(df_silver["latitude"], errors="coerce")
     df_silver["longitude"] = pd.to_numeric(df_silver["longitude"], errors="coerce")
     df_silver = df_silver.rename(columns={"endereco": "logradouro"})
-    df_silver = df_silver[["empresa", "nome", "logradouro", "bairro", "cidade", "estado", "cep", "latitude", "longitude"]]
+    df_silver = df_silver[["empresa", "nome", "logradouro", "bairro", "cidade", "estado", "cep", "latitude", "longitude", "data_extracao"]]
 
     #df_silver = df_silver.head(5) #sample 
 

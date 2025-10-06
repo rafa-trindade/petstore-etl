@@ -3,6 +3,7 @@ import sys
 import pandas as pd
 from etl.extract_data import extract_data
 from etl.transform_data import transform_data_silver, transform_data_gold
+from etl.load_data import load_data
 from datetime import datetime
 
 class Logger:
@@ -57,6 +58,17 @@ def main():
     df_gold = transform_data_gold(gold_path)
     df_gold.to_csv(gold_path, index=False, sep=";", encoding="utf-8-sig")
     print(f"\nProcesso concluído. Arquivo salvo em: {gold_path}")
+
+    print("\n----------------------------------------------")
+    print("- Load - Carregando no Banco de Dados...")
+    print("----------------------------------------------")
+    df_gold['data_extracao'] = pd.to_datetime(df_gold['data_extracao'], errors='coerce').dt.date
+    try:
+        load_data()
+        print("6. Dados carregados com sucesso no PostgreSQL.")
+    except Exception as e:
+        print("\nErro durante a etapa de carga:")
+        print(e)
 
 
 if __name__ == "__main__":

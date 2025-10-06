@@ -3,3 +3,6 @@ pandas
 requests
 numpy
 brazilcep
+sqlalchemy
+psycopg2-binary
+python-dotenv
