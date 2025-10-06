@@ -31,7 +31,7 @@ As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) s
 
 ```mermaid
 graph TD
-    A[petstore-scraping<br>Bronze] --> B[[petstore-etl<br>Silver e Gold<br>📦 PostgreSQL]]
+    A[petstore-scraping<br>Bronze] --> B[[petstore-etl<br>Silver e Gold<br>PostgreSQL]]
     B --> C[petstore-bi<br>BI e Dashboards]
 ```
 
