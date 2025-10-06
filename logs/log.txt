@@ -1095,5 +1095,4 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 5 Dados mesclados na tabela 'lojas_gold' com sucesso.
 5. Processo de carga concluído com sucesso!
-
 6. Dados carregados com sucesso no PostgreSQL.
