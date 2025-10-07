@@ -4,6 +4,7 @@ import pandas as pd
 from etl.extract_data import extract_data
 from etl.transform_data import transform_data_silevr_gold
 from etl.load_data import load_data
+from etl.utils import preencher_coordenadas
 from datetime import datetime
 
 class Logger:
@@ -62,8 +63,27 @@ def main():
         print(e)
 
 
-#def run_test():
+def data_gold():
+    print("\n----------------------------------------------")
+    print("- Load - Carregando no Banco de Dados...")
+    print("----------------------------------------------")
+    try:
+        gold_copy_path = os.path.join(GOLD_DIR, "lojas_gold_copy.csv")
+
+        df_gold_final = pd.read_csv(gold_copy_path, sep=";", encoding="utf-8")
+        df_gold_final = preencher_coordenadas(df_gold_final)
+
+        gold_copy_final_path = os.path.join(GOLD_DIR, "lojas_gold_final.csv")
+        df_gold_final.to_csv(gold_copy_final_path, index=False, sep=";", encoding="utf-8-sig")
+
+        load_data(gold_copy_final_path)
+
+        print("7. Dados carregados com sucesso no PostgreSQL.")
+    except Exception as e:
+        print("\nErro durante a etapa de carga:")
+        print(e)
+
 
 if __name__ == "__main__":
     main()
-    #run_test()
+    #data_gold()

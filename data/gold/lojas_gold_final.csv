@@ -37,7 +37,7 @@ petz;Petz Barreiro;Avenida Sinfrônio Brochado;Barreiro;Belo Horizonte;MG;30640-
 petz;Petz Bauru;Rua Rubens Pagani;Jardim Estoril IV;Bauru;SP;17016-210;-22.314459;-49.0586951;07/10/2025
 petz;Petz Belém;Avenida Nazaré;Nazaré;Belém;PA;66035-445;-1.454061;-48.4812248;07/10/2025
 petz;Petz Belford Roxo;Avenida Prefeito Jorge Júlio Costa dos Santos;Centro;Belford Roxo;RJ;26130-010;-22.7645391;-43.3996264;07/10/2025
-petz;Petz Bento Gonçalves;R. Fortaleza, 362;Botafogo;Bento Gonçalves;RS;invalido;;;07/10/2025
+petz;Petz Bento Gonçalves;R. Fortaleza, 362;Botafogo;Bento Gonçalves;RS;invalido;-29.17812;-51.5117056;07/10/2025
 petz;Petz BestCenter Jacareí;Rua Barão de Jacareí;Centro;Jacareí;SP;12308-000;-23.2987827;-45.9662542;07/10/2025
 petz;Petz Betim;Avenida Juiz Marco Túlio Isaac;Jardim das Alterosas 1ª Seção;Betim;MG;32671-072;-19.9673078;-44.2011904;07/10/2025
 petz;Petz Blumenau;Rua São Paulo;Itoupava Seca;Blumenau;SC;89030-001;-26.919;-49.0579250549;07/10/2025
@@ -69,7 +69,7 @@ petz;Petz Carrefour Ribeirão Shopping;Avenida Coronel Fernando Ferreira Leite;J
 petz;Petz Carrefour São Caetano;Avenida do Estado;Prosperidade;São Caetano do Sul;SP;09550-400;-23.6198499977;-46.5544381091;07/10/2025
 petz;Petz Carrefour Tietê;Avenida Morvan Dias de Figueiredo 3177;Vila Guilherme;São Paulo;SP;02063-902;-23.548;-46.6583840199;07/10/2025
 petz;Petz Cascavel;Avenida Brasil;Centro;Cascavel;PR;85812-000;-24.956;-53.4629414822;07/10/2025
-petz;Petz Castelo;Av. Pres. Tancredo Neves, 3005;Paquetá;Belo Horizonte;MG;invalido;;;07/10/2025
+petz;Petz Castelo;Av. Pres. Tancredo Neves, 3005;Paquetá;Belo Horizonte;MG;invalido;-19.885569999999998;-43.994124;07/10/2025
 petz;Petz Catuai Londrina;Rodovia Mabio Gonçalves Palhano;Gleba Fazenda Palhano;Londrina;PR;86055-585;-23.31;-51.1395782472;07/10/2025
 petz;Petz Cavalhada;Avenida Eduardo Prado;Cavalhada;Porto Alegre;RS;91751-000;-30.033;-51.1583731786;07/10/2025
 petz;Petz Caxias do Sul;Avenida Ruben Bento Alves;Cinqüentenário;Caxias do Sul;RS;95012-393;-29.1745107;-51.207829;07/10/2025
@@ -203,7 +203,7 @@ petz;Petz Riomar;Avenida Herculano Bandeira;Pina;Recife;PE;51110-131;-8.0941077;
 petz;Petz Rio Verde;Avenida Presidente Vargas;Jardim Presidente;Rio Verde;GO;75908-420;-17.8037892;-50.944611;07/10/2025
 petz;Petz Rita Maria;Rua Henrique Valgas;Centro;Florianópolis;SC;88010-220;-27.596639995;-48.5485937783;07/10/2025
 petz;Petz Roberto Freire;Rua Leôncio Etelvino de Medeiros;Capim Macio;Natal;RN;59078-570;-5.8521242;-35.203595;07/10/2025
-petz;Petz Ruben Bento Alves;Av. Rubem Bento Alves, 3483;Universitário;Caxias do Sul;RS;invalido;;;07/10/2025
+petz;Petz Ruben Bento Alves;Av. Rubem Bento Alves, 3483;Universitário;Caxias do Sul;RS;invalido;-29.1499569;-51.185277799999994;07/10/2025
 petz;Petz Salvador Bonocô;Avenida Mário Leal Ferreira;Brotas;Salvador;BA;40285-600;-12.9857613;-38.4998158;07/10/2025
 petz;Petz Salvador Paralela;Avenida Luís Viana Filho;Imbuí;Salvador;BA;41720-200;-12.9683501;-38.4411764;07/10/2025
 petz;Petz Samambaia do Sul;Quadra Quadra 302;Samambaia Sul (Samambaia);Brasília;DF;72300-630;-15.889003;-48.107767;07/10/2025
@@ -226,7 +226,7 @@ petz;Petz Serra;Avenida Eldes Scherrer Souza;Parque Residencial Laranjeiras;Serr
 petz;Petz Sete Lagoas;Avenida Raquel Teixeira Viana;Canaã;Sete Lagoas;MG;35700-293;-19.4668329;-44.2544129;07/10/2025
 petz;Petz Shopping CenterVale;Avenida Deputado Benedito Matarazzo 9403;Jardim Paulista;São José dos Campos;SP;12215-900;-23.223701;-45.9009074;07/10/2025
 petz;Petz Shopping Golden Square;Avenida Kennedy;Jardim do Mar;São Bernardo do Campo;SP;09726-252;-23.7028200023;-46.5553680712;07/10/2025
-petz;Petz Shopping Grande Rio;R. Maria Soares Sendas, 111;Parque Barreto;São João de Meriti;RJ;invalido;;;07/10/2025
+petz;Petz Shopping Grande Rio;R. Maria Soares Sendas, 111;Parque Barreto;São João de Meriti;RJ;invalido;-22.7964962;-43.3529899;07/10/2025
 petz;Petz Shopping Grand Plaza;Avenida Industrial;Campestre;Santo André;SP;09080-510;-23.664;-46.5459592592;07/10/2025
 petz;Petz Shopping Itaguaçu;Rua Gerôncio Thives;Barreiros;São José;SC;88117-292;-27.5843617;-48.6120995;07/10/2025
 petz;Petz Shopping Jockey Plaza;Rua Konrad Adenauer;Tarumã;Curitiba;PR;82821-020;-25.428;-49.2010498647;07/10/2025
@@ -247,7 +247,7 @@ petz;Petz Tauste Campinas;Avenida dos Imbés;Alphaville Dom Pedro;Campinas;SP;13
 petz;Petz Teodoro Sampaio;Rua Teodoro Sampaio;Pinheiros;São Paulo;SP;05406-100;-23.9500300465;-46.636;07/10/2025
 petz;Petz Teotônio Vilela;Avenida Senador Teotônio Vilela;Jardim São Rafael;São Paulo;SP;04864-001;-23.8930600401;-46.2595951048;07/10/2025
 petz;Petz Teresina;Avenida João XXIII;Jóquei;Teresina;PI;64049-010;-5.0781871;-42.74991;07/10/2025
-petz;Petz Torquato Tapajós;Av. Torquato Tapajós, 313;Flores;Manaus;AM;invalido;;;07/10/2025
+petz;Petz Torquato Tapajós;Av. Torquato Tapajós, 313;Flores;Manaus;AM;invalido;-3.0698745;-60.025774;07/10/2025
 petz;Petz Torres;Avenida Comendador Franco;Guabirotuba;Curitiba;PR;81520-000;-25.4654400084;-49.273;07/10/2025
 petz;Petz Trimais;Avenida Tucuruvi;Tucuruvi;São Paulo;SP;02305-002;-23.4916599931;-46.574542132;07/10/2025
 petz;Petz Uberaba;Avenida Leopoldino de Oliveira;Centro;Uberaba;MG;38010-000;-19.7496894;-47.9341255;07/10/2025
@@ -266,9 +266,9 @@ petz;Petz Washington Soares;Avenida Washington Soares;Engenheiro Luciano Cavalca
 cobasi;Cobasi Getúlio Vargas - Osasco;Avenida Getúlio Vargas;;Osasco;SP;indisponivel;;;07/10/2025
 cobasi;Cobasi Jandira Mall;Rua Manoel Alves Garcia;;Jandira;SP;indisponivel;;;07/10/2025
 cobasi;Cobasi João Pessoa;Rua Bacharel José de Oliveira Curchatuz;;João Pessoa;PB;indisponivel;;;07/10/2025
-cobasi;Cobasi Marília Esmeralda;Avenida das Esmeraldas;;Marília;SP;indisponivel;;;07/10/2025
-cobasi;Cobasi Presidente Prudente;Avenida Onze de Maio;;Presidente Prudente;SP;indisponivel;;;07/10/2025
-cobasi;Cobasi Riviera de São Lourenço;Rua Aprovada 239;;Bertioga;SP;indisponivel;;;07/10/2025
+cobasi;Cobasi Marília Esmeralda;Avenida das Esmeraldas;;Marília;SP;indisponivel;-22.2121545;-49.9510735;07/10/2025
+cobasi;Cobasi Presidente Prudente;Avenida Onze de Maio;;Presidente Prudente;SP;indisponivel;-22.137197399999998;-51.396076;07/10/2025
+cobasi;Cobasi Riviera de São Lourenço;Rua Aprovada 239;;Bertioga;SP;indisponivel;-23.7892628;-46.0316666;07/10/2025
 cobasi;Pet Shop Cobasi Alphaville;Alameda Rio Negro;Alphaville Centro Industrial e Empresarial/Alphaville.;Barueri;SP;06454-000;-23.5001099961;-46.8878758994;07/10/2025
 cobasi;Pet Shop Cobasi Alto da Boa Vista;Avenida Santo Amaro;Santo Amaro;São Paulo;SP;04702-002;-23.8577800354;-46.636;07/10/2025
 cobasi;Pet Shop Cobasi Alto de Pinheiros;Avenida General Furtado Nascimento;Alto de Pinheiros;São Paulo;SP;05465-070;-23.1392199516;-47.0819131554;07/10/2025
@@ -276,7 +276,7 @@ cobasi;Pet Shop Cobasi Americana;Avenida Brasil;Jardim São Paulo;Americana;SP;1
 cobasi;Pet Shop Cobasi Andradas;Avenida dos Andradas;Pompéia;Belo Horizonte;MG;30280-020;-19.9161426;-43.9092584;07/10/2025
 cobasi;Pet Shop Cobasi Aracaju Rio Mar;Avenida Delmiro Gouveia;Coroa do Meio;Aracaju;SE;49035-500;-10.9594312;-37.0419023;07/10/2025
 cobasi;Pet Shop Cobasi Araraquara;Avenida Alberto Benassi;Jardim Bandeirantes;Araraquara;SP;14804-300;-21.7864532;-48.2205797;07/10/2025
-cobasi;Pet Shop Cobasi Araraquara Savegnago;Rua Maurício Gali;;Araraquara;SP;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Araraquara Savegnago;Rua Maurício Gali;;Araraquara;SP;indisponivel;-21.7633546;-48.1645372;07/10/2025
 cobasi;Pet Shop Cobasi Araçatuba;Rua Luiz Pereira Barreto;Vila São Paulo;Araçatuba;SP;16015-445;-21.2028539;-50.4536793;07/10/2025
 cobasi;Pet Shop Cobasi Assai Anhanguera;Rua Samuel Klabin 193;Bela Aliança;São Paulo;SP;05077-903;-23.4443199877;-46.636;07/10/2025
 cobasi;Pet Shop Cobasi Assaí Interlagos;Avenida Sargento Geraldo Sant'Ana;Jardim Taquaral;São Paulo;SP;04674-225;-23.2408299685;-46.9710730021;07/10/2025
@@ -302,10 +302,10 @@ cobasi;Pet Shop Cobasi Belém Bosque Grão Pará;Passagem Cruzeiro;Mangueirão;B
 cobasi;Pet Shop Cobasi Birigui;Avenida Euclides Miragaia;Jardim Jussara Maria;Birigüi;SP;16204-000;-21.3031528;-50.3585193;07/10/2025
 cobasi;Pet Shop Cobasi Blumenau Neumarkt;Rua Sete de Setembro;Centro;Blumenau;SC;89010-201;-26.919360001;-49.0655962518;07/10/2025
 cobasi;Pet Shop Cobasi Blumenau Norte Shopping;Rodovia BR-470;Salto do Norte;Blumenau;SC;89065-800;-26.8885799887;-49.0318833641;07/10/2025
-cobasi;Pet Shop Cobasi Botafogo;Rua Voluntários da Pátria;;Rio de Janeiro;RJ;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Botafogo;Rua Voluntários da Pátria;;Rio de Janeiro;RJ;indisponivel;-22.9547481;-43.194439599999995;07/10/2025
 cobasi;Pet Shop Cobasi Botucatu Mall;Avenida Professor José Pedretti Neto;Conjunto Residencial Frei Fidelis;Botucatu;SP;18606-125;-22.898978;-48.4484111;07/10/2025
 cobasi;Pet Shop Cobasi Bragança Paulista;Rua Alpheu Grimello;Taboão;Bragança Paulista;SP;12916-010;-22.9743115;-46.5353135;07/10/2025
-cobasi;Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes;Avenida dos Imigrantes;;Bragança Paulista;SP;invalido;;;07/10/2025
+cobasi;Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes;Avenida dos Imigrantes;;Bragança Paulista;SP;invalido;-22.963815999999998;-46.5441849;07/10/2025
 cobasi;Pet Shop Cobasi Brasilia Venancio;SCS Quadra 8 Bloco B Lotes 50/60;Asa Sul;Brasília;DF;70333-900;-15.820697;-47.917206;07/10/2025
 cobasi;Pet Shop Cobasi Brasília Asa Norte;Quadra SEPN 516 Bloco E;Asa Norte;Brasília;DF;70770-525;-15.7766266;-47.8751937;07/10/2025
 cobasi;Pet Shop Cobasi Brasília CasaPark;SGCV Lote 09;Zona Industrial (Guará);Brasília;DF;71215-900;-15.8102388;-47.9713115;07/10/2025
@@ -329,12 +329,12 @@ cobasi;Pet Shop Cobasi Campo Grande MS;Avenida Afonso Pena;Jardim dos Estados;Ca
 cobasi;Pet Shop Cobasi Campo Limpo;Rua Doutor Joviano Pacheco de Aguirre;Jardim Bom Refúgio;São Paulo;SP;05788-290;-23.9897200453;-47.1178453836;07/10/2025
 cobasi;Pet Shop Cobasi Candangolandia;Setor de Postos e Motéis Sul I;Candangolândia;Brasília;DF;71727-800;-15.8495671;-47.9490349;07/10/2025
 cobasi;Pet Shop Cobasi Canoas;Avenida Farroupilha;Marechal Rondon;Canoas;RS;92020-475;-29.9181800028;-51.184;07/10/2025
-cobasi;Pet Shop Cobasi Canoas BR116;Avenida Getulio Vargas;;Canoas;RS;invalido;;;07/10/2025
+cobasi;Pet Shop Cobasi Canoas BR116;Avenida Getulio Vargas;;Canoas;RS;invalido;-29.9112717;-51.1769288;07/10/2025
 cobasi;Pet Shop Cobasi Cantareira Norte Shopping;Avenida Raimundo Pereira de Magalhães;Jardim Pirituba;São Paulo;SP;02984-035;-23.4295599827;-46.636;07/10/2025
 cobasi;Pet Shop Cobasi Carapicuíba;Avenida Desembargador Doutor Eduardo Cunha de Abreu;Vila Municipal;Carapicuíba;SP;06328-330;-23.523;-46.8306995218;07/10/2025
 cobasi;Pet Shop Cobasi Carrefour Nações;Avenida das Nações Unidas;Vila Gertrudes;São Paulo;SP;04794-000;-23.8691200376;-46.636;07/10/2025
 cobasi;Pet Shop Cobasi Carrão;Rua Serra de Botucatu;Vila Gomes Cardim;São Paulo;SP;03317-001;-23.3963499821;-46.636;07/10/2025
-cobasi;Pet Shop Cobasi Casa Forte;R. Leonardo Bezerra Cavalcanti;;Recife;PE;invalido;;;07/10/2025
+cobasi;Pet Shop Cobasi Casa Forte;R. Leonardo Bezerra Cavalcanti;;Recife;PE;invalido;-8.0380299;-34.9115069;07/10/2025
 cobasi;Pet Shop Cobasi Cascavel;Avenida Brasil;Região do Lago;Cascavel;PR;85812-500;-24.9518599954;-53.4504336442;07/10/2025
 cobasi;Pet Shop Cobasi Caxias do Sul;Avenida Therezinha Pauletti Sanvitto;Sanvitto;Caxias do Sul;RS;95110-195;-29.1959000071;-51.179;07/10/2025
 cobasi;Pet Shop Cobasi Cerro Corá;Rua Cerro Corá;Vila Romana;São Paulo;SP;05061-400;-23.1800799567;-46.2346585252;07/10/2025
@@ -347,7 +347,7 @@ cobasi;Pet Shop Cobasi Cotia;Rua Luiz Silva;Parque Rincão;Cotia;SP;06716-030;-2
 cobasi;Pet Shop Cobasi Criciúma;Avenida Jorge Elias de Lucca;Nossa Senhora da Salete;Criciúma;SC;88813-390;-28.6668399983;-49.37;07/10/2025
 cobasi;Pet Shop Cobasi Cuiabá CPA;Avenida Historiador Rubens de Mendonça;Bosque da Saúde;Cuiabá;MT;78050-000;-15.5883253;-56.0836532;07/10/2025
 cobasi;Pet Shop Cobasi Curitiba Linha Verde;Avenida Senador Salgado Filho;Prado Velho;Curitiba;PR;80215-270;-25.4244899937;-49.2691134903;07/10/2025
-cobasi;Pet Shop Cobasi Curitiba Mario Tourinho;Rua General Mario Tourinho;;Curitiba;PR;invalido;;;07/10/2025
+cobasi;Pet Shop Cobasi Curitiba Mario Tourinho;Rua General Mario Tourinho;;Curitiba;PR;invalido;-25.433141199999998;-49.312551199999994;07/10/2025
 cobasi;Pet Shop Cobasi Curitiba Novo Mundo;Rua Isaac Guelmann;Novo Mundo;Curitiba;PR;81050-030;-25.410719998;-49.2921335542;07/10/2025
 cobasi;Pet Shop Cobasi DF Gama;Quadra Quadra 55;Setor Central (Gama);Brasília;DF;72405-550;-16.019879;-48.0670828;07/10/2025
 cobasi;Pet Shop Cobasi DF Planaltina;Área AEN 19;Setor Norte (Planaltina);Brasília;DF;73340-190;-15.6060191;-47.6603747;07/10/2025
@@ -356,7 +356,7 @@ cobasi;Pet Shop Cobasi Diadema;Avenida Presidente Kennedy;Centro;Diadema;SP;0991
 cobasi;Pet Shop Cobasi Eco Mall Pinheirinho;Rodovia BR-116;Xaxim;Curitiba;PR;81690-300;-25.3830899924;-49.2232726872;07/10/2025
 cobasi;Pet Shop Cobasi Embu das Artes;Rua Alexandre Kadunc;Tingidor;Embu das Artes;SP;06803-045;-23.652609;-46.8487976;07/10/2025
 cobasi;Pet Shop Cobasi Embu das Artes II;Rua São Luiz;Centro;Embu das Artes;SP;06840-050;-23.649;-46.8418801256;07/10/2025
-cobasi;Pet Shop Cobasi Engenheiro Caetano Alvares;Av. Eng. Caetano Álvares;;São Paulo;SP;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Engenheiro Caetano Alvares;Av. Eng. Caetano Álvares;;São Paulo;SP;indisponivel;-23.486680999999997;-46.6455001;07/10/2025
 cobasi;Pet Shop Cobasi Epitácio Pessoa;Avenida Presidente Epitácio Pessoa;Tambauzinho;João Pessoa;PB;58042-006;-7.1236539;-34.8472401;07/10/2025
 cobasi;Pet Shop Cobasi Ermano Marchetti;Rua Luiz Gatti;Água Branca;São Paulo;SP;05038-150;-23.9136700368;-46.2371129198;07/10/2025
 cobasi;Pet Shop Cobasi Estr. do Campo Limpo;Estrada do Campo Limpo;Pirajussara;São Paulo;SP;05787-000;-23.1063699481;-46.1542527848;07/10/2025
@@ -375,7 +375,7 @@ cobasi;Pet Shop Cobasi Granja Vianna;Avenida Marginal;Parque São George;Cotia;S
 cobasi;Pet Shop Cobasi Guarujá;Avenida Leomil;Pitangueiras;Guarujá;SP;11410-160;-23.9948444;-46.2568678;07/10/2025
 cobasi;Pet Shop Cobasi Guarulhos;Avenida Aniello Pratici;Jardim Santa Francisca;Guarulhos;SP;07013-000;-23.4634500008;-46.533;07/10/2025
 cobasi;Pet Shop Cobasi Guarulhos Centro;Rua Egisto Thomaz;Jardim Maia;Guarulhos;SP;07115-180;-23.440589996;-46.5085700651;07/10/2025
-cobasi;Pet Shop Cobasi Guarulhos Sakamoto;Rodovia Presidente Dutra KM 210;;Guarulhos;SP;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Guarulhos Sakamoto;Rodovia Presidente Dutra KM 210;;Guarulhos;SP;indisponivel;-23.4320886;-46.4162742;07/10/2025
 cobasi;Pet Shop Cobasi Guarulhos Timóteo Penteado;Avenida Doutor Timóteo Penteado;Vila Hulda;Guarulhos;SP;07094-000;-23.4817200081;-46.5125926597;07/10/2025
 cobasi;Pet Shop Cobasi Higienópolis;Avenida Angélica;Santa Cecília;São Paulo;SP;01228-000;-23.5403499917;-46.6443449262;07/10/2025
 cobasi;Pet Shop Cobasi Iguatemi Campinas;Avenida Iguatemi;Vila Brandina;Campinas;SP;13092-500;-22.8936642;-47.0278715;07/10/2025
@@ -392,7 +392,7 @@ cobasi;Pet Shop Cobasi Jaboatão Dos Guararapes;Avenida Bernardo Vieira de Melo;
 cobasi;Pet Shop Cobasi Jacareí Tenda;Praça Charles Gates;Jardim das Indústrias;Jacareí;SP;12306-090;-23.2987827;-45.9662542;07/10/2025
 cobasi;Pet Shop Cobasi Jardim Japão;Avenida Jardim Japão;Jardim Brasil (Zona Norte);São Paulo;SP;02221-001;-23.5904800081;-46.636;07/10/2025
 cobasi;Pet Shop Cobasi Jaú;Avenida Anna Claudina;Jardim Estádio;Jaú;SP;17203-381;-22.3019794;-48.5711073;07/10/2025
-cobasi;Pet Shop Cobasi Jd. Botânico;CJ SMDB AREA ESPECIAL D;;Brasília;DF;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Jd. Botânico;CJ SMDB AREA ESPECIAL D;;Brasília;DF;indisponivel;-15.8549169;-47.8195146;07/10/2025
 cobasi;Pet Shop Cobasi Joinville;Avenida Rolf Wiest;Bom Retiro;Joinville;SC;89223-005;-26.304;-48.8668822445;07/10/2025
 cobasi;Pet Shop Cobasi Juiz de Fora Jardim Norte;Rua Bernardo Mascarenhas;Mariano Procópio;Juiz de Fora;MG;36080-000;-21.7466546;-43.3645759;07/10/2025
 cobasi;Pet Shop Cobasi Jundiaí;Rua José Amato;Ponte de Campinas;Jundiaí;SP;13201-141;-23.1753283;-46.896855;07/10/2025
@@ -408,7 +408,7 @@ cobasi;Pet Shop Cobasi Marginal Pinheiros;Avenida das Nações Unidas;Vila Almei
 cobasi;Pet Shop Cobasi Marginal Tietê;Rua Maria Prestes Maia;Vila Guilherme;São Paulo;SP;02047-000;-23.520549989;-46.6659435382;07/10/2025
 cobasi;Pet Shop Cobasi Maringá;Avenida João Paulino Vieira Filho;Zona 01;Maringá;PR;87020-015;-23.4277900063;-51.9359593904;07/10/2025
 cobasi;Pet Shop Cobasi Marília;Avenida Sampaio Vidal;Centro;Marília;SP;17500-022;-22.2175846;-49.9505291;07/10/2025
-cobasi;Pet Shop Cobasi Minas Shopping;Avenida Cristiano Machado;;Belo Horizonte;MG;invalido;;;07/10/2025
+cobasi;Pet Shop Cobasi Minas Shopping;Avenida Cristiano Machado;;Belo Horizonte;MG;invalido;-19.8754617;-43.9250964;07/10/2025
 cobasi;Pet Shop Cobasi Moema Pássaros;Avenida Ibirapuera;Indianópolis;São Paulo;SP;04028-002;-23.548;-46.3865360374;07/10/2025
 cobasi;Pet Shop Cobasi Moinhos dos Ventos;Rua Miguel Tostes;Rio Branco;Porto Alegre;RS;90430-060;-30.033;-51.2181488219;07/10/2025
 cobasi;Pet Shop Cobasi Mooca;Avenida Alcântara Machado;Brás;São Paulo;SP;03101-000;-23.419839982;-46.7758019259;07/10/2025
@@ -416,7 +416,7 @@ cobasi;Pet Shop Cobasi Morumbi;Avenida Giovanni Gronchi;Vila Andrade;São Paulo;
 cobasi;Pet Shop Cobasi Natal;Avenida Senador Salgado Filho;Lagoa Nova;Natal;RN;59076-000;-5.8259362;-35.2099611;07/10/2025
 cobasi;Pet Shop Cobasi Niterói;Rua Marechal Deodoro;Centro;Niterói;RJ;24030-060;-22.8895663;-43.1191126;07/10/2025
 cobasi;Pet Shop Cobasi Nossa Senhora do Carmo;Beco São Paulo;Santa Rita de Cássia;Belo Horizonte;MG;30335-300;-19.9529456;-43.94026;07/10/2025
-cobasi;Pet Shop Cobasi Nova Cantareira;Avenida Nova Cantareira;;São Paulo;SP;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Nova Cantareira;Avenida Nova Cantareira;;São Paulo;SP;indisponivel;-23.4688211;-46.6165291;07/10/2025
 cobasi;Pet Shop Cobasi Novo Hamburgo;Avenida Primeiro de Março;Pátria Nova;Novo Hamburgo;RS;93320-102;-29.6968555;-51.1312489;07/10/2025
 cobasi;Pet Shop Cobasi Osasco;Avenida dos Autonomistas;Centro;Osasco;SP;06090-010;-23.5234599921;-46.8024054244;07/10/2025
 cobasi;Pet Shop Cobasi Osasco João Andrade;Avenida João de Andrade;Santo Antônio;Osasco;SP;06132-006;-23.533;-46.7777661708;07/10/2025
@@ -466,7 +466,7 @@ cobasi;Pet Shop Cobasi Santo André Av. dos Estados;Avenida dos Estados;Parque J
 cobasi;Pet Shop Cobasi Santo André P. Barreto;Praça Engenheiro Roldão dos Santos Ferreira;Paraíso;Santo André;SP;09190-695;-23.6878500049;-46.5119604594;07/10/2025
 cobasi;Pet Shop Cobasi Santo André Prestes Maia;Praça Uirapuru;Santa Maria;Santo André;SP;09071-220;-23.6573399912;-46.545271427;07/10/2025
 cobasi;Pet Shop Cobasi Santos Afonso Pena;Avenida Affonso Penna;Aparecida;Santos;SP;11020-002;-23.9590362;-46.3200008;07/10/2025
-cobasi;Pet Shop Cobasi Santos Conselheiro Nébias;Avenida Conselheiro Nébias;;Santos;SP;indisponivel;;;07/10/2025
+cobasi;Pet Shop Cobasi Santos Conselheiro Nébias;Avenida Conselheiro Nébias;;Santos;SP;indisponivel;-23.961969;-46.322693199999996;07/10/2025
 cobasi;Pet Shop Cobasi Santos Francisco Glicério;Avenida General Francisco Glicério;Encruzilhada;Santos;SP;11065-400;-23.9673822;-46.3328146;07/10/2025
 cobasi;Pet Shop Cobasi Sena Madureira;Rua Sena Madureira;Vila Clementino;São Paulo;SP;04021-001;-23.3200299688;-46.3873214347;07/10/2025
 cobasi;Pet Shop Cobasi Shop. Estação Cuiabá;Avenida Miguel Sutil;Santa Rosa;Cuiabá;MT;78040-365;-15.5874562;-56.1225948;07/10/2025
@@ -510,7 +510,7 @@ cobasi;Pet Shop Cobasi Águas Claras;Avenida Sibipiruna;Sul (Águas Claras);Bras
 cobasi;Pet Shop Mundo Pet Cobasi Aldeota;Avenida Senador Virgílio Távora;Aldeota;Fortaleza;CE;60170-078;-3.7357094;-38.5069693;07/10/2025
 cobasi;Pet Shop Mundo Pet Cobasi Batista Campos;Travessa São Pedro;Campina;Belém;PA;66023-570;-1.4517346;-48.4999707;07/10/2025
 cobasi;Pet Shop Mundo Pet Cobasi Brasília Águas Claras;Rua 35;Norte (Águas Claras);Brasília;DF;71919-000;-15.8352342;-48.0367863;07/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Eusébio;Av. Eusébio de Queiroz;;Eusébio;CE;invalido;;;07/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Eusébio;Av. Eusébio de Queiroz;;Eusébio;CE;invalido;-3.87933;-38.4624029;07/10/2025
 cobasi;Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares;Avenida Washington Soares;Engenheiro Luciano Cavalcante;Fortaleza;CE;60810-350;-3.7749868;-38.4876205;07/10/2025
 cobasi;Pet Shop Mundo Pet Cobasi Goiânia Oeste;Avenida Portugal;Setor Oeste;Goiânia;GO;74140-020;-16.6890379;-49.2702758;07/10/2025
 cobasi;Pet Shop Mundo Pet Cobasi Manaíra Shopping;Avenida Governador Flávio Ribeiro Coutinho;Parque Verde;Cabedelo;PB;58102-835;-6.9877215;-34.8287221;07/10/2025
@@ -552,7 +552,7 @@ pop pet;Pop Pet Setor Aeroporto – Goiânia GO;;;;;indisponivel;-16.6711843;-49
 pop pet;Pop Pet Santa Genoveva – Goiânia GO;;;;;indisponivel;-16.6345909;-49.2390409;07/10/2025
 pop pet;Pop Pet Cardoso Continuação – Ap. de Goiânia GO;;;;;indisponivel;-16.7715479;-49.3121294;07/10/2025
 pop pet;Pop Pet Jardim Bela Vista – Goânia GO;;;;;indisponivel;-16.7296875;-49.2327133;07/10/2025
-pop pet;Pop Pet Bairro Goiá – Goiânia GO;;;;;indisponivel;;;07/10/2025
+pop pet;Pop Pet Bairro Goiá – Goiânia GO;;;;;indisponivel;-16.6870163;-49.3319463;07/10/2025
 pop pet;Pop Pet Cidade Satelite São Luiz – Ap. de Goiânia GO;;;;;indisponivel;-16.7620139;-49.2793042;07/10/2025
 pop pet;Pop Pet Campinas – Goiânia GO;;;;;indisponivel;-16.6621825;-49.2946955;07/10/2025
 pop pet;Pop Pet Hidrolandia – GO;;;;;indisponivel;-16.9661548;-49.2366846;07/10/2025
@@ -596,7 +596,7 @@ pop pet;Pop Pet Mineiros – GO;;;;;indisponivel;-17.5663138;-52.5654937;07/10/2
 pop pet;Pop Pet Aragarças – GO;;;;;indisponivel;-15.8960577;-52.2472803;07/10/2025
 pop pet;Pop Pet Jardim America (C-104) – Goiânia GO;;;;;indisponivel;-16.7219682;-49.2903853;07/10/2025
 pop pet;Pop Pet Montividiu – GO;;;;;indisponivel;-17.4493062;-51.1784787;07/10/2025
-pop pet;Pop Pet Palmeiras – GO;;;;;indisponivel;;;07/10/2025
+pop pet;Pop Pet Palmeiras – GO;;;;;indisponivel;-16.8063134;-49.9223679;07/10/2025
 pop pet;Pop Pet Nova Maraba (Folha 28) – PA;;;;;indisponivel;-5.3495658;-49.0945183;07/10/2025
 pop pet;Pop Pet Imperatriz – MA;;;;;indisponivel;-5.5163706;-47.4686649;07/10/2025
 pop pet;Pop Pet Jardim Tropical (Lago Dos Patos) Ap. de Goiânia – GO;;;;;indisponivel;-16.7682419;-49.3504981;07/10/2025
@@ -605,7 +605,7 @@ pop pet;Pop Pet Faiçalville (Av. Rio Verde) – Goiânia GO;;;;;indisponivel;-1
 pop pet;Pop Pet Joao Pinheiro – MG;;;;;indisponivel;-17.7464627;-46.176712;07/10/2025
 pop pet;Pop Pet Anapolis (Jamel Cecilio) – GO;;;;;indisponivel;-16.3465034;-48.9375167;07/10/2025
 pop pet;Pop Pet Santa Luzia – MG;;;;;indisponivel;-19.786049;-43.918408;07/10/2025
-pop pet;Pop Pet Dourados – MS;;;;;indisponivel;;;07/10/2025
+pop pet;Pop Pet Dourados – MS;;;;;indisponivel;-22.1993767;-54.8156815;07/10/2025
 pop pet;Pop Pet Vila Regina – Goiânia GO;;;;;indisponivel;-16.655417;-49.3352863;07/10/2025
 pop pet;Pop Pet São Felix – PA;;;;;indisponivel;-16.6555622;-49.2760996;07/10/2025
 pop pet;Pop Pet Orizona – GO;;;;;indisponivel;-17.0302266;-48.2984248;07/10/2025
@@ -621,7 +621,7 @@ pop pet;Pop Pet Itumbiara – GO;;;;;indisponivel;-16.7870362;-49.3680378;07/10/
 pop pet;Pop Pet Edeia – GO;;;;;indisponivel;-17.3360228;-49.9307866;07/10/2025
 pop pet;Pop Pet Primavera Do Leste – MT;;;;;indisponivel;-15.5451579;-54.301582;07/10/2025
 pop pet;Pop Pet Mangabeira – PB;;;;;indisponivel;-7.1775473;-34.8391423;07/10/2025
-pop pet;Pop Pet Parauapebas – PA;;;;;indisponivel;;;07/10/2025
+pop pet;Pop Pet Parauapebas – PA;;;;;indisponivel;-6.0579573;-49.8914797;07/10/2025
 pop pet;Pop Pet Santarem – PA;;;;;indisponivel;-2.4249986;-54.712057;07/10/2025
 pop pet;Pop Pet Piracanjuba – GO;;;;;indisponivel;-17.306982;-49.0315018;07/10/2025
 pop pet;Pop Pet Neropolis – GO;;;;;indisponivel;-16.4064889;-49.2220703;07/10/2025
@@ -630,10 +630,10 @@ pop pet;Pop Pet Cidade Jardim Goiânia – GO;;;;;indisponivel;-16.6844571;-49.3
 pop pet;Pop Pet Bessa – João Pessoa PB;;;;;indisponivel;;;07/10/2025
 pop pet;Pop Pet Av. São Paulo – Aparecida de Goiânia GO;;;;;indisponivel;;;07/10/2025
 pop pet;Pop Pet Veiga Jardim – Aparecida de Goiânia GO;;;;;indisponivel;;;07/10/2025
-pop pet;Pop Pet Vila Alzira – Aparecida de Goiânia GO;;;;;indisponivel;;;07/10/2025
-pop pet;Pop Pet Novo Horizonte – Goiânia GO;;;;;indisponivel;;;07/10/2025
+pop pet;Pop Pet Vila Alzira – Aparecida de Goiânia GO;;;;;indisponivel;-16.7615564;-49.2604167;07/10/2025
+pop pet;Pop Pet Novo Horizonte – Goiânia GO;;;;;indisponivel;-16.7179729;-49.3202771;07/10/2025
 pop pet;Pop Pet Bela Vista de Goiás – GO;;;Bela Vista de Goiás;GO;75240-000;-16.9725565;-48.9550267;07/10/2025
-pop pet;Pop Pet Indiara – GO;;;;;invalido;;;07/10/2025
+pop pet;Pop Pet Indiara – GO;;;;;invalido;-17.142383;-49.989149;07/10/2025
 pop pet;Pop Pet BH – Minas Gerais;Rua Canário;Goiânia;Belo Horizonte;MG;31950-390;-19.866166;-43.8967874;07/10/2025
 pop pet;Pop Pet Jardim América (C1) Goiânia – GO;Avenida C 1;Jardim América;Goiânia;GO;74265-010;-16.69356;-49.28933;07/10/2025
 pop pet;Pop Pet Silvania – GO;;;Silvânia;GO;75180-000;-16.6680815;-48.6132824;07/10/2025
@@ -728,8 +728,8 @@ petland;Petland Cambuí;Rua dos Bandeirantes;Cambuí;Campinas;SP;13024-010;-22.8
 petland;Petland Botucatu;Avenida Doutor Vital Brasil;Vila São Lúcio;Botucatu;SP;18603-193;-22.8841808;-48.4441654;07/10/2025
 petland;Petland Bom Retiro;Rua Olga Assunção;Novo Horizonte;Betim;MG;32606-016;-19.9444194;-44.204051;07/10/2025
 petland;Petland Benjamin Constant;Avenida Benjamin Constant;Floresta;Porto Alegre;RS;90550-005;-30.0463200085;-51.23;07/10/2025
-petland;Petland 13 de Julho;;;;;invalido;;;07/10/2025
-petland;Petland Batatais;;;;;invalido;;;07/10/2025
+petland;Petland 13 de Julho;;;;;invalido;-10.9327236;-37.0533083;07/10/2025
+petland;Petland Batatais;;;;;invalido;-20.8891036;-47.584485799999996;07/10/2025
 petland;Petland Barra Muriaé;Rua Gil Moreira;Barra;Muriaé;MG;36884-112;-21.1278887;-42.3824038;07/10/2025
 petland;Petland Avenida Brasil;Avenida Brasil;Vila Itapura;Campinas;SP;13023-075;-22.8990196;-47.0585262;07/10/2025
 petland;Petland Araguaína;Rua Vinte e Cinco de Dezembro;Setor Central;Araguaína;TO;77804-030;-7.1901421;-48.2082624;07/10/2025

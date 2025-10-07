@@ -104,11 +104,10 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 533
+--- Registros depois da carga: 777
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
-
 ```
 🔗 [Ver log completo](https://raw.githubusercontent.com/rafa-trindade/petstore-etl/refs/heads/main/logs/log.txt)
 
@@ -130,8 +129,8 @@ Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumid
 
 ## 🏪 Redes Suportadas
 
-Atualmente, o projeto coleta e trata dados das seguintes redes:
+Atualmente, o projeto coleta dados das seguintes redes para estudo:
 
 * **Petz**
 * **Cobasi**
-* **Petlove**
+* **Pop Pet Center**
