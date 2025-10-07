@@ -1,6 +1,6 @@
 
 ----------------------------------------------
-- Load - Carregando no Banco de Dados...
+- Camada Gold - Padronizando Dados...
 ----------------------------------------------
 🔍 Buscando coordenadas para 44 lojas...
 ✅ Petz Bento Gonçalves → (-29.17812, -51.5117056)
@@ -32,7 +32,7 @@
 ⚠️ Pet Shop Cobasi Sorocaba Av. São Paulo → Coordenadas não encontradas
 ✅ Pet Shop Mundo Pet Cobasi Eusébio → (-3.87933, -38.4624029)
 ✅ Pop Pet Bairro Goiá – Goiânia GO → (-16.6870163, -49.3319463)
-✅ Pop Pet Palmeiras – GO → (-16.8063134, -49.9223679)
+⚠️ Pop Pet Palmeiras – GO → Coordenadas não encontradas
 ✅ Pop Pet Dourados – MS → (-22.1993767, -54.8156815)
 ✅ Pop Pet Parauapebas – PA → (-6.0579573, -49.8914797)
 ⚠️ Pop Pet Bessa – João Pessoa PB → Coordenadas não encontradas
@@ -42,16 +42,22 @@
 ✅ Pop Pet Novo Horizonte – Goiânia GO → (-16.7179729, -49.3202771)
 ✅ Pop Pet Indiara – GO → (-17.142383, -49.989149)
 ⚠️ Petland Textil → Coordenadas não encontradas
-⚠️ Petland Papini → Coordenadas não encontradas
+✅ Petland Papini → (36.1614974, -115.2890058)
 ⚠️ Petland Garcia → Coordenadas não encontradas
 ✅ Petland 13 de Julho → (-10.9327236, -37.0533083)
 ✅ Petland Batatais → (-20.8891036, -47.584485799999996)
-⚠️ Petland Oficinas → Coordenadas não encontradas
+✅ Petland Oficinas → (-25.123682199999998, -50.154747799999996)
+
+Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
+
+----------------------------------------------
+- Load - Carregando no Banco de Dados...
+----------------------------------------------
 1. Iniciando processo de carga...
 2. Tabela 'lojas_gold' verificada/criada com sucesso.
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
---- Registros antes da carga: 0
+--- Registros antes da carga: 777
 --- Registros depois da carga: 777
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!

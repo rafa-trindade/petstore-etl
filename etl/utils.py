@@ -1,9 +1,9 @@
 import os
+import re
 import requests
 import pandas as pd
 from dotenv import load_dotenv
 import time
-import re
 from serpapi import GoogleSearch
 from tqdm import tqdm
 
@@ -153,58 +153,3 @@ def preencher_ceps_petland(df, empresa="petland", sleep_sec=1, country="br", lan
     df.update(df_emp)
 
     return df
-
-
-
-
-def preencher_coordenadas(df: pd.DataFrame, empresa: str = None):
-    """
-    Preenche latitude e longitude de lojas usando SerpApi (Google Maps).
-    Pesquisa pelo campo 'nome' apenas nas linhas onde latitude ou longitude estão vazias.
-    """
-
-    if SERPAPI_API_KEY is None:
-        raise ValueError("Chave SERPAPI_KEY não encontrada no arquivo .env")
-
-    df_target = df.copy()
-
-    # Filtro: somente linhas com lat/lon vazias
-    mask = df_target["latitude"].isna() | df_target["longitude"].isna()
-    if empresa:
-        mask &= df_target["empresa"].str.lower() == empresa.lower()
-
-    df_faltando = df_target[mask]
-
-    print(f"🔍 Buscando coordenadas para {len(df_faltando)} lojas...")
-
-    for idx, row in df_faltando.iterrows():
-        nome_loja = row.get("nome")
-        if not nome_loja:
-            continue
-
-        try:
-            params = {
-                "engine": "google_maps",
-                "q": nome_loja,
-                "api_key": SERPAPI_API_KEY,
-            }
-            search = GoogleSearch(params)
-            results = search.get_dict()
-
-            gps = results.get("place_results", {}).get("gps_coordinates", {})
-            latitude = gps.get("latitude")
-            longitude = gps.get("longitude")
-
-            if latitude and longitude:
-                df_target.at[idx, "latitude"] = latitude
-                df_target.at[idx, "longitude"] = longitude
-                print(f"✅ {nome_loja} → ({latitude}, {longitude})")
-            else:
-                print(f"⚠️ {nome_loja} → Coordenadas não encontradas")
-
-        except Exception as e:
-            print(f"❌ Erro ao buscar '{nome_loja}': {e}")
-
-        time.sleep(1)  # evitar limite da API
-
-    return df_target
