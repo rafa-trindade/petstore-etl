@@ -76,12 +76,12 @@ def transform_data_gold(csv_path, nome_empresa=None):
             if latitude and longitude:
                 df_gold.at[idx, "latitude"] = latitude
                 df_gold.at[idx, "longitude"] = longitude
-                print(f"✅ {nome_loja} → ({latitude}, {longitude})")
+                print(f"+ {nome_loja} → ({latitude}, {longitude})")
             else:
-                print(f"⚠️ {nome_loja} → Coordenadas não encontradas")
+                print(f"- {nome_loja} → Coordenadas não encontradas")
 
         except Exception as e:
-            print(f"❌ Erro ao buscar '{nome_loja}': {e}")
+            print(f"- Erro ao buscar '{nome_loja}': {e}")
 
         time.sleep(1)
 
