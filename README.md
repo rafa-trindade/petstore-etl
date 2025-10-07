@@ -82,18 +82,16 @@ O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e 
 - Camada Bronze - Extraindo Dados...
 ----------------------------------------------
 Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
-
 - Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
 
 ----------------------------------------------
-- Camada Silver / Gold - Padronizando Dados...
+- Camada Silver - Transformando Dados...
 ----------------------------------------------
-Processando (1/533): Petz - Petz Abelardo Bueno
-Processando (2/533): Petz - Petz Aclimação
-Processando (3/533): Petz - Petz Afonso Pena
-Processando (4/533): Petz - Petz Agamenon
-Processando (5/533): Petz - Petz Águas Claras
-...
+Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
+
+----------------------------------------------
+- Camada Gold - Padronizando Dados...
+----------------------------------------------
 Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ----------------------------------------------
