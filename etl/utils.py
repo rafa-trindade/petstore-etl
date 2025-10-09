@@ -12,10 +12,9 @@ HEADERS = {"Authorization": f"Token {API_TOKEN}"}
 
 
 def preenche_campos(df, caminho_csv):
-    # Lê o parquet
+
     mapa = pd.read_csv(caminho_csv, sep=";", encoding="utf-8-sig" )
     
-    # Função para normalizar texto (remove acentos, lowercase)
     def normalizar_texto(txt):
         if pd.isna(txt):
             return txt
@@ -25,13 +24,11 @@ def preenche_campos(df, caminho_csv):
     
     df.rename(columns={"endereco": "logradouro"})
 
-    # Cria colunas temporárias normalizadas
     df['cidade_norm'] = df['cidade'].apply(normalizar_texto)
     df['estado_norm'] = df['estado'].apply(normalizar_texto)
     mapa['cidade_norm'] = mapa['cidade'].apply(normalizar_texto)
     mapa['estado_norm'] = mapa['estado'].apply(normalizar_texto)
 
-    # Merge usando as colunas normalizadas
     df_merged = pd.merge(
         df,
         mapa[['cidade_norm', 'estado_norm', 'cidade_cod_ibge', 'cidade_regiao', 'populacao', 'renda_domiciliar_per_capita']],
@@ -39,30 +36,24 @@ def preenche_campos(df, caminho_csv):
         how='left'
     )
 
-    # Renomeia cidade_regiao -> regiao
     df_merged = df_merged.rename(columns={'cidade_regiao': 'regiao'})
 
-    # Define a ordem final das colunas
     colunas_finais = [
         'empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado',
         'regiao', 'cep', 'populacao', 'latitude', 'longitude',
         'renda_domiciliar_per_capita', 'cidade_cod_ibge', 'data_extracao'
     ]
 
-    # Garante que todas as colunas existam
     for col in colunas_finais:
         if col not in df_merged.columns:
             df_merged[col] = None
 
-    # Retorna o DataFrame final
     return df_merged[colunas_finais]
 
 
+
 def normaliza_campos(df):
-    """
-    Normaliza CEPs no DataFrame e preenche logradouro, bairro, cidade, estado,
-    além de latitude e longitude.
-    """
+
     df = df.copy()
     total = len(df)
 
@@ -73,11 +64,7 @@ def normaliza_campos(df):
         
         print(f"Processando ({idx+1}/{total}): {empresa_nome}")
 
-        # ===============================
-        # PARTE 1: NORMALIZAÇÃO CEP E ENDEREÇO
-        # ===============================
 
-        # Se CEP vazio, busca o CEP geral via cidade_cod_ibge
         if not cep_atual or cep_atual.lower() in ["nan", "none", ""]:
             if cidade_ibge:
                 try:
@@ -98,10 +85,8 @@ def normaliza_campos(df):
                     df.at[idx, "cep"] = df.at[idx, "cep"]
             else:
                 df.at[idx, "cep"] = "indisponivel"
-            # Após preencher CEP, continua para próxima etapa
             cep_atual = str(df.at[idx, "cep"]).replace("-", "").strip()
 
-        # CEP preenchido: consulta para validar e atualizar endereço
         if cep_atual and cep_atual.lower() not in ["nan", "none", "indisponivel"]:
             try:
                 url_cep = f"https://www.cepaberto.com/api/v3/cep?cep={cep_atual}"
@@ -109,16 +94,14 @@ def normaliza_campos(df):
                 if response.status_code == 200:
                     data = response.json()
                     if data and data.get("cep"):
-                        # CEP válido → atualiza endereço
                         df.at[idx, "logradouro"] = data.get("logradouro", row.get("logradouro"))
                         df.at[idx, "bairro"] = data.get("bairro", row.get("bairro"))
                         df.at[idx, "cidade"] = data.get("cidade", {}).get("nome", row.get("cidade"))
                         df.at[idx, "estado"] = data.get("estado", {}).get("sigla", row.get("estado"))
-                        # Normaliza CEP
+
                         cep_valid = data.get("cep").replace("-", "")
                         df.at[idx, "cep"] = f"{cep_valid[:5]}-{cep_valid[5:]}"
                     else:
-                        # CEP inválido → preenche com CEP geral via cidade_cod_ibge
                         if cidade_ibge:
                             try:
                                 url_ibge = f"https://www.cepaberto.com/api/v3/cep?ibge={cidade_ibge}"
@@ -135,14 +118,11 @@ def normaliza_campos(df):
                 print(f" - Erro de conexão: {e}")
                 df.at[idx, "cep"] = "erro conexao"
 
-        # ===============================
-        # PARTE 2: PREENCHE LATITUDE E LONGITUDE
-        # ===============================
+
         lat = row.get("latitude")
         lon = row.get("longitude")
 
         if pd.isna(lat) or pd.isna(lon) or lat == "" or lon == "":
-            # Tenta obter pelo CEP
             try:
                 if cep_atual and cep_atual.lower() not in ["nan", "none", "indisponivel"]:
                     url_latlon = f"https://www.cepaberto.com/api/v3/cep?cep={cep_atual}"
@@ -154,11 +134,10 @@ def normaliza_campos(df):
                         if lat_api is not None and lon_api is not None:
                             df.at[idx, "latitude"] = lat_api
                             df.at[idx, "longitude"] = lon_api
-                            continue  # já preencheu, passa para próxima linha
+                            continue  
             except:
                 pass
 
-            # Se não obteve pelo CEP, tenta pelo cidade_cod_ibge
             if cidade_ibge:
                 try:
                     url_ibge = f"https://www.cepaberto.com/api/v3/cep?ibge={cidade_ibge}"
@@ -172,6 +151,5 @@ def normaliza_campos(df):
                             df.at[idx, "longitude"] = lon_api
                 except:
                     pass
-        # Se lat/lon já existirem, mantém como estão
 
     return df

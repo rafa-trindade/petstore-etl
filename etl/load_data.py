@@ -7,11 +7,9 @@ table_name = "lojas_gold"
 def load_data(csv_path):
     print("1. Iniciando processo de carga...")
 
-    # === Leitura e normalização dos dados ===
     df = pd.read_csv(csv_path, sep=";", encoding="utf-8-sig")
     df.columns = [col.strip().lower() for col in df.columns]
 
-    # Garantir que TODAS as colunas existam no DataFrame
     expected_columns = [
         'empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado',
         'regiao', 'cep', 'populacao', 'latitude', 'longitude',
@@ -20,23 +18,19 @@ def load_data(csv_path):
 
     for col in expected_columns:
         if col not in df.columns:
-            df[col] = None  # cria coluna vazia se faltar
+            df[col] = None  
 
-    # Conversões de tipo
     df['data_extracao'] = pd.to_datetime(df['data_extracao'], errors='coerce').dt.date
     df['latitude'] = pd.to_numeric(df['latitude'], errors='coerce')
     df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce')
     df['populacao'] = pd.to_numeric(df['populacao'], errors='coerce')
     df['renda_domiciliar_per_capita'] = pd.to_numeric(df['renda_domiciliar_per_capita'], errors='coerce')
 
-    # Normalização textual
     df['nome'] = df['nome'].astype(str).str.strip().str.lower()
     df['logradouro'] = df['logradouro'].astype(str).str.strip().str.lower()
 
-    # Remover duplicatas
     df = df.drop_duplicates(subset=['nome', 'logradouro'])
 
-    # === Criação da tabela principal (com todas as colunas) ===
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS {table_name} (
         id SERIAL PRIMARY KEY,
@@ -61,7 +55,6 @@ def load_data(csv_path):
         conn.execute(text(create_table_query))
         print(f"2. Tabela '{table_name}' verificada/criada com sucesso.")
 
-        # Constraint única
         conn.execute(text(f"""
             DO $$
             BEGIN
@@ -75,12 +68,10 @@ def load_data(csv_path):
         """))
         print("3. Constraint única verificada/criada.")
 
-    # === Carregar staging table ===
     temp_table = f"{table_name}_staging"
     df.to_sql(temp_table, engine, if_exists="replace", index=False)
     print(f"4. Dados carregados na tabela temporária '{temp_table}'.")
 
-    # === UPSERT (merge dos dados) ===
     upsert_query = f"""
     INSERT INTO {table_name} (
         empresa, nome, logradouro, bairro, cidade, estado,
@@ -122,6 +113,6 @@ def load_data(csv_path):
 
     print("6. Processo de carga concluído com sucesso!")
 
-# Execução direta
+
 if __name__ == "__main__":
     load_data("dados.csv")
