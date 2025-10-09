@@ -73,12 +73,13 @@ def main():
         print(e)
 
 
+
 def load_db():
     print("\n----------------------------------------------")
     print("- Load - Carregando no Banco de Dados...")
     print("----------------------------------------------")
     
-    gold_path = os.path.join(GOLD_DIR, "lojas_gold_final.csv")
+    gold_path = os.path.join(GOLD_DIR, "lojas_gold.csv")
     df_gold = pd.read_csv(gold_path, sep=";", encoding="utf-8")
     df_gold['data_extracao'] = pd.to_datetime(df_gold['data_extracao'], errors='coerce').dt.date
     try:

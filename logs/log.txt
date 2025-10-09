@@ -1,18 +1,3 @@
-----------------------------------------------
-- Camada Bronze - Extraindo Dados...
-----------------------------------------------
-Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
-- Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
-
-----------------------------------------------
-- Camada Silver - Transformando Dados...
-----------------------------------------------
-Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
-
-----------------------------------------------
-- Camada Gold - Padronizando Dados...
-----------------------------------------------
-Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ----------------------------------------------
 - Load - Carregando no Banco de Dados...
@@ -22,7 +7,7 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 777
+--- Registros depois da carga: 651
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.

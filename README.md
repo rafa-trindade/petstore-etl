@@ -4,7 +4,7 @@ Projeto responsável pela **extração, transformação e carga (ETL)** de dados
 
 Esta etapa compõe as camadas **Silver e Gold** da arquitetura de dados, realizando **limpeza, padronização, enriquecimento e carga no PostgreSQL**.
 
-Os dados tratados e carregados no **PostgreSQL** nesse projeto serão consumidos pelo projeto [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) para BI e Dashboards.
+Os dados tratados e carregados no **PostgreSQL** nesse projeto serão consumidos pelo projeto [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) para BI.
 
 ---
 
@@ -13,29 +13,31 @@ Os dados tratados e carregados no **PostgreSQL** nesse projeto serão consumidos
 O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) e executa as seguintes camadas:
 
 * **🟤 Extractc (Bronze):** coleta dos arquivos brutos disponibilizados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) via link público (raw).  
-* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços e coordenadas geográficas.
+* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços, coordenadas geográficas e dados do IBGE.
 * **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi).
 
 ---
 
 ## 📊 Estrutura dos Dados e Metadados
 
-As principais colunas tratadas e enriquecidas (incluindo latitude e longitude) são:
+As principais colunas tratadas e enriquecidas são:
 
-| Coluna        | Tipo   | Descrição                   | Valores possíveis / Observações | Unidade | Camada          | Origem       | Última Atualização |
-| ------------- | ------ | --------------------------- | ------------------------------- | ------- | --------------- | ------------ | ------------------ |
-| id            | string | Identificador único da loja | Sequencial (autoincrement)      | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| empresa       | string | Nome da rede                | Petz, Cobasi, Petlove...        | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| nome          | string | Nome da loja                | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| logradouro    | string | Logradouro simplificado     | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| bairro        | string | Bairro                      | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| cidade        | string | Cidade                      | -                               | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| estado        | string | Sigla do estado             | SP, RJ, MG...                   | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| cep           | string | CEP normalizado             | 00000-000                       | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-| latitude      | float  | Latitude geográfica         | -90 a 90                        | graus   | Silver / Gold   | petstore-etl | 2025-10-06         |
-| longitude     | float  | Longitude geográfica        | -180 a 180                      | graus   | Silver / Gold   | petstore-etl | 2025-10-06         |
-| data_extracao | date   | Data da extração do dado    | YYYY-MM-DD                      | -       | Silver / Gold   | petstore-etl | 2025-10-06         |
-
+| Coluna                      | Tipo    | Descrição                         | Valores possíveis / Observações             | Unidade | Camada        | Origem              | Última Atualização |
+| --------------------------- | ------- | --------------------------------- | ------------------------------------------- | ------- | ------------- | ------------------- | ------------------ |
+| empresa                     | string  | Nome da rede                      | Petz, Cobasi, Petlove...                    | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| nome                        | string  | Nome da loja                      | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| logradouro                  | string  | Logradouro simplificado           | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| bairro                      | string  | Bairro                            | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| cidade                      | string  | Cidade                            | -                                           | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| estado                      | string  | Sigla do estado                   | SP, RJ, MG...                               | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| regiao                      | string  | Região da cidade                  | Norte, Sul, Sudeste, Centro-Oeste, Nordeste | -       | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| populacao                   | integer | População estimada da cidade      | Número inteiro                              | pessoas | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| cep                         | string  | CEP normalizado                   | 00000-000                                   | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
+| latitude                    | float   | Latitude geográfica               | -90 a 90                                    | graus   | Silver / Gold | petstore-etl        | 2025-10-08         |
+| longitude                   | float   | Longitude geográfica              | -180 a 180                                  | graus   | Silver / Gold | petstore-etl        | 2025-10-08         |
+| renda_domiciliar_per_capita | float   | Renda domiciliar média (estadual) | Valores monetários                          | R$      | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| cidade_cod_ibge             | string  | Código IBGE da cidade             | 7 dígitos, conforme IBGE                    | -       | Silver / Gold | IBGE / petstore-etl | 2025-10-08         |
+| data_extracao               | date    | Data da extração do dado          | YYYY-MM-DD                                  | -       | Silver / Gold | petstore-etl        | 2025-10-08         |
 ---
 
 ## 🧩 Fluxo de Dados
@@ -58,20 +60,18 @@ graph TD
 
 ---
 
-## ⚙️ Tecnologias e Bibliotecas `petstore-etl`
-
 * [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
 * [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
 * [**numpy**](https://pypi.org/project/numpy/) → operações numéricas e vetoriais  
 * [**tabulate**](https://pypi.org/project/tabulate/) → exibição de tabelas no terminal de forma legível  
 * [**SQLAlchemy**](https://pypi.org/project/SQLAlchemy/) → conexão e manipulação de bancos de dados SQL de forma programática  
 * [**psycopg2-binary**](https://pypi.org/project/psycopg2-binary/) → driver PostgreSQL para Python  
-* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
+* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`  
+* [**serpapi**](https://pypi.org/project/serpapi/) → integração com a API SerpAPI para buscas automatizadas  
+* [**pyarrow**](https://pypi.org/project/pyarrow/) → suporte a arquivos Parquet e manipulação de dados colunar em memória
 
 
 O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
-
-> Identificação da aplicação: `USER_AGENT = "petstore-etl/1.0"`
 
 ---
 
@@ -125,10 +125,10 @@ Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumid
 
 ---
 
-## 🏪 Redes Suportadas
+## 🏪 Redes Analisadas
 
 Atualmente, o projeto coleta dados das seguintes redes para estudo:
 
-* **Petz**
 * **Cobasi**
-* **Pop Pet Center**
+* **Petland**
+* **Petz**
