@@ -1,9 +1,4 @@
-import os
-import re
 import pandas as pd
-import numpy as np
-import time
-from serpapi import GoogleSearch
 from etl.utils import preenche_campos, normaliza_campos
 
 

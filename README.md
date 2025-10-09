@@ -8,17 +8,17 @@ Os dados tratados e carregados no **PostgreSQL** nesse projeto serão consumidos
 
 ---
 
-## 📌 Descrição
+## 📌 Descrição:
 
 O `petstore-etl` consome os dados brutos (camada Bronze) gerados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) e executa as seguintes camadas:
 
 * **🟤 Extractc (Bronze):** coleta dos arquivos brutos disponibilizados pelo [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) via link público (raw).  
-* **⚪ Transform (Silver):** limpeza, padronização e enriquecimento dos dados, incluindo preenchimento de endereços, coordenadas geográficas e dados do IBGE.
-* **🟡 Load (Gold):** integração final e carga no banco de dados, preparando os dados para análise e visualização no [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi).
+* **⚪ Transform (Silver):** enriquecimento dos dados, adicionando novas colunas com dados do IBGE.
+* **🟡 Load (Gold):** limpeza, padronização dos dados para carga dataset no banco de dados deixando-os disponíveis para análise e visualização no [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi).
 
 ---
 
-## 📊 Estrutura dos Dados e Metadados
+## 📊 Estrutura dos Dados e Metadados:
 
 As principais colunas tratadas e enriquecidas são:
 
@@ -50,59 +50,120 @@ graph TD
 
 ---
 
-## 📊 Estrutura do Projeto Final
+## 📊 Estrutura do Projeto Final:
 
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
 | [`petstore-scraping`](https://github.com/rafa-trindade/petstore-scraping) | Coleta de Dados de Franquias | 🟤 Bronze | Selenium, BeautifulSoup4, lxml, pandas |
-| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | pandas, brazilcep, requests, numpy, tabulate, SQLAlchemy, psycopg2-binary, python-dotenv |
+| [`petstore-etl`](https://github.com/rafa-trindade/petstore-etl) | Limpeza, Padronização e Carga | ⚪ Silver / 🟡 Gold | requests, SQLAlchemy, pandas, Cep Aberto (API) |
 | [`petstore-bi`](https://github.com/rafa-trindade/petstore-bi) | BI e Dashboards | 📊 BI | Streamlit, Plotly, pandas |
 
 ---
 
+## ⚙️ Tecnologias e Bibliotecas `petstore-etl`:
+
 * [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
 * [**requests**](https://pypi.org/project/requests/) → chamadas HTTP para APIs externas  
-* [**numpy**](https://pypi.org/project/numpy/) → operações numéricas e vetoriais  
 * [**tabulate**](https://pypi.org/project/tabulate/) → exibição de tabelas no terminal de forma legível  
 * [**SQLAlchemy**](https://pypi.org/project/SQLAlchemy/) → conexão e manipulação de bancos de dados SQL de forma programática  
 * [**psycopg2-binary**](https://pypi.org/project/psycopg2-binary/) → driver PostgreSQL para Python  
-* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`  
-* [**serpapi**](https://pypi.org/project/serpapi/) → integração com a API SerpAPI para buscas automatizadas  
-* [**pyarrow**](https://pypi.org/project/pyarrow/) → suporte a arquivos Parquet e manipulação de dados colunar em memória
-
+* [**python-dotenv**](https://pypi.org/project/python-dotenv/) → leitura de variáveis de ambiente a partir de arquivos `.env`
 
 O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e longitude**, além de preencher campos ausentes de endereço (logradouro, bairro, cidade, estado, cep).
 
 ---
 
-## 🖥️ Log de Execução `petstore-etl`
+## 🖥️ Log de Execução `petstore-etl`:
 
 ```text
-----------------------------------------------
-- Camada Bronze - Extraindo Dados...
-----------------------------------------------
-Extraindo de petstore-scraping/main/data/bronze/lojas_bronze.csv
+============================================================
+- CAMADA BRONZE - Extraindo Dados...
+============================================================
+
 - Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
 
-----------------------------------------------
-- Camada Silver - Transformando Dados...
-----------------------------------------------
-Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
+Dimensão: 651 linhas x 10 colunas
 
-----------------------------------------------
-- Camada Gold - Padronizando Dados...
-----------------------------------------------
-Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
+🔹 Numéricas (2 colunas):
+['latitude', 'longitude'] 
 
-----------------------------------------------
-- Load - Carregando no Banco de Dados...
-----------------------------------------------
+🔹 Categóricas (object/category) (8 colunas):
+['empresa', 'nome', 'endereco', 'bairro', 'cidade', 'estado', 'cep', 'data_extracao'] 
+
+Valores nulos por coluna:
+|    | Coluna    |   Nulos | % Nulos   |
+|----|-----------|---------|-----------|
+|  2 | endereco  |      14 | 2.15%     |
+|  3 | bairro    |     269 | 41.32%    |
+|  6 | cep       |      15 | 2.3%      |
+|  7 | latitude  |     651 | 100.0%    |
+|  8 | longitude |     651 | 100.0%    |
+
+
+============================================================
+- CAMADA SILVER - Enriquecendo Dataset...
+============================================================
+
+- Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
+
+Dimensão: 651 linhas x 14 colunas
+
+🔹 Numéricas (5 colunas):
+['populacao', 'latitude', 'longitude', 'renda_domiciliar_per_capita', 'cidade_cod_ibge'] 
+
+🔹 Categóricas (object/category) (9 colunas):
+['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
+
+Valores nulos por coluna:
+|    | Coluna                      |   Nulos | % Nulos   |
+|----|-----------------------------|---------|-----------|
+|  2 | logradouro                  |      14 | 2.15%     |
+|  3 | bairro                      |     269 | 41.32%    |
+|  6 | regiao                      |       3 | 0.46%     |
+|  7 | cep                         |      15 | 2.3%      |
+|  8 | populacao                   |       3 | 0.46%     |
+|  9 | latitude                    |     651 | 100.0%    |
+| 10 | longitude                   |     651 | 100.0%    |
+| 11 | renda_domiciliar_per_capita |       3 | 0.46%     |
+| 12 | cidade_cod_ibge             |       3 | 0.46%     |
+
+
+============================================================
+- CAMADA GOLD - Padronizando Dados...
+============================================================
+- Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
+
+Dimensão: 651 linhas x 14 colunas
+
+🔹 Numéricas (5 colunas):
+['populacao', 'latitude', 'longitude', 'renda_domiciliar_per_capita', 'cidade_cod_ibge'] 
+
+🔹 Categóricas (object/category) (9 colunas):
+['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
+
+Valores nulos por coluna:
+|    | Coluna                      |   Nulos | % Nulos   |
+|----|-----------------------------|---------|-----------|
+|  2 | logradouro                  |      11 | 1.69%     |
+|  3 | bairro                      |      33 | 5.07%     |
+|  6 | regiao                      |       3 | 0.46%     |
+|  7 | cep                         |      15 | 2.3%      |
+|  8 | populacao                   |       3 | 0.46%     |
+|  9 | latitude                    |      31 | 4.76%     |
+| 10 | longitude                   |      31 | 4.76%     |
+| 11 | renda_domiciliar_per_capita |       3 | 0.46%     |
+| 12 | cidade_cod_ibge             |       3 | 0.46%     |
+
+
+============================================================
+- LOAD - Carregando no Banco de Dados...
+============================================================
 1. Iniciando processo de carga...
 2. Tabela 'lojas_gold' verificada/criada com sucesso.
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 777
+--- Registros depois da carga: 651
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
@@ -111,13 +172,13 @@ Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
 ---
 
-## 🔗 Integração com Projeto de BI
+## 🔗 Integração com Projeto de BI:
 
 Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumidos pelo projeto **`petstore-bi`** para BI e Dashboards.
 
 ---
 
-## 🗄️ Tabela Temporária `lojas_gold_staging`
+## 🗄️ Tabela Temporária `lojas_gold_staging`:
 
 - Durante o processo de carga, os dados do CSV são inseridos nessa tabela temporária.  
 - Em seguida, é feito o **UPSERT** para a tabela principal `lojas_gold`, garantindo que não haja duplicatas.  
@@ -125,9 +186,9 @@ Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumid
 
 ---
 
-## 🏪 Redes Analisadas
+## 🏪 Redes Analisadas:
 
-Atualmente, o projeto coleta dados das seguintes redes para estudo:
+Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
 * **Cobasi**
 * **Petland**

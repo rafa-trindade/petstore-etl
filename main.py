@@ -3,8 +3,9 @@ import sys
 import pandas as pd
 from etl.extract_data import extract_data
 from etl.transform_data import transform_data_silver, transform_data_gold
+from etl.utils import eda
+
 from etl.load_data import load_data
-from datetime import datetime
 
 class Logger:
     def __init__(self, filename):
@@ -34,36 +35,41 @@ sys.stdout = Logger(log_path)
 sys.stderr = sys.stdout 
 
 def main():
-    print("----------------------------------------------")
-    print("- Camada Bronze - Extraindo Dados...")
-    print("----------------------------------------------")
+    print("="*60)
+    print("- CAMADA BRONZE - Extraindo Dados...")
+    print("="*60)
     url = "https://raw.githubusercontent.com/rafa-trindade/petstore-scraping/main/data/bronze/lojas_bronze.csv"
     df_bronze = extract_data(url)
     bronze_path = os.path.join(BRONZE_DIR, "lojas_bronze.csv")
     df_bronze.to_csv(bronze_path, index=False, sep=";", encoding="utf-8-sig")
     print(f"\n- Processo concluído. Arquivo salvo em: {bronze_path}")
+    eda(df_bronze)
 
-    print("\n----------------------------------------------")
-    print("- Camada Silver - Tratanado Dados...")
-    print("----------------------------------------------")
+
+    print("="*60)
+    print("- CAMADA SILVER - Enriquecendo Dataset...")
+    print("="*60)
     silver_path = os.path.join(SILVER_DIR, "lojas_silver.csv")
     df_silver = transform_data_silver(bronze_path)
     df_silver.to_csv(silver_path, index=False, sep=";", encoding="utf-8-sig")
-    print(f"\nProcesso concluído. Arquivo salvo em: {silver_path}")
+    print(f"\n- Processo concluído. Arquivo salvo em: {silver_path}")
+    eda(df_silver)
 
-    print("\n----------------------------------------------")
-    print("- Camada Gold - Padronizando Dados...")
-    print("----------------------------------------------")
+
+    print("="*60)
+    print("- CAMADA GOLD - Padronizando Dados...")
+    print("="*60)
     gold_path = os.path.join(GOLD_DIR, "lojas_gold.csv")
     df_gold = transform_data_gold(silver_path)
     df_gold.to_csv(gold_path, index=False, sep=";", encoding="utf-8-sig")
-    print(f"\nProcesso concluído. Arquivo salvo em: {gold_path}")
+    print(f"\n- Processo concluído. Arquivo salvo em: {gold_path}")
+    eda(df_gold)
 
 
 
-    print("\n----------------------------------------------")
-    print("- Load - Carregando no Banco de Dados...")
-    print("----------------------------------------------")
+    print("="*60)
+    print("- LOAD - Carregando no Banco de Dados...")
+    print("="*60)
     df_gold['data_extracao'] = pd.to_datetime(df_gold['data_extracao'], errors='coerce').dt.date
     try:
         load_data(gold_path)
@@ -75,9 +81,9 @@ def main():
 
 
 def load_db():
-    print("\n----------------------------------------------")
+    print("="*60)
     print("- Load - Carregando no Banco de Dados...")
-    print("----------------------------------------------")
+    print("="*60)
     
     gold_path = os.path.join(GOLD_DIR, "lojas_gold.csv")
     df_gold = pd.read_csv(gold_path, sep=";", encoding="utf-8")
@@ -91,5 +97,5 @@ def load_db():
 
 
 if __name__ == "__main__":
-    #main()
-    load_db()
+    main()
+    #load_db()

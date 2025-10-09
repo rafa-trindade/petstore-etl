@@ -1,652 +1,699 @@
 ﻿empresa;nome;logradouro;bairro;cidade;estado;regiao;cep;populacao;latitude;longitude;renda_domiciliar_per_capita;cidade_cod_ibge;data_extracao
-petz;Petz Abelardo Bueno;Avenida Embaixador Abelardo Bueno;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22775-040;6729894.0;-22.9727518094;-43.3884886319;2490.0;3300100.0;08/10/2025
-petz;Petz Aclimação;Rua Muniz de Sousa;Aclimação;São Paulo;SP;Sudeste;01534-000;11895578.0;-23.5696900041;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Afonso Pena;Avenida Bandeirantes;Amambaí;Campo Grande;MS;Centro-Oeste;79005-671;954537.0;-20.4697105;-54.6201211;2169.0;5000203.0;08/10/2025
-petz;Petz Agamenon;Avenida Governador Agamenon Magalhães;Boa Vista;Recife;PE;Nordeste;50050-290;1587707.0;-8.0559795;-34.8953473;1453.0;2600054.0;08/10/2025
-petz;Petz Águas Claras;Avenida Sibipiruna;Sul (Águas Claras);Brasília;DF;Centro-Oeste;71928-720;2982818.0;-15.885750017;-48.0398915003;3444.0;5300108.0;08/10/2025
-petz;Petz Alameda Santos;Alameda Santos;Cerqueira César;São Paulo;SP;Sudeste;01419-001;11895578.0;-23.5326099937;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Aldeota;Avenida Barão de Studart;Aldeota;Fortaleza;CE;Nordeste;60120-001;2574412.0;-3.7357094;-38.5069693;1225.0;2300101.0;08/10/2025
-petz;Petz Alphaville;Avenida Alphaville;Dezoito do Forte Empresarial/Alphaville.;Barueri;SP;Sudeste;06472-010;330339.0;;;2662.0;3500105.0;08/10/2025
-petz;Petz Alto da Boa Vista;Avenida Adolfo Pinheiro;Santo Amaro;São Paulo;SP;Sudeste;04734-004;11895578.0;-23.8617400321;-46.2937601861;2662.0;3500105.0;08/10/2025
-petz;Petz Americana;Avenida Paulista;Vila Nossa Senhora de Fátima;Americana;SP;Sudeste;13478-580;246655.0;-22.7376643;-47.3178178;2662.0;3500105.0;08/10/2025
-petz;Petz Ana Costa;Avenida Ana Costa;Gonzaga;Santos;SP;Sudeste;11060-001;429567.0;-23.954249995;-46.334;2662.0;3500105.0;08/10/2025
-petz;Petz Anália Franco;Avenida Regente Feijó;Vila Regente Feijó;São Paulo;SP;Sudeste;03342-000;11895578.0;-23.7020800204;-46.8040764713;2662.0;3500105.0;08/10/2025
-petz;Petz Angélica;Avenida Angélica;Consolação;São Paulo;SP;Sudeste;01227-200;11895578.0;-23.5556500053;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Anhaia Mello;Avenida Professor Luiz Ignácio Anhaia Mello;Vila Graciosa;São Paulo;SP;Sudeste;03295-000;11895578.0;-23.6981200203;-46.4722432506;2662.0;3500105.0;08/10/2025
-petz;Petz Aracaju;Avenida Ministro Geraldo Barreto Sobral 215;Jardins;Aracaju;SE;Nordeste;49026-900;628849.0;-10.9438929;-37.0593452;1473.0;2800100.0;08/10/2025
-petz;Petz Araçatuba;Avenida Brasília;Jardim Nova Yorque;Araçatuba;SP;Sudeste;16018-000;207775.0;-21.2028539;-50.4536793;2662.0;3500105.0;08/10/2025
-petz;Petz Araraquara;Avenida Padre Francisco Sales Colturato;Centro;Araraquara;SP;Sudeste;14802-000;252318.0;-21.7848272;-48.1786486;2662.0;3500105.0;08/10/2025
-petz;Petz Arujá;Rua Tomi Saburo Yamamoto;Jardim das Cerejeiras;Arujá;SP;Sudeste;07432-575;89943.0;-23.3950099976;-46.3220786898;2662.0;3500105.0;08/10/2025
-petz;Petz Assaí Anchieta;Rua Garcia Lorca;Paulicéia;São Bernardo do Campo;SP;Sudeste;09695-000;840499.0;-23.6995800017;-46.5710936695;2662.0;3500105.0;08/10/2025
-petz;Petz Assaí Colinas;Avenida Jorge Zarur;Vila Ema;São José dos Campos;SP;Sudeste;12243-081;724756.0;-23.2102831;-45.8969547;2662.0;3500105.0;08/10/2025
-petz;Petz Assaí Maracanã;Rua José Higino;Tijuca;Rio de Janeiro;RJ;Sudeste;20520-201;6729894.0;-22.9325728;-43.2410248;2490.0;3300100.0;08/10/2025
-petz;Petz Assaí Penha;Avenida São Miguel;Vila Marieta;São Paulo;SP;Sudeste;03620-000;11895578.0;-23.3633199789;-46.8374561407;2662.0;3500105.0;08/10/2025
-petz;Petz Assis Chateaubriand;Avenida Assis Chateaubriand;Setor Oeste;Goiânia;GO;Centro-Oeste;74130-015;1494599.0;-16.6848554;-49.2714702;2098.0;5200050.0;08/10/2025
-petz;Petz Augusta;Rua Augusta;Consolação;São Paulo;SP;Sudeste;01305-000;11895578.0;-23.5367499961;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Avenida das Américas Recreio;Rua César Lattes;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22793-329;6729894.0;-23.0023912;-43.4245654;2490.0;3300100.0;08/10/2025
-petz;Petz Avenida do Contorno;Avenida do Contorno;Santa Efigênia;Belo Horizonte;MG;Sudeste;30110-017;2416339.0;-19.9139617;-43.9323353;2001.0;3100104.0;08/10/2025
-petz;Petz Avenida Dos Estados;Avenida dos Estados;Tamanduateí 8;Santo André;SP;Sudeste;09270-270;778711.0;-23.694960006;-46.5041977288;2662.0;3500105.0;08/10/2025
-petz;Petz Avenida Goiás;Avenida Goiás;Santo Antônio;São Caetano do Sul;SP;Sudeste;09521-310;172109.0;-23.623;-46.5496247537;2662.0;3500105.0;08/10/2025
-petz;Petz Avenida Interlagos;Avenida Interlagos;Jardim Marajoara;São Paulo;SP;Sudeste;04660-002;11895578.0;-23.8534600338;-46.3027923299;2662.0;3500105.0;08/10/2025
-petz;Petz Avenida Milão;Avenida Milão;Jardim Europa;Goiânia;GO;Centro-Oeste;74325-030;1494599.0;-16.7092282;-49.313446;2098.0;5200050.0;08/10/2025
-petz;Petz Balneário Camboriú;Avenida do Estado Dalmo Vieira;Estados;Balneário Camboriú;SC;Sul;88339-060;148758.0;-26.9737199957;-48.635;2601.0;4200051.0;08/10/2025
-petz;Petz Bandeirantes;Avenida dos Bandeirantes 2040;Vila Olímpia;São Paulo;SP;Sudeste;04553-902;11895578.0;-23.6192800094;-46.7137550031;2662.0;3500105.0;08/10/2025
-petz;Petz Bangu Shopping;Rua Fonseca;Bangu;Rio de Janeiro;RJ;Sudeste;21820-005;6729894.0;-22.8819709;-43.465515;2490.0;3300100.0;08/10/2025
-petz;Petz Barra Américas;Avenida das Américas;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22793-080;6729894.0;-23.0141759;-43.4664789;2490.0;3300100.0;08/10/2025
-petz;Petz Barreiro;Avenida Sinfrônio Brochado;Barreiro;Belo Horizonte;MG;Sudeste;30640-000;2416339.0;-19.9768558;-44.0195832;2001.0;3100104.0;08/10/2025
-petz;Petz Bauru;Rua Rubens Pagani;Jardim Estoril IV;Bauru;SP;Sudeste;17016-210;391740.0;-22.314459;-49.0586951;2662.0;3500105.0;08/10/2025
-petz;Petz Belém;Avenida Nazaré;Nazaré;Belém;PA;Norte;66035-445;1398531.0;-1.454061;-48.4812248;1344.0;1500107.0;08/10/2025
-petz;Petz Belford Roxo;Avenida Prefeito Jorge Júlio Costa dos Santos;Centro;Belford Roxo;RJ;Sudeste;26130-010;518263.0;-22.7645391;-43.3996264;2490.0;3300100.0;08/10/2025
-petz;Petz Bento Gonçalves;;Botafogo;Bento Gonçalves;RS;Sul;95700-000;127775.0;;;2608.0;4300034.0;08/10/2025
-petz;Petz BestCenter Jacareí;Rua Barão de Jacareí;Centro;Jacareí;SP;Sudeste;12308-000;249968.0;-23.2987827;-45.9662542;2662.0;3500105.0;08/10/2025
-petz;Petz Betim;Avenida Juiz Marco Túlio Isaac;Jardim das Alterosas 1ª Seção;Betim;MG;Sudeste;32671-072;429236.0;-19.9673078;-44.2011904;2001.0;3100104.0;08/10/2025
-petz;Petz Blumenau;Rua São Paulo;Itoupava Seca;Blumenau;SC;Sul;89030-001;380597.0;-26.919;-49.0579250549;2601.0;4200051.0;08/10/2025
-petz;Petz Boa Viagem;Avenida Boa Viagem;Boa Viagem;Recife;PE;Nordeste;51020-000;1587707.0;-8.1099616;-34.8891379;1453.0;2600054.0;08/10/2025
-petz;Petz Bosque Maia;Avenida Paulo Faccini;Macedo;Guarulhos;SP;Sudeste;07111-000;1345364.0;-23.4836100077;-46.533;2662.0;3500105.0;08/10/2025
-petz;Petz Botafogo;Rua General Polidoro;Botafogo;Rio de Janeiro;RJ;Sudeste;22280-004;6729894.0;-22.9511149;-43.1809269;2490.0;3300100.0;08/10/2025
-petz;Petz Botucatu;Avenida Doutor Vital Brasil;Vila São Lúcio;Botucatu;SP;Sudeste;18603-193;150442.0;-22.8841808;-48.4441654;2662.0;3500105.0;08/10/2025
-petz;Petz Brasília Asa Norte;Setor STN;Asa Norte;Brasília;DF;Centro-Oeste;70770-100;2982818.0;-15.7333775;-47.8970566;3444.0;5300108.0;08/10/2025
-petz;Petz Brasília Epia;Setor de Postos e Motéis Sul I;Setor de Postos e Motéis Sul (Núcleo Bandeirante);Brasília;DF;Centro-Oeste;71738-010;2982818.0;-15.8711088;-47.9709785;3444.0;5300108.0;08/10/2025
-petz;Petz Brasília Jardim Botânico;Quadra 1 Lote E;Setor Habitacional Jardim Botânico;Brasília;DF;Centro-Oeste;71681-025;2982818.0;-15.9064363;-47.8624914;3444.0;5300108.0;08/10/2025
-petz;Petz Brasília SIA;Trecho SIA Trecho 17 Rua 03;Zona Industrial (Guará);Brasília;DF;Centro-Oeste;71200-207;2982818.0;-15.7786295;-47.9408608;3444.0;5300108.0;08/10/2025
-petz;Petz Brasília W3 Norte;Quadra EQS 414/415;Asa Sul;Brasília;DF;Centro-Oeste;70297-400;2982818.0;-15.7906787664;-47.8930069733;3444.0;5300108.0;08/10/2025
-petz;Petz Brusque;Rua Gustavo Schlosser;Centro II;Brusque;SC;Sul;88353-020;151949.0;-27.0929599984;-48.9123385317;2601.0;4200051.0;08/10/2025
-petz;Petz Bueno T63;Avenida T 63;Setor Bueno;Goiânia;GO;Centro-Oeste;74230-105;1494599.0;-16.7004399;-49.276539;2098.0;5200050.0;08/10/2025
-petz;Petz Butantã;Avenida Professor Francisco Morato;Butantã;São Paulo;SP;Sudeste;05512-200;11895578.0;-23.9588500473;-46.1878288093;2662.0;3500105.0;08/10/2025
-petz;Petz Cambuí;Avenida Doutor Moraes Salles;Jardim Guarani;Campinas;SP;Sudeste;13100-201;1185977.0;-22.9060289;-47.0461989;2662.0;3500105.0;08/10/2025
-petz;Petz Campinas Norte Sul;Avenida José de Souza Campos;Nova Campinas;Campinas;SP;Sudeste;13092-123;1185977.0;-22.9040083;-47.0400589;2662.0;3500105.0;08/10/2025
-petz;Petz Campo Grande;Avenida Afonso Pena;Chácara Cachoeira;Campo Grande;MS;Centro-Oeste;79040-010;954537.0;-20.4643395;-54.579342;2169.0;5000203.0;08/10/2025
-petz;Petz Campo Grande Rio;Rua João Barbosa de Morais;Campo Grande;Rio de Janeiro;RJ;Sudeste;23040-125;6729894.0;-22.9230245;-43.5495864;2490.0;3300100.0;08/10/2025
-petz;Petz Canoas;Avenida Doutor Sezefredo Azambuja Vieira;Marechal Rondon;Canoas;RS;Sul;92020-020;359554.0;-29.9175499937;-51.184519194;2608.0;4300034.0;08/10/2025
-petz;Petz Caraguatatuba;Rua Vereador Antônio Cruz Arouca;Indaiá;Caraguatatuba;SP;Sudeste;11665-100;141084.0;-23.6267599;-45.4234501;2662.0;3500105.0;08/10/2025
-petz;Petz Carapicuíba;Avenida Inocêncio Seráfico;Vila Silva Ribeiro;Carapicuíba;SP;Sudeste;06380-021;398462.0;-23.5378500086;-46.836;2662.0;3500105.0;08/10/2025
-petz;Petz Carlos Berta;Rua Antônio Carlos Berta;Jardim Europa;Porto Alegre;RS;Sul;91340-020;1389322.0;-30.033;-51.279379889;2608.0;4300034.0;08/10/2025
-petz;Petz Carlos Luz;Avenida Presidente Carlos Luz;Caiçaras;Belo Horizonte;MG;Sudeste;31230-010;2416339.0;-19.9012987;-43.9667394;2001.0;3100104.0;08/10/2025
-petz;Petz Carrefour Anchieta;Via Anchieta, 3398;Vila Vermelha;São Paulo;SP;Sudeste;04246-900;11895578.0;-23.4902199938;-46.5729713249;2662.0;3500105.0;08/10/2025
-petz;Petz Carrefour Imigrantes;Rua Alfredo de Salles Oliveira Netto;Vila do Bosque;São Paulo;SP;Sudeste;04147-020;11895578.0;-23.3060799704;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Carrefour Manilha;Rua Oliveira Botelho;Neves (Neves);São Gonçalo;RJ;Sudeste;24425-005;960652.0;-22.8544152;-43.0977581;2490.0;3300100.0;08/10/2025
-petz;Petz Carrefour Ribeirão Shopping;Avenida Coronel Fernando Ferreira Leite;Jardim Califórnia;Ribeirão Preto;SP;Sudeste;14026-020;728400.0;-21.2041684;-47.8255301;2662.0;3500105.0;08/10/2025
-petz;Petz Carrefour São Caetano;Avenida do Estado;Prosperidade;São Caetano do Sul;SP;Sudeste;09550-400;172109.0;-23.6198499977;-46.5544381091;2662.0;3500105.0;08/10/2025
-petz;Petz Carrefour Tietê;Avenida Morvan Dias de Figueiredo 3177;Vila Guilherme;São Paulo;SP;Sudeste;02063-902;11895578.0;-23.548;-46.6583840199;2662.0;3500105.0;08/10/2025
-petz;Petz Cascavel;Avenida Brasil;Centro;Cascavel;PR;Sul;85812-000;364104.0;-24.956;-53.4629414822;2482.0;4100103.0;08/10/2025
-petz;Petz Castelo;;Paquetá;Belo Horizonte;MG;Sudeste;30840-535;2416339.0;;;2001.0;3100104.0;08/10/2025
-petz;Petz Catuai Londrina;Rodovia Mabio Gonçalves Palhano;Gleba Fazenda Palhano;Londrina;PR;Sul;86055-585;577318.0;-23.31;-51.1395782472;2482.0;4100103.0;08/10/2025
-petz;Petz Cavalhada;Avenida Eduardo Prado;Cavalhada;Porto Alegre;RS;Sul;91751-000;1389322.0;-30.033;-51.1583731786;2608.0;4300034.0;08/10/2025
-petz;Petz Caxias do Sul;Avenida Ruben Bento Alves;Cinqüentenário;Caxias do Sul;RS;Sul;95012-393;479256.0;-29.1745107;-51.207829;2608.0;4300034.0;08/10/2025
-petz;Petz Ceilândia;Quadra Q 1;Setor de Desenvolvimento Econômico (Taguatinga);Brasília;DF;Centro-Oeste;72145-100;2982818.0;-15.8096826;-48.0897558;3444.0;5300108.0;08/10/2025
-petz;Petz Center Minas;Avenida Pastor Anselmo Silvestre;Dom Joaquim;Belo Horizonte;MG;Sudeste;31170-678;2416339.0;-19.8790939;-43.9177407;2001.0;3100104.0;08/10/2025
-petz;Petz Center Shopping Uberlândia;Avenida João Naves de Ávila;Tibery;Uberlândia;MG;Sudeste;38405-140;754954.0;-18.9011105;-48.2511641;2001.0;3100104.0;08/10/2025
-petz;Petz Cerro Corá;Rua Cerro Corá;Vila Romana;São Paulo;SP;Sudeste;05061-300;11895578.0;-23.1801699588;-47.037243297;2662.0;3500105.0;08/10/2025
-petz;Petz Chapecó;Avenida Fernando Machado - D;Centro;Chapecó;SC;Sul;89802-111;275959.0;-27.0947399993;-52.6194153421;2601.0;4200051.0;08/10/2025
-petz;Petz Cidade Jardim;Avenida dos Tajurás;Cidade Jardim;São Paulo;SP;Sudeste;05670-000;11895578.0;-23.1187899568;-46.1678010127;2662.0;3500105.0;08/10/2025
-petz;Petz Congonhas;Avenida Moreira Guimarães;Indianópolis;São Paulo;SP;Sudeste;04074-030;11895578.0;-23.7813700242;-46.3814309126;2662.0;3500105.0;08/10/2025
-petz;Petz Contagem;Avenida Babita Camargos;Cidade Industrial;Contagem;MG;Sudeste;32210-180;649975.0;-19.9511138;-44.0258233;2001.0;3100104.0;08/10/2025
-petz;Petz Contagem João Cesar;Avenida João César de Oliveira;Beatriz;Contagem;MG;Sudeste;32040-000;649975.0;-19.9249966;-44.0609614;2001.0;3100104.0;08/10/2025
-petz;Petz Continente;Rua Martinho Boschetti;Picadas do Sul;São José;SC;Sul;88106-110;289949.0;-27.6186000056;-48.628;2601.0;4200051.0;08/10/2025
-petz;Petz Copacabana;Avenida Nossa Senhora de Copacabana;Copacabana;Rio de Janeiro;RJ;Sudeste;22070-012;6729894.0;-22.9697777;-43.1868592;2490.0;3300100.0;08/10/2025
-petz;Petz Cotia;Rodovia Raposo Tavares;Lageadinho;Cotia;SP;Sudeste;06709-015;287004.0;-23.5966199947;-46.9270538309;2662.0;3500105.0;08/10/2025
-petz;Petz Criciúma;Avenida Centenário;Centro;Criciúma;SC;Sul;88801-001;225281.0;-28.6803626913;-49.3671297486;2601.0;4200051.0;08/10/2025
-petz;Petz Cristiano Machado;Rua José Vieira Muniz;Floramar;Belo Horizonte;MG;Sudeste;31742-005;2416339.0;-19.8307058;-43.9388814;2001.0;3100104.0;08/10/2025
-petz;Petz Diadema;Avenida Fábio Eduardo Ramos Esquivel;Centro;Diadema;SP;Sudeste;09920-578;404118.0;-23.6886100049;-46.6258500946;2662.0;3500105.0;08/10/2025
-petz;Petz Diário de Notícias;Avenida Diário de Notícias;Cristal;Porto Alegre;RS;Sul;90810-080;1389322.0;-30.0504600069;-51.2098322109;2608.0;4300034.0;08/10/2025
-petz;Petz Divinópolis;Rua Minas Gerais;Centro;Divinópolis;MG;Sudeste;35500-007;242328.0;-20.1451261;-44.8916447;2001.0;3100104.0;08/10/2025
-petz;Petz Djalma Batista;Avenida Djalma Batista;Chapada;Manaus;AM;Norte;69050-010;2279686.0;-3.0967957;-60.0288373;1238.0;1300029.0;08/10/2025
-petz;Petz Dom Pedro;Avenida Guilherme Campos 500;Jardim Santa Genebra;Campinas;SP;Sudeste;13087-901;1185977.0;-22.9099384;-47.0626332;2662.0;3500105.0;08/10/2025
-petz;Petz Dourados;Avenida Marcelino Pires;Jardim Caramuru;Dourados;MS;Centro-Oeste;79830-000;260640.0;-22.223561;-54.8125486;2169.0;5000203.0;08/10/2025
-petz;Petz Edgar Facó;Avenida General Edgar Facó;Vila Pereira Cerca;São Paulo;SP;Sudeste;02924-400;11895578.0;-23.548;-46.757050399;2662.0;3500105.0;08/10/2025
-petz;Petz Enseada;Avenida Santa Maria;Enseada;Guarujá;SP;Sudeste;11440-110;294973.0;-23.9869736;-46.2463403;2662.0;3500105.0;08/10/2025
-petz;Petz Estação Goiânia;Avenida Goiás;Setor Central;Goiânia;GO;Centro-Oeste;74010-010;1494599.0;-16.6716683;-49.2562665;2098.0;5200050.0;08/10/2025
-petz;Petz Fernando Corrêa;Avenida Fernando Correa da Costa;Pico do Amor;Cuiabá;MT;Centro-Oeste;78065-000;682932.0;-15.6014109;-56.0978917;2276.0;5100102.0;08/10/2025
-petz;Petz Ferraz de Vasconcelos;Avenida Brasil;Vila Romanópolis;Ferraz de Vasconcelos;SP;Sudeste;08529-310;185622.0;-23.536859992;-46.3644841588;2662.0;3500105.0;08/10/2025
-petz;Petz Florianópolis;Rodovia José Carlos Daux;Saco Grande;Florianópolis;SC;Sul;88032-005;576361.0;-27.597;-48.5435160762;2601.0;4200051.0;08/10/2025
-petz;Petz Foz do Iguaçu;Rua Alfredo Nunes do Nascimento;Jardim Polo Centro;Foz do Iguaçu;PR;Sul;85863-754;295500.0;-25.541339996;-54.5953817609;2482.0;4100103.0;08/10/2025
-petz;Petz Franca;Rua Professora Suzana Ribeiro Sandoval;Vila Champagnat;Franca;SP;Sudeste;14400-190;364331.0;-20.5494525;-47.4037878;2662.0;3500105.0;08/10/2025
-petz;Petz Gama Leste;Quadra Quadra 1;Setor Industrial (Gama);Brasília;DF;Centro-Oeste;72445-010;2982818.0;-16.0136169;-48.059985;3444.0;5300108.0;08/10/2025
-petz;Petz Gastão Vidigal;Avenida Doutor Gastão Vidigal;Vila Leopoldina;São Paulo;SP;Sudeste;05314-000;11895578.0;-23.939320047;-47.0628671078;2662.0;3500105.0;08/10/2025
-petz;Petz Gilberto Salomão;SHIS QI 5 Bloco F;Setor de Habitações Individuais Sul;Brasília;DF;Centro-Oeste;71615-560;2982818.0;-15.7942287;-47.8821658;3444.0;5300108.0;08/10/2025
-petz;Petz Giovanni Gronchi;Avenida Giovanni Gronchi;Morumbi;São Paulo;SP;Sudeste;05651-002;11895578.0;-23.1205899546;-47.1022354799;2662.0;3500105.0;08/10/2025
-petz;Petz Giovanni Pirelli;Rua Giovanni Battista Pirelli;Vila Homero Thon;Santo André;SP;Sudeste;09111-340;778711.0;-23.6733600058;-46.5482192956;2662.0;3500105.0;08/10/2025
-petz;Petz Governador Valadares;Avenida Brasil;Centro;Governador Valadares;MG;Sudeste;35010-070;266649.0;-18.8695636;-41.9543122;2001.0;3100104.0;08/10/2025
-petz;Petz Gravataí;Avenida Dorival Cândido Luz de Oliveira;COHAB C;Gravataí;RS;Sul;94030-000;275294.0;-29.9415699933;-50.9891956511;2608.0;4300034.0;08/10/2025
-petz;Petz Guarujá;Avenida Adhemar de Barros;Vila Santa Rosa;Guarujá;SP;Sudeste;11430-003;294973.0;-23.9908312;-46.2809014;2662.0;3500105.0;08/10/2025
-petz;Petz Guarulhos;Rua Guarulhos;Gopoúva;Guarulhos;SP;Sudeste;07022-020;1345364.0;-23.463;-46.5312339725;2662.0;3500105.0;08/10/2025
-petz;Petz Guarulhos Pimentas;Estrada Presidente Juscelino Kubitschek de Oliveira;Jardim Albertina;Guarulhos;SP;Sudeste;07252-000;1345364.0;-23.5301400125;-46.6061916931;2662.0;3500105.0;08/10/2025
-petz;Petz Hiper Sales Aracaju;Avenida Augusto Franco;Ponto Novo;Aracaju;SE;Nordeste;49097-670;628849.0;-10.9349279;-37.075392;1473.0;2800100.0;08/10/2025
-petz;Petz Hortolândia;Avenida Santana;Parque Ortolândia;Hortolândia;SP;Sudeste;13184-210;247331.0;-22.8828875;-47.2308623;2662.0;3500105.0;08/10/2025
-petz;Petz Iguatemi Esplanada;Avenida Gisele Constantino;Parque Bela Vista;Votorantim;SP;Sudeste;18110-650;132849.0;-23.5458282;-47.4670805;2662.0;3500105.0;08/10/2025
-petz;Petz Ilha do Governador;Estrada do Galeão;Jardim Carioca;Rio de Janeiro;RJ;Sudeste;21931-524;6729894.0;-22.8070469;-43.197542;2490.0;3300100.0;08/10/2025
-petz;Petz Indaiatuba;Alameda Filtros Mann;Jardim Tropical;Indaiatuba;SP;Sudeste;13344-580;267796.0;-23.1153736;-47.2182994;2662.0;3500105.0;08/10/2025
-petz;Petz Independência Shopping;Avenida Presidente Itamar Franco;São Mateus;Juiz de Fora;MG;Sudeste;36025-290;565764.0;-21.7722581;-43.353661;2001.0;3100104.0;08/10/2025
-petz;Petz Ipatinga;Rua Cláudio Moura;Novo Cruzeiro;Ipatinga;MG;Sudeste;35164-840;235445.0;-19.4750305;-42.5374761;2001.0;3100104.0;08/10/2025
-petz;Petz Ipiranga;Avenida Presidente Tancredo Neves;Vila Nancy;São Paulo;SP;Sudeste;04287-010;11895578.0;-23.2887099681;-46.9188436387;2662.0;3500105.0;08/10/2025
-petz;Petz Itaim;Rua Bandeira Paulista;Itaim Bibi;São Paulo;SP;Sudeste;04532-003;11895578.0;-23.8387900308;-46.9532050611;2662.0;3500105.0;08/10/2025
-petz;Petz Itajaí;Avenida Vereador Abrahão João Francisco;Ressacada;Itajaí;SC;Sul;88307-302;287289.0;-26.9148400041;-48.6696704504;2601.0;4200051.0;08/10/2025
-petz;Petz Itanhaém;;Centro;Itanhaém;SP;Sudeste;11740-000;117435.0;-24.1817994;-46.7850334;2662.0;3500105.0;08/10/2025
-petz;Petz Itapecerica;Estrada de Itapecerica;Vila das Belezas;São Paulo;SP;Sudeste;05835-003;11895578.0;-23.1005199541;-47.1241286159;2662.0;3500105.0;08/10/2025
-petz;Petz Itapetininga;Avenida Peixoto Gomide;Centro;Itapetininga;SP;Sudeste;18200-160;163774.0;-23.5870635;-48.0480516;2662.0;3500105.0;08/10/2025
-petz;Petz Itatiba;Avenida Marechal Castelo Branco;Jardim da Luz;Itatiba;SP;Sudeste;13255-350;126403.0;-23.0244035;-46.8402896;2662.0;3500105.0;08/10/2025
-petz;Petz Itu;Avenida Doutor Otaviano Pereira Mendes;Liberdade;Itu;SP;Sudeste;13301-000;174561.0;-23.2588;-47.2989196;2662.0;3500105.0;08/10/2025
-petz;Petz Jaboatão dos Guararapes;Avenida Ayrton Senna da Silva;Piedade;Jaboatão dos Guararapes;PE;Nordeste;54420-700;683285.0;-8.1801557;-34.9203383;1453.0;2600054.0;08/10/2025
-petz;Petz Jacu Pêssego;Avenida Jacu-Pêssego;Itaquera;São Paulo;SP;Sudeste;08215-115;11895578.0;-23.5358836;-46.4523686;2662.0;3500105.0;08/10/2025
-petz;Petz Jaguaré;Avenida Corifeu de Azevedo Marques;Vila Lageado;São Paulo;SP;Sudeste;05339-003;11895578.0;-23.9419300478;-46.2062858021;2662.0;3500105.0;08/10/2025
-petz;Petz Jardim Botânico;Rua Jardim Botânico;Jardim Botânico;Rio de Janeiro;RJ;Sudeste;22470-051;6729894.0;-22.9068467;-43.1728965;2490.0;3300100.0;08/10/2025
-petz;Petz Jardim Icaraí;Rua Doutor Paulo César;Santa Rosa;Niterói;RJ;Sudeste;24240-000;516720.0;-22.8987588;-43.0985184;2490.0;3300100.0;08/10/2025
-petz;Petz Jaú;Avenida Doutor Quinzinho;Chácara Peccioli;Jaú;SP;Sudeste;17210-110;137323.0;-22.2992648;-48.5446869;2662.0;3500105.0;08/10/2025
-petz;Petz João Firmino;Avenida João Firmino;Assunção;São Bernardo do Campo;SP;Sudeste;09810-250;840499.0;-23.7116400034;-46.5842638563;2662.0;3500105.0;08/10/2025
-petz;Petz João Pessoa;Avenida Senador Ruy Carneiro;Manaíra;João Pessoa;PB;Nordeste;58039-180;888679.0;-7.1121567;-34.828319;1401.0;2500106.0;08/10/2025
-petz;Petz Joinville;Alameda Rolf Colin;América;Joinville;SC;Sul;89204-070;654888.0;-26.3011199952;-48.846;2601.0;4200051.0;08/10/2025
-petz;Petz Juiz de Fora;Avenida Barão do Rio Branco;Alto dos Passos;Juiz de Fora;MG;Sudeste;36026-500;565764.0;-21.776524;-43.3473578;2001.0;3100104.0;08/10/2025
-petz;Petz Jundiaí;Avenida Antônio Frederico Ozanan;Vila de Vito;Jundiaí;SP;Sudeste;13215-010;460313.0;-23.1719746;-46.8883514;2662.0;3500105.0;08/10/2025
-petz;Petz Jundiaí Anhanguera;Avenida Doutor Adilson Rodrigues;Jardim das Samambaias;Jundiaí;SP;Sudeste;13211-685;460313.0;-23.1920386436;-46.9079545957;2662.0;3500105.0;08/10/2025
-petz;Petz Lauzane Paulista;Avenida Direitos Humanos;Imirim;São Paulo;SP;Sudeste;02475-001;11895578.0;-23.6281900094;-46.7234743771;2662.0;3500105.0;08/10/2025
-petz;Petz Limão;Avenida Otaviano Alves de Lima;Casa Verde Baixa;São Paulo;SP;Sudeste;02501-000;11895578.0;-23.5145404;-46.6646472;2662.0;3500105.0;08/10/2025
-petz;Petz Linha Verde;Avenida Caviúna;Bairro Alto;Curitiba;PR;Sul;82840-123;1829225.0;-25.4929800105;-49.3449501394;2482.0;4100103.0;08/10/2025
-petz;Petz Litoral Plaza;Avenida Ayrton Senna da Silva;Sítio do Campo;Praia Grande;SP;Sudeste;11726-000;365577.0;-23.99403;-46.4061432;2662.0;3500105.0;08/10/2025
-petz;Petz Londrina Tiradentes;Avenida Tiradentes;Rodocentro;Londrina;PR;Sul;86071-000;577318.0;-23.3385300098;-51.131934327;2482.0;4100103.0;08/10/2025
-petz;Petz Manuel Gaya;Rua Manuel Gaya;Vila Nova Mazzei;São Paulo;SP;Sudeste;02313-000;11895578.0;-23.6060500137;-46.5726767902;2662.0;3500105.0;08/10/2025
-petz;Petz Maraponga;Avenida Godofredo Maciel;Maraponga;Fortaleza;CE;Nordeste;60710-684;2574412.0;-3.7930657;-38.5658738;1225.0;2300101.0;08/10/2025
-petz;Petz Marechal Tito;Avenida Marechal Tito;Itaim Paulista;São Paulo;SP;Sudeste;08115-100;11895578.0;-23.0675799511;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Marginal Tietê 24h;Rua Doutor Miguel Paulo Capalbo;Pari;São Paulo;SP;Sudeste;03035-040;11895578.0;-23.6722900173;-46.7715803788;2662.0;3500105.0;08/10/2025
-petz;Petz Maringá;Avenida Paraná;Zona 07;Maringá;PR;Sul;87020-085;425983.0;-23.425;-51.9421386933;2482.0;4100103.0;08/10/2025
-petz;Petz Mateus Leme;Rua Mateus Leme;Bom Retiro;Curitiba;PR;Sul;80520-174;1829225.0;-25.4078125;-49.271846;2482.0;4100103.0;08/10/2025
-petz;Petz Mauro Ramos;Avenida Mauro Ramos;Centro;Florianópolis;SC;Sul;88020-302;576361.0;-27.5947499957;-48.5464611447;2601.0;4200051.0;08/10/2025
-petz;Petz Miguel Sutil;Avenida Miguel Sutil;Jardim Mariana;Cuiabá;MT;Centro-Oeste;78040-790;682932.0;-15.5790011;-56.1097477;2276.0;5100102.0;08/10/2025
-petz;Petz Mogi das Cruzes;Avenida Francisco Rodrigues Filho;Botujuru;Mogi das Cruzes;SP;Sudeste;08840-000;468120.0;-23.523;-46.2109687036;2662.0;3500105.0;08/10/2025
-petz;Petz Mogi Guaçu;Avenida Mogi Mirim;Areião;Mogi Guaçu;SP;Sudeste;13844-110;159735.0;-22.379356;-46.9420796;2662.0;3500105.0;08/10/2025
-petz;Petz Moinhos de Vento;Rua Quintino Bocaiúva;Rio Branco;Porto Alegre;RS;Sul;90440-051;1389322.0;-30.0223799939;-51.217732992;2608.0;4300034.0;08/10/2025
-petz;Petz Mooca;Avenida Paes de Barros;Mooca;São Paulo;SP;Sudeste;03114-001;11895578.0;-23.6774200191;-46.777176384;2662.0;3500105.0;08/10/2025
-petz;Petz Mooca Plaza Shopping;Rua Capitão Pacheco e Chaves;Vila Prudente;São Paulo;SP;Sudeste;03126-000;11895578.0;-23.678230015;-46.493940041;2662.0;3500105.0;08/10/2025
-petz;Petz Morumbi;Rua Aureliano Guimarães;Vila Andrade;São Paulo;SP;Sudeste;05727-160;11895578.0;-23.9813500506;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Nações Unidas;Avenida das Nações Unidas;Vila Almeida;São Paulo;SP;Sudeste;04795-100;11895578.0;-23.2268799659;-46.9862902068;2662.0;3500105.0;08/10/2025
-petz;Petz Natal;Avenida Senador Salgado Filho;Lagoa Nova;Natal;RN;Nordeste;59075-000;785368.0;-5.8259362;-35.2099611;1616.0;2400109.0;08/10/2025
-petz;Petz Natal Zona Norte;Avenida Doutor João Medeiros Filho;Potengi;Natal;RN;Nordeste;59108-550;785368.0;-5.7511801;-35.2551617;1616.0;2400109.0;08/10/2025
-petz;Petz Nordestina;Avenida Nordestina;Cidade Nova São Miguel;São Paulo;SP;Sudeste;08042-117;11895578.0;-23.548;-46.5018922575;2662.0;3500105.0;08/10/2025
-petz;Petz Norte Sul Plaza;Avenida Presidente Ernesto Geisel;Jardim Jockey Club;Campo Grande;MS;Centro-Oeste;79080-105;954537.0;-20.4697105;-54.6201211;2169.0;5000203.0;08/10/2025
-petz;Petz Nossa Senhora do Carmo;Avenida Nossa Senhora do Carmo;Carmo;Belo Horizonte;MG;Sudeste;30330-000;2416339.0;-19.9436545;-43.9323522;2001.0;3100104.0;08/10/2025
-petz;Petz Nova Iguaçu;Avenida Abílio Augusto Távora;Jardim Alvorada;Nova Iguaçu;RJ;Sudeste;26265-090;843046.0;-22.7820278;-43.5390469;2490.0;3300100.0;08/10/2025
-petz;Petz Novo Hamburgo;Rua Castro Alves;Rio Branco;Novo Hamburgo;RS;Sul;93310-270;235879.0;-29.6783600085;-51.1305856359;2608.0;4300034.0;08/10/2025
-petz;Petz Olinda;Rua Carmelita Soares Muniz de Araújo;Casa Caiada;Olinda;PE;Nordeste;53130-645;365402.0;-7.9940002;-34.8400759;1453.0;2600054.0;08/10/2025
-petz;Petz Osasco;Avenida dos Autonomistas;Centro;Osasco;SP;Sudeste;06090-010;756952.0;-23.5234599921;-46.8024054244;2662.0;3500105.0;08/10/2025
-petz;Petz Pacaembu;Praça Charles Miller;Pacaembu;São Paulo;SP;Sudeste;01234-010;11895578.0;-23.5398999919;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Palmas;Quadra 101 Sul Avenida Joaquim Teotônio Segurado;Plano Diretor Sul;Palmas;TO;Norte;77015-002;323625.0;-10.1902356;-48.3338925;1737.0;1700251.0;08/10/2025
-petz;Petz Pampulha;Avenida Professor Magalhães Penido;Aeroporto;Belo Horizonte;MG;Sudeste;31270-652;2416339.0;-19.8524132;-43.95509;2001.0;3100104.0;08/10/2025
-petz;Petz Pão de Açúcar Jabaquara;Avenida Engenheiro Armando de Arruda Pereira;Jabaquara;São Paulo;SP;Sudeste;04308-001;11895578.0;-23.548;-46.3504074528;2662.0;3500105.0;08/10/2025
-petz;Petz Parada de Taipas;Avenida Raimundo Pereira de Magalhães;Jardim Marilu;São Paulo;SP;Sudeste;02989-095;11895578.0;-23.548;-46.5062119762;2662.0;3500105.0;08/10/2025
-petz;Petz ParkShopping Brasília;SMAS;Zona Industrial (Guará);Brasília;DF;Centro-Oeste;71219-900;2982818.0;-15.8332054737;-47.9561142456;3444.0;5300108.0;08/10/2025
-petz;Petz Parnamirim;Avenida Dezessete de Agosto;Parnamirim;Recife;PE;Nordeste;52060-590;1587707.0;-8.0334239;-34.9103805;1453.0;2600054.0;08/10/2025
-petz;Petz Parque Flamboyant;Avenida Deputado Jamel Cecílio;Jardim Goiás;Goiânia;GO;Centro-Oeste;74810-100;1494599.0;-16.7062994;-49.2382611;2098.0;5200050.0;08/10/2025
-petz;Petz Parque Shopping Bahia;Avenida Santos Dumont;Centro;Lauro de Freitas;BA;Nordeste;42702-400;217960.0;-12.8982314;-38.3314455;1366.0;2900108.0;08/10/2025
-petz;Petz Parque Shopping Maceió;Avenida Comendador Gustavo Paiva;Cruz das Almas;Maceió;AL;Nordeste;57038-000;994464.0;-9.6294255;-35.6997298;1331.0;2700102.0;08/10/2025
-petz;Petz Passeio das Águas;Avenida Perimetral Norte;Fazenda Caveiras;Goiânia;GO;Centro-Oeste;74445-360;1494599.0;-16.6313049729;-49.2774114112;2098.0;5200050.0;08/10/2025
-petz;Petz Pelotas;Avenida Ferreira Viana;Areal;Pelotas;RS;Sul;96085-000;336131.0;-31.772;-52.3312491227;2608.0;4300034.0;08/10/2025
-petz;Petz Pereira Barreto;Rua Thales dos Santos Freire;Baeta Neves;São Bernardo do Campo;SP;Sudeste;09751-020;840499.0;-23.6839199915;-46.576007925;2662.0;3500105.0;08/10/2025
-petz;Petz Pindamonhangaba;Avenida Doutor Jorge Tibiriçá;Chácara da Galega;Pindamonhangaba;SP;Sudeste;12422-050;172027.0;-22.9251224;-45.4616987;2662.0;3500105.0;08/10/2025
-petz;Petz Piracicaba;Avenida Centenário;São Dimas;Piracicaba;SP;Sudeste;13416-000;438827.0;-22.7103065;-47.6402638;2662.0;3500105.0;08/10/2025
-petz;Petz Pituba;Avenida Manoel Dias da Silva;Pituba;Salvador;BA;Nordeste;41830-001;2568928.0;-13.0078744;-38.4631582;1366.0;2900108.0;08/10/2025
-petz;Petz Plaza Avenida Shopping;Avenida José Munia;Jardim Redentor;São José do Rio Preto;SP;Sudeste;15085-350;501597.0;-20.8458300049;-49.379;2662.0;3500105.0;08/10/2025
-petz;Petz Poços de Caldas;Avenida João Pinheiro;Centro;Poços de Caldas;MG;Sudeste;37701-387;171533.0;-21.7844858;-46.5922018;2001.0;3100104.0;08/10/2025
-petz;Petz Pompeia;Avenida Francisco Matarazzo;Água Branca;São Paulo;SP;Sudeste;05001-200;11895578.0;-23.1855699588;-46.2406472328;2662.0;3500105.0;08/10/2025
-petz;Petz Ponta Verde;Avenida Professor Sandoval Arroxelas;Ponta Verde;Maceió;AL;Nordeste;57035-230;994464.0;-9.6588449;-35.7042189;1331.0;2700102.0;08/10/2025
-petz;Petz Porto Velho Shopping;Avenida Prefeito Chiquilito Erse;Flodoaldo Pontes Pinto;Porto Velho;RO;Norte;76820-408;514873.0;-8.7484671;-63.8729199;1717.0;1100015.0;08/10/2025
-petz;Petz Praia Grande;;Guilhermina;Praia Grande;SP;Sudeste;11600-000;365577.0;;;2662.0;3500105.0;08/10/2025
-petz;Petz Presidente Kennedy;Avenida Sargento Hermínio Sampaio;Presidente Kennedy;Fortaleza;CE;Nordeste;60355-503;2574412.0;-3.7299849;-38.5716667;1225.0;2300101.0;08/10/2025
-petz;Petz Presidente Prudente;Rua Barão do Rio Branco;Centro;Presidente Prudente;SP;Sudeste;19010-000;234083.0;-22.121126;-51.393006;2662.0;3500105.0;08/10/2025
-petz;Petz Protásio Alves;Avenida Protásio Alves;Petrópolis;Porto Alegre;RS;Sul;91310-000;1389322.0;-30.033;-51.1824913472;2608.0;4300034.0;08/10/2025
-petz;Petz Radial Leste;Avenida Alcântara Machado;Brás;São Paulo;SP;Sudeste;03102-007;11895578.0;-23.510559996;-46.6768410107;2662.0;3500105.0;08/10/2025
-petz;Petz Raja Gabaglia;Avenida Raja Gabaglia;Santa Lúcia;Belo Horizonte;MG;Sudeste;30360-670;2416339.0;-19.9621872;-43.947033;2001.0;3100104.0;08/10/2025
-petz;Petz Ribeirão Independência;Avenida Independência;Jardim Sumaré;Ribeirão Preto;SP;Sudeste;14025-393;728400.0;-21.1876768;-47.8069268;2662.0;3500105.0;08/10/2025
-petz;Petz Ribeirão Presidente Vargas;Avenida Presidente Vargas;Jardim Santa Ângela;Ribeirão Preto;SP;Sudeste;14020-525;728400.0;-21.1704008;-47.8103238;2662.0;3500105.0;08/10/2025
-petz;Petz Ricardo Jafet;Avenida Doutor Ricardo Jafet;Ipiranga;São Paulo;SP;Sudeste;04260-000;11895578.0;-23.548;-46.3557089288;2662.0;3500105.0;08/10/2025
-petz;Petz Rio Claro;Avenida Presidente Kennedy;Estádio;Rio Claro;SP;Sudeste;13501-270;208857.0;-22.4234127;-47.5625382;2662.0;3500105.0;08/10/2025
-petz;Petz Rio Grande;Avenida Presidente Vargas;Vila Junção;Rio Grande;RS;Sul;96202-188;198958.0;-32.0346399957;-52.0994246715;2608.0;4300034.0;08/10/2025
-petz;Petz Riomar;Avenida Herculano Bandeira;Pina;Recife;PE;Nordeste;51110-131;1587707.0;-8.0941077;-34.8855697;1453.0;2600054.0;08/10/2025
-petz;Petz Rio Verde;Avenida Presidente Vargas;Jardim Presidente;Rio Verde;GO;Centro-Oeste;75908-420;238025.0;-17.8037892;-50.944611;2098.0;5200050.0;08/10/2025
-petz;Petz Rita Maria;Rua Henrique Valgas;Centro;Florianópolis;SC;Sul;88010-220;576361.0;-27.596639995;-48.5485937783;2601.0;4200051.0;08/10/2025
-petz;Petz Roberto Freire;Rua Leôncio Etelvino de Medeiros;Capim Macio;Natal;RN;Nordeste;59078-570;785368.0;-5.8521242;-35.203595;1616.0;2400109.0;08/10/2025
-petz;Petz Ruben Bento Alves;;Universitário;Caxias do Sul;RS;Sul;95032-440;479256.0;;;2608.0;4300034.0;08/10/2025
-petz;Petz Salvador Bonocô;Avenida Mário Leal Ferreira;Brotas;Salvador;BA;Nordeste;40285-600;2568928.0;-12.9857613;-38.4998158;1366.0;2900108.0;08/10/2025
-petz;Petz Salvador Paralela;Avenida Luís Viana Filho;Imbuí;Salvador;BA;Nordeste;41720-200;2568928.0;-12.9683501;-38.4411764;1366.0;2900108.0;08/10/2025
-petz;Petz Samambaia do Sul;Quadra Quadra 302;Samambaia Sul (Samambaia);Brasília;DF;Centro-Oeste;72300-630;2982818.0;-15.889003;-48.107767;3444.0;5300108.0;08/10/2025
-petz;Petz Santa Bárbara D'Oeste;Avenida Corifeu Azevedo Marques;Loteamento Colina Santa Bárbara;Santa Bárbara D'Oeste;SP;;13450-088;;-22.7584972;-47.4098806;;;08/10/2025
-petz;Petz Santa Cecília;Avenida General Olímpio da Silveira;Santa Cecília;São Paulo;SP;Sudeste;01150-000;11895578.0;-23.542239996;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Santa Maria;Avenida Hélvio Basso;Nossa Senhora Medianeira;Santa Maria;RS;Sul;97070-805;282244.0;-29.6941700055;-53.807;2608.0;4300034.0;08/10/2025
-petz;Petz Santo André;Avenida Ramiro Colleoni;Centro;Santo André;SP;Sudeste;09040-160;778711.0;-23.6659800058;-46.5401617791;2662.0;3500105.0;08/10/2025
-petz;Petz Santo André Dom Pedro;Avenida Dom Pedro II;Jardim;Santo André;SP;Sudeste;09080-110;778711.0;-23.664;-46.5455662108;2662.0;3500105.0;08/10/2025
-petz;Petz Santos Dumont;Avenida Santos Dumont;Cocó;Fortaleza;CE;Nordeste;60192-018;2574412.0;-3.7465795;-38.4797835;1225.0;2300101.0;08/10/2025
-petz;Petz Santos Macuco;Rua Doutor Manoel Tourinho;Macuco;Santos;SP;Sudeste;11015-031;429567.0;-23.9528844;-46.3183032;2662.0;3500105.0;08/10/2025
-petz;Petz São Bernardo;Avenida Rotary;Centro;São Bernardo do Campo;SP;Sudeste;09721-000;840499.0;-23.694;-46.5571372016;2662.0;3500105.0;08/10/2025
-petz;Petz São Carlos;Avenida Francisco Pereira Lopes;Parque Santa Mônica;São Carlos;SP;Sudeste;13561-250;265294.0;-22.0051411;-47.9020416;2662.0;3500105.0;08/10/2025
-petz;Petz São José do Rio Preto;Avenida Presidente Juscelino Kubitschek de Oliveira;Jardim Maracanã;São José do Rio Preto;SP;Sudeste;15092-175;501597.0;-20.811761;-49.3762272;2662.0;3500105.0;08/10/2025
-petz;Petz São Leopoldo;Avenida Getúlio Vargas;Fião;São Leopoldo;RS;Sul;93020-566;225669.0;-29.7750206;-51.1547076;2608.0;4300034.0;08/10/2025
-petz;Petz São Luís;Avenida Daniel de La Touche;Cohama;São Luís;MA;Nordeste;65074-115;1088057.0;-2.5137864;-44.2449287;1077.0;2100055.0;08/10/2025
-petz;Petz São Miguel;Avenida São Miguel;Vila Norma;São Paulo;SP;Sudeste;08070-001;11895578.0;-23.548;-46.1188114288;2662.0;3500105.0;08/10/2025
-petz;Petz São Vicente;Avenida Antônio Emmerick;Vila Cascatinha;São Vicente;SP;Sudeste;11390-001;338407.0;-23.9609574;-46.3769929;2662.0;3500105.0;08/10/2025
-petz;Petz Seminário;Avenida Nossa Senhora Aparecida;Seminário;Curitiba;PR;Sul;80440-000;1829225.0;-25.428;-49.2638318291;2482.0;4100103.0;08/10/2025
-petz;Petz Serra;Avenida Eldes Scherrer Souza;Parque Residencial Laranjeiras;Serra;ES;Sudeste;29165-680;572274.0;-20.1944911;-40.2565549;2111.0;3200102.0;08/10/2025
-petz;Petz Sete Lagoas;Avenida Raquel Teixeira Viana;Canaã;Sete Lagoas;MG;Sudeste;35700-293;237931.0;-19.4668329;-44.2544129;2001.0;3100104.0;08/10/2025
-petz;Petz Shopping CenterVale;Avenida Deputado Benedito Matarazzo 9403;Jardim Paulista;São José dos Campos;SP;Sudeste;12215-900;724756.0;-23.223701;-45.9009074;2662.0;3500105.0;08/10/2025
-petz;Petz Shopping Golden Square;Avenida Kennedy;Jardim do Mar;São Bernardo do Campo;SP;Sudeste;09726-252;840499.0;-23.7028200023;-46.5553680712;2662.0;3500105.0;08/10/2025
-petz;Petz Shopping Grande Rio;;Parque Barreto;São João de Meriti;RJ;Sudeste;25575-825;466536.0;;;2490.0;3300100.0;08/10/2025
-petz;Petz Shopping Grand Plaza;Avenida Industrial;Campestre;Santo André;SP;Sudeste;09080-510;778711.0;-23.664;-46.5459592592;2662.0;3500105.0;08/10/2025
-petz;Petz Shopping Itaguaçu;Rua Gerôncio Thives;Barreiros;São José;SC;Sul;88117-292;289949.0;-27.5843617;-48.6120995;2601.0;4200051.0;08/10/2025
-petz;Petz Shopping Jockey Plaza;Rua Konrad Adenauer;Tarumã;Curitiba;PR;Sul;82821-020;1829225.0;-25.428;-49.2010498647;2482.0;4100103.0;08/10/2025
-petz;Petz Shopping Mauá;Avenida Governador Mário Covas Júnior;Centro;Mauá;SP;Sudeste;09390-040;429380.0;-23.6667372;-46.4598263;2662.0;3500105.0;08/10/2025
-petz;Petz Shopping Pantanal;Avenida G;Jardim Aclimação;Cuiabá;MT;Centro-Oeste;78050-250;682932.0;-15.5880554;-56.0760854;2276.0;5100102.0;08/10/2025
-petz;Petz Shopping Sul Valparaíso;Quadra 1;Parque Esplanada III;Valparaíso de Goiás;GO;Centro-Oeste;72876-902;213506.0;-16.0775373;-47.9787391;2098.0;5200050.0;08/10/2025
-petz;Petz Silva Jardim;Rodovia BR-116;Tarumã;Curitiba;PR;Sul;82590-300;1829225.0;-25.3525799923;-49.273;2482.0;4100103.0;08/10/2025
-petz;Petz Silviano Brandão;Avenida Silviano Brandão;Horto;Belo Horizonte;MG;Sudeste;31015-015;2416339.0;-19.909275;-43.9180412;2001.0;3100104.0;08/10/2025
-petz;Petz Sorocaba;Praça Dom Tadeu Strunck;Centro;Sorocaba;SP;Sudeste;18035-095;757459.0;-23.5076903;-47.4523587;2662.0;3500105.0;08/10/2025
-petz;Petz Sorocaba Tauste;Avenida General Carneiro;Vila Lucy;Sorocaba;SP;Sudeste;18043-003;757459.0;-23.5043243;-47.4750024;2662.0;3500105.0;08/10/2025
-petz;Petz Sumaré;Avenida da Amizade;Parque Jatobá (Nova Veneza);Sumaré;SP;Sudeste;13175-646;289787.0;-22.8166383;-47.2446664;2662.0;3500105.0;08/10/2025
-petz;Petz Suzano;Rua Sete de Setembro 555;Parque Suzano;Suzano;SP;Sudeste;08673-900;318765.0;-23.543;-46.3056987194;2662.0;3500105.0;08/10/2025
-petz;Petz Taboão da Serra;Rua do Tesouro;Parque Santos Dumont;Taboão da Serra;SP;Sudeste;06754-190;11895578.0;-23.602;-46.7539821659;2662.0;3500105.0;08/10/2025
-petz;Petz Taguatinga;Quadra QS 1 Rua 212;Areal (Águas Claras);Brasília;DF;Centro-Oeste;71950-550;2982818.0;-15.8532553;-48.0344484;3444.0;5300108.0;08/10/2025
-petz;Petz Tamboré;Alameda Araguaia;Alphaville Industrial;Barueri;SP;Sudeste;06455-000;330339.0;-23.5220700085;-46.876;2662.0;3500105.0;08/10/2025
-petz;Petz Tatuí;Rua São Bento;Centro;Tatuí;SP;Sudeste;18270-820;128560.0;-23.3506728;-47.8424272;2662.0;3500105.0;08/10/2025
-petz;Petz Tauste Campinas;Avenida dos Imbés;Alphaville Dom Pedro;Campinas;SP;Sudeste;13097-172;1185977.0;-22.9099384;-47.0626332;2662.0;3500105.0;08/10/2025
-petz;Petz Teodoro Sampaio;Rua Teodoro Sampaio;Pinheiros;São Paulo;SP;Sudeste;05406-100;11895578.0;-23.9500300465;-46.636;2662.0;3500105.0;08/10/2025
-petz;Petz Teotônio Vilela;Avenida Senador Teotônio Vilela;Jardim São Rafael;São Paulo;SP;Sudeste;04864-001;11895578.0;-23.8930600401;-46.2595951048;2662.0;3500105.0;08/10/2025
-petz;Petz Teresina;Avenida João XXIII;Jóquei;Teresina;PI;Nordeste;64049-010;902644.0;-5.0781871;-42.74991;1350.0;2200053.0;08/10/2025
-petz;Petz Torquato Tapajós;;Flores;Manaus;AM;Norte;69048-660;2279686.0;;;1238.0;1300029.0;08/10/2025
-petz;Petz Torres;Avenida Comendador Franco;Guabirotuba;Curitiba;PR;Sul;81520-000;1829225.0;-25.4654400084;-49.273;2482.0;4100103.0;08/10/2025
-petz;Petz Trimais;Avenida Tucuruvi;Tucuruvi;São Paulo;SP;Sudeste;02305-002;11895578.0;-23.4916599931;-46.574542132;2662.0;3500105.0;08/10/2025
-petz;Petz Uberaba;Avenida Leopoldino de Oliveira;Centro;Uberaba;MG;Sudeste;38010-000;354142.0;-19.7496894;-47.9341255;2001.0;3100104.0;08/10/2025
-petz;Petz Uberlândia;Avenida Rondon Pacheco;Tabajaras;Uberlândia;MG;Sudeste;38400-242;754954.0;-18.9176448;-48.2657238;2001.0;3100104.0;08/10/2025
-petz;Petz Várzea Grande;Avenida Miguel Sutil;Cidade Alta;Cuiabá;MT;Centro-Oeste;78030-485;314627.0;-15.6067708;-56.1216663;2276.0;5100102.0;08/10/2025
-petz;Petz Vicente Rao;Avenida Professor Vicente Ráo;Jardim Petrópolis;São Paulo;SP;Sudeste;04636-001;11895578.0;-23.2459599691;-46.3065230019;2662.0;3500105.0;08/10/2025
-petz;Petz Vila Galvão;Rua Maria Primo de Jesus;Vila Galvão;Guarulhos;SP;Sudeste;07056-040;1345364.0;-23.4538199917;-46.533;2662.0;3500105.0;08/10/2025
-petz;Petz Vila Isabel;Rua Teodoro da Silva;Vila Isabel;Rio de Janeiro;RJ;Sudeste;20560-025;6729894.0;-22.9185673;-43.2507474;2490.0;3300100.0;08/10/2025
-petz;Petz Vila Mariana;Rua Vergueiro;Vila Mariana;São Paulo;SP;Sudeste;04102-000;11895578.0;-23.5802582809;-46.6392371252;2662.0;3500105.0;08/10/2025
-petz;Petz Vila Matilde;Avenida Conde de Frontin;Tatuapé;São Paulo;SP;Sudeste;03501-000;11895578.0;-23.3777199799;-46.8217480603;2662.0;3500105.0;08/10/2025
-petz;Petz Vila Velha;Travessa Santa Leopoldina;Coqueiral de Itaparica;Vila Velha;ES;Sudeste;29102-320;502899.0;-20.3545362;-40.2945134;2111.0;3200102.0;08/10/2025
-petz;Petz Vitória;Avenida Nossa Senhora da Penha;Santa Lúcia;Vitória;ES;Sudeste;29056-075;342800.0;-20.2982193;-40.2999592;2111.0;3200102.0;08/10/2025
-petz;Petz Vitória da Conquista;Avenida Olívia Flores;Candeias;Vitória da Conquista;BA;Nordeste;45028-610;394024.0;-14.8605196;-40.8267051;1366.0;2900108.0;08/10/2025
-petz;Petz Washington Luís;Avenida Washington Luís;Santo Amaro;São Paulo;SP;Sudeste;04662-003;11895578.0;-23.8537300363;-46.9695021994;2662.0;3500105.0;08/10/2025
-petz;Petz Washington Soares;Avenida Washington Soares;Engenheiro Luciano Cavalcante;Fortaleza;CE;Nordeste;60810-350;2574412.0;-3.7749868;-38.4876205;1225.0;2300101.0;08/10/2025
-cobasi;Cobasi Getúlio Vargas - Osasco;;;Osasco;SP;Sudeste;;756952.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Cobasi Jandira Mall;;;Jandira;SP;Sudeste;;121988.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Cobasi João Pessoa;;;João Pessoa;PB;Nordeste;;888679.0;;;1401.0;2500106.0;08/10/2025
-cobasi;Cobasi Marília Esmeralda;;;Marília;SP;Sudeste;;246627.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Cobasi Presidente Prudente;;;Presidente Prudente;SP;Sudeste;;234083.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Cobasi Riviera de São Lourenço;;;Bertioga;SP;Sudeste;;66873.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Alphaville;Alameda Rio Negro;Alphaville Centro Industrial e Empresarial/Alphaville.;Barueri;SP;Sudeste;06454-000;330339.0;-23.5001099961;-46.8878758994;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Alto da Boa Vista;Avenida Santo Amaro;Santo Amaro;São Paulo;SP;Sudeste;04702-002;11895578.0;-23.8577800354;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Alto de Pinheiros;Avenida General Furtado Nascimento;Alto de Pinheiros;São Paulo;SP;Sudeste;05465-070;11895578.0;-23.1392199516;-47.0819131554;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Americana;Avenida Brasil;Jardim São Paulo;Americana;SP;Sudeste;13468-000;246655.0;-22.7378463;-47.3335688;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Andradas;Avenida dos Andradas;Pompéia;Belo Horizonte;MG;Sudeste;30280-020;2416339.0;-19.9161426;-43.9092584;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Aracaju Rio Mar;Avenida Delmiro Gouveia;Coroa do Meio;Aracaju;SE;Nordeste;49035-500;628849.0;-10.9594312;-37.0419023;1473.0;2800100.0;08/10/2025
-cobasi;Pet Shop Cobasi Araraquara;Avenida Alberto Benassi;Jardim Bandeirantes;Araraquara;SP;Sudeste;14804-300;252318.0;-21.7864532;-48.2205797;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Araraquara Savegnago;;;Araraquara;SP;Sudeste;;252318.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Araçatuba;Rua Luiz Pereira Barreto;Vila São Paulo;Araçatuba;SP;Sudeste;16015-445;207775.0;-21.2028539;-50.4536793;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Assai Anhanguera;Rua Samuel Klabin 193;Bela Aliança;São Paulo;SP;Sudeste;05077-903;11895578.0;-23.4443199877;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Assaí Interlagos;Avenida Sargento Geraldo Sant'Ana;Jardim Taquaral;São Paulo;SP;Sudeste;04674-225;11895578.0;-23.2408299685;-46.9710730021;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Assaí Marginal Tietê;Avenida Condessa Elisabeth de Robiano;Jardim América da Penha;São Paulo;SP;Sudeste;03704-000;11895578.0;-23.742400024;-46.8480590975;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Atibaia;Rua José Alvim;Centro;Atibaia;SP;Sudeste;12940-750;166043.0;-23.1164904;-46.5522265;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Atibaia II;Avenida Brigadeiro José Vicente Faria Lima;Centro;Atibaia;SP;Sudeste;12940-284;166043.0;-23.1175492;-46.5567066;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Atlântica;Avenida Atlântica;Interlagos;São Paulo;SP;Sudeste;04772-005;11895578.0;-23.548;-46.2891459381;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Augusta;Rua Augusta;Cerqueira César;São Paulo;SP;Sudeste;01412-000;11895578.0;-23.5330599959;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Av. Jundiaí;Avenida Jundiaí;Anhangabaú;Jundiaí;SP;Sudeste;13208-051;460313.0;-23.1909011;-46.8999397;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Av. Morumbi;Avenida Morumbi;Morumbi;São Paulo;SP;Sudeste;05606-200;11895578.0;-23.9710900446;-47.0975230552;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Avenida São Miguel;Avenida São Miguel;Vila Norma;São Paulo;SP;Sudeste;08070-002;11895578.0;-24.0221200517;-46.1188114309;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi BH Belvedere;Rua Maria Luiza Santiago;Santa Lúcia;Belo Horizonte;MG;Sudeste;30360-740;2416339.0;-19.9734626;-43.9480794;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi BH Castelo;Avenida Heráclito Mourão de Miranda;Alípio de Melo;Belo Horizonte;MG;Sudeste;30840-032;2416339.0;-19.89405;-44.0041007;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi BH Contorno;Avenida do Contorno;Santa Efigênia;Belo Horizonte;MG;Sudeste;30110-017;2416339.0;-19.9139617;-43.9323353;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi BH Del Rey;Avenida Presidente Carlos Luz;Caiçaras;Belo Horizonte;MG;Sudeste;31250-010;2416339.0;-19.9012987;-43.9667394;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Barra Carrefour;Avenida das Américas;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22640-102;6729894.0;-22.9999428;-43.341407;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Barra Guanabara;Avenida das Américas;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22631-003;6729894.0;-23.0008235;-43.3456628;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Barra Sul;Avenida Diário de Notícias;Cristal;Porto Alegre;RS;Sul;90810-080;1389322.0;-30.0504600069;-51.2098322109;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Barreiros;Avenida Leoberto Leal;Barreiros;São José;SC;Sul;88117-001;289949.0;-27.615;-48.6149989394;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Barretos;Avenida Engenheiro Necker Carvalho de Camargos;América;Barretos;SP;Sudeste;14783-085;126600.0;-20.5696797;-48.5757464;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Bauru;Rua São Gonçalo;Vila Altinópolis;Bauru;SP;Sudeste;17012-170;391740.0;-22.314459;-49.0586951;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Belém Bosque Grão Pará;Passagem Cruzeiro;Mangueirão;Belém;PA;Norte;66640-840;1398531.0;-1.3794267;-48.453117;1344.0;1500107.0;08/10/2025
-cobasi;Pet Shop Cobasi Birigui;Avenida Euclides Miragaia;Jardim Jussara Maria;Birigüi;SP;Sudeste;16204-000;122988.0;-21.3031528;-50.3585193;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Blumenau Neumarkt;Rua Sete de Setembro;Centro;Blumenau;SC;Sul;89010-201;380597.0;-26.919360001;-49.0655962518;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Blumenau Norte Shopping;Rodovia BR-470;Salto do Norte;Blumenau;SC;Sul;89065-800;380597.0;-26.8885799887;-49.0318833641;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Botafogo;;;Rio de Janeiro;RJ;Sudeste;;6729894.0;;;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Botucatu Mall;Avenida Professor José Pedretti Neto;Conjunto Residencial Frei Fidelis;Botucatu;SP;Sudeste;18606-125;150442.0;-22.898978;-48.4484111;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Bragança Paulista;Rua Alpheu Grimello;Taboão;Bragança Paulista;SP;Sudeste;12916-010;184634.0;-22.9743115;-46.5353135;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes;;;Bragança Paulista;SP;Sudeste;12802-000;184634.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasilia Venancio;SCS Quadra 8 Bloco B Lotes 50/60;Asa Sul;Brasília;DF;Centro-Oeste;70333-900;2982818.0;-15.820697;-47.917206;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasília Asa Norte;Quadra SEPN 516 Bloco E;Asa Norte;Brasília;DF;Centro-Oeste;70770-525;2982818.0;-15.7766266;-47.8751937;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasília CasaPark;SGCV Lote 09;Zona Industrial (Guará);Brasília;DF;Centro-Oeste;71215-900;2982818.0;-15.8102388;-47.9713115;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasília Pistão Sul;Quadra Setor D Sul;Taguatinga Sul (Taguatinga);Brasília;DF;Centro-Oeste;72020-111;2982818.0;-15.8107481;-48.065751;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasília Sia;Trecho SIA Trecho 2;Zona Industrial (Guará);Brasília;DF;Centro-Oeste;71200-020;2982818.0;-15.7872388;-47.9403153;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Brasília Taquari;Avenida Comercial;Setor Habitacional Taquari (Lago Norte);Brasília;DF;Centro-Oeste;71551-010;2982818.0;-15.6956128426;-47.8729882757;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Braz Leme;Avenida Braz Leme;Casa Verde;São Paulo;SP;Sudeste;02511-000;11895578.0;-23.5062973;-46.6438294;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Brooklin;Avenida Washington Luís;Santo Amaro;São Paulo;SP;Sudeste;04627-003;11895578.0;-23.2466799676;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Buritis;Avenida Professor Mário Werneck;Buritis;Belo Horizonte;MG;Sudeste;30575-180;2416339.0;-19.975593;-43.9682604;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Butantã;Avenida Professor Francisco Morato;Butantã;São Paulo;SP;Sudeste;05513-300;11895578.0;-23.1370599508;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Cachoeirinha;Avenida Parada Pinto;Vila Nova Cachoeirinha;São Paulo;SP;Sudeste;02611-002;11895578.0;-23.4599799904;-46.5399843544;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Caminho do Mar;Avenida Caminho do Mar;Rudge Ramos;São Bernardo do Campo;SP;Sudeste;09609-000;840499.0;-23.694540002;-46.565;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Abolição;Rua da Abolição;Ponte Preta;Campinas;SP;Sudeste;13041-445;1185977.0;-22.9184528;-47.0546529;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Amoreiras;Avenida Ruy Rodriguez;Jardim Novo Campos Elíseos;Campinas;SP;Sudeste;13060-192;1185977.0;-22.9099384;-47.0626332;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Cambuí;Avenida Orosimbo Maia;Cambuí;Campinas;SP;Sudeste;13024-045;1185977.0;-22.8921264;-47.0546529;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Cambuí II;Rua Coronel Francisco Andrade Coutinho;Cambuí;Campinas;SP;Sudeste;13025-190;1185977.0;-22.9048812;-47.0482191;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Princesa d’ Oeste;Avenida Princesa D'Oeste;Jardim Paraíso;Campinas;SP;Sudeste;13100-040;1185977.0;-22.9122981;-47.0450109;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Shopping Galleria;Avenida Doutor José Bonifácio Coutinho Nogueira 225;Jardim Madalena;Campinas;SP;Sudeste;13091-910;1185977.0;-22.9099384;-47.0626332;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campinas Taquaral;Avenida Doutor Theodureto de Almeida Camargo;Jardim Nossa Senhora Auxiliadora;Campinas;SP;Sudeste;13075-630;1185977.0;-22.8741326;-47.0694663;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Campo Grande MS;Avenida Afonso Pena;Jardim dos Estados;Campo Grande;MS;Centro-Oeste;79020-000;954537.0;-20.4697105;-54.6201211;2169.0;5000203.0;08/10/2025
-cobasi;Pet Shop Cobasi Campo Limpo;Rua Doutor Joviano Pacheco de Aguirre;Jardim Bom Refúgio;São Paulo;SP;Sudeste;05788-290;11895578.0;-23.9897200453;-47.1178453836;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Candangolandia;Setor de Postos e Motéis Sul I;Candangolândia;Brasília;DF;Centro-Oeste;71727-800;2982818.0;-15.8495671;-47.9490349;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Canoas;Avenida Farroupilha;Marechal Rondon;Canoas;RS;Sul;92020-475;359554.0;-29.9181800028;-51.184;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Canoas BR116;;;Canoas;RS;Sul;92010-013;359554.0;;;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Cantareira Norte Shopping;Avenida Raimundo Pereira de Magalhães;Jardim Pirituba;São Paulo;SP;Sudeste;02984-035;11895578.0;-23.4295599827;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Carapicuíba;Avenida Desembargador Doutor Eduardo Cunha de Abreu;Vila Municipal;Carapicuíba;SP;Sudeste;06328-330;398462.0;-23.523;-46.8306995218;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Carrefour Nações;Avenida das Nações Unidas;Vila Gertrudes;São Paulo;SP;Sudeste;04794-000;11895578.0;-23.8691200376;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Carrão;Rua Serra de Botucatu;Vila Gomes Cardim;São Paulo;SP;Sudeste;03317-001;11895578.0;-23.3963499821;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Casa Forte;;;Recife;PE;Nordeste;52060-030;1587707.0;;;1453.0;2600054.0;08/10/2025
-cobasi;Pet Shop Cobasi Cascavel;Avenida Brasil;Região do Lago;Cascavel;PR;Sul;85812-500;364104.0;-24.9518599954;-53.4504336442;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Caxias do Sul;Avenida Therezinha Pauletti Sanvitto;Sanvitto;Caxias do Sul;RS;Sul;95110-195;479256.0;-29.1959000071;-51.179;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Cerro Corá;Rua Cerro Corá;Vila Romana;São Paulo;SP;Sudeste;05061-400;11895578.0;-23.1800799567;-46.2346585252;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Comendador Agostinho - Limeira II;Avenida Comendador Agostinho Prada;Jardim Maria Bruschi Modeneis;Limeira;SP;Sudeste;13482-220;300728.0;-22.5665354;-47.3974368;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Conselheiro Rodrigues Alves;Rua Vergueiro;Vila Mariana;São Paulo;SP;Sudeste;04102-000;11895578.0;-23.5802582809;-46.6392371252;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Continente Shopping;Rodovia BR-101;Distrito Industrial;São José;SC;Sul;88104-800;289949.0;-27.6184200037;-48.624140309;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Copacabana Posto 2;Avenida Nossa Senhora de Copacabana;Copacabana;Rio de Janeiro;RJ;Sudeste;22020-002;6729894.0;-22.9638439;-43.1736318;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Corifeu;Avenida Corifeu de Azevedo Marques;Butantã;São Paulo;SP;Sudeste;05582-000;11895578.0;-23.9683900444;-46.1774222099;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Cotia;Rua Luiz Silva;Parque Rincão;Cotia;SP;Sudeste;06716-030;287004.0;-23.5922099921;-46.9061335148;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Criciúma;Avenida Jorge Elias de Lucca;Nossa Senhora da Salete;Criciúma;SC;Sul;88813-390;225281.0;-28.6668399983;-49.37;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Cuiabá CPA;Avenida Historiador Rubens de Mendonça;Bosque da Saúde;Cuiabá;MT;Centro-Oeste;78050-000;682932.0;-15.5883253;-56.0836532;2276.0;5100102.0;08/10/2025
-cobasi;Pet Shop Cobasi Curitiba Linha Verde;Avenida Senador Salgado Filho;Prado Velho;Curitiba;PR;Sul;80215-270;1829225.0;-25.4244899937;-49.2691134903;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Curitiba Mario Tourinho;;;Curitiba;PR;Sul;80740-016;1829225.0;;;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Curitiba Novo Mundo;Rua Isaac Guelmann;Novo Mundo;Curitiba;PR;Sul;81050-030;1829225.0;-25.410719998;-49.2921335542;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi DF Gama;Quadra Quadra 55;Setor Central (Gama);Brasília;DF;Centro-Oeste;72405-550;2982818.0;-16.019879;-48.0670828;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi DF Planaltina;Área AEN 19;Setor Norte (Planaltina);Brasília;DF;;73340-190;;-15.6060191;-47.6603747;;;08/10/2025
-cobasi;Pet Shop Cobasi DF Plaza Shopping;Rua Copaíba;Norte (Águas Claras);Brasília;DF;Centro-Oeste;71919-540;2982818.0;-15.8336667;-48.039146;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Diadema;Avenida Presidente Kennedy;Centro;Diadema;SP;Sudeste;09913-000;404118.0;-23.6877100081;-46.623;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Eco Mall Pinheirinho;Rodovia BR-116;Xaxim;Curitiba;PR;Sul;81690-300;1829225.0;-25.3830899924;-49.2232726872;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Embu das Artes;Rua Alexandre Kadunc;Tingidor;Embu das Artes;SP;Sudeste;06803-045;259323.0;-23.652609;-46.8487976;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Embu das Artes II;Rua São Luiz;Centro;Embu das Artes;SP;Sudeste;06840-050;259323.0;-23.649;-46.8418801256;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Engenheiro Caetano Alvares;;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Epitácio Pessoa;Avenida Presidente Epitácio Pessoa;Tambauzinho;João Pessoa;PB;Nordeste;58042-006;888679.0;-7.1236539;-34.8472401;1401.0;2500106.0;08/10/2025
-cobasi;Pet Shop Cobasi Ermano Marchetti;Rua Luiz Gatti;Água Branca;São Paulo;SP;Sudeste;05038-150;11895578.0;-23.9136700368;-46.2371129198;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Estr. do Campo Limpo;Estrada do Campo Limpo;Pirajussara;São Paulo;SP;Sudeste;05787-000;11895578.0;-23.1063699481;-46.1542527848;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Estrada de Itapecerica;Estrada de Itapecerica;Vila Maracanã;São Paulo;SP;Sudeste;05835-005;11895578.0;-23.1004299469;-46.1477732007;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Feira de Santana;Avenida Governador João Durval Carneiro;Tomba;Feira de Santana;BA;Nordeste;44090-008;657948.0;-12.2958364;-38.9485423;1366.0;2900108.0;08/10/2025
-cobasi;Pet Shop Cobasi Florianópolis;Rodovia José Carlos Daux;Saco Grande;Florianópolis;SC;Sul;88032-005;576361.0;-27.597;-48.5435160762;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Florianópolis Centro;Rua Francisco Tolentino;Centro;Florianópolis;SC;Sul;88010-200;576361.0;-27.5967299983;-48.5493046639;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Fortaleza Aldeota;Avenida Santos Dumont;Aldeota;Fortaleza;CE;Nordeste;60150-162;2574412.0;-3.7357094;-38.5069693;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Cobasi Fortaleza Meireles;Avenida Barão de Studart;Aldeota;Fortaleza;CE;Nordeste;60120-024;2574412.0;-3.7357094;-38.5069693;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Cobasi Fortaleza Open Mall;Avenida Washington Soares;Engenheiro Luciano Cavalcante;Fortaleza;CE;Nordeste;60810-350;2574412.0;-3.7749868;-38.4876205;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Cobasi Franca;Avenida Doutor Antônio Barboza Filho;Jardim Francano;Franca;SP;Sudeste;14405-000;364331.0;-20.5428416;-47.4081341;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Frei Gaspar;Avenida Brigadeiro Faria Lima;Centro;São Bernardo do Campo;SP;Sudeste;09720-010;840499.0;-23.7005700093;-46.5721748124;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Goiânia Decathlon;Avenida I;Jardim Goiás;Goiânia;GO;Centro-Oeste;74810-075;1494599.0;-16.6486358;-49.1885389;2098.0;5200050.0;08/10/2025
-cobasi;Pet Shop Cobasi Goiânia T63;Avenida T 63;Anhanguera;Goiânia;GO;Centro-Oeste;74335-104;1494599.0;-16.7202577;-49.3009077;2098.0;5200050.0;08/10/2025
-cobasi;Pet Shop Cobasi Granja Vianna;Avenida Marginal;Parque São George;Cotia;SP;Sudeste;06708-030;287004.0;-23.604;-46.911830128;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Guarujá;Avenida Leomil;Pitangueiras;Guarujá;SP;Sudeste;11410-160;294973.0;-23.9948444;-46.2568678;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Guarulhos;Avenida Aniello Pratici;Jardim Santa Francisca;Guarulhos;SP;Sudeste;07013-000;1345364.0;-23.4634500008;-46.533;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Guarulhos Centro;Rua Egisto Thomaz;Jardim Maia;Guarulhos;SP;Sudeste;07115-180;1345364.0;-23.440589996;-46.5085700651;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Guarulhos Sakamoto;;;Guarulhos;SP;Sudeste;;1345364.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Guarulhos Timóteo Penteado;Avenida Doutor Timóteo Penteado;Vila Hulda;Guarulhos;SP;Sudeste;07094-000;1345364.0;-23.4817200081;-46.5125926597;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Higienópolis;Avenida Angélica;Santa Cecília;São Paulo;SP;Sudeste;01228-000;11895578.0;-23.5403499917;-46.6443449262;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Iguatemi Campinas;Avenida Iguatemi;Vila Brandina;Campinas;SP;Sudeste;13092-500;1185977.0;-22.8936642;-47.0278715;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Iguatemi Fortaleza;Rua Albert Sabin;Guararapes;Fortaleza;CE;Nordeste;60810-060;2574412.0;-3.7318616;-38.5266704;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Cobasi Imigrantes;Avenida Professor Abraão de Morais;Saúde;São Paulo;SP;Sudeste;04123-011;11895578.0;-23.548;-46.8962632735;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Imirim;Avenida Imirim;Imirim;São Paulo;SP;Sudeste;02465-300;11895578.0;-23.6262100157;-46.5506854769;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Indaiatuba;Avenida Presidente Vargas;Cidade Nova I;Indaiatuba;SP;Sudeste;13334-085;267796.0;-23.0871466;-47.2045596;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Interlar Interlagos;Avenida Interlagos;Jardim Umuarama;São Paulo;SP;Sudeste;04661-100;11895578.0;-23.242269969;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Itajaí;Avenida Osvaldo Reis;Praia Brava de Itajaí;Itajaí;SC;Sul;88306-600;287289.0;-26.9060199954;-48.6642203974;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Itaquaquecetuba D'avó;Avenida Ítalo Adami;Vila Zeferina;Itaquaquecetuba;SP;Sudeste;08573-000;382521.0;-23.486;-46.3504532325;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Itaquera;;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Jabaquara;Avenida Engenheiro George Corbisier;Jabaquara;São Paulo;SP;Sudeste;04345-001;11895578.0;-23.6482179;-46.6457286;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Jaboatão Dos Guararapes;Avenida Bernardo Vieira de Melo;Piedade;Jaboatão dos Guararapes;PE;Nordeste;54410-010;683285.0;-8.1775463;-34.9170705;1453.0;2600054.0;08/10/2025
-cobasi;Pet Shop Cobasi Jacareí Tenda;Praça Charles Gates;Jardim das Indústrias;Jacareí;SP;Sudeste;12306-090;249968.0;-23.2987827;-45.9662542;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Jardim Japão;Avenida Jardim Japão;Jardim Brasil (Zona Norte);São Paulo;SP;Sudeste;02221-001;11895578.0;-23.5904800081;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Jaú;Avenida Anna Claudina;Jardim Estádio;Jaú;SP;Sudeste;17203-381;137323.0;-22.3019794;-48.5711073;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Jd. Botânico;;;Brasília;DF;Centro-Oeste;;2982818.0;;;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Cobasi Joinville;Avenida Rolf Wiest;Bom Retiro;Joinville;SC;Sul;89223-005;654888.0;-26.304;-48.8668822445;2601.0;4200051.0;08/10/2025
-cobasi;Pet Shop Cobasi Juiz de Fora Jardim Norte;Rua Bernardo Mascarenhas;Mariano Procópio;Juiz de Fora;MG;Sudeste;36080-000;565764.0;-21.7466546;-43.3645759;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Jundiaí;Rua José Amato;Ponte de Campinas;Jundiaí;SP;Sudeste;13201-141;460313.0;-23.1753283;-46.896855;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Lauro de Freitas;Avenida Santos Dumont;Pitangueiras;Lauro de Freitas;BA;Nordeste;42701-260;217960.0;-12.8983086;-38.3315104;1366.0;2900108.0;08/10/2025
-cobasi;Pet Shop Cobasi Limeira;Avenida Carlos Kuntz Busch 800;Parque Egisto Ragazzo;Limeira;SP;Sudeste;13485-905;300728.0;-22.5319933;-47.3865929;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Londrina Centro;Rua Minas Gerais;Centro;Londrina;PR;Sul;86010-170;577318.0;-23.3102700011;-51.162706002;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Londrina Madre Leônia;Avenida Madre Leônia Milito;Bela Suiça;Londrina;PR;Sul;86050-270;577318.0;-23.2897499895;-51.163;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi M'Boi Mirim;Estrada do M'Boi Mirim;Jardim Regina;São Paulo;SP;Sudeste;04905-002;11895578.0;-23.1954699595;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Maceió Fernandes Lima;Avenida Fernandes Lima;Farol;Maceió;AL;Nordeste;57055-000;994464.0;-9.644236;-35.7353057;1331.0;2700102.0;08/10/2025
-cobasi;Pet Shop Cobasi Maracanaú;Rua João de Alencar;Centro;Maracanaú;CE;Nordeste;61900-150;249684.0;-3.879072;-38.6235321;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Cobasi Marechal Tito;Avenida Marechal Tito;São Miguel Paulista;São Paulo;SP;Sudeste;08022-000;11895578.0;-23.0829699511;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Marginal Pinheiros;Avenida das Nações Unidas;Vila Almeida;São Paulo;SP;Sudeste;04795-100;11895578.0;-23.2268799659;-46.9862902068;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Marginal Tietê;Rua Maria Prestes Maia;Vila Guilherme;São Paulo;SP;Sudeste;02047-000;11895578.0;-23.520549989;-46.6659435382;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Maringá;Avenida João Paulino Vieira Filho;Zona 01;Maringá;PR;Sul;87020-015;425983.0;-23.4277900063;-51.9359593904;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Marília;Avenida Sampaio Vidal;Centro;Marília;SP;Sudeste;17500-022;246627.0;-22.2175846;-49.9505291;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Minas Shopping;;;Belo Horizonte;MG;Sudeste;31160-959;2416339.0;;;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Moema Pássaros;Avenida Ibirapuera;Indianópolis;São Paulo;SP;Sudeste;04028-002;11895578.0;-23.548;-46.3865360374;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Moinhos dos Ventos;Rua Miguel Tostes;Rio Branco;Porto Alegre;RS;Sul;90430-060;1389322.0;-30.033;-51.2181488219;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Mooca;Avenida Alcântara Machado;Brás;São Paulo;SP;Sudeste;03101-000;11895578.0;-23.419839982;-46.7758019259;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Morumbi;Avenida Giovanni Gronchi;Vila Andrade;São Paulo;SP;Sudeste;05724-003;11895578.0;-23.1148299492;-46.1634812825;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Natal;Avenida Senador Salgado Filho;Lagoa Nova;Natal;RN;Nordeste;59076-000;785368.0;-5.8259362;-35.2099611;1616.0;2400109.0;08/10/2025
-cobasi;Pet Shop Cobasi Niterói;Rua Marechal Deodoro;Centro;Niterói;RJ;Sudeste;24030-060;516720.0;-22.8895663;-43.1191126;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Nossa Senhora do Carmo;Beco São Paulo;Santa Rita de Cássia;Belo Horizonte;MG;Sudeste;30335-300;2416339.0;-19.9529456;-43.94026;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Nova Cantareira;;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Novo Hamburgo;Avenida Primeiro de Março;Pátria Nova;Novo Hamburgo;RS;Sul;93320-102;235879.0;-29.6968555;-51.1312489;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Osasco;Avenida dos Autonomistas;Centro;Osasco;SP;Sudeste;06090-010;756952.0;-23.5234599921;-46.8024054244;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Osasco João Andrade;Avenida João de Andrade;Santo Antônio;Osasco;SP;Sudeste;06132-006;756952.0;-23.533;-46.7777661708;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi POA Assis Brasil;Avenida Assis Brasil;Jardim Lindóia;Porto Alegre;RS;Sul;91010-003;1389322.0;-30.0569400052;-51.2576527369;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi POA Av. Brasil;Avenida Brasil;Navegantes;Porto Alegre;RS;Sul;90230-061;1389322.0;-30.0267899985;-51.2371730785;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi POA Bollogna Mall;Avenida Coronel Marcos;Pedra Redonda;Porto Alegre;RS;Sul;91760-000;1389322.0;-29.9690099925;-51.1560861131;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi POA Central Parque;Avenida Ipiranga;Jardim Botânico;Porto Alegre;RS;Sul;91530-000;1389322.0;-30.0851100109;-51.2901914831;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Palmas;Quadra 105 Norte Alameda das Aroeiras;Plano Diretor Norte;Palmas;TO;Norte;77001-048;323625.0;-10.1778543316;-48.3453318282;1737.0;1700251.0;08/10/2025
-cobasi;Pet Shop Cobasi Park Shopping Jacarepaguá;Rua Francisco Dantas;Freguesia (Jacarepaguá);Rio de Janeiro;RJ;Sudeste;22753-045;6729894.0;-22.9465657;-43.3406704;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Parque Olímpico;Avenida Embaixador Abelardo Bueno;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22775-040;6729894.0;-22.9727518094;-43.3884886319;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Passo Fundo Shopping;Avenida Presidente Vargas;São Cristóvão;Passo Fundo;RS;Sul;99064-000;214564.0;-28.2512099968;-52.3936141843;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Paulínia;Avenida José Paulino;Morumbi;Paulínia;SP;Sudeste;13140-723;115690.0;-22.7585615;-47.1596551;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Pelotas;Avenida Ferreira Viana;Areal;Pelotas;RS;Sul;96085-000;336131.0;-31.772;-52.3312491227;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Pinhais;Rua Primeiro de Maio;Centro;Pinhais;PR;Sul;83323-020;131199.0;-25.4431999951;-49.194993365;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Piracicaba;Avenida Limeira;Areião;Piracicaba;SP;Sudeste;13414-018;438827.0;-22.7033977;-47.6516183;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Piracicaba Independência;Avenida Independência;Cidade Alta;Piracicaba;SP;Sudeste;13419-160;438827.0;-22.7347253;-47.6497317;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Poa Wenceslau Escobar;Avenida Wenceslau Escobar;Cristal;Porto Alegre;RS;Sul;91900-000;1389322.0;-29.9598299876;-51.23;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Pompéia;Rua Carlos Vicari;Água Branca;São Paulo;SP;Sudeste;05033-070;11895578.0;-23.548;-47.0341998539;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Ponta Grossa;Avenida Ernesto Vilela;Nova Rússia;Ponta Grossa;PR;Sul;84070-000;372562.0;-25.1167800028;-50.1379497979;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Ponta Grossa II;Rua Ermelino de Leão;Olarias;Ponta Grossa;PR;Sul;84035-000;372562.0;-25.0850099959;-50.1730312942;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi Portal do Morumbi;Avenida Doutor Guilherme Dumont Vilares 1210/1230;Jardim Londrina;São Paulo;SP;Sudeste;05640-902;11895578.0;-23.548;-46.763235456;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Porto Alegre Iguatemi;Rua Antônio Carlos Berta;Jardim Europa;Porto Alegre;RS;Sul;91340-020;1389322.0;-30.033;-51.279379889;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Porto Alegre Ipiranga;Avenida Ipiranga;Partenon;Porto Alegre;RS;Sul;90610-001;1389322.0;-30.0191399903;-51.246009487;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Praia Grande;Avenida Ayrton Senna da Silva;Sítio do Campo;Praia Grande;SP;Sudeste;11726-000;365577.0;-23.99403;-46.4061432;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Praia Grande Ocian;Avenida Presidente Kennedy;Ocian;Praia Grande;SP;Sudeste;11704-105;365577.0;-24.025682;-46.479251;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Praça da Árvore;Avenida Jabaquara;Mirandópolis;São Paulo;SP;Sudeste;04046-000;11895578.0;-23.317419971;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi RJ Norte Shopping;Avenida Dom Hélder Câmara 5474;Cachambi;Rio de Janeiro;RJ;Sudeste;20771-900;6729894.0;-22.8814021;-43.2934758;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Raposo Tavares;Rodovia Raposo Tavares;Conjunto Residencial Butantã;São Paulo;SP;Sudeste;05576-000;11895578.0;-23.548;-46.1779130886;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Rebouças;Avenida Rebouças;Pinheiros;São Paulo;SP;Sudeste;05402-300;11895578.0;-23.146329956;-46.1978427136;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Recife;;;Recife;PE;Nordeste;50020-280;1587707.0;;;1453.0;2600054.0;08/10/2025
-cobasi;Pet Shop Cobasi Ribeirão Dom Pedro I;Avenida Dom Pedro I;Ipiranga;Ribeirão Preto;SP;Sudeste;14055-630;728400.0;-21.1529926;-47.8231922;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Ribeirão Preto II (loja Maurilio Biagi);Avenida Maurílio Biagi;Santa Cruz do José Jacques;Ribeirão Preto;SP;Sudeste;14020-750;728400.0;-21.1704008;-47.8103238;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Ribeirão Preto Iguatemi;Avenida Luiz Eduardo Toledo Prado;Vila do Golf;Ribeirão Preto;SP;Sudeste;14027-250;728400.0;-21.1704008;-47.8103238;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Ribeirão Preto Presidente Vargas;Praça Presidente Vargas;Vila Abranches;Ribeirão Preto;SP;Sudeste;14093-129;728400.0;-21.18607;-47.7557423;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Ricardo Jafet;Avenida Doutor Ricardo Jafet;Vila Firmiano Pinto;São Paulo;SP;Sudeste;04123-030;11895578.0;-23.3093199739;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Rio das Pedras;Rua Jorge Ogushi;Jardim Vila Formosa;São Paulo;SP;Sudeste;03471-000;11895578.0;-23.548;-46.8201772583;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Rio de Janeiro Campo Grande;Estrada do Monteiro;Campo Grande;Rio de Janeiro;RJ;Sudeste;23045-830;6729894.0;-22.9035842;-43.5662438;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Rui Barbosa;Praça Rui Barbosa;Centro;Curitiba;PR;Sul;80010-030;1829225.0;-25.4280900038;-49.2729003419;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi SBC Faria Lima;Avenida Brigadeiro Faria Lima;Centro;São Bernardo do Campo;SP;Sudeste;09720-000;840499.0;-23.700570008;-46.565;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi SP Ipiranga;Avenida Doutor Ricardo Jafet;Vila Firmiano Pinto;São Paulo;SP;Sudeste;04123-030;11895578.0;-23.3093199739;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sabará;Rua Moacir Simões da Rocha;Jardim Itapeva;São Paulo;SP;Sudeste;04674-150;11895578.0;-23.2409199627;-46.9709748329;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Salto;Avenida José Maria Marques de Oliveira;Vila Norma;Salto;SP;Sudeste;13327-300;140125.0;-23.1825156;-47.312556;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Salvador Rio Vermelho;Avenida Juracy Magalhães Júnior;Rio Vermelho;Salvador;BA;Nordeste;41940-060;2568928.0;-13.0057625;-38.4847772;1366.0;2900108.0;08/10/2025
-cobasi;Pet Shop Cobasi Santa Bárbara d’Oeste Tivoli;Rua do Osmio;Jardim Mollon;Santa Bárbara D'Oeste;SP;;13456-625;;-22.7471;-47.3657;;;08/10/2025
-cobasi;Pet Shop Cobasi Santana;Rua Voluntários da Pátria;Santana;São Paulo;SP;Sudeste;02402-200;11895578.0;-23.4767199851;-46.713755009;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santo André Av. dos Estados;Avenida dos Estados;Parque Jaçatuba;Santo André;SP;Sudeste;09290-520;778711.0;-23.6303399906;-46.538;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santo André P. Barreto;Praça Engenheiro Roldão dos Santos Ferreira;Paraíso;Santo André;SP;Sudeste;09190-695;778711.0;-23.6878500049;-46.5119604594;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santo André Prestes Maia;Praça Uirapuru;Santa Maria;Santo André;SP;Sudeste;09071-220;778711.0;-23.6573399912;-46.545271427;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santos Afonso Pena;Avenida Affonso Penna;Aparecida;Santos;SP;Sudeste;11020-002;429567.0;-23.9590362;-46.3200008;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santos Conselheiro Nébias;;;Santos;SP;Sudeste;;429567.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Santos Francisco Glicério;Avenida General Francisco Glicério;Encruzilhada;Santos;SP;Sudeste;11065-400;429567.0;-23.9673822;-46.3328146;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sena Madureira;Rua Sena Madureira;Vila Clementino;São Paulo;SP;Sudeste;04021-001;11895578.0;-23.3200299688;-46.3873214347;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Shop. Estação Cuiabá;Avenida Miguel Sutil;Santa Rosa;Cuiabá;MT;Centro-Oeste;78040-365;682932.0;-15.5874562;-56.1225948;2276.0;5100102.0;08/10/2025
-cobasi;Pet Shop Cobasi Shopping Aricanduva;Avenida Aricanduva 5555;Jardim Santa Terezinha (Zona Leste);São Paulo;SP;Sudeste;03527-900;11895578.0;-23.5894000079;-46.6811607367;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Shopping Eldorado;Avenida Rebouças;Pinheiros;São Paulo;SP;Sudeste;05402-600;11895578.0;-23.9496700432;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sorocaba Av. São Paulo;;;Sorocaba;SP;Sudeste;;757459.0;;;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sorocaba Itavuvu;Avenida Itavuvu;Jardim Maria Antônia Prado;Sorocaba;SP;Sudeste;18076-005;757459.0;-23.4785453;-47.4746565;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sorocaba Pannunzio;Avenida Doutor Armando Pannunzio;Jardim Vera Cruz;Sorocaba;SP;Sudeste;18050-000;757459.0;-23.523089;-47.4910365;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sorocaba Panorâmico;Avenida Comendador Pereira Inácio;Jardim Vergueiro;Sorocaba;SP;Sudeste;18030-005;757459.0;-23.5180018;-47.4530326;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sumaré;Avenida Sumaré;Perdizes;São Paulo;SP;Sudeste;05016-090;11895578.0;-23.548;-46.2392727778;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Sumaré ParkCity Shopping;Avenida Rebouças;Jardim Paulista;Sumaré;SP;Sudeste;13171-065;289787.0;-22.8297121;-47.2664776;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São Bernardo Jurubatuba;Rua Jurubatuba;Centro;São Bernardo do Campo;SP;Sudeste;09725-001;840499.0;-23.686529995;-46.5731576573;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São Caetano;Avenida Guido Aliberti;Santo Antônio;São Caetano do Sul;SP;Sudeste;09530-200;172109.0;-23.623;-46.5525717152;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São Carlos;Passeio dos Flamboyants;Parque Faber Castell I;São Carlos;SP;Sudeste;13561-352;265294.0;-22.0087082;-47.8909263;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José do Rio Preto Falavina;Avenida Domingos Falavina;Jardim Marajó;São José do Rio Preto;SP;Sudeste;15046-265;501597.0;-20.7795492;-49.386255;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José do Rio Preto Iguatemi;Avenida Presidente Juscelino Kubitschek de Oliveira;Iguatemi;São José do Rio Preto;SP;Sudeste;15093-340;501597.0;-20.811761;-49.3762272;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José dos Campos;Avenida Deputado Benedito Matarazzo;Parque Residencial Aquarius;São José dos Campos;SP;Sudeste;12246-840;724756.0;-23.2184518;-45.9027805;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José dos Campos Jardim Oriente;Rua Andorra;Jardim América;São José dos Campos;SP;Sudeste;12235-050;724756.0;-23.2322233;-45.8971143;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José dos Campos Nelson D'Ávila;Avenida Doutor Nelson D'Avila;Jardim São Dimas;São José dos Campos;SP;Sudeste;12245-030;724756.0;-23.1921926;-45.8853637;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São José dos Pinhais Av. Torres;Avenida das Torres;São Pedro;São José dos Pinhais;PR;Sul;83005-450;345644.0;-25.535;-49.2065984598;2482.0;4100103.0;08/10/2025
-cobasi;Pet Shop Cobasi São Judas;Avenida Jabaquara;Mirandópolis;São Paulo;SP;Sudeste;04045-003;11895578.0;-23.7784900271;-46.3845725253;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi São Vicente;Avenida Presidente Wilson;Itararé;São Vicente;SP;Sudeste;11320-001;338407.0;-23.9682565;-46.3762476;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Tamboré;Alameda Araguaia;Alphaville Industrial;Barueri;SP;Sudeste;06455-000;330339.0;-23.5220700085;-46.876;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Tatuapé;Rua Visconde de Itaboraí;Vila Azevedo;São Paulo;SP;Sudeste;03308-050;11895578.0;-23.6987500219;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Taubaté;Avenida Dom Pedro I;Terra Nova;Taubaté;SP;Sudeste;12081-810;321298.0;-23.0295331;-45.538758;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Taubaté II;Avenida Charles Schnneider;Parque Senhor do Bonfim;Taubaté;SP;Sudeste;12040-000;321298.0;-23.0315669;-45.59953;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Teodoro Sampaio;Rua Navarro de Andrade;Pinheiros;São Paulo;SP;Sudeste;05418-020;11895578.0;-23.1446199568;-47.07602262;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Teotônio Vilela;Avenida Senador Teotônio Vilela;Vila São José (Cidade Dutra);São Paulo;SP;Sudeste;04833-000;11895578.0;-23.8776700373;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Tutoia;Rua Tutóia;Vila Mariana;São Paulo;SP;Sudeste;04007-002;11895578.0;-23.3221899761;-46.3896776545;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Uberaba;Praça Santos Dumont;Santos Dumont;Uberaba;MG;Sudeste;38050-590;354142.0;-19.7473668;-47.939154;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Uberlândia;Avenida Rondon Pacheco;Tabajaras;Uberlândia;MG;Sudeste;38400-242;754954.0;-18.9176448;-48.2657238;2001.0;3100104.0;08/10/2025
-cobasi;Pet Shop Cobasi Valinhos;Rua Luiz Spiandorelli Neto;Loteamento Paiquerê;Valinhos;SP;Sudeste;13271-570;131277.0;-22.9812024;-47.0127132;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Via Parque Shopping;Avenida Ayrton Senna 3000;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22775-904;6729894.0;-22.9826942;-43.362939;2490.0;3300100.0;08/10/2025
-cobasi;Pet Shop Cobasi Viamão;Avenida Senador Salgado Filho;Querência;Viamão;RS;Sul;94440-000;232113.0;-30.0855900029;-51.0283044136;2608.0;4300034.0;08/10/2025
-cobasi;Pet Shop Cobasi Vila Velha;Rua Luciano das Neves 2418;Divino Espírito Santo;Vila Velha;ES;Sudeste;29107-900;502899.0;-20.3477821;-40.2949528;2111.0;3200102.0;08/10/2025
-cobasi;Pet Shop Cobasi Villa Lobos;Rua Manoel Velasco;Vila Hamburguesa;São Paulo;SP;Sudeste;05319-010;11895578.0;-23.939590043;-46.636;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Vinhedo;Estrada da Boiada;Santa Rosa;Vinhedo;SP;Sudeste;13289-020;79235.0;-23.0314931;-46.9876299;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Várzea Grande;Avenida Presidente Arthur Bernardes;Centro-Sul;Várzea Grande;MT;Centro-Oeste;78125-100;314627.0;-15.6515199;-56.1323601;2276.0;5100102.0;08/10/2025
-cobasi;Pet Shop Cobasi Água Branca;Avenida Francisco Matarazzo;Água Branca;São Paulo;SP;Sudeste;05001-000;11895578.0;-23.1856599608;-47.0312545895;2662.0;3500105.0;08/10/2025
-cobasi;Pet Shop Cobasi Águas Claras;Avenida Sibipiruna;Sul (Águas Claras);Brasília;DF;Centro-Oeste;71928-720;2982818.0;-15.885750017;-48.0398915003;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Aldeota;Avenida Senador Virgílio Távora;Aldeota;Fortaleza;CE;Nordeste;60170-078;2574412.0;-3.7357094;-38.5069693;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Batista Campos;Travessa São Pedro;Campina;Belém;PA;Norte;66023-570;1398531.0;-1.4517346;-48.4999707;1344.0;1500107.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Brasília Águas Claras;Rua 35;Norte (Águas Claras);Brasília;DF;Centro-Oeste;71919-000;2982818.0;-15.8352342;-48.0367863;3444.0;5300108.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Eusébio;;;Eusébio;CE;Nordeste;61765-070;80304.0;;;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares;Avenida Washington Soares;Engenheiro Luciano Cavalcante;Fortaleza;CE;Nordeste;60810-350;2574412.0;-3.7749868;-38.4876205;1225.0;2300101.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Goiânia Oeste;Avenida Portugal;Setor Oeste;Goiânia;GO;Centro-Oeste;74140-020;1494599.0;-16.6890379;-49.2702758;2098.0;5200050.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Manaíra Shopping;Avenida Governador Flávio Ribeiro Coutinho;Parque Verde;Cabedelo;PB;Nordeste;58102-835;70067.0;-6.9877215;-34.8287221;1401.0;2500106.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Salvador Graça;Avenida Euclydes da Cunha;Graça;Salvador;BA;Nordeste;40150-120;2568928.0;-12.9979705;-38.5200581;1366.0;2900108.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Salvador Shopping;Avenida Tancredo Neves 2915;Caminho das Árvores;Salvador;BA;Nordeste;41820-910;2568928.0;-12.9816038;-38.4643358;1366.0;2900108.0;08/10/2025
-cobasi;Pet Shop Mundo Pet Cobasi Tirol Natal;Avenida Prudente de Morais;Tirol;Natal;RN;Nordeste;59020-510;785368.0;-5.8034577;-35.2011079;1616.0;2400109.0;08/10/2025
-cobasi;Pet&Fácil Washington Luis;Avenida Washington Luís;Santo Amaro;São Paulo;SP;Sudeste;04627-002;11895578.0;-23.6371354;-46.670923;2662.0;3500105.0;08/10/2025
-petland;Petland Lins;Rua Dom Bosco;Vila Alta;Lins;SP;Sudeste;16400-505;76729.0;-21.67198;-49.7574013;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Gumercindo;Rua Tupanaci;Vila Gumercindo;São Paulo;SP;Sudeste;04131-020;11895578.0;-23.548;-46.3742640957;2662.0;3500105.0;08/10/2025
-petland;Petland Textil;Avenida Guilherme Giorgi;Vila Carrão;São Paulo;SP;Sudeste;03422-001;11895578.0;-23.7120700169;-46.8149739476;2662.0;3500105.0;08/10/2025
-petland;Petland Menino Deus;Avenida Getúlio Vargas;Menino Deus;Porto Alegre;RS;Sul;90150-002;1389322.0;-30.037680009;-51.23;2608.0;4300034.0;08/10/2025
-petland;Petland Arvoredo;Avenida Princesa Isabel;Parque Recreio;Contagem;MG;Sudeste;32110-000;649975.0;-19.8792202;-44.0219003;2001.0;3100104.0;08/10/2025
-petland;Petland Lajeado;Avenida Benjamin Constant;Centro;Lajeado;RS;Sul;95900-056;96651.0;-29.462995;-51.9668399;2608.0;4300034.0;08/10/2025
-petland;Petland Ipiranga;Rua Bom Pastor;Ipiranga;São Paulo;SP;Sudeste;04203-052;11895578.0;-23.2977099666;-46.9090260907;2662.0;3500105.0;08/10/2025
-petland;Petland Chácara Santo Antônio;Rua Cancioneiro Popular;Santo Amaro;São Paulo;SP;Sudeste;04710-000;11895578.0;-23.548;-46.9749018514;2662.0;3500105.0;08/10/2025
-petland;Petland Limeira;Rua Sete de Setembro;Centro;Limeira;SP;Sudeste;13480-150;300728.0;-22.5665354;-47.3974368;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Mascote;Avenida Mascote;Vila Mascote;São Paulo;SP;Sudeste;04363-000;11895578.0;-23.2779999695;-46.3414734789;2662.0;3500105.0;08/10/2025
-petland;Petland Tude Bastos;Avenida Irmãos Adorno;Sítio do Campo;Praia Grande;SP;Sudeste;11725-320;365577.0;-23.9970893;-46.4217894;2662.0;3500105.0;08/10/2025
-petland;Petland Araçatuba;Rua Sarjob Mendes;Icaray;Araçatuba;SP;Sudeste;16020-360;207775.0;-21.2236144;-50.4497105;2662.0;3500105.0;08/10/2025
-petland;Petland Grageru;Avenida Ministro Geraldo Barreto Sobral;Grageru;Aracaju;SE;Nordeste;49027-255;628849.0;-10.9451838;-37.0624862;1473.0;2800100.0;08/10/2025
-petland;Petland Aliança;Rua Bom Pastor;Ipiranga;São Paulo;SP;Sudeste;04203-052;11895578.0;-23.2977099666;-46.9090260907;2662.0;3500105.0;08/10/2025
-petland;Petland Outlet Premium Imigrantes;Estrada da Cama Patente;Alvarenga;São Bernardo do Campo;SP;Sudeste;09842-100;840499.0;-23.694;-46.5388561919;2662.0;3500105.0;08/10/2025
-petland;Petland Vila A;Avenida Engenheiro Hildemar Leite França;Vila Residencial A;Foz do Iguaçu;PR;Sul;85860-320;295500.0;-25.5384599903;-54.577426122;2482.0;4100103.0;08/10/2025
-petland;Petland Tapejara;;;Tapejara;RS;Sul;99950-000;25201.0;-28.0678199995;-52.014;2608.0;4300034.0;08/10/2025
-petland;Petland  São Mateus;Avenida Presidente Itamar Franco;São Mateus;Juiz de Fora;MG;Sudeste;36016-321;565764.0;-21.768205;-43.3501397;2001.0;3100104.0;08/10/2025
-petland;Petland Rio Branco;Avenida Doutor Ulysses Guimarães;Vila Nogueira;Diadema;SP;Sudeste;09990-080;404118.0;-23.6715999944;-46.6072753633;2662.0;3500105.0;08/10/2025
-petland;Petland Parque São Lucas;Rua Francisco Fett;Vila Paulo Silas;São Paulo;SP;Sudeste;03264-000;11895578.0;-23.6929900171;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Novo Eldorado;Avenida Doutor Cincinato Cajado Braga;Novo Eldorado;Contagem;MG;Sudeste;32341-310;649975.0;-19.9350502;-44.0526866;2001.0;3100104.0;08/10/2025
-petland;Petland Mexicão;Avenida Capitão-mor Aguiar;Centro;São Vicente;SP;Sudeste;11310-201;338407.0;-23.9671961;-46.3915641;2662.0;3500105.0;08/10/2025
-petland;Petland Marco Belém;Avenida Rômulo Maiorana;Marco;Belém;PA;Norte;66093-672;1398531.0;-1.4414112;-48.4655217;1344.0;1500107.0;08/10/2025
-petland;Petland Jardim das Flores;Rua Osório Duque Estrada;Pestana;Osasco;SP;Sudeste;06122-000;756952.0;-23.5401596;-46.7977195;2662.0;3500105.0;08/10/2025
-petland;Petland Horto Florestal;Rua Izidro Roque da Silva Telo;Horto Florestal;Sorocaba;SP;Sudeste;18074-745;757459.0;-23.5015299;-47.4525603;2662.0;3500105.0;08/10/2025
-petland;Petland Parque dos Anjos;Avenida Antônio Gomes Correa;Parque dos Anjos;Gravataí;RS;Sul;94190-300;275294.0;-29.9277099901;-50.9732005163;2608.0;4300034.0;08/10/2025
-petland;Petland Mongaguá;;;Mongaguá;SP;Sudeste;11730-000;64519.0;-24.1075246;-46.6801919;2662.0;3500105.0;08/10/2025
-petland;Petland Campo Bom;;;Campo Bom;RS;Sul;93700-000;64704.0;-29.6788945671;-51.0618405609;2608.0;4300034.0;08/10/2025
-petland;Petland Brasílio Mall;Rua Brasílio Machado;Centro;São Bernardo do Campo;SP;Sudeste;09715-140;840499.0;-23.700210005;-46.565;2662.0;3500105.0;08/10/2025
-petland;Petland Bom Fim;Praça da Alfândega;Centro Histórico;Porto Alegre;RS;Sul;90010-150;1389322.0;-30.0327299961;-51.23;2608.0;4300034.0;08/10/2025
-petland;Petland Avenida T1;Avenida T 1;Setor Bueno;Goiânia;GO;Centro-Oeste;74210-025;1494599.0;-16.7004399;-49.276539;2098.0;5200050.0;08/10/2025
-petland;Petland Enseada;Avenida Dom Pedro I;Enseada;Guarujá;SP;Sudeste;11440-000;294973.0;-23.9948444;-46.2568678;2662.0;3500105.0;08/10/2025
-petland;Petland Vinhais;Rua do Arame;Vinhais;São Luís;MA;Nordeste;65074-380;1088057.0;-2.5104119;-44.2504104;1077.0;2100055.0;08/10/2025
-petland;Petland Vila São Francisco;Avenida Martin Luther King;Cidade São Francisco;São Paulo;SP;Sudeste;05352-020;11895578.0;-23.9428300407;-46.2053040548;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Mirim;Rua Primeiro de Maio;Mirim;Praia Grande;SP;Sudeste;11704-710;365577.0;-24.0285831;-46.4881622;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Madalena;Rua Natingui;Vila Madalena;São Paulo;SP;Sudeste;05443-001;11895578.0;-23.9543500441;-46.1927375876;2662.0;3500105.0;08/10/2025
-petland;Petland Presidente Prudente;Rua Álvares Machado;Vila Euclides;Presidente Prudente;SP;Sudeste;19015-450;234083.0;-22.1270737;-51.4009725;2662.0;3500105.0;08/10/2025
-petland;Petland Varginha;Avenida Francisco Navarra;Centro;Varginha;MG;Sudeste;37006-003;142802.0;-21.5560669;-45.4368543;2001.0;3100104.0;08/10/2025
-petland;Petland Unaí;Rua Eli Pinto de Carvalho;Cruzeiro;Unaí;MG;Sudeste;38616-010;90724.0;-16.3661499;-46.899058;2001.0;3100104.0;08/10/2025
-petland;Petland Tirol;Avenida Hermes da Fonseca;Tirol;Natal;RN;Nordeste;59020-315;785368.0;-5.8034577;-35.2011079;1616.0;2400109.0;08/10/2025
-petland;Petland São Caetano do Sul;Rua Rafael Correa Sampaio;Santa Paula;São Caetano do Sul;SP;Sudeste;09541-250;172109.0;-23.6257900073;-46.551;2662.0;3500105.0;08/10/2025
-petland;Petland Santos Dumont;;;Santos Dumont;MG;Sudeste;36240-000;43392.0;-21.4662142;-43.5500883;2001.0;3100104.0;08/10/2025
-petland;Petland Santo Antônio;Rua das Magnólias;Jardim Primavera;Guarujá;SP;Sudeste;11432-320;294973.0;-23.9874056;-46.2717048;2662.0;3500105.0;08/10/2025
-petland;Petland Saboo;Rua Flaminio Levy;Saboó;Santos;SP;Sudeste;11085-080;429567.0;-23.9331245;-46.3488019;2662.0;3500105.0;08/10/2025
-petland;Petland Presidente Venceslau;;;Presidente Venceslau;SP;Sudeste;19400-000;35902.0;-21.8737026;-51.8452266;2662.0;3500105.0;08/10/2025
-petland;Petland Presidente Vargas;;;Presidente Venceslau;SP;Sudeste;19400-000;35902.0;-21.8737026;-51.8452266;2662.0;3500105.0;08/10/2025
-petland;Petland Petrópolis;Avenida Protásio Alves;Petrópolis;Porto Alegre;RS;Sul;90410-003;1389322.0;-30.0231899978;-51.2186686153;2608.0;4300034.0;08/10/2025
-petland;Petland Ilhabela;;;Ilhabela;SP;Sudeste;11630-000;36329.0;-23.8158392;-45.3664809;2662.0;3500105.0;08/10/2025
-petland;Petland Perdizes;Rua Apinajés;Perdizes;São Paulo;SP;Sudeste;05017-000;11895578.0;-23.5394736427;-46.6817360327;2662.0;3500105.0;08/10/2025
-petland;Petland Península;Avenida São Marcos;São Marcos;São Luís;MA;Nordeste;65077-310;1088057.0;-2.4882276;-44.2982047;1077.0;2100055.0;08/10/2025
-petland;Petland Pedro Marques;Rua Pedro Marques;Centro;Itapetininga;SP;Sudeste;18200-270;163774.0;-23.589346;-48.0445597;2662.0;3500105.0;08/10/2025
-petland;Petland Santana Pedro Doll;Rua Pedro Doll;Santana;São Paulo;SP;Sudeste;02404-000;11895578.0;-23.4764499904;-46.5579504702;2662.0;3500105.0;08/10/2025
-petland;Petland Paulista;Rua Bela Cintra;Consolação;São Paulo;SP;Sudeste;01415-001;11895578.0;-23.5524085573;-46.655224424;2662.0;3500105.0;08/10/2025
-petland;Petland Parque das Américas;Rua Bolívia;Parque das Américas;Mauá;SP;Sudeste;09350-636;429380.0;-23.6604399964;-46.4527457021;2662.0;3500105.0;08/10/2025
-petland;Petland Papini;Rua Cambuci do Vale;Cidade Dutra;São Paulo;SP;Sudeste;04805-110;11895578.0;-23.8699300338;-46.2848262141;2662.0;3500105.0;08/10/2025
-petland;Petland Nicomedes;Avenida Nicomedes Alves dos Santos;Morada da Colina;Uberlândia;MG;Sudeste;38411-106;754954.0;-18.9631213;-48.2736062;2001.0;3100104.0;08/10/2025
-petland;Petland Nebraska;Rua Nebraska;Brooklin Novo;São Paulo;SP;Sudeste;04560-010;11895578.0;-23.6124075642;-46.6789609418;2662.0;3500105.0;08/10/2025
-petland;Petland Matozinhos;Avenida Tomé Portes Del Rei;Vila Santo Antônio (Matozinhos);São João Del Rei;MG;Sudeste;36305-058;94062.0;-21.1256939;-44.2372126;2001.0;3100104.0;08/10/2025
-petland;Petland Pinheiros – Mateus Grou;Rua Mateus Grou;Pinheiros;São Paulo;SP;Sudeste;05415-050;11895578.0;-23.9510200413;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland José Menino;Rua Rei Jorge VI;José Menino;Santos;SP;Sudeste;11065-310;429567.0;-23.967423;-46.3560768;2662.0;3500105.0;08/10/2025
-petland;Petland Jasmim;Rua Jasmim;Chácara Primavera;Campinas;SP;Sudeste;13087-460;1185977.0;-22.8554178;-47.0486638;2662.0;3500105.0;08/10/2025
-petland;Petland Jardim dos Colibris;Avenida Josué Ferreira da Silva;Jardim dos Colibris;Indaiatuba;SP;Sudeste;13349-125;267796.0;-23.119243;-47.2547852;2662.0;3500105.0;08/10/2025
-petland;Petland Janga;Avenida Doutor Cláudio José Gueiros Leite;Janga;Paulista;PE;Nordeste;53437-000;362960.0;-7.9393032;-34.8249069;1453.0;2600054.0;08/10/2025
-petland;Petland Jaguaribe;Avenida Flora;Bussocaba;Osasco;SP;Sudeste;06053-130;756952.0;-23.533;-46.7984788456;2662.0;3500105.0;08/10/2025
-petland;Petland Jaboticabeiras;Praça Marta de Miranda de El Rei;Padre Cursino;Taubaté;SP;Sudeste;12030-760;321298.0;-23.0204559;-45.5563555;2662.0;3500105.0;08/10/2025
-petland;Petland Independência;Avenida Independência;Independência;Taubaté;SP;Sudeste;12031-000;321298.0;-23.0395693;-45.5688392;2662.0;3500105.0;08/10/2025
-petland;Petland Higienópolis;Praça Vilaboim;Higienópolis;São Paulo;SP;Sudeste;01241-010;11895578.0;-23.5565500015;-46.6453266737;2662.0;3500105.0;08/10/2025
-petland;Petland Guaianazes Otelo;Rua Otelo Augusto Ribeiro;Guaianazes;São Paulo;SP;Sudeste;08412-000;11895578.0;-23.0261799449;-47.2052215857;2662.0;3500105.0;08/10/2025
-petland;Petland Jaú;Rua General Isidoro;Chácara Braz Miraglia;Jaú;SP;Sudeste;17207-270;137323.0;-22.2899353;-48.553312;2662.0;3500105.0;08/10/2025
-petland;Petland Garcia;Avenida Jorge Amado;Jardins;Aracaju;SE;Nordeste;49025-330;628849.0;-10.9387749;-37.0531148;1473.0;2800100.0;08/10/2025
-petland;Petland Formiga;Avenida Doutor Henrique Braga;Centro;Formiga;MG;Sudeste;35570-030;70668.0;-20.4628628;-45.4325227;2001.0;3100104.0;08/10/2025
-petland;Petland Santa Rosa;Avenida Expedicionário Weber;Central;Santa Rosa;RS;Sul;98787-000;79395.0;-27.8616407;-54.454857;2608.0;4300034.0;08/10/2025
-petland;Petland Dom Nery;Rua Dom Nery;Vila Embaré;Valinhos;SP;Sudeste;13271-170;131277.0;-22.9684707;-47.0011055;2662.0;3500105.0;08/10/2025
-petland;Petland Dom Joaquim;Avenida Dom Joaquim;Centro;Pelotas;RS;Sul;96020-260;336131.0;-31.7450526;-52.336725;2608.0;4300034.0;08/10/2025
-petland;Petland Dom Bosco;Avenida Brigadeiro Eduardo Gomes;Dom Bosco;Belo Horizonte;MG;Sudeste;30850-222;2416339.0;-19.9154186;-44.0008902;2001.0;3100104.0;08/10/2025
-petland;Petland Cupecê;Avenida Cupecê;Jardim Prudência;São Paulo;SP;Sudeste;04365-000;11895578.0;-23.2778199652;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Cidade Nova;Rua Armando Salles de Oliveira;Vila Todos os Santos;Indaiatuba;SP;Sudeste;13330-585;267796.0;-23.079944;-47.2172921;2662.0;3500105.0;08/10/2025
-petland;Petland Bento Gonçalves;Rua Olavo Bilac;Cidade Alta;Bento Gonçalves;RS;Sul;95700-362;127775.0;-29.1719814;-51.5161829;2608.0;4300034.0;08/10/2025
-petland;Petland Canal 3;Avenida Washington Luís;Gonzaga;Santos;SP;Sudeste;11055-000;429567.0;-23.9673822;-46.3328146;2662.0;3500105.0;08/10/2025
-petland;Petland Campo Belo;Rua Conde de Porto Alegre;Campo Belo;São Paulo;SP;Sudeste;04608-002;11895578.0;-23.2493799671;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Cambuí;Rua dos Bandeirantes;Cambuí;Campinas;SP;Sudeste;13024-010;1185977.0;-22.8921264;-47.0546529;2662.0;3500105.0;08/10/2025
-petland;Petland Botucatu;Avenida Doutor Vital Brasil;Vila São Lúcio;Botucatu;SP;Sudeste;18603-193;150442.0;-22.8841808;-48.4441654;2662.0;3500105.0;08/10/2025
-petland;Petland Bom Retiro;Rua Olga Assunção;Novo Horizonte;Betim;MG;Sudeste;32606-016;429236.0;-19.9444194;-44.204051;2001.0;3100104.0;08/10/2025
-petland;Petland Benjamin Constant;Avenida Benjamin Constant;Floresta;Porto Alegre;RS;Sul;90550-005;1389322.0;-30.0463200085;-51.23;2608.0;4300034.0;08/10/2025
+petz;Petz Abelardo Bueno;Av. Embaixador Abelardo Bueno, 3140;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22775-040;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Aclimação;Rua Muniz de Sousa, 450;Aclimação;São Paulo;SP;Sudeste;01534-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Afonso Pena;Av. Afonso Pena, 1022;Amambai;Campo Grande;MS;Centro-Oeste;79005-671;954537.0;;;2169.0;5000203.0;08/10/2025
+petz;Petz Agamenon;Av. Gov. Agamenon Magalhães, 3855;Santo Amaro;Recife;PE;Nordeste;50050-290;1587707.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Águas Claras;Av. Sibipiruna, 4;Águas Claras;Brasília;DF;Centro-Oeste;71928-720;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Alameda Santos;Alameda Santos, 637;Cerqueira César;São Paulo;SP;Sudeste;01419-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Aldeota;Av. Barão de Studart, 999;Aldeota;Fortaleza;CE;Nordeste;60120-001;2574412.0;;;1225.0;2300101.0;08/10/2025
+petz;Petz Alphaville;Av. Alphaville, 580;Alphaville;Barueri;SP;Sudeste;06472-010;330339.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Alto da Boa Vista;Av. Adolfo Pinheiro, 1600;Santo Amaro;São Paulo;SP;Sudeste;04734-004;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Americana;Av. Paulista, 985;Vila Nossa Sra. de Fatima;Americana;SP;Sudeste;13478-580;246655.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Ana Costa;Avenida Ana Costa, 215;Gonzaga;Santos;SP;Sudeste;11060-001;429567.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Anália Franco;Av. Regente Feijó, 677;Vila Regente Feijó;São Paulo;SP;Sudeste;03342-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Angélica;Av. Angélica, 2011;Higienópolis;São Paulo;SP;Sudeste;01227-200;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Anhaia Mello;"Av. Prof. Luiz Ignacio Anhaia Mello, 5657
+                                             - Junto ao Roldao";Vila Graciosa;São Paulo;SP;Sudeste;03295-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Aracaju;Av. Ministro Geraldo Barreto Sobral, 140;Jardins;Aracaju;SE;Nordeste;49026-900;628849.0;;;1473.0;2800100.0;08/10/2025
+petz;Petz Araçatuba;Av. Brasília, 2737;Vila Sao Paulo;Araçatuba;SP;Sudeste;16018-000;207775.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Araraquara;Av.Padre Francisco Salles Culturato, 1272;Centro;Araraquara;SP;Sudeste;14802-000;252318.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Arujá;"Estrada de Santa Isabel, 1278
+                                             - Parque Nossa Sra. do Carmo";Brasil;Arujá;SP;Sudeste;07432-575;89943.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Assaí Anchieta;Rua Garcia Lorca, 301;Paulicéia;São Bernardo do Campo;SP;Sudeste;09695-000;840499.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Assaí Colinas;Av. Jorge Zarur, 100;Jardim Apolo;São José dos Campos;SP;Sudeste;12243-081;724756.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Assaí Maracanã;"Rua José Higino, 115
+                                             - Dentro do Assai Maracana";Maracanã;Rio de Janeiro;RJ;Sudeste;20520-201;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Assaí Penha;Av. São Miguel, 962;Penha de França;São Paulo;SP;Sudeste;03620-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Assis Chateaubriand;Av. Assis Chateaubriand, 17;St. Oeste;Goiânia;GO;Centro-Oeste;74130-015;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Augusta;Rua Augusta , 215;Bela Vista;São Paulo;SP;Sudeste;01305-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Avenida das Américas Recreio;Avenida das Américas, 12700;Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22793-329;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Avenida do Contorno;Av. do Contorno, 2171;Santa Efigênia;Belo Horizonte;MG;Sudeste;30110-017;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Avenida Dos Estados;Av. dos Estados, 6973;Parque Jaçatuba;Santo André;SP;Sudeste;09270-270;778711.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Avenida Goiás;Avenida Goiás, 889;Santo Antônio;São Caetano do Sul;SP;Sudeste;09521-310;172109.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Avenida Interlagos;Av. Interlagos, 2000;Jardim Marajoara;São Paulo;SP;Sudeste;04660-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Avenida Milão;Av. Milão, 531;Jardim Europa;Goiânia;GO;Centro-Oeste;74325-030;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Balneário Camboriú;Av. do Estado Dalmo Vieira, 4888;Estados;Balneário Camboriú;SC;Sul;88339-060;148758.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Bandeirantes;Av. dos Bandeirantes, 2040;Vila Olímpia;São Paulo;SP;Sudeste;04553-902;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Bangu Shopping;"Rua Fonseca, 240
+                                             - Area Ext, proximo a Portaria 2";Bangu;Rio de Janeiro;RJ;Sudeste;21820-005;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Barra Américas;"Avenida das Américas, 6571
+                                             - Lote 02 Pal 45164";Barra da Tijuca;Rio de Janeiro;RJ;Sudeste;22793-080;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Barreiro;Av. Sinfrônio Brochado, 1200;Barreiro;Belo Horizonte;MG;Sudeste;30640-000;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Bauru;RUA RUBENS PAGANI , 444;Jardim Estoril;Bauru;SP;Sudeste;17016-210;391740.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Belém;Av. Nª Sra. de Nazaré, 139;Nazaré;Belém;PA;Norte;66035-445;1398531.0;;;1344.0;1500107.0;08/10/2025
+petz;Petz Belford Roxo;Av. Jorge Júlio da Costa dos Santos, 971;Centro;Belford Roxo;RJ;Sudeste;26130-010;518263.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Bento Gonçalves;R. Fortaleza, 362;Botafogo;Bento Gonçalves;RS;Sul;95700-000;127775.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz BestCenter Jacareí;R. Barão de Jacareí, 625;Jardim Mesquita;Jacareí;SP;Sudeste;12308-000;249968.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Betim;Av. Juiz Marco Tulio Isaac, 470;Parque das Industrias;Betim;MG;Sudeste;32671-072;429236.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Blumenau;R. São Paulo, 1629;Itoupava Seca;Blumenau;SC;Sul;89030-001;380597.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Boa Viagem;Rua Professor João Medeiros, 139;Boa Viagem;Recife;PE;Nordeste;51020-000;1587707.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Bosque Maia;Av. Paulo Faccini, 1385;Macedo;Guarulhos;SP;Sudeste;07111-000;1345364.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Botafogo;Rua General Polidoro, 113;Botafogo;Rio de Janeiro;RJ;Sudeste;22280-004;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Botucatu;Av. Dr. Vital Brasil, 645;Vila Sao Lucio;Botucatu;SP;Sudeste;18603-193;150442.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Brasília Asa Norte;"ST STN, Conjunto D, BLOCO 2/B, S/N
+                                             - TERMINAL NORTE CONJ D BLOCO2/B";Asa Norte;Brasília;DF;Centro-Oeste;70770-100;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Brasília Epia;Epia Sul, , Lote 3;Candangolândia;Brasília;DF;Centro-Oeste;71738-010;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Brasília Jardim Botânico;"Av. Das Paineiras - Q. 1 Lote E , S/N
+                                             - Proximo a Paroquia Santa Clara";Jardim Botânico;Brasília;DF;Centro-Oeste;71681-025;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Brasília SIA;SIA trecho 02, Lotes 65/95 , 65/95;Guará I;Brasília;DF;Centro-Oeste;71200-207;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Brasília W3 Norte;Comércio Residencial Norte, 502;SHCN;Brasília;DF;Centro-Oeste;70297-400;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Brusque;R. Pref. Germano Schaeffer, 755;Centro 1;Brusque;SC;Sul;88353-020;151949.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Bueno T63;"Av T63, S/N
+                                             - Quadra 143 lote 4/13";Setor Bueno;Goiânia;GO;Centro-Oeste;74230-105;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Butantã;"Av. Professor Francisco Morato, 1796
+                                             - 1798";Butantã;São Paulo;SP;Sudeste;05512-200;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Cambuí;Av. Doutor Moraes Sales, 2326;Nova Campinas;Campinas;SP;Sudeste;13100-201;1185977.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Campinas Norte Sul;Av Jose de Sousa Campos, 200;Nova Campinas;Campinas;SP;Sudeste;13092-123;1185977.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Campo Grande;Av. Afonso Pena, 5420;Chacara Cachoeira;Campo Grande;MS;Centro-Oeste;79040-010;954537.0;;;2169.0;5000203.0;08/10/2025
+petz;Petz Campo Grande Rio;Estrada da Cachamorra, 200;Campo Grande;Rio de Janeiro;RJ;Sudeste;23040-125;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Canoas;Avenida Getúlio Vargas, 6401;Marechal Rondon;Canoas;RS;Sul;92020-020;359554.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Caraguatatuba;Rua Vereador Antônio Cruz Arouca, 200;Indaiá;Caraguatatuba;SP;Sudeste;11665-100;141084.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carapicuíba;Avenida Inocêncio Seráfico, 3375;Vila Silva Ribeiro;Carapicuíba;SP;Sudeste;06380-021;398462.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carlos Berta;R. Antônio Carlos Berta, 151;Jardim Europa;Porto Alegre;RS;Sul;91340-020;1389322.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Carlos Luz;Avenida Presidente Carlos Luz, 710;Caiçaras;Belo Horizonte;MG;Sudeste;31230-010;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Carrefour Anchieta;Av .Marginal Direita Anchieta, 3398;Jardim Maria Estela;São Paulo;SP;Sudeste;04246-900;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carrefour Imigrantes;"R. Ribeiro Lacerda, 940
+                                             - Estacionamento G3 Carrefour";Bosque da Saúde;São Paulo;SP;Sudeste;04147-020;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carrefour Manilha;"R. Oliveira Botelho, 349
+                                             - Dentro do Carrefour Manilha";Neves;São Gonçalo;RJ;Sudeste;24425-005;960652.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Carrefour Ribeirão Shopping;"Av Coronel Fernando Ferreira Leite, 1540
+                                             - Ribeirao Shopping";Jardim Califórnia;Ribeirão Preto;SP;Sudeste;14026-020;728400.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carrefour São Caetano;"Avenida do Estado, 1750
+                                             - junto ao Carrefour";Fundação;São Caetano do Sul;SP;Sudeste;09550-400;172109.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Carrefour Tietê;Av. Morvan Dias de Figueiredo, 3177;Vila Guilherme;São Paulo;SP;Sudeste;02063-902;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Cascavel;Avenida Brasil, 4254;Centro;Cascavel;PR;Sul;85812-000;364104.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Castelo;Av. Pres. Tancredo Neves, 3005;Paquetá;Belo Horizonte;MG;Sudeste;30840-535;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Catuai Londrina;"Rod. Mabio Gonçalves Palhano, 195
+                                             - em frente ao Catuaí Shopping";Gleba Fazenda Palhano;Londrina;PR;Sul;86055-585;577318.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Cavalhada;Av. Eduardo Prado, 415;Cavalhada;Porto Alegre;RS;Sul;91751-000;1389322.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Caxias do Sul;Av Rubens Bento Alves, 8457;Cinquentenário;Caxias do Sul;RS;Sul;95012-393;479256.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Ceilândia;St. M-Norte , Q 1;Taguatinga;Brasília;DF;Centro-Oeste;72145-100;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Center Minas;"Av. Pastor Anselmo Silvestre, 1395 , 1495
+                                             - Shopping Center Minas";Dom Joaquim;Belo Horizonte;MG;Sudeste;31170-678;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Center Shopping Uberlândia;Av. João Naves de Ávila, 1331;Tibery;Uberlândia;MG;Sudeste;38405-140;754954.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Cerro Corá;Rua Cerro Corá, 1950;Vila Romana;São Paulo;SP;Sudeste;05061-300;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Chapecó;Av. Fernando Machado, 1001D;Centro;Chapecó;SC;Sul;89802-111;275959.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Cidade Jardim;"Av dos Tajuras, 147
+                                             - 161";Cidade Jardim;São Paulo;SP;Sudeste;05670-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Congonhas;"Av. Moreira Guimarães,  631 
+                                             - 657";Indianópolis;São Paulo;SP;Sudeste;04074-030;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Contagem;"Av. Babita Camargos, 1295
+                                             - Loja 03";Cidade Industrial;Contagem;MG;Sudeste;32210-180;649975.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Contagem João Cesar;Av. João César de Oliveira, 5750;Funcionários;Contagem;MG;Sudeste;32040-000;649975.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Continente;R. Martinho Boschetti, 2083;Picadas do Sul;São José;SC;Sul;88106-110;289949.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Copacabana;Av. Nossa Senhora de Copacabana, 1246;Copacabana;Rio de Janeiro;RJ;Sudeste;22070-012;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Cotia;"Rodovia Raposo Tavares KM 21, 5650
+                                             - Acesso tambem pela Rua Damasco";Lageadinho;Cotia;SP;Sudeste;06709-015;287004.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Criciúma;Av. Centenário, 6323;Próspera;Criciúma;SC;Sul;88801-001;225281.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Cristiano Machado;Av. Cristiano Machado, 10688;Jardim Guanabara;Belo Horizonte;MG;Sudeste;31742-005;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Diadema;Av. Fábio Eduardo Ramos Esquivel, 1100;Centro;Diadema;SP;Sudeste;09920-578;404118.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Diário de Notícias;Avenida Diário de Notícias, 1500;Cristal;Porto Alegre;RS;Sul;90810-080;1389322.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Divinópolis;R. Minas Gerais, 640;Centro;Divinópolis;MG;Sudeste;35500-007;242328.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Djalma Batista;Av. Djalma Batista, 3000;Chapada;Manaus;AM;Norte;69050-010;2279686.0;;;1238.0;1300029.0;08/10/2025
+petz;Petz Dom Pedro;"Av. Guilherme Campos, 500
+                                             - Shopping Parque Dom Pedro";Centro (Pq Dom Pedro Shopping);Campinas;SP;Sudeste;13087-901;1185977.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Dourados;Av. Marcelino Pires, 4226;Jardim Caramuru;Dourados;MS;Centro-Oeste;79830-000;260640.0;;;2169.0;5000203.0;08/10/2025
+petz;Petz Edgar Facó;Av. Gen. Edgar Facó, 848;Vila Arcadia;São Paulo;SP;Sudeste;02924-400;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Enseada;"Av. Dom Pedro I, S/N
+                                             - LOTE 1 E 2";ENSEADA;Guarujá;SP;Sudeste;11440-110;294973.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Estação Goiânia;"Avenida Goiás, 2151
+                                             - QD 21, Lote. Area Compl. Qd 2.";Setor Central;Goiânia;GO;Centro-Oeste;74010-010;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Fernando Corrêa;Avenida Fernando Corrêa da Costa, 1682;Pico do Amor;Cuiabá;MT;Centro-Oeste;78065-000;682932.0;;;2276.0;5100102.0;08/10/2025
+petz;Petz Ferraz de Vasconcelos;Avenida Brasil, 2015;Vila Romanopolis;Ferraz de Vasconcelos;SP;Sudeste;08529-310;185622.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Florianópolis;"Rodovia José Carlos Daux, 5500
+                                             - Square SC Corporate";Saco Grande;Florianópolis;SC;Sul;88032-005;576361.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Foz do Iguaçu;Av. Paraná, 1314;Região Central;Foz do Iguaçu;PR;Sul;85863-754;295500.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Franca;Av. Dr. Ismael Alonso Y Alonso, 450;Jardim Veneza;Franca;SP;Sudeste;14400-190;364331.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Gama Leste;SIND QI 1 - Pte. Alta Norte, S/N;Gama;Brasília;DF;Centro-Oeste;72445-010;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Gastão Vidigal;Av. Dr. Gastão Vidigal, 1555;Vila Leopoldina;São Paulo;SP;Sudeste;05314-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Gilberto Salomão;BL. F, Shis Qi 5 Conjunto 16, 5;Lago Sul;Brasília;DF;Centro-Oeste;71615-560;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Giovanni Gronchi;Av. Giovanni Gronchi, 3280;Vila Sonia;São Paulo;SP;Sudeste;05651-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Giovanni Pirelli;Rua Giovanni  Battista Pirelli, 1645;Vila Homero Thon;Santo André;SP;Sudeste;09111-340;778711.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Governador Valadares;Av. Brasil, 3611;Centro;Governador Valadares;MG;Sudeste;35010-070;266649.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Gravataí;"Av. Dorival Candido Luz de Oliveira, 900
+                                             - Cohab C";Centro;Gravataí;RS;Sul;94030-000;275294.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Guarujá;Av. Adhemar de Barros, 1935;Jardim Helena Maria;Guarujá;SP;Sudeste;11430-003;294973.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Guarulhos;Av. Guarulhos, 2598;Ponte Grande;Guarulhos;SP;Sudeste;07022-020;1345364.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Guarulhos Pimentas;Estr. Juscelino Kubtischek de Oliv., 4380;Jardim Albertina;Guarulhos;SP;Sudeste;07252-000;1345364.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Hiper Sales Aracaju;Av. Augusto Franco, 2500;Ponto Novo;Aracaju;SE;Nordeste;49097-670;628849.0;;;1473.0;2800100.0;08/10/2025
+petz;Petz Hortolândia;Av. Santana, 970;Parque Ortolândia;Hortolândia;SP;Sudeste;13184-210;247331.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Iguatemi Esplanada;"Av.  Gisele Constantino, 1850
+                                             - Shopping Iguatemi Esplanada";Parque Bela Vista;Votorantim;SP;Sudeste;18110-650;132849.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Ilha do Governador;Estrada do Galeão, 1770;Jardim Carioca;Rio de Janeiro;RJ;Sudeste;21931-524;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Indaiatuba;"Alameda Filtros Mann, 670 
+                                             - Polo Shopping Indaiatuba";Jardim Tropical;Indaiatuba;SP;Sudeste;13344-580;267796.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Independência Shopping;Av. Presidente Itamar Franco, 3600;Cascatinha;Juiz de Fora;MG;Sudeste;36025-290;565764.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Ipatinga;Av Claudio Moura, 801;Novo Cruzeiro;Ipatinga;MG;Sudeste;35164-840;235445.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Ipiranga;Av. Presidente Tancredo Neves, 600;Ipiranga;São Paulo;SP;Sudeste;04287-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itaim;R. Bandeira Paulista, 982;Itaim Bibi;São Paulo;SP;Sudeste;04532-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itajaí;Av. Ver. Abrahão João Francisco, 3400;Ressacada;Itajaí;SC;Sul;88307-302;287289.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Itanhaém;Av. Rui Barbosa, 540;Centro;Itanhaém;SP;Sudeste;11740-000;117435.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itapecerica;Estr. de Itapecerica, 944;Vila das Belezas;São Paulo;SP;Sudeste;05835-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itapetininga;Av. Peixoto Gomide, 317;Centro;Itapetininga;SP;Sudeste;18200-160;163774.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itatiba;Avenida Marechal Castelo Branco, 55;Jardim de Lucca;Itatiba;SP;Sudeste;13255-350;126403.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Itu;Av. Dr. Otaviano Pereira Mendes, 1254;Liberdade;Itu;SP;Sudeste;13301-000;174561.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Jaboatão dos Guararapes;Av. Ayrton Senna da Silva, 1485;Piedade;Jaboatão dos Guararapes;PE;Nordeste;54420-700;683285.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Jacu Pêssego;Av Jacu Pêssego , 4710;Itaquera;São Paulo;SP;Sudeste;08215-115;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Jaguaré;"Avenida Corifeu de Azevedo Marques, 4529
+                                             - lado impar da Corifeu";Vila Lageado;São Paulo;SP;Sudeste;05339-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Jardim Botânico;R. Jardim Botânico, 733;Lagoa;Rio de Janeiro;RJ;Sudeste;22470-051;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Jardim Icaraí;R. Dr. Paulo César, 249;Santa Rosa;Niterói;RJ;Sudeste;24240-000;516720.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Jaú;Avenida Doutor Quinzinho , 51;Chácara Peccioli;Jaú;SP;Sudeste;17210-110;137323.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz João Firmino;Av. João Firmino, 342;Assunção;São Bernardo do Campo;SP;Sudeste;09810-250;840499.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz João Pessoa;Av. Senador Ruy Carneiro, 711;Tambau;João Pessoa;PB;Nordeste;58039-180;888679.0;;;1401.0;2500106.0;08/10/2025
+petz;Petz Joinville;R. Dr. João Colin, 940;América;Joinville;SC;Sul;89204-070;654888.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Juiz de Fora;Avenida Rio Branco, 3820;Alto dos Passos;Juiz de Fora;MG;Sudeste;36026-500;565764.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Jundiaí;"Av. Antonio Frederico Ozanan, 3003
+                                             - Junto ao Atacadista Roldao";Vila de Vito;Jundiaí;SP;Sudeste;13215-010;460313.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Jundiaí Anhanguera;Av. Dr. Adilson Rodrigues, 77;Jundiaí;Jundiaí;SP;Sudeste;13211-685;460313.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Lauzane Paulista;Avenida Direitos Humanos, 1436;Lauzane Paulista;São Paulo;SP;Sudeste;02475-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Limão;Av. Otaviano Alves de Lima, 1480;Limão;São Paulo;SP;Sudeste;02501-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Linha Verde;Av. Caviúna, 548;Atuba;Curitiba;PR;Sul;82840-123;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Litoral Plaza;"Av. Ayrton Senna da Silva, 1511
+                                             - Loja Ext. V - Litoral Plaza";Tude Bastos;Praia Grande;SP;Sudeste;11726-000;365577.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Londrina Tiradentes;Av. Tiradentes, 1919;Rodocentro;Londrina;PR;Sul;86071-000;577318.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Manuel Gaya;Rua Manuel Gaya, 2000;Vila Mazzei;São Paulo;SP;Sudeste;02313-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Maraponga;Av. Godofredo Maciel, 2560;Mondubim;Fortaleza;CE;Nordeste;60710-684;2574412.0;;;1225.0;2300101.0;08/10/2025
+petz;Petz Marechal Tito;"Avenida Marechal Tito,  5699
+                                             - Junto ao MercadoCar";Itaim Paulista;São Paulo;SP;Sudeste;08115-100;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Marginal Tietê 24h;R. Dr. Miguel Paulo Capalbo, 166;Pari;São Paulo;SP;Sudeste;03035-040;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Maringá;Av. Paraná, 1250;Zona 7;Maringá;PR;Sul;87020-085;425983.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Mateus Leme;Rua Mateus Leme, 1875;Bom Retiro;Curitiba;PR;Sul;80520-174;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Mauro Ramos;Av. Mauro Ramos, 1586;Centro;Florianópolis;SC;Sul;88020-302;576361.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Miguel Sutil;Av. Miguel Sutil , 10000;Jardim Mariana;Cuiabá;MT;Centro-Oeste;78040-790;682932.0;;;2276.0;5100102.0;08/10/2025
+petz;Petz Mogi das Cruzes;Av. Francisco Rodrigues Filho, 1550;Botujuru;Mogi das Cruzes;SP;Sudeste;08840-000;468120.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Mogi Guaçu;Av. Mogi Mirim, 970;Areião;Mogi Guaçu;SP;Sudeste;13844-110;159735.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Moinhos de Vento;Rua Quintino Bocaiúva, 433;Floresta;Porto Alegre;RS;Sul;90440-051;1389322.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Mooca;Av. Paes de Barros, 1654;Mooca;São Paulo;SP;Sudeste;03114-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Mooca Plaza Shopping;R. Cap. Pacheco e Chaves, 313;Vila Prudente;São Paulo;SP;Sudeste;03126-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Morumbi;Rua Aureliano Guimarães, 201;Morumbi;São Paulo;SP;Sudeste;05727-160;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Nações Unidas;Avenida das Nações Unidas, 20727;Vila Almeida;São Paulo;SP;Sudeste;04795-100;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Natal;Av. Sen. Salgado Filho, 2431;Lagoa Nova;Natal;RN;Nordeste;59075-000;785368.0;;;1616.0;2400109.0;08/10/2025
+petz;Petz Natal Zona Norte;Av. Dr. João Medeiros Filho, 1420;Potengi;Natal;RN;Nordeste;59108-550;785368.0;;;1616.0;2400109.0;08/10/2025
+petz;Petz Nordestina;Av. Nordestina, 2740;Cidade Nova São Miguel;São Paulo;SP;Sudeste;08042-117;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Norte Sul Plaza;"Av. Presidente Ernesto Geisel, 2300
+                                             - Shopping Norte Sul Plaza";Jardim Joquei Club;Campo Grande;MS;Centro-Oeste;79080-105;954537.0;;;2169.0;5000203.0;08/10/2025
+petz;Petz Nossa Senhora do Carmo;Av. Nossa Senhora do Carmo, 1448;São Pedro;Belo Horizonte;MG;Sudeste;30330-000;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Nova Iguaçu;Av. Abílio Augusto Távora, 292;Jardim Alvorada;Nova Iguaçu;RJ;Sudeste;26265-090;843046.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Novo Hamburgo;Rua Castro Alves, 205;Rio Branco;Novo Hamburgo;RS;Sul;93310-270;235879.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Olinda;R. Carmelita Muniz de Araújo, 225;Casa Caiada;Olinda;PE;Nordeste;53130-645;365402.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Osasco;"Av. dos Autonomistas, 1473
+                                             - Parte A";Vila Yara;Osasco;SP;Sudeste;06090-010;756952.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Pacaembu;Praça Charles Miller, 117;Pacaembu;São Paulo;SP;Sudeste;01234-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Palmas;Q. 101 Sul Avenida LO 3, S/N;Plano Diretor Sul;Palmas;TO;Norte;77015-002;323625.0;;;1737.0;1700251.0;08/10/2025
+petz;Petz Pampulha;Av. Professor Magalhães Penido, 1000;Liberdade;Belo Horizonte;MG;Sudeste;31270-652;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Pão de Açúcar Jabaquara;Av. Eng. Armando de Arruda Pereira, 1900;Jardim Oriental;São Paulo;SP;Sudeste;04308-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Parada de Taipas;Av. Raimundo Pereira de Magalhães, 12219;Parada De Taipas;São Paulo;SP;Sudeste;02989-095;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz ParkShopping Brasília;"ParkShopping Brasília,  
+                                             - SMAS Trecho 1";Guará;Brasília;DF;Centro-Oeste;71219-900;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Parnamirim;Av. Dezessete de Agosto, 295;Parnamirim;Recife;PE;Nordeste;52060-590;1587707.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Parque Flamboyant;"Av. Deputado Jamel Cecílio, 2697
+                                             - quadra B16, lotes 17/19";Jardim Goiás;Goiânia;GO;Centro-Oeste;74810-100;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Parque Shopping Bahia;Avenida Santos Dumont, 4360;Centro;Lauro de Freitas;BA;Nordeste;42702-400;217960.0;;;1366.0;2900108.0;08/10/2025
+petz;Petz Parque Shopping Maceió;Av. Comendador Gustavo Paiva, 5945;Cruz das Almas;Maceió;AL;Nordeste;57038-000;994464.0;;;1331.0;2700102.0;08/10/2025
+petz;Petz Passeio das Águas;"Av. Perimetral Norte, 8303
+                                             - Fazenda das Caveiras";Passeio das Águas;Goiânia;GO;Centro-Oeste;74445-360;1494599.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Pelotas;Avenida Ferreira Viana, 1511;Areal;Pelotas;RS;Sul;96085-000;336131.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Pereira Barreto;"Rua Thales Dos Santos Freire, 36
+                                             - Quadra 8B LOT 26,27,28,29 e 30";Baeta Neves;São Bernardo do Campo;SP;Sudeste;09751-020;840499.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Pindamonhangaba;Av. Dr. Jorge Tibiriçá, 593;Chácara Galega;Pindamonhangaba;SP;Sudeste;12422-050;172027.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Piracicaba;Av. Centenário, 780;São Dimas;Piracicaba;SP;Sudeste;13416-000;438827.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Pituba;Av. Manoel Dias da Silva, 1251;Pituba;Salvador;BA;Nordeste;41830-001;2568928.0;;;1366.0;2900108.0;08/10/2025
+petz;Petz Plaza Avenida Shopping;"Av. José Munia, 4775
+                                             - Shopping Plaza Avenida, Piso T";Redentor;São José do Rio Preto;SP;Sudeste;15085-350;501597.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Poços de Caldas;Av. João Pinheiro, 711;Centro;Poços de Caldas;MG;Sudeste;37701-387;171533.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Pompeia;"Av. Francisco Matarazzo, 2000
+                                             - Complexo SP MEGA STORES";Água Branca;São Paulo;SP;Sudeste;05001-200;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Ponta Verde;R. Prof. Sandoval Arroxelas, 1078;Ponta Verde;Maceió;AL;Nordeste;57035-230;994464.0;;;1331.0;2700102.0;08/10/2025
+petz;Petz Porto Velho Shopping;Av. Pref. Chiquilito Erse, 3288;Flodoaldo Pontes Pinto;Porto Velho;RO;Norte;76820-408;514873.0;;;1717.0;1100015.0;08/10/2025
+petz;Petz Praia Grande;Av. Presidente Kennedy, 2900;Guilhermina;Praia Grande;SP;Sudeste;11600-000;365577.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Presidente Kennedy;"Av. Sgt. Hermínio Sampaio, 2965
+                                             - ao lado do Assai Atacadista";Pres. Kennedy;Fortaleza;CE;Nordeste;60355-503;2574412.0;;;1225.0;2300101.0;08/10/2025
+petz;Petz Presidente Prudente;Av. Manoel Goulart, 2671;Centro Educacional;Presidente Prudente;SP;Sudeste;19010-000;234083.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Protásio Alves;"Av. Protásio Alves, 4194
+                                             - Loja 2";Petrópolis;Porto Alegre;RS;Sul;91310-000;1389322.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Radial Leste;Av. Alcântara Machado , 3300;bras;São Paulo;SP;Sudeste;03102-007;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Raja Gabaglia;Avenida Raja Gabaglia, 3230;Estoril Belo Horizonte;Belo Horizonte;MG;Sudeste;30360-670;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Ribeirão Independência;Avenida Independência , 1810;Jardim Sumare;Ribeirão Preto;SP;Sudeste;14025-393;728400.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Ribeirão Presidente Vargas;Av. Pres. Vargas, 2265;Jardim Santa Ângela;Ribeirão Preto;SP;Sudeste;14020-525;728400.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Ricardo Jafet;Av. Dr. Ricardo Jafet, 1750;Vila Mariana;São Paulo;SP;Sudeste;04260-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Rio Claro;Avenida Presidente Kennedy, 414;Estadio;Rio Claro;SP;Sudeste;13501-270;208857.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Rio Grande;Avenida Presidente Vargas, 794;Vila Junção;Rio Grande;RS;Sul;96202-188;198958.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Riomar;"Av. República do Líbano, 251
+                                             - Shopping RioMar Recife";Pina;Recife;PE;Nordeste;51110-131;1587707.0;;;1453.0;2600054.0;08/10/2025
+petz;Petz Rio Verde;Av. Pres. Vargas Q 37, 27;Jardim Pres.;Rio Verde;GO;Centro-Oeste;75908-420;238025.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Rita Maria;Rua Henrique Valgas, 64;Centro;Florianópolis;SC;Sul;88010-220;576361.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Roberto Freire;Avenida Engenheiro Roberto Freire, 20;Capim Macio;Natal;RN;Nordeste;59078-570;785368.0;;;1616.0;2400109.0;08/10/2025
+petz;Petz Ruben Bento Alves;Av. Rubem Bento Alves, 3483;Universitário;Caxias do Sul;RS;Sul;95032-440;479256.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Salvador Bonocô;Av. Mario Leal Ferreira, 500;Bonocô;Salvador;BA;Nordeste;40285-600;2568928.0;;;1366.0;2900108.0;08/10/2025
+petz;Petz Salvador Paralela;Av. Luís Viana, 2768;Imbuí;Salvador;BA;Nordeste;41720-200;2568928.0;;;1366.0;2900108.0;08/10/2025
+petz;Petz Samambaia do Sul;"Quadra 302, S/N
+                                             - Conjunto 7";Samambaia do Sul;Brasília;DF;Centro-Oeste;72300-630;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Santa Bárbara D'Oeste;Av. Corifeu de Azevedo Marques, 1102;Colina;Santa Bárbara d;SP;;13450-088;;;;;;08/10/2025
+petz;Petz Santa Cecília;Av. General Olímpio da Silveira, 68;Santa Cecília;São Paulo;SP;Sudeste;01150-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Santa Maria;Av. Hélvio Basso, 1201;Duque de Caxias;Santa Maria;RS;Sul;97070-805;282244.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz Santo André;Av. Ramiro Colleoni , 355;Vila Assunção;Santo André;SP;Sudeste;09040-160;778711.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Santo André Dom Pedro;Av. Dom Pedro II, 933;Jardim;Santo André;SP;Sudeste;09080-110;778711.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Santos Dumont;Avenida Santos Dumont, 5650;Cocó;Fortaleza;CE;Nordeste;60192-018;2574412.0;;;1225.0;2300101.0;08/10/2025
+petz;Petz Santos Macuco;Rua Dr. Manoel Tourinho, 385;Macuco;Santos;SP;Sudeste;11015-031;429567.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz São Bernardo;"Av. Rotary, 825
+                                             - junto ao Center Castilho";Centro;São Bernardo do Campo;SP;Sudeste;09721-000;840499.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz São Carlos;Av. Francisco Pereira Lopes, 1701;Parque Maria Santa Mônica;São Carlos;SP;Sudeste;13561-250;265294.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz São José do Rio Preto;Av. Pres. Juscelino K. Oliveira, 400;Jardim Maracanã;São José do Rio Preto;SP;Sudeste;15092-175;501597.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz São Leopoldo;Av. Getúlio Vargas, 1802;Fião;São Leopoldo;RS;Sul;93020-566;225669.0;;;2608.0;4300034.0;08/10/2025
+petz;Petz São Luís;Av. Daniel De La Touch, 10240;Vila Vicente Fialho;São Luís;MA;Nordeste;65074-115;1088057.0;;;1077.0;2100055.0;08/10/2025
+petz;Petz São Miguel;Av. São Miguel, 7988;Vila Norma;São Paulo;SP;Sudeste;08070-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz São Vicente;Avenida Antônio Emmerick, 23;Vila Cascatinha;São Vicente;SP;Sudeste;11390-001;338407.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Seminário;Av. Nossa Senhora Aparecida, 582;Seminário;Curitiba;PR;Sul;80440-000;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Serra;Avenida Eldes Scherrer Souza, 1511;Parque Res. Laranjeiras;Serra;ES;Sudeste;29165-680;572274.0;;;2111.0;3200102.0;08/10/2025
+petz;Petz Sete Lagoas;Avenida Raquel Teixeira Viana, 983;Canaã;Sete Lagoas;MG;Sudeste;35700-293;237931.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Shopping CenterVale;Av. Deputado Benedito Matarazzo, 9403;Jardim Oswaldo Cruz;São José dos Campos;SP;Sudeste;12215-900;724756.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Shopping Golden Square;Avenida Kennedy, 700;Jardim do Mar;São Bernardo do Campo;SP;Sudeste;09726-252;840499.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Shopping Grande Rio;R. Maria Soares Sendas, 111;Parque Barreto;São João de Meriti;RJ;Sudeste;25575-825;466536.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Shopping Grand Plaza;Av. Industrial, 600;Centro;Santo André;SP;Sudeste;09080-510;778711.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Shopping Itaguaçu;R. Gerôncio Thives, 1079;Barreiros;São José;SC;Sul;88117-292;289949.0;;;2601.0;4200051.0;08/10/2025
+petz;Petz Shopping Jockey Plaza;R. Konrad Adenauer, 370;Tarumã;Curitiba;PR;Sul;82821-020;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Shopping Mauá;Av. Gov. Mario Covas Júnior, 01;Centro;Mauá;SP;Sudeste;09390-040;429380.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Shopping Pantanal;Av. Historiador Rubens de Mendonça, 3.300;Jardim Aclimacao;Cuiabá;MT;Centro-Oeste;78050-250;682932.0;;;2276.0;5100102.0;08/10/2025
+petz;Petz Shopping Sul Valparaíso;Q. 1 Valparaíso Shopping, S/N;Parque Esplanada III;Valparaíso de Goiás;GO;Centro-Oeste;72876-902;213506.0;;;2098.0;5200050.0;08/10/2025
+petz;Petz Silva Jardim;Rua João Negrão, 1028;Rebouças;Curitiba;PR;Sul;82590-300;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Silviano Brandão;Av. Silviano Brandão, 2457;Sagrada Família;Belo Horizonte;MG;Sudeste;31015-015;2416339.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Sorocaba;Av. Dom Aguirre, 2121;Santa Rosália;Sorocaba;SP;Sudeste;18035-095;757459.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Sorocaba Tauste;"Avenida General Carneiro, 1120
+                                             - Loja 08";Vila Lucy;Sorocaba;SP;Sudeste;18043-003;757459.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Sumaré;Av. da Amizade, 2371;Parque Euclides Miranda;Sumaré;SP;Sudeste;13175-646;289787.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Suzano;Rua Sete de Setembro, 555;Parque Suzano;Suzano;SP;Sudeste;08673-900;318765.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Taboão da Serra;R. do Tesouro, 662;Taboão da Serra;São Paulo;SP;Sudeste;06754-190;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Taguatinga;"Quadra QS 1, Rua 212, S/N
+                                             - Lote 11, 13 e 15";Areal (Águas Claras);Brasília;DF;Centro-Oeste;71950-550;2982818.0;;;3444.0;5300108.0;08/10/2025
+petz;Petz Tamboré;"Alameda Araguaia, 2179
+                                             - Parte A,junto a Kalunga";Tamboré;Barueri;SP;Sudeste;06455-000;330339.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Tatuí;Rua São Bento, 287;Centro;Tatuí;SP;Sudeste;18270-820;128560.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Tauste Campinas;Av. dos Imbês, 52;Alphaville Dom Pedro;Campinas;SP;Sudeste;13097-172;1185977.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Teodoro Sampaio;Rua Teodoro Sampaio, 1424;Pinheiros;São Paulo;SP;Sudeste;05406-100;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Teotônio Vilela;Av. Senador Teotônio Vilela ,  4482;Vila Sao Jose;São Paulo;SP;Sudeste;04864-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Teresina;Av. João XXIII, 1176;Noivos;Teresina;PI;Nordeste;64049-010;902644.0;;;1350.0;2200053.0;08/10/2025
+petz;Petz Torquato Tapajós;Av. Torquato Tapajós, 313;Flores;Manaus;AM;Norte;69048-660;2279686.0;;;1238.0;1300029.0;08/10/2025
+petz;Petz Torres;Av. Com. Franco, 2958;Guabirotuba;Curitiba;PR;Sul;81520-000;1829225.0;;;2482.0;4100103.0;08/10/2025
+petz;Petz Trimais;"Av. Tucuruvi, 220
+                                             - Shopping Trimais";Tucuruvi;São Paulo;SP;Sudeste;02305-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Uberaba;Av. Leopoldino de Oliveira, 4001;Estados Unidos;Uberaba;MG;Sudeste;38010-000;354142.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Uberlândia;Av. Rondon Pacheco, 505;Tabajaras;Uberlândia;MG;Sudeste;38400-242;754954.0;;;2001.0;3100104.0;08/10/2025
+petz;Petz Várzea Grande;Av. João Ponce de Arruda, 1096;Centro Norte;Várzea Grande;MT;Centro-Oeste;78030-485;314627.0;;;2276.0;5100102.0;08/10/2025
+petz;Petz Vicente Rao;Av. Professor Vicente Rao, 1700;Jardim Petropolis;São Paulo;SP;Sudeste;04636-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Vila Galvão;R. Maria Primo de Jesus, 47;Vila Galvão;Guarulhos;SP;Sudeste;07056-040;1345364.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Vila Isabel;Rua Teodoro da Silva, 668;Vila Isabel;Rio de Janeiro;RJ;Sudeste;20560-025;6729894.0;;;2490.0;3300100.0;08/10/2025
+petz;Petz Vila Mariana;Rua Vergueiro, 2604;Vila Mariana;São Paulo;SP;Sudeste;04102-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Vila Matilde;Avenida Conde de Frontin, 2416;Tatuapé;São Paulo;SP;Sudeste;03501-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Vila Velha;Rodovia do Sol, 256;Itapuã;Vila Velha;ES;Sudeste;29102-320;502899.0;;;2111.0;3200102.0;08/10/2025
+petz;Petz Vitória;Av. Nossa Senhora da Penha, 1819;Santa Lucia;Vitória;ES;Sudeste;29056-075;342800.0;;;2111.0;3200102.0;08/10/2025
+petz;Petz Vitória da Conquista;Av. Olivia Flores, 973;Candeias;Vitória da Conquista;BA;Nordeste;45028-610;394024.0;;;1366.0;2900108.0;08/10/2025
+petz;Petz Washington Luís;Av. Washington Luís, 2737;Brooklin;São Paulo;SP;Sudeste;04662-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+petz;Petz Washington Soares;Av. Washington Soares, 2300;Edson Queiroz;Fortaleza;CE;Nordeste;60810-350;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Cobasi Getúlio Vargas - Osasco;Avenida Getúlio Vargas;;Osasco;SP;Sudeste;;756952.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Cobasi Jandira Mall;Rua Manoel Alves Garcia;;Jandira;SP;Sudeste;;121988.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Cobasi João Pessoa;Rua Bacharel José de Oliveira Curchatuz;;João Pessoa;PB;Nordeste;;888679.0;;;1401.0;2500106.0;08/10/2025
+cobasi;Cobasi Marília Esmeralda;Avenida das Esmeraldas;;Marília;SP;Sudeste;;246627.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Cobasi Presidente Prudente;Avenida Onze de Maio;;Presidente Prudente;SP;Sudeste;;234083.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Cobasi Riviera de São Lourenço;Rua Aprovada 239;;Bertioga;SP;Sudeste;;66873.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Alphaville;Rua Alameda Rio Negro;;Barueri;SP;Sudeste;06454-000;330339.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Alto da Boa Vista;Avenida Santo Amaro;;São Paulo;SP;Sudeste;04702-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Alto de Pinheiros;Rua General Furtado Nascimento;;São Paulo;SP;Sudeste;05465-070;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Americana;Avenida Brasil;;Americana;SP;Sudeste;13468-000;246655.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Andradas;Avenida dos Andradas;;Belo Horizonte;MG;Sudeste;30280-020;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Aracaju Rio Mar;Avenida Delmiro Gouveia;;Aracaju;SE;Nordeste;49035-500;628849.0;;;1473.0;2800100.0;08/10/2025
+cobasi;Pet Shop Cobasi Araraquara;Shopping Jaraguá - Av. Alberto Benassi;;Araraquara;SP;Sudeste;14804-300;252318.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Araraquara Savegnago;Rua Maurício Gali;;Araraquara;SP;Sudeste;;252318.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Araçatuba;Rua Luiz Pereira Barreto;;Araçatuba;SP;Sudeste;16015-445;207775.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Assai Anhanguera;Rua Samuel Klabin;;São Paulo;SP;Sudeste;05077-903;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Assaí Interlagos;Avenida Sargento Geraldo Santana;;São Paulo;SP;Sudeste;04674-225;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Assaí Marginal Tietê;Avenida Condessa Elisabeth de Robiano;;São Paulo;SP;Sudeste;03704-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Atibaia;Rua Pref. Takao Ono;;Atibaia;SP;Sudeste;12940-750;166043.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Atibaia II;Av. Brigadeiro José Vicente Faria Lima;;Atibaia;SP;Sudeste;12940-284;166043.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Atlântica;Av. Atlântica;;São Paulo;SP;Sudeste;04772-005;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Augusta;Rua Augusta;;São Paulo;SP;Sudeste;01412-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Av. Jundiaí;Avenida Jundiaí;;Jundiaí;SP;Sudeste;13208-051;460313.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Av. Morumbi;Avenida Morumbi;;São Paulo;SP;Sudeste;05606-200;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Avenida São Miguel;Avenida São Miguel;;São Paulo;SP;Sudeste;08070-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi BH Belvedere;Rua Maria Luiza Santiago;;Belo Horizonte;MG;Sudeste;30360-740;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi BH Castelo;Avenida Heraclito Mourao de Miranda;;Belo Horizonte;MG;Sudeste;30840-032;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi BH Contorno;Avenida do Contorno;;Belo Horizonte;MG;Sudeste;30110-017;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi BH Del Rey;Av. Presidente Carlos Luz;;Belo Horizonte;MG;Sudeste;31250-010;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Barra Carrefour;Avenida das Américas;;Rio de Janeiro;RJ;Sudeste;22640-102;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Barra Guanabara;Avenida das Américas;;Rio de Janeiro;RJ;Sudeste;22631-003;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Barra Sul;Av. Diário de Notícias;;Porto Alegre;RS;Sul;90810-080;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Barreiros;Avenida Leoberto Leal;;São José;SC;Sul;88117-001;289949.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Barretos;Av. Engenheiro Necker Carvalho de Camargo;;Barretos;SP;Sudeste;14783-085;126600.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Bauru;Rua São Gonçalo;;Bauru;SP;Sudeste;17012-170;391740.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Belém Bosque Grão Pará;Avenida Centenário;;Belém;PA;Norte;66640-840;1398531.0;;;1344.0;1500107.0;08/10/2025
+cobasi;Pet Shop Cobasi Birigui;Avenida Euclides Miragaia;;Birigui;SP;Sudeste;16204-000;122988.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Blumenau Neumarkt;Rua Sete de Setembro;;Blumenau;SC;Sul;89010-201;380597.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Blumenau Norte Shopping;Rodovia BR 470;;Blumenau;SC;Sul;89065-800;380597.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Botafogo;Rua Voluntários da Pátria;;Rio de Janeiro;RJ;Sudeste;;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Botucatu Mall;Avenida Professor José Pedretti Neto;;Botucatu;SP;Sudeste;18606-125;150442.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Bragança Paulista;Av. Alpheu Grimello (Loja 01);;Bragança Paulista;SP;Sudeste;12916-010;184634.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes;Avenida dos Imigrantes;;Bragança Paulista;SP;Sudeste;12802-000;184634.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasilia Venancio;SCS Quadra 8 Bloco B;;Brasília;DF;Centro-Oeste;70333-900;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasília Asa Norte;Edificio Carlton Center Sepn;;Brasília;DF;Centro-Oeste;70770-525;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasília CasaPark;SGCV Sul Shopping Casa Park;;Brasília;DF;Centro-Oeste;71215-900;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasília Pistão Sul;Quadra Setor D Sul;;Brasília;DF;Centro-Oeste;72020-111;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasília Sia;Rua Sia Trecho;;Brasília;DF;Centro-Oeste;71200-020;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Brasília Taquari;SHTQ Avenida Comercial;;Brasília;DF;Centro-Oeste;71551-010;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Braz Leme;Avenida Braz Leme;;São Paulo;SP;Sudeste;02511-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Brooklin;Avenida Washington Luis;;São Paulo;SP;Sudeste;04627-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Buritis;Avenida Professor Mário Werneck;;Belo Horizonte;MG;Sudeste;30575-180;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Butantã;Av. Profº Francisco Morato;;São Paulo;SP;Sudeste;05513-300;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Cachoeirinha;Av Parada Pinto;;São Paulo;SP;Sudeste;02611-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Caminho do Mar;Avenida Caminho do Mar;;São Bernardo do Campo;SP;Sudeste;09609-000;840499.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Abolição;Rua da Abolição;;Campinas;SP;Sudeste;13041-445;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Amoreiras;Av. Ruy Rodrigues;;Campinas;SP;Sudeste;13060-192;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Cambuí;Av. Orosimbo Maia;;Campinas;SP;Sudeste;13024-045;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Cambuí II;Rua Coronel Francisco Andrade Coutinho;;Campinas;SP;Sudeste;13025-190;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Princesa d’ Oeste;Av. Princesa D'Oeste;;Campinas;SP;Sudeste;13100-040;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Shopping Galleria;Rodovia Dom Pedro I;;Campinas;SP;Sudeste;13091-910;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campinas Taquaral;Avenida Doutor Theodureto de Almeida Camargo;;Campinas;SP;Sudeste;13075-630;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Campo Grande MS;Avenida Afonso Pena;;Campo Grande;MS;Centro-Oeste;79020-000;954537.0;;;2169.0;5000203.0;08/10/2025
+cobasi;Pet Shop Cobasi Campo Limpo;Avenida Carlos Lacerda;;São Paulo;SP;Sudeste;05788-290;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Candangolandia;Setor de Postos e Motéis Sul I;;Brasília;DF;Centro-Oeste;71727-800;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Canoas;Avenida Farroupilha;;Canoas;RS;Sul;92020-475;359554.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Canoas BR116;Avenida Getulio Vargas;;Canoas;RS;Sul;92010-013;359554.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Cantareira Norte Shopping;Avenida Raimundo Pereira de Magalhães;;São Paulo;SP;Sudeste;02984-035;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Carapicuíba;Avenida Desembargador Doutor Eduardo Cunha de Abreu;;Carapicuíba;SP;Sudeste;06328-330;398462.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Carrefour Nações;Avenida das Nações Unidas;;São Paulo;SP;Sudeste;04794-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Carrão;Rua Serra de Botucatu;;São Paulo;SP;Sudeste;03317-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Casa Forte;R. Leonardo Bezerra Cavalcanti;;Recife;PE;Nordeste;52060-030;1587707.0;;;1453.0;2600054.0;08/10/2025
+cobasi;Pet Shop Cobasi Cascavel;Av. Brasil;;Cascavel;PR;Sul;85812-500;364104.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Caxias do Sul;Rodovia RSC 453;;Caxias do Sul;RS;Sul;95110-195;479256.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Cerro Corá;Rua  Cerro Corá;;São Paulo;SP;Sudeste;05061-400;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Comendador Agostinho - Limeira II;Avenida Comendador Agostinho Prada;;Limeira;SP;Sudeste;13482-220;300728.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Conselheiro Rodrigues Alves;Av. Conselheiro Rodrigues Alves;;São Paulo;SP;Sudeste;04102-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Continente Shopping;Rodovia BR 101 - KM211 Continente Park Shopping;;São José;SC;Sul;88104-800;289949.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Copacabana Posto 2;Avenida Nossa Senhora de Copacabana;;Rio de Janeiro;RJ;Sudeste;22020-002;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Corifeu;Avenida Corifeu de Azevedo Marques;;São Paulo;SP;Sudeste;05582-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Cotia;Rua Luiz Silva;;Cotia;SP;Sudeste;06716-030;287004.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Criciúma;Av Jorge Elias de Lucca;;Criciúma;SC;Sul;88813-390;225281.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Cuiabá CPA;Avenida Historiador Rubens de Mendonça;;Cuiabá;MT;Centro-Oeste;78050-000;682932.0;;;2276.0;5100102.0;08/10/2025
+cobasi;Pet Shop Cobasi Curitiba Linha Verde;Av. Senador Salgado Filho;;Curitiba;PR;Sul;80215-270;1829225.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Curitiba Mario Tourinho;Rua General Mario Tourinho;;Curitiba;PR;Sul;80740-016;1829225.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Curitiba Novo Mundo;Rua Isaac Guelmann;;Curitiba;PR;Sul;81050-030;1829225.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi DF Gama;Quadra 55 Lote 9;;Brasília;DF;Centro-Oeste;72405-550;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi DF Planaltina;Setor de Áreas Especiais Norte;;Planaltina;DF;;73340-190;;;;;;08/10/2025
+cobasi;Pet Shop Cobasi DF Plaza Shopping;Rua Copaiba Lote 01;;Brasília;DF;Centro-Oeste;71919-540;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Diadema;Avenida Presidente Kennedy;;Diadema;SP;Sudeste;09913-000;404118.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Eco Mall Pinheirinho;Rodovia BR-116;;Curitiba;PR;Sul;81690-300;1829225.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Embu das Artes;Av. Elias Yazbek;;Embu das Artes;SP;Sudeste;06803-045;259323.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Embu das Artes II;Avenida João Batista Medina;;Embu das Artes;SP;Sudeste;06840-050;259323.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Engenheiro Caetano Alvares;Av. Eng. Caetano Álvares;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Epitácio Pessoa;Avenida Presidente Epitácio Pessoa;;João Pessoa;PB;Nordeste;58042-006;888679.0;;;1401.0;2500106.0;08/10/2025
+cobasi;Pet Shop Cobasi Ermano Marchetti;Rua Luiz Gatti;;São Paulo;SP;Sudeste;05038-150;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Estr. do Campo Limpo;Estrada do Campo Limpo;;São Paulo;SP;Sudeste;05787-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Estrada de Itapecerica;Estrada de Itapecerica;;São Paulo;SP;Sudeste;05835-005;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Feira de Santana;Avenida João Durval Carneiro;;Feira de Santana;BA;Nordeste;44090-008;657948.0;;;1366.0;2900108.0;08/10/2025
+cobasi;Pet Shop Cobasi Florianópolis;Rodovia Jose Carlos Daux;;Florianópolis;SC;Sul;88032-005;576361.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Florianópolis Centro;Rua Francisco Tolentino;;Florianópolis;SC;Sul;88010-200;576361.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Fortaleza Aldeota;Av. Santos Dumont;;Fortaleza;CE;Nordeste;60150-162;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Cobasi Fortaleza Meireles;Avenida Barao de Studart;;Fortaleza;CE;Nordeste;60120-024;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Cobasi Fortaleza Open Mall;Avenida Washington Soares;;Fortaleza;CE;Nordeste;60810-350;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Cobasi Franca;Avenida Doutor Antonio Barboza Filho;;Franca;SP;Sudeste;14405-000;364331.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Frei Gaspar;Avenida Brigadeiro Faria Lima;;São Bernardo do Campo;SP;Sudeste;09720-010;840499.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Goiânia Decathlon;Avenida I;;Goiânia;GO;Centro-Oeste;74810-075;1494599.0;;;2098.0;5200050.0;08/10/2025
+cobasi;Pet Shop Cobasi Goiânia T63;Avenida T63;;Goiânia;GO;Centro-Oeste;74335-104;1494599.0;;;2098.0;5200050.0;08/10/2025
+cobasi;Pet Shop Cobasi Granja Vianna;Av. Marginal;;Cotia;SP;Sudeste;06708-030;287004.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Guarujá;Avenida Leomil;;Guarujá;SP;Sudeste;11410-160;294973.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Guarulhos;Av. Anielo Pratici;;Guarulhos;SP;Sudeste;07013-000;1345364.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Guarulhos Centro;Avenida Salgado Filho;;Guarulhos;SP;Sudeste;07115-180;1345364.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Guarulhos Sakamoto;Rodovia Presidente Dutra KM 210;;Guarulhos;SP;Sudeste;;1345364.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Guarulhos Timóteo Penteado;Avenida Doutor Timóteo Penteado;;Guarulhos;SP;Sudeste;07094-000;1345364.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Higienópolis;Avenida Angélica;;São Paulo;SP;Sudeste;01228-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Iguatemi Campinas;Shopping Iguatemi Campinas - Avenida Iguatemi;;Campinas;SP;Sudeste;13092-500;1185977.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Iguatemi Fortaleza;Av. Washington Soares;;Fortaleza;CE;Nordeste;60810-060;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Cobasi Imigrantes;Av. Prof Abraão de Morais;;São Paulo;SP;Sudeste;04123-011;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Imirim;Avenida Imirim;;São Paulo;SP;Sudeste;02465-300;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Indaiatuba;Avenida Presidente Vargas;;Indaiatuba;SP;Sudeste;13334-085;267796.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Interlar Interlagos;Av. Interlagos;;São Paulo;SP;Sudeste;04661-100;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Itajaí;Avenida Osvaldo Reis;;Itajai;SC;Sul;88306-600;287289.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Itaquaquecetuba D'avó;Avenida Italo Adami;;Itaquaquecetuba;SP;Sudeste;08573-000;382521.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Itaquera;Avenida Itaquera;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Jabaquara;Avenida Engenheiro George Corbisier;;São Paulo;SP;Sudeste;04345-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Jaboatão Dos Guararapes;Avenida Bernardo Vieira de Melo;;Jaboatão dos Guararapes;PE;Nordeste;54410-010;683285.0;;;1453.0;2600054.0;08/10/2025
+cobasi;Pet Shop Cobasi Jacareí Tenda;Praça Charles Gates;;Jacareí;SP;Sudeste;12306-090;249968.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Jardim Japão;Avenida Jardim Japao;;São Paulo;SP;Sudeste;02221-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Jaú;Av. Anna Claudina;;Jaú;SP;Sudeste;17203-381;137323.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Jd. Botânico;CJ SMDB AREA ESPECIAL D;;Brasília;DF;Centro-Oeste;;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Cobasi Joinville;Avenida Rolf Wiest;;Joinville;SC;Sul;89223-005;654888.0;;;2601.0;4200051.0;08/10/2025
+cobasi;Pet Shop Cobasi Juiz de Fora Jardim Norte;Av. Brasil;;Juiz de Fora;MG;Sudeste;36080-000;565764.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Jundiaí;Rua Jose Amato;;Jundiaí;SP;Sudeste;13201-141;460313.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Lauro de Freitas;Av. Santos Dumont;;Lauro de Freitas;BA;Nordeste;42701-260;217960.0;;;1366.0;2900108.0;08/10/2025
+cobasi;Pet Shop Cobasi Limeira;Avenida Carlos Kuntz Busch;;Limeira;SP;Sudeste;13485-905;300728.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Londrina Centro;Rua Minas Gerais;;Londrina;PR;Sul;86010-170;577318.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Londrina Madre Leônia;Av. Madre Leônia Milito;;Londrina;PR;Sul;86050-270;577318.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi M'Boi Mirim;Estrada do M'Boi Mirim;;São Paulo;SP;Sudeste;04905-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Maceió Fernandes Lima;Avenida Fernandes Lima;;Maceió;AL;Nordeste;57055-000;994464.0;;;1331.0;2700102.0;08/10/2025
+cobasi;Pet Shop Cobasi Maracanaú;Rua João de Alencar;;Maracanau;CE;Nordeste;61900-150;249684.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Cobasi Marechal Tito;Av Marechal Tito;;São Paulo;SP;Sudeste;08022-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Marginal Pinheiros;Avenida das Nações Unidas;;São Paulo;SP;Sudeste;04795-100;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Marginal Tietê;Rua Maria Prestes Maia;;São Paulo;SP;Sudeste;02047-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Maringá;Av. João Paulino Vieira Filho;;Maringá;PR;Sul;87020-015;425983.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Marília;Avenida Sampaio Vidal;;Marília;SP;Sudeste;17500-022;246627.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Minas Shopping;Avenida Cristiano Machado;;Belo Horizonte;MG;Sudeste;31160-959;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Moema Pássaros;Avenida Ibirapuera;;São Paulo;SP;Sudeste;04028-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Moinhos dos Ventos;Rua Miguel Tostes;;Porto Alegre;RS;Sul;90430-060;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Mooca;Av. Alcântara Machado;;São Paulo;SP;Sudeste;03101-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Morumbi;Av. Giovanni Gronchi;;São Paulo;SP;Sudeste;05724-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Natal;Avenida Senador Salgado Filho;;Natal;RN;Nordeste;59076-000;785368.0;;;1616.0;2400109.0;08/10/2025
+cobasi;Pet Shop Cobasi Niterói;Rua Marechal Deodoro;;Niterói;RJ;Sudeste;24030-060;516720.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Nossa Senhora do Carmo;Av. Nossa Senhora do Carmo;;Belo Horizonte;MG;Sudeste;30335-300;2416339.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Nova Cantareira;Avenida Nova Cantareira;;São Paulo;SP;Sudeste;;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Novo Hamburgo;Avenida Primeiro de Março;;Novo Hamburgo;RS;Sul;93320-102;235879.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Osasco;Av. dos Autonomistas;;Osasco;SP;Sudeste;06090-010;756952.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Osasco João Andrade;Av. João de Andrade;;Osasco;SP;Sudeste;06132-006;756952.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi POA Assis Brasil;Avenida Assis Brasil;;Porto Alegre;RS;Sul;91010-003;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi POA Av. Brasil;Av. Brasil;;Porto Alegre;RS;Sul;90230-061;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi POA Bollogna Mall;Avenida Coronel Marcos;;Porto Alegre;RS;Sul;91760-000;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi POA Central Parque;Avenida Ipiranga;;Porto Alegre;RS;Sul;91530-000;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Palmas;Quadra ARNO 12 Alameda das Aroeiras;;Palmas;TO;Norte;77001-048;323625.0;;;1737.0;1700251.0;08/10/2025
+cobasi;Pet Shop Cobasi Park Shopping Jacarepaguá;Park Shopping Jacarepaguá - Estr. de Jacarepaguá;;Rio de Janeiro;RJ;Sudeste;22753-045;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Parque Olímpico;Avenida Embaixador Abelardo Bueno;;Rio de Janeiro;RJ;Sudeste;22775-040;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Passo Fundo Shopping;Av. Presidente Vargas;;Passo Fundo;RS;Sul;99064-000;214564.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Paulínia;Avenida Jose Paulino;;Paulinia;SP;Sudeste;13140-723;115690.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Pelotas;Av. Ferreira Viana;;Pelotas;RS;Sul;96085-000;336131.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Pinhais;Rua Primeiro de Maio;;Pinhais;PR;Sul;83323-020;131199.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Piracicaba;Avenida Limeira (ao lado do shopping);;Piracicaba;SP;Sudeste;13414-018;438827.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Piracicaba Independência;Avenida Independência;;Piracicaba;SP;Sudeste;13419-160;438827.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Poa Wenceslau Escobar;Avenida Wenceslau Escobar;;Porto Alegre;RS;Sul;91900-000;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Pompéia;Rua Carlos Vicari;;São Paulo;SP;Sudeste;05033-070;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Ponta Grossa;Avenida Ernesto Vilela;;Ponta Grossa;PR;Sul;84070-000;372562.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Ponta Grossa II;Rua Ermelino de Leao;;Ponta Grossa;PR;Sul;84035-000;372562.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi Portal do Morumbi;Av Dr Guilherme Dumont Vilares;;São Paulo;SP;Sudeste;05640-902;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Porto Alegre Iguatemi;Shopping Iguatemi - Av. João Wallig;;Porto Alegre;RS;Sul;91340-020;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Porto Alegre Ipiranga;Avenida Ipiranga;;Porto Alegre;RS;Sul;90610-001;1389322.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Praia Grande;Avenida Ayrton Senna da Silva;;Praia Grande;SP;Sudeste;11726-000;365577.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Praia Grande Ocian;Av. Presidente Kennedy;;Praia Grande;SP;Sudeste;11704-105;365577.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Praça da Árvore;Av Jabaquara;;São Paulo;SP;Sudeste;04046-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi RJ Norte Shopping;Avenida Dom Helder Camara;;Rio de Janeiro;RJ;Sudeste;20771-900;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Raposo Tavares;Rod. Raposo Tavares;;São Paulo;SP;Sudeste;05576-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Rebouças;Av. Rebouças;;São Paulo;SP;Sudeste;05402-300;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Recife;Rua Padre Carapuceiro;;Recife;PE;Nordeste;50020-280;1587707.0;;;1453.0;2600054.0;08/10/2025
+cobasi;Pet Shop Cobasi Ribeirão Dom Pedro I;Av. Dom Pedro I;;Ribeirão Preto;SP;Sudeste;14055-630;728400.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Ribeirão Preto II (loja Maurilio Biagi);Av. Maurílio Biagi;;Ribeirão Preto;SP;Sudeste;14020-750;728400.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Ribeirão Preto Iguatemi;Av. Luis Eduardo Toledo Prado (loja 2107);;Ribeirão Preto;SP;Sudeste;14027-250;728400.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Ribeirão Preto Presidente Vargas;Av. Presidente Vargas;;Ribeirão Preto;SP;Sudeste;14093-129;728400.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Ricardo Jafet;Avenida Dr. Ricardo Jafet;;São Paulo;SP;Sudeste;04123-030;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Rio das Pedras;Rua Jorge Ogushi;;São Paulo;SP;Sudeste;03471-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Rio de Janeiro Campo Grande;ParkShopping Campo Grande – Estrada do Monteiro;;Rio de Janeiro;RJ;Sudeste;23045-830;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Rui Barbosa;Praça Rui Barbosa;;Curitiba;PR;Sul;80010-030;1829225.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi SBC Faria Lima;Avenida Brigadeiro Faria Lima;;São Bernardo do Campo;SP;Sudeste;09720-000;840499.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi SP Ipiranga;Avenida Doutor Ricardo Jafet;;São Paulo;SP;Sudeste;04123-030;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sabará;R. Moacir Simões da Rocha;;São Paulo;SP;Sudeste;04674-150;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Salto;Avenida José Maria Marques de Oliveira;;Salto;SP;Sudeste;13327-300;140125.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Salvador Rio Vermelho;Av. Juracy Magalhães Júnior;;Salvador;BA;Nordeste;41940-060;2568928.0;;;1366.0;2900108.0;08/10/2025
+cobasi;Pet Shop Cobasi Santa Bárbara d’Oeste Tivoli;Rua do Osmio;;Santa Bárbara d’Oeste;SP;;13456-625;;;;;;08/10/2025
+cobasi;Pet Shop Cobasi Santana;R. Voluntários da Pátria;;São Paulo;SP;Sudeste;02402-200;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santo André Av. dos Estados;Avenida dos Estados;;Santo André;SP;Sudeste;09290-520;778711.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santo André P. Barreto;Praça Engenheiro Roldão dos Santos Ferreira;;Santo André;SP;Sudeste;09190-695;778711.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santo André Prestes Maia;Praça Uirapuru;;Santo André;SP;Sudeste;09071-220;778711.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santos Afonso Pena;Avenida Afonso Pena;;Santos;SP;Sudeste;11020-002;429567.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santos Conselheiro Nébias;Avenida Conselheiro Nébias;;Santos;SP;Sudeste;;429567.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Santos Francisco Glicério;Avenida General Francisco Glicério;;Santos;SP;Sudeste;11065-400;429567.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sena Madureira;Rua Sena Madureira;;São Paulo;SP;Sudeste;04021-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Shop. Estação Cuiabá;Av. Miguel Sutil;;Cuiabá;MT;Centro-Oeste;78040-365;682932.0;;;2276.0;5100102.0;08/10/2025
+cobasi;Pet Shop Cobasi Shopping Aricanduva;Av. Aricanduva;;São Paulo;SP;Sudeste;03527-900;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Shopping Eldorado;Shopping Eldorado – Av. Rebouças;;São Paulo;SP;Sudeste;05402-600;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sorocaba Av. São Paulo;Rua Antonio Fernandes;;Sorocaba;SP;Sudeste;;757459.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sorocaba Itavuvu;Av. Itavuvu;;Sorocaba;SP;Sudeste;18076-005;757459.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sorocaba Pannunzio;Av. Dr. Armando Pannunzio;;Sorocaba;SP;Sudeste;18050-000;757459.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sorocaba Panorâmico;Rodovia Raposo Tavares;;Sorocaba;SP;Sudeste;18030-005;757459.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sumaré;Av. Sumaré;;São Paulo;SP;Sudeste;05016-090;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Sumaré ParkCity Shopping;Av. Rebouças;;Sumaré;SP;Sudeste;13171-065;289787.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São Bernardo Jurubatuba;Rua Jurubatuba;;São Bernardo do Campo;SP;Sudeste;09725-001;840499.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São Caetano;Alameda Caulim;;São Caetano do Sul;SP;Sudeste;09530-200;172109.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São Carlos;Rua Passeio dos Flamboyants;;São Carlos;SP;Sudeste;13561-352;265294.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José do Rio Preto Falavina;Av. Domingos Falavina;;São José do Rio Preto;SP;Sudeste;15046-265;501597.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José do Rio Preto Iguatemi;Av. Juscelino Kubitschek;;São José do Rio Preto;SP;Sudeste;15093-340;501597.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José dos Campos;Av. Dep. Benedito Matarazzo;;São José dos Campos;SP;Sudeste;12246-840;724756.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José dos Campos Jardim Oriente;Shopping Jd. Oriente - Rua Andorra;;São José dos Campos;SP;Sudeste;12235-050;724756.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José dos Campos Nelson D'Ávila;Av. Dr. Nelson D´Ávila;;São José dos Campos;SP;Sudeste;12245-030;724756.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São José dos Pinhais Av. Torres;Av. Torres;;São José dos Pinhais;PR;Sul;83005-450;345644.0;;;2482.0;4100103.0;08/10/2025
+cobasi;Pet Shop Cobasi São Judas;Av. Jabaquara;;São Paulo;SP;Sudeste;04045-003;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi São Vicente;Avenida Presidente Wilson;;São Vicente;SP;Sudeste;11320-001;338407.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Tamboré;Alameda Araguaia;;Barueri;SP;Sudeste;06455-000;330339.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Tatuapé;Rua Visconde de Itaboraí;;São Paulo;SP;Sudeste;03308-050;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Taubaté;Av Dom Pedro I;;Taubaté;SP;Sudeste;12081-810;321298.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Taubaté II;Avenida Charles Schnneider;;Taubaté;SP;Sudeste;12040-000;321298.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Teodoro Sampaio;Rua Teodoro Sampaio;;São Paulo;SP;Sudeste;05418-020;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Teotônio Vilela;Avenida Senador Teotônio Vilela;;São Paulo;SP;Sudeste;04833-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Tutoia;R. Tutóia;;São Paulo;SP;Sudeste;04007-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Uberaba;Av. Santos Dumont;;Uberaba;MG;Sudeste;38050-590;354142.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Uberlândia;Av Rondon Pacheco;;Uberlândia;MG;Sudeste;38400-242;754954.0;;;2001.0;3100104.0;08/10/2025
+cobasi;Pet Shop Cobasi Valinhos;Rua Luiz Spiandorelli Neto;;Valinhos;SP;Sudeste;13271-570;131277.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Via Parque Shopping;Avenida Ayrton Senna;;Rio de Janeiro;RJ;Sudeste;22775-904;6729894.0;;;2490.0;3300100.0;08/10/2025
+cobasi;Pet Shop Cobasi Viamão;Rodovia Tapir Rocha;;Viamão;RS;Sul;94440-000;232113.0;;;2608.0;4300034.0;08/10/2025
+cobasi;Pet Shop Cobasi Vila Velha;Shopping Vila Velha – Av. Luciano das Neves;;Vila Velha;ES;Sudeste;29107-900;502899.0;;;2111.0;3200102.0;08/10/2025
+cobasi;Pet Shop Cobasi Villa Lobos;Rua Manoel Velasco;;São Paulo;SP;Sudeste;05319-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Vinhedo;Estrada da Boiada;;Vinhedo;SP;Sudeste;13289-020;79235.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Várzea Grande;Avenida Presidente Arthur Bernardes;;Varzea Grande;MT;Centro-Oeste;78125-100;314627.0;;;2276.0;5100102.0;08/10/2025
+cobasi;Pet Shop Cobasi Água Branca;Avenida Francisco Matarazzo;;São Paulo;SP;Sudeste;05001-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+cobasi;Pet Shop Cobasi Águas Claras;Avenida Sibipiruna;;Brasília;DF;Centro-Oeste;71928-720;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Aldeota;Av. Senador Virgílio Távora;;Fortaleza;CE;Nordeste;60170-078;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Batista Campos;Travessa São Pedro;;Belém;PA;Norte;66023-570;1398531.0;;;1344.0;1500107.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Brasília Águas Claras;Rua 35 Norte;;Brasília;DF;Centro-Oeste;71919-000;2982818.0;;;3444.0;5300108.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Eusébio;Av. Eusébio de Queiroz;;Eusébio;CE;Nordeste;61765-070;80304.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares;Avenida Washington Soares;;Fortaleza;CE;Nordeste;60810-350;2574412.0;;;1225.0;2300101.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Goiânia Oeste;Avenida Assis Chateaubriand;;Goiânia;GO;Centro-Oeste;74140-020;1494599.0;;;2098.0;5200050.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Manaíra Shopping;Av. Governador Flávio Ribeiro Coutinho;;Cabedelo;PB;Nordeste;58102-835;70067.0;;;1401.0;2500106.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Salvador Graça;Av. Euclydes da Cunha;;Salvador;BA;Nordeste;40150-120;2568928.0;;;1366.0;2900108.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Salvador Shopping;Avenida Tancredo Neves;;Salvador;BA;Nordeste;41820-910;2568928.0;;;1366.0;2900108.0;08/10/2025
+cobasi;Pet Shop Mundo Pet Cobasi Tirol Natal;Av. Prudente de Morais;;Natal;RN;Nordeste;59020-510;785368.0;;;1616.0;2400109.0;08/10/2025
+cobasi;Pet&Fácil Washington Luis;Av. Washington Luis;;São Paulo;SP;Sudeste;04627-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Lins;Rua Dom Bosco;Vila Alta;Lins;SP;Sudeste;16400-505;76729.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Gumercindo;Rua Tupanaci;Vila Gumercindo;São Paulo;SP;Sudeste;04131-020;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Textil;;;São Paulo;SP;Sudeste;03422-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Menino Deus;Avenida Getúlio Vargas;Menino Deus;Porto Alegre;RS;Sul;90150-002;1389322.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Arvoredo;Avenida Princesa Isabel;Parque Recreio;Contagem;MG;Sudeste;32110-000;649975.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Lajeado;Avenida Benjamin Constant;Centro;Lajeado;RS;Sul;95900-056;96651.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Ipiranga;Rua Bom Pastor;Ipiranga;São Paulo;SP;Sudeste;04203-052;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Chácara Santo Antônio;Rua Cancioneiro Popular;Santo Amaro;São Paulo;SP;Sudeste;04710-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Limeira;Rua Sete de Setembro;Centro;Limeira;SP;Sudeste;13480-150;300728.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Mascote;Avenida Mascote;Vila Mascote;São Paulo;SP;Sudeste;04363-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Tude Bastos;Avenida Irmãos Adorno;Sítio do Campo;Praia Grande;SP;Sudeste;11725-320;365577.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Araçatuba;Rua Sarjob Mendes;Icaray;Araçatuba;SP;Sudeste;16020-360;207775.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Grageru;Avenida Ministro Geraldo Barreto Sobral;Grageru;Aracaju;SE;Nordeste;49027-255;628849.0;;;1473.0;2800100.0;08/10/2025
+petland;Petland Aliança;Rua Bom Pastor;Ipiranga;São Paulo;SP;Sudeste;04203-052;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Outlet Premium Imigrantes;Estrada da Cama Patente;Alvarenga;São Bernardo do Campo;SP;Sudeste;09842-100;840499.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila A;Avenida Engenheiro Hildemar Leite França;Vila Residencial A;Foz do Iguaçu;PR;Sul;85860-320;295500.0;;;2482.0;4100103.0;08/10/2025
+petland;Petland Tapejara;;;Tapejara;RS;Sul;99950-000;25201.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland  São Mateus;Avenida Presidente Itamar Franco;São Mateus;Juiz de Fora;MG;Sudeste;36016-321;565764.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Rio Branco;Avenida Doutor Ulysses Guimarães;Vila Nogueira;Diadema;SP;Sudeste;09990-080;404118.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Parque São Lucas;Rua Francisco Fett;Vila Paulo Silas;São Paulo;SP;Sudeste;03264-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Novo Eldorado;Avenida Doutor Cincinato Cajado Braga;Novo Eldorado;Contagem;MG;Sudeste;32341-310;649975.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Mexicão;Avenida Capitão-mor Aguiar;Centro;São Vicente;SP;Sudeste;11310-201;338407.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Marco Belém;Avenida Rômulo Maiorana;Marco;Belém;PA;Norte;66093-672;1398531.0;;;1344.0;1500107.0;08/10/2025
+petland;Petland Jardim das Flores;Rua Osório Duque Estrada;Pestana;Osasco;SP;Sudeste;06122-000;756952.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Horto Florestal;Rua Izidro Roque da Silva Telo;Horto Florestal;Sorocaba;SP;Sudeste;18074-745;757459.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Parque dos Anjos;Avenida Antônio Gomes Correa;Parque dos Anjos;Gravataí;RS;Sul;94190-300;275294.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Mongaguá;;;Mongaguá;SP;Sudeste;11730-000;64519.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Campo Bom;;;Campo Bom;RS;Sul;93700-000;64704.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Brasílio Mall;Rua Brasílio Machado;Centro;São Bernardo do Campo;SP;Sudeste;09715-140;840499.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Bom Fim;Praça da Alfândega;Centro Histórico;Porto Alegre;RS;Sul;90010-150;1389322.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Avenida T1;Avenida T 1;Setor Bueno;Goiânia;GO;Centro-Oeste;74210-025;1494599.0;;;2098.0;5200050.0;08/10/2025
+petland;Petland Enseada;Avenida Dom Pedro I;Enseada;Guarujá;SP;Sudeste;11440-000;294973.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vinhais;Rua do Arame;Vinhais;São Luís;MA;Nordeste;65074-380;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Vila São Francisco;Avenida Martin Luther King;Cidade São Francisco;São Paulo;SP;Sudeste;05352-020;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Mirim;Rua Primeiro de Maio;Mirim;Praia Grande;SP;Sudeste;11704-710;365577.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Madalena;Rua Natingui;Vila Madalena;São Paulo;SP;Sudeste;05443-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Presidente Prudente;Rua Álvares Machado;Vila Euclides;Presidente Prudente;SP;Sudeste;19015-450;234083.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Varginha;Avenida Francisco Navarra;Centro;Varginha;MG;Sudeste;37006-003;142802.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Unaí;Rua Eli Pinto de Carvalho;Cruzeiro;Unaí;MG;Sudeste;38616-010;90724.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Tirol;Avenida Hermes da Fonseca;Tirol;Natal;RN;Nordeste;59020-315;785368.0;;;1616.0;2400109.0;08/10/2025
+petland;Petland São Caetano do Sul;Rua Rafael Correa Sampaio;Santa Paula;São Caetano do Sul;SP;Sudeste;09541-250;172109.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Santos Dumont;;;Santos Dumont;MG;Sudeste;36240-000;43392.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Santo Antônio;Rua das Magnólias;Jardim Primavera;Guarujá;SP;Sudeste;11432-320;294973.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Saboo;Rua Flaminio Levy;Saboó;Santos;SP;Sudeste;11085-080;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Presidente Venceslau;;;Presidente Venceslau;SP;Sudeste;19400-000;35902.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Presidente Vargas;;;Presidente Venceslau;SP;Sudeste;19400-000;35902.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Petrópolis;Avenida Protásio Alves;Petrópolis;Porto Alegre;RS;Sul;90410-003;1389322.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Ilhabela;;;Ilhabela;SP;Sudeste;11630-000;36329.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Perdizes;Rua Apinajés;Perdizes;São Paulo;SP;Sudeste;05017-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Península;Avenida São Marcos;São Marcos;São Luís;MA;Nordeste;65077-310;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Pedro Marques;Rua Pedro Marques;Centro;Itapetininga;SP;Sudeste;18200-270;163774.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Santana Pedro Doll;Rua Pedro Doll;Santana;São Paulo;SP;Sudeste;02404-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Paulista;Rua Bela Cintra;Consolação;São Paulo;SP;Sudeste;01415-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Parque das Américas;Rua Bolívia;Parque das Américas;Mauá;SP;Sudeste;09350-636;429380.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Papini;;;São Paulo;SP;Sudeste;04805-110;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Nicomedes;Avenida Nicomedes Alves dos Santos;Morada da Colina;Uberlândia;MG;Sudeste;38411-106;754954.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Nebraska;Rua Nebraska;Brooklin Novo;São Paulo;SP;Sudeste;04560-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Matozinhos;Avenida Tomé Portes Del Rei;Vila Santo Antônio (Matozinhos);São João Del Rei;MG;Sudeste;36305-058;94062.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Pinheiros – Mateus Grou;Rua Mateus Grou;Pinheiros;São Paulo;SP;Sudeste;05415-050;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland José Menino;Rua Rei Jorge VI;José Menino;Santos;SP;Sudeste;11065-310;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jasmim;Rua Jasmim;Chácara Primavera;Campinas;SP;Sudeste;13087-460;1185977.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jardim dos Colibris;Avenida Josué Ferreira da Silva;Jardim dos Colibris;Indaiatuba;SP;Sudeste;13349-125;267796.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Janga;Avenida Doutor Cláudio José Gueiros Leite;Janga;Paulista;PE;Nordeste;53437-000;362960.0;;;1453.0;2600054.0;08/10/2025
+petland;Petland Jaguaribe;Avenida Flora;Bussocaba;Osasco;SP;Sudeste;06053-130;756952.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jaboticabeiras;Praça Marta de Miranda de El Rei;Padre Cursino;Taubaté;SP;Sudeste;12030-760;321298.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Independência;Avenida Independência;Independência;Taubaté;SP;Sudeste;12031-000;321298.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Higienópolis;Praça Vilaboim;Higienópolis;São Paulo;SP;Sudeste;01241-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Guaianazes Otelo;Rua Otelo Augusto Ribeiro;Guaianazes;São Paulo;SP;Sudeste;08412-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jaú;Rua General Isidoro;Chácara Braz Miraglia;Jaú;SP;Sudeste;17207-270;137323.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Garcia;;;Aracaju;SE;Nordeste;49025-330;628849.0;;;1473.0;2800100.0;08/10/2025
+petland;Petland Formiga;Avenida Doutor Henrique Braga;Centro;Formiga;MG;Sudeste;35570-030;70668.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Santa Rosa;Avenida Expedicionário Weber;Central;Santa Rosa;RS;Sul;98787-000;79395.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Dom Nery;Rua Dom Nery;Vila Embaré;Valinhos;SP;Sudeste;13271-170;131277.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Dom Joaquim;Avenida Dom Joaquim;Centro;Pelotas;RS;Sul;96020-260;336131.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Dom Bosco;Avenida Brigadeiro Eduardo Gomes;Dom Bosco;Belo Horizonte;MG;Sudeste;30850-222;2416339.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Cupecê;Avenida Cupecê;Jardim Prudência;São Paulo;SP;Sudeste;04365-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Cidade Nova;Rua Armando Salles de Oliveira;Vila Todos os Santos;Indaiatuba;SP;Sudeste;13330-585;267796.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Bento Gonçalves;Rua Olavo Bilac;Cidade Alta;Bento Gonçalves;RS;Sul;95700-362;127775.0;;;2608.0;4300034.0;08/10/2025
+petland;Petland Canal 3;Avenida Washington Luís;Gonzaga;Santos;SP;Sudeste;11055-000;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Campo Belo;Rua Conde de Porto Alegre;Campo Belo;São Paulo;SP;Sudeste;04608-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Cambuí;Rua dos Bandeirantes;Cambuí;Campinas;SP;Sudeste;13024-010;1185977.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Botucatu;Avenida Doutor Vital Brasil;Vila São Lúcio;Botucatu;SP;Sudeste;18603-193;150442.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Bom Retiro;Rua Olga Assunção;Novo Horizonte;Betim;MG;Sudeste;32606-016;429236.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Benjamin Constant;Avenida Benjamin Constant;Floresta;Porto Alegre;RS;Sul;90550-005;1389322.0;;;2608.0;4300034.0;08/10/2025
 petland;Petland 13 de Julho;;;Aracaju;SE;Nordeste;49025-630;628849.0;;;1473.0;2800100.0;08/10/2025
 petland;Petland Batatais;;;Batatais;SP;Sudeste;14300-000;59873.0;;;2662.0;3500105.0;08/10/2025
-petland;Petland Barra Muriaé;Rua Gil Moreira;Barra;Muriaé;MG;Sudeste;36884-112;108161.0;-21.1278887;-42.3824038;2001.0;3100104.0;08/10/2025
-petland;Petland Avenida Brasil;Avenida Brasil;Vila Itapura;Campinas;SP;Sudeste;13023-075;1185977.0;-22.8990196;-47.0585262;2662.0;3500105.0;08/10/2025
-petland;Petland Araguaína;Rua Vinte e Cinco de Dezembro;Setor Central;Araguaína;TO;Norte;77804-030;181493.0;-7.1901421;-48.2082624;1737.0;1700251.0;08/10/2025
-petland;Petland Anália Franco;Rua Professor João de Oliveira Torres;Jardim Anália Franco;São Paulo;SP;Sudeste;03337-010;11895578.0;-23.3940999774;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Aclimação;Avenida da Aclimação;Aclimação;São Paulo;SP;Sudeste;01531-000;11895578.0;-23.5693300084;-46.6592676017;2662.0;3500105.0;08/10/2025
-petland;Petland 5 de novembro;Avenida 5 de Novembro;Vila Nastri;Itapetininga;SP;Sudeste;18207-320;163774.0;-23.6014345;-48.0617431;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Mariana;Avenida Conselheiro Rodrigues Alves;Vila Mariana;São Paulo;SP;Sudeste;04014-011;11895578.0;-23.548;-46.3884013667;2662.0;3500105.0;08/10/2025
-petland;Petland Vila Clementino;Rua Luís Góis;Mirandópolis;São Paulo;SP;Sudeste;04043-350;11895578.0;-23.548;-46.3847688792;2662.0;3500105.0;08/10/2025
-petland;Petland Turu;Avenida São Luís Rei de França;Turu;São Luís;MA;Nordeste;65065-470;1088057.0;-2.5607800101;-44.303;1077.0;2100055.0;08/10/2025
-petland;Petland Tatuapé;Rua Azevedo Soares;Vila Gomes Cardim;São Paulo;SP;Sudeste;03322-002;11895578.0;-23.3955399838;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Sinop;Avenida das Itaúbas;Setor Comercial;Sinop;MT;Centro-Oeste;78550-196;216029.0;-11.8543759;-55.5107714;2276.0;5100102.0;08/10/2025
-petland;Petland Rudge Ramos;Avenida Caminho do Mar;Rudge Ramos;São Bernardo do Campo;SP;Sudeste;09609-000;840499.0;-23.694540002;-46.565;2662.0;3500105.0;08/10/2025
-petland;Petland Rio Madeira;Avenida Prefeito Chiquilito Erse;Embratel;Porto Velho;RO;Norte;76820-763;514873.0;-8.7493383;-63.8847376;1717.0;1100015.0;08/10/2025
-petland;Petland Renascença;Avenida Jornalista Miércio Jorge;Jardim Renascença;São Luís;MA;Nordeste;65075-675;1088057.0;-2.4986283;-44.2879209;1077.0;2100055.0;08/10/2025
-petland;Petland Canal 6;Avenida Doutor Epitácio Pessoa;Boqueirão;Santos;SP;Sudeste;11045-301;429567.0;-23.9648026;-46.3235849;2662.0;3500105.0;08/10/2025
-petland;Petland Pompéia;Rua Euclides da Cunha;Pompéia;Santos;SP;Sudeste;11065-101;429567.0;-23.9665048;-46.3421313;2662.0;3500105.0;08/10/2025
-petland;Petland Pedreira;;;Pedreira;SP;Sudeste;13920-000;44332.0;-22.7418249;-46.8952876;2662.0;3500105.0;08/10/2025
-petland;Petland Passos;Praça Geraldo da Silva Maia;Centro;Passos;MG;Sudeste;37900-096;116530.0;-20.7222202;-46.6090216;2001.0;3100104.0;08/10/2025
-petland;Petland Parque Pinheiros;Rua Doutor Mário Augusto Pereira;Jardim São Paulo;Taboão da Serra;SP;Sudeste;06767-330;284274.0;-23.602;-46.7469106099;2662.0;3500105.0;08/10/2025
+petland;Petland Barra Muriaé;Rua Gil Moreira;Barra;Muriaé;MG;Sudeste;36884-112;108161.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Avenida Brasil;Avenida Brasil;Vila Itapura;Campinas;SP;Sudeste;13023-075;1185977.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Araguaína;Rua Vinte e Cinco de Dezembro;Setor Central;Araguaína;TO;Norte;77804-030;181493.0;;;1737.0;1700251.0;08/10/2025
+petland;Petland Anália Franco;Rua Professor João de Oliveira Torres;Jardim Anália Franco;São Paulo;SP;Sudeste;03337-010;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Aclimação;Avenida da Aclimação;Aclimação;São Paulo;SP;Sudeste;01531-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland 5 de novembro;Avenida 5 de Novembro;Vila Nastri;Itapetininga;SP;Sudeste;18207-320;163774.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Mariana;Avenida Conselheiro Rodrigues Alves;Vila Mariana;São Paulo;SP;Sudeste;04014-011;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Vila Clementino;Rua Luís Góis;Mirandópolis;São Paulo;SP;Sudeste;04043-350;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Turu;Avenida São Luís Rei de França;Turu;São Luís;MA;Nordeste;65065-470;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Tatuapé;Rua Azevedo Soares;Vila Gomes Cardim;São Paulo;SP;Sudeste;03322-002;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Sinop;Avenida das Itaúbas;Setor Comercial;Sinop;MT;Centro-Oeste;78550-196;216029.0;;;2276.0;5100102.0;08/10/2025
+petland;Petland Rudge Ramos;Avenida Caminho do Mar;Rudge Ramos;São Bernardo do Campo;SP;Sudeste;09609-000;840499.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Rio Madeira;Avenida Prefeito Chiquilito Erse;Embratel;Porto Velho;RO;Norte;76820-763;514873.0;;;1717.0;1100015.0;08/10/2025
+petland;Petland Renascença;Avenida Jornalista Miércio Jorge;Jardim Renascença;São Luís;MA;Nordeste;65075-675;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Canal 6;Avenida Doutor Epitácio Pessoa;Boqueirão;Santos;SP;Sudeste;11045-301;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Pompéia;Rua Euclides da Cunha;Pompéia;Santos;SP;Sudeste;11065-101;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Pedreira;;;Pedreira;SP;Sudeste;13920-000;44332.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Passos;Praça Geraldo da Silva Maia;Centro;Passos;MG;Sudeste;37900-096;116530.0;;;2001.0;3100104.0;08/10/2025
+petland;Petland Parque Pinheiros;Rua Doutor Mário Augusto Pereira;Jardim São Paulo;Taboão da Serra;SP;Sudeste;06767-330;284274.0;;;2662.0;3500105.0;08/10/2025
 petland;Petland Oficinas;;;Ponta Grossa;PR;Sul;84045-959;372562.0;;;2482.0;4100103.0;08/10/2025
-petland;Petland Mooca;Avenida Paes de Barros;Mooca;São Paulo;SP;Sudeste;03114-000;11895578.0;-23.6774200144;-46.636;2662.0;3500105.0;08/10/2025
-petland;Petland Moema Pássaros;Avenida Pavão;Indianópolis;São Paulo;SP;Sudeste;04516-012;11895578.0;-23.8375300332;-46.9518306068;2662.0;3500105.0;08/10/2025
-petland;Petland Moema Índios;Alameda dos Nhambiquaras;Indianópolis;São Paulo;SP;Sudeste;04090-011;11895578.0;-23.783080026;-46.3795655761;2662.0;3500105.0;08/10/2025
-petland;Petland Marapé;Rua Godofredo Fraga;Marapé;Santos;SP;Sudeste;11070-400;429567.0;-23.9556817;-46.3468306;2662.0;3500105.0;08/10/2025
-petland;Petland Praia Grande Mallet;Avenida Marechal Mallet;Canto do Forte;Praia Grande;SP;Sudeste;11700-405;365577.0;-24.0070324;-46.4067837;2662.0;3500105.0;08/10/2025
-petland;Petland Mackenzie Mall;Avenida Tucunaré;Tamboré;Barueri;SP;Sudeste;06460-020;330339.0;-23.5225200027;-46.8885629334;2662.0;3500105.0;08/10/2025
-petland;Petland Jóquei Clube;Avenida Jóquei Clube;Jóquei;Teresina;PI;Nordeste;64049-240;902644.0;-5.0745246;-42.784648;1350.0;2200053.0;08/10/2025
-petland;Petland João Fiúsa;Avenida Professor João Fiúsa;Jardim Botânico;Ribeirão Preto;SP;Sudeste;14024-250;728400.0;-21.1704008;-47.8103238;2662.0;3500105.0;08/10/2025
-petland;Petland Jardins;Rua Bela Cintra;Consolação;São Paulo;SP;Sudeste;01415-001;11895578.0;-23.5524085573;-46.655224424;2662.0;3500105.0;08/10/2025
-petland;Petland Jaguaríuna;Avenida Antonio Pinto Catão;Loteamento Capotuna;Jaguariúna;SP;Sudeste;13912-180;61801.0;-22.6928981;-46.9804537;2662.0;3500105.0;08/10/2025
-petland;Petland Itararé;Avenida Presidente Wilson;Itararé;São Vicente;SP;Sudeste;11320-001;338407.0;-23.9682565;-46.3762476;2662.0;3500105.0;08/10/2025
-petland;Petland Homero;Avenida Homero Castelo Branco;Planalto;Teresina;PI;Nordeste;64050-010;902644.0;-5.056108;-42.7826894;1350.0;2200053.0;08/10/2025
-petland;Petland Guilhermina;Avenida Presidente Kennedy;Guilhermina;Praia Grande;SP;Sudeste;11702-205;365577.0;-24.0072448;-46.4298225;2662.0;3500105.0;08/10/2025
-petland;Petland Graça;Rua da Graça;Graça;Salvador;BA;Nordeste;40150-055;2568928.0;-12.997443;-38.5255692;1366.0;2900108.0;08/10/2025
-petland;Petland Embaré;Avenida Doutor Epitácio Pessoa;Boqueirão;Santos;SP;Sudeste;11045-300;429567.0;-23.9648026;-46.3235849;2662.0;3500105.0;08/10/2025
-petland;Petland Canal 2;Avenida Doutor Bernardino de Campos;Campo Grande;Santos;SP;Sudeste;11065-003;429567.0;-23.9582251;-46.3379206;2662.0;3500105.0;08/10/2025
-petland;Petland Canal 1;Avenida Senador Pinheiro Machado;Marapé;Santos;SP;Sudeste;11075-001;429567.0;-23.9556817;-46.3468306;2662.0;3500105.0;08/10/2025
-petland;Petland Campolim;Avenida Antônio Carlos Comitre;Parque Campolim;Sorocaba;SP;Sudeste;18047-620;757459.0;-23.5226839;-47.4649254;2662.0;3500105.0;08/10/2025
-petland;Petland Boqueirão;Rua Bento de Abreu;Boqueirão;Santos;SP;Sudeste;11045-140;429567.0;-23.966871;-46.32075;2662.0;3500105.0;08/10/2025
-petland;Petland Batel;Rua Comendador Araújo;Centro;Curitiba;PR;Sul;80420-000;1829225.0;-25.4202599958;-49.273;2482.0;4100103.0;08/10/2025
-petland;Petland Aparecida;Rua Alexandre Martins;Aparecida;Santos;SP;Sudeste;11025-201;429567.0;-23.9735381;-46.3055176;2662.0;3500105.0;08/10/2025
-petland;Petland Alphaville;Avenida Yojiro Takaoka;Alphaville;Santana de Parnaíba;SP;Sudeste;06541-038;162341.0;-23.444;-46.9311451441;2662.0;3500105.0;08/10/2025
-petland;Petland Holandeses;Avenida dos Holandeses;Calhau;São Luís;MA;Nordeste;65071-380;1088057.0;-2.4935147;-44.2786188;1077.0;2100055.0;08/10/2025
-petland;Petland Cohatrac;Rua Doze;Cohatrac II;São Luís;MA;Nordeste;65053-820;1088057.0;-2.5382728;-44.2072109;1077.0;2100055.0;08/10/2025
-petland;Petland Cohama;Avenida Atlântica;Olho D'Água;São Luís;MA;Nordeste;65067-430;1088057.0;-2.4810648;-44.2364591;1077.0;2100055.0;08/10/2025
-petland;Petland Belvedere;Avenida Luíz Paulo Franco;Belvedere;Belo Horizonte;MG;Sudeste;30320-570;2416339.0;-19.9744935;-43.9416242;2001.0;3100104.0;08/10/2025
+petland;Petland Mooca;Avenida Paes de Barros;Mooca;São Paulo;SP;Sudeste;03114-000;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Moema Pássaros;Avenida Pavão;Indianópolis;São Paulo;SP;Sudeste;04516-012;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Moema Índios;Alameda dos Nhambiquaras;Indianópolis;São Paulo;SP;Sudeste;04090-011;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Marapé;Rua Godofredo Fraga;Marapé;Santos;SP;Sudeste;11070-400;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Praia Grande Mallet;Avenida Marechal Mallet;Canto do Forte;Praia Grande;SP;Sudeste;11700-405;365577.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Mackenzie Mall;Avenida Tucunaré;Tamboré;Barueri;SP;Sudeste;06460-020;330339.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jóquei Clube;Avenida Jóquei Clube;Jóquei;Teresina;PI;Nordeste;64049-240;902644.0;;;1350.0;2200053.0;08/10/2025
+petland;Petland João Fiúsa;Avenida Professor João Fiúsa;Jardim Botânico;Ribeirão Preto;SP;Sudeste;14024-250;728400.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jardins;Rua Bela Cintra;Consolação;São Paulo;SP;Sudeste;01415-001;11895578.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Jaguaríuna;Avenida Antonio Pinto Catão;Loteamento Capotuna;Jaguariúna;SP;Sudeste;13912-180;61801.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Itararé;Avenida Presidente Wilson;Itararé;São Vicente;SP;Sudeste;11320-001;338407.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Homero;Avenida Homero Castelo Branco;Planalto;Teresina;PI;Nordeste;64050-010;902644.0;;;1350.0;2200053.0;08/10/2025
+petland;Petland Guilhermina;Avenida Presidente Kennedy;Guilhermina;Praia Grande;SP;Sudeste;11702-205;365577.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Graça;Rua da Graça;Graça;Salvador;BA;Nordeste;40150-055;2568928.0;;;1366.0;2900108.0;08/10/2025
+petland;Petland Embaré;Avenida Doutor Epitácio Pessoa;Boqueirão;Santos;SP;Sudeste;11045-300;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Canal 2;Avenida Doutor Bernardino de Campos;Campo Grande;Santos;SP;Sudeste;11065-003;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Canal 1;Avenida Senador Pinheiro Machado;Marapé;Santos;SP;Sudeste;11075-001;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Campolim;Avenida Antônio Carlos Comitre;Parque Campolim;Sorocaba;SP;Sudeste;18047-620;757459.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Boqueirão;Rua Bento de Abreu;Boqueirão;Santos;SP;Sudeste;11045-140;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Batel;Rua Comendador Araújo;Centro;Curitiba;PR;Sul;80420-000;1829225.0;;;2482.0;4100103.0;08/10/2025
+petland;Petland Aparecida;Rua Alexandre Martins;Aparecida;Santos;SP;Sudeste;11025-201;429567.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Alphaville;Avenida Yojiro Takaoka;Alphaville;Santana de Parnaíba;SP;Sudeste;06541-038;162341.0;;;2662.0;3500105.0;08/10/2025
+petland;Petland Holandeses;Avenida dos Holandeses;Calhau;São Luís;MA;Nordeste;65071-380;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Cohatrac;Rua Doze;Cohatrac II;São Luís;MA;Nordeste;65053-820;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Cohama;Avenida Atlântica;Olho D'Água;São Luís;MA;Nordeste;65067-430;1088057.0;;;1077.0;2100055.0;08/10/2025
+petland;Petland Belvedere;Avenida Luíz Paulo Franco;Belvedere;Belo Horizonte;MG;Sudeste;30320-570;2416339.0;;;2001.0;3100104.0;08/10/2025
