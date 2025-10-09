@@ -50,7 +50,7 @@ graph TD
 
 ---
 
-## 📊 Estrutura do Projeto Final:
+## 📊 Estrutura Geral do Projeto:
 
 | Repositório | Função | Camada | Principais Tecnologias |
 | ----------------- | ----------------------------- | ------------------ | -------------------------------------- |
