@@ -4,6 +4,7 @@ import pandas as pd
 import unicodedata
 from dotenv import load_dotenv
 from tabulate import tabulate
+import re
 
 load_dotenv()
 
@@ -13,40 +14,37 @@ HEADERS = {"Authorization": f"Token {API_TOKEN}"}
 
 def preenche_campos(df, caminho_csv):
 
-    mapa = pd.read_csv(caminho_csv, sep=";", encoding="utf-8-sig" )
-    
-    def normalizar_texto(txt):
-        if pd.isna(txt):
-            return txt
-        txt = str(txt).lower().strip()
-        txt = ''.join(c for c in unicodedata.normalize('NFD', txt) if unicodedata.category(c) != 'Mn')
-        return txt
-    
-    df.rename(columns={"endereco": "logradouro"}, inplace=True)
+    mapa = pd.read_csv(caminho_csv, sep=";", encoding="utf-8-sig")
 
-    df['cidade_norm'] = df['cidade'].apply(normalizar_texto)
-    df['estado_norm'] = df['estado'].apply(normalizar_texto)
-    mapa['cidade_norm'] = mapa['cidade'].apply(normalizar_texto)
-    mapa['estado_norm'] = mapa['estado'].apply(normalizar_texto)
+    cols_to_normalize = ["cidade"]
+    
+    for col in cols_to_normalize:
+        if col in mapa.columns:
+            mapa[col] = mapa[col].apply(normalize_text)
+       
+    df.rename(columns={"endereco": "logradouro"}, inplace=True)
 
     df_merged = pd.merge(
         df,
-        mapa[['cidade_norm', 'estado_norm', 'cidade_cod_ibge', 'cidade_regiao', 'populacao', 'renda_domiciliar_per_capita']],
-        on=['cidade_norm', 'estado_norm'],
+        mapa[['cidade', 'estado', 'cod_cidade', 'regiao', 'populacao', 'renda_domiciliar_per_capita']],
+        on=['cidade', 'estado'],
         how='left'
     )
-
-    df_merged = df_merged.rename(columns={'cidade_regiao': 'regiao'})
 
     colunas_finais = [
         'empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado',
         'regiao', 'cep', 'populacao', 'latitude', 'longitude',
-        'renda_domiciliar_per_capita', 'cidade_cod_ibge', 'data_extracao'
+        'renda_domiciliar_per_capita', 'cod_cidade', 'data_extracao'
     ]
 
     for col in colunas_finais:
         if col not in df_merged.columns:
             df_merged[col] = None
+
+    nao_preenchidas = df_merged[df_merged['cod_cidade'].isna()]
+    if not nao_preenchidas.empty:
+        print("Linhas que não foi possível preencher (cidade e estado):")
+        print(nao_preenchidas[['cidade', 'estado']])
 
     return df_merged[colunas_finais]
 
@@ -193,3 +191,21 @@ def eda(df):
     else:
         print("Nenhuma coluna possui valores nulos.")
     print("\n")
+
+
+def normalize_text(text):
+    if pd.isna(text):
+        return text
+    
+    text = re.sub(r'[\t\n\r]+', ' ', text)
+    text = text.strip()
+
+    text = ''.join(
+        c for c in unicodedata.normalize('NFD', text)
+        if unicodedata.category(c) != 'Mn'
+    )
+
+    text = text.replace("'", "")
+
+    text = text.lower()
+    return text

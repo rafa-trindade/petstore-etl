@@ -8,8 +8,8 @@ def transform_data_silver(csv_path):
 
     df_silver = pd.read_csv(csv_path, sep=";", encoding="utf-8")
 
-    #df_silver = df_silver.tail(1)
-    
+    #df_silver = df_silver.tail(20)
+
     df_silver = preenche_campos(df_silver, IBGE_CSV)
     
     return df_silver

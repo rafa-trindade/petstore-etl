@@ -115,17 +115,13 @@ Dimensão: 651 linhas x 14 colunas
 ['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
 
 Valores nulos por coluna:
-|    | Coluna                      |   Nulos | % Nulos   |
-|----|-----------------------------|---------|-----------|
-|  2 | logradouro                  |      14 | 2.15%     |
-|  3 | bairro                      |     269 | 41.32%    |
-|  6 | regiao                      |       3 | 0.46%     |
-|  7 | cep                         |      15 | 2.3%      |
-|  8 | populacao                   |       3 | 0.46%     |
-|  9 | latitude                    |     651 | 100.0%    |
-| 10 | longitude                   |     651 | 100.0%    |
-| 11 | renda_domiciliar_per_capita |       3 | 0.46%     |
-| 12 | cidade_cod_ibge             |       3 | 0.46%     |
+|    | Coluna     |   Nulos | % Nulos   |
+|----|------------|---------|-----------|
+|  2 | logradouro |      14 | 2.15%     |
+|  3 | bairro     |     269 | 41.32%    |
+|  7 | cep        |      15 | 2.3%      |
+|  9 | latitude   |     651 | 100.0%    |
+| 10 | longitude  |     651 | 100.0%    |
 
 
 ============================================================
@@ -142,17 +138,12 @@ Dimensão: 651 linhas x 14 colunas
 ['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
 
 Valores nulos por coluna:
-|    | Coluna                      |   Nulos | % Nulos   |
-|----|-----------------------------|---------|-----------|
-|  2 | logradouro                  |      11 | 1.69%     |
-|  3 | bairro                      |      33 | 5.07%     |
-|  6 | regiao                      |       3 | 0.46%     |
-|  7 | cep                         |      15 | 2.3%      |
-|  8 | populacao                   |       3 | 0.46%     |
-|  9 | latitude                    |      31 | 4.76%     |
-| 10 | longitude                   |      31 | 4.76%     |
-| 11 | renda_domiciliar_per_capita |       3 | 0.46%     |
-| 12 | cidade_cod_ibge             |       3 | 0.46%     |
+|    | Coluna     |   Nulos | % Nulos   |
+|----|------------|---------|-----------|
+|  2 | logradouro |      11 | 1.69%     |
+|  3 | bairro     |      33 | 5.07%     |
+|  9 | latitude   |      31 | 4.76%     |
+| 10 | longitude  |      31 | 4.76%     |
 
 
 ============================================================
