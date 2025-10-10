@@ -5,6 +5,7 @@ import unicodedata
 from dotenv import load_dotenv
 from tabulate import tabulate
 import re
+import time
 
 load_dotenv()
 
@@ -20,7 +21,7 @@ def preenche_campos(df, caminho_csv):
     
     for col in cols_to_normalize:
         if col in mapa.columns:
-            mapa[col] = mapa[col].apply(normalize_text)
+            mapa[col] = mapa[col].apply(limpar_texto)
        
     df.rename(columns={"endereco": "logradouro"}, inplace=True)
 
@@ -42,107 +43,89 @@ def preenche_campos(df, caminho_csv):
             df_merged[col] = None
 
     nao_preenchidas = df_merged[df_merged['cod_cidade'].isna()]
+    nao_preenchidas = nao_preenchidas.dropna(subset=['cidade', 'estado'], how='all')
+
     if not nao_preenchidas.empty:
         print("Linhas que não foi possível preencher (cidade e estado):")
         print(nao_preenchidas[['cidade', 'estado']])
 
     return df_merged[colunas_finais]
 
-
+def limpar_texto(texto):
+    if not texto:
+        return ""
+    t = str(texto)
+    t = t.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+    t = " ".join(t.split())
+    return t.strip()
 
 def normaliza_campos(df):
-    
-    for col in ["logradouro", "bairro", "cidade", "estado", "cep", "empresa", "nome"]:
-        if col not in df.columns:
-            df[col] = pd.Series(dtype="object")
-        else:
-            df[col] = df[col].astype("object")
-    
-    for col in ["latitude", "longitude"]:
-        if col not in df.columns:
-            df[col] = pd.Series(dtype="float")
-        else:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
-    
     total = len(df)
-    
+    preenchidos = 0
+    falhas = 0
+
     for idx, row in df.iterrows():
-        cep_atual = str(row.get("cep", "")).replace("-", "").strip()
-        cidade_ibge = row.get("cidade_cod_ibge")
-        empresa_nome = f"{row.get('empresa','')} - {row.get('nome','')}"
-        print(f"Processando ({idx+1}/{total}): {empresa_nome}")
-        
-        if not cep_atual or cep_atual.lower() in ["nan", "none", ""]:
-            if cidade_ibge:
-                try:
-                    url_ibge = f"https://www.cepaberto.com/api/v3/cep?ibge={cidade_ibge}"
-                    response = requests.get(url_ibge, headers=HEADERS, timeout=10)
-                    if response.status_code == 200:
-                        data = response.json()
-                        cep_geral = data.get("cep", "")
-                        if cep_geral:
-                            cep_geral = cep_geral.replace("-", "")
-                            df.at[idx, "cep"] = f"{cep_geral[:5]}-{cep_geral[5:]}"
-                except Exception as e:
-                    print(f" - Erro de conexão: {e}")
-                    df.at[idx, "cep"] = df.at[idx, "cep"]
-            else:
-                df.at[idx, "cep"] = "indisponivel"
-            cep_atual = str(df.at[idx, "cep"]).replace("-", "").strip()
-        
-        if cep_atual and cep_atual.lower() not in ["nan", "none", "indisponivel"]:
-            try:
-                url_cep = f"https://www.cepaberto.com/api/v3/cep?cep={cep_atual}"
-                response = requests.get(url_cep, headers=HEADERS, timeout=10)
-                if response.status_code == 200:
-                    data = response.json()
-                    if data and data.get("cep"):
-                        # Atualizar campos de texto
-                        df.at[idx, "logradouro"] = data.get("logradouro", row.get("logradouro"))
-                        df.at[idx, "bairro"] = data.get("bairro", row.get("bairro"))
-                        df.at[idx, "cidade"] = data.get("cidade", {}).get("nome", row.get("cidade"))
-                        df.at[idx, "estado"] = data.get("estado", {}).get("sigla", row.get("estado"))
+        empresa_nome = f"{row.get('empresa', '')} - {row.get('nome', '')}"
+        print(f"- Processando ({idx+1}/{total}): {empresa_nome}")
 
-                        cep_valid = data.get("cep").replace("-", "")
-                        df.at[idx, "cep"] = f"{cep_valid[:5]}-{cep_valid[5:]}"
+        cep = str(row.get("cep") or "").replace("-", "").strip()
+        estado = row.get("estado") or ""
+        cidade = row.get("cidade") or ""
+
+        dados_coord = None
+        metodo = None
+
+        if not cep or len(cep) != 8:
+            try:
+                url_address = "https://www.cepaberto.com/api/v3/address"
+                params = {"estado": estado, "cidade": cidade}
+                resp = requests.get(url_address, headers=HEADERS, params=params, timeout=10)
+                if resp.ok:
+                    dados = resp.json()
+                    cep = dados.get("cep")
+                    if cep:
+                        df.at[idx, "cep"] = cep
+                        metodo = "UF+CIDADE"
             except Exception as e:
-                print(f" - Erro de conexão: {e}")
-                df.at[idx, "cep"] = "erro conexao"
-        
-        lat = row.get("latitude")
-        lon = row.get("longitude")
-        if pd.isna(lat) or pd.isna(lon) or lat == "" or lon == "":
-            try:
-                if cep_atual and cep_atual.lower() not in ["nan", "none", "indisponivel"]:
-                    url_latlon = f"https://www.cepaberto.com/api/v3/cep?cep={cep_atual}"
-                    response = requests.get(url_latlon, headers=HEADERS, timeout=10)
-                    if response.status_code == 200:
-                        data = response.json()
-                        lat_api = data.get("latitude")
-                        lon_api = data.get("longitude")
-                        if lat_api is not None and lon_api is not None:
-                            df.at[idx, "latitude"] = float(lat_api)
-                            df.at[idx, "longitude"] = float(lon_api)
-                            continue
-            except:
-                pass
-            
-            if cidade_ibge:
-                try:
-                    url_ibge = f"https://www.cepaberto.com/api/v3/cep?ibge={cidade_ibge}"
-                    response = requests.get(url_ibge, headers=HEADERS, timeout=10)
-                    if response.status_code == 200:
-                        data = response.json()
-                        lat_api = data.get("latitude")
-                        lon_api = data.get("longitude")
-                        if lat_api is not None and lon_api is not None:
-                            df.at[idx, "latitude"] = float(lat_api)
-                            df.at[idx, "longitude"] = float(lon_api)
-                except:
-                    pass
-    
-    return df
+                print(f" - Erro ao buscar CEP via cidade/UF: {e}")
+            time.sleep(1)  
 
+        if cep and len(cep) == 8:
+            try:
+                url_cep = f"https://www.cepaberto.com/api/v3/cep?cep={cep}"
+                resp = requests.get(url_cep, headers=HEADERS, timeout=10)
+                if resp.ok:
+                    dados_coord = resp.json()
+                    metodo = metodo or "CEP"
+            except Exception as e:
+                print(f" - Erro ao buscar coordenadas via CEP: {e}")
+            time.sleep(1)  
+
+        if dados_coord:
+            try:
+                lat_api = dados_coord.get("latitude")
+                lon_api = dados_coord.get("longitude")
+                if lat_api is not None:
+                    df.at[idx, "latitude"] = float(lat_api)
+                if lon_api is not None:
+                    df.at[idx, "longitude"] = float(lon_api)
+
+                logradouro = dados_coord.get("logradouro")
+                bairro = dados_coord.get("bairro")
+                if logradouro:
+                    df.at[idx, "logradouro"] = logradouro
+                if bairro:
+                    df.at[idx, "bairro"] = bairro
+
+                preenchidos += 1
+            except Exception as e:
+                print(f" - Erro ao atualizar linha: {e}")
+                falhas += 1
+        else:
+            falhas += 1
+
+
+    return df
 
 def eda(df):
 

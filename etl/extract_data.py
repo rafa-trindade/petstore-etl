@@ -1,5 +1,5 @@
 import pandas as pd
-from etl.utils import normalize_text
+from etl.utils import limpar_texto
 
 
 
@@ -10,6 +10,6 @@ def extract_data(url):
     
     for col in cols_to_normalize:
         if col in df_bronze.columns:
-            df_bronze[col] = df_bronze[col].apply(normalize_text)
+            df_bronze[col] = df_bronze[col].apply(limpar_texto)
     
     return df_bronze

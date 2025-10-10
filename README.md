@@ -82,22 +82,18 @@ O projeto utiliza a API **CEP Aberto** para obter informações de **latitude e 
 
 - Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
 
-Dimensão: 651 linhas x 10 colunas
+Dimensão: 902 linhas x 10 colunas
 
-🔹 Numéricas (2 colunas):
-['latitude', 'longitude'] 
-
-🔹 Categóricas (object/category) (8 colunas):
-['empresa', 'nome', 'endereco', 'bairro', 'cidade', 'estado', 'cep', 'data_extracao'] 
+🔹 Categóricas (object/category) (10 colunas):
+['empresa', 'nome', 'endereco', 'bairro', 'cidade', 'estado', 'cep', 'latitude', 'longitude', 'data_extracao'] 
 
 Valores nulos por coluna:
 |    | Coluna    |   Nulos | % Nulos   |
 |----|-----------|---------|-----------|
-|  2 | endereco  |      14 | 2.15%     |
-|  3 | bairro    |     269 | 41.32%    |
-|  6 | cep       |      15 | 2.3%      |
-|  7 | latitude  |     651 | 100.0%    |
-|  8 | longitude |     651 | 100.0%    |
+|  5 | estado    |      22 | 2.44%     |
+|  6 | cep       |      31 | 3.44%     |
+|  7 | latitude  |     692 | 76.72%    |
+|  8 | longitude |     692 | 76.72%    |
 
 
 ============================================================
@@ -106,22 +102,29 @@ Valores nulos por coluna:
 
 - Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
 
-Dimensão: 651 linhas x 14 colunas
+Dimensão: 902 linhas x 14 colunas
 
-🔹 Numéricas (5 colunas):
-['populacao', 'latitude', 'longitude', 'renda_domiciliar_per_capita', 'cidade_cod_ibge'] 
+🔹 Numéricas (2 colunas):
+['renda_domiciliar_per_capita', 'cod_cidade'] 
 
-🔹 Categóricas (object/category) (9 colunas):
-['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
+🔹 Categóricas (object/category) (12 colunas):
+['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'populacao', 'latitude', 'longitude', 'data_extracao'] 
 
 Valores nulos por coluna:
-|    | Coluna     |   Nulos | % Nulos   |
-|----|------------|---------|-----------|
-|  2 | logradouro |      14 | 2.15%     |
-|  3 | bairro     |     269 | 41.32%    |
-|  7 | cep        |      15 | 2.3%      |
-|  9 | latitude   |     651 | 100.0%    |
-| 10 | longitude  |     651 | 100.0%    |
+|    | Coluna                      |   Nulos | % Nulos   |
+|----|-----------------------------|---------|-----------|
+|  1 | nome                        |       1 | 0.11%     |
+|  2 | logradouro                  |      51 | 5.65%     |
+|  3 | bairro                      |     312 | 34.59%    |
+|  4 | cidade                      |      22 | 2.44%     |
+|  5 | estado                      |      22 | 2.44%     |
+|  6 | regiao                      |      22 | 2.44%     |
+|  7 | cep                         |      31 | 3.44%     |
+|  8 | populacao                   |      22 | 2.44%     |
+|  9 | latitude                    |     692 | 76.72%    |
+| 10 | longitude                   |     692 | 76.72%    |
+| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
+| 12 | cod_cidade                  |      22 | 2.44%     |
 
 
 ============================================================
@@ -129,21 +132,29 @@ Valores nulos por coluna:
 ============================================================
 - Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
-Dimensão: 651 linhas x 14 colunas
+Dimensão: 902 linhas x 14 colunas
 
-🔹 Numéricas (5 colunas):
-['populacao', 'latitude', 'longitude', 'renda_domiciliar_per_capita', 'cidade_cod_ibge'] 
+🔹 Numéricas (2 colunas):
+['renda_domiciliar_per_capita', 'cod_cidade'] 
 
-🔹 Categóricas (object/category) (9 colunas):
-['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'data_extracao'] 
+🔹 Categóricas (object/category) (12 colunas):
+['empresa', 'nome', 'logradouro', 'bairro', 'cidade', 'estado', 'regiao', 'cep', 'populacao', 'latitude', 'longitude', 'data_extracao'] 
 
 Valores nulos por coluna:
-|    | Coluna     |   Nulos | % Nulos   |
-|----|------------|---------|-----------|
-|  2 | logradouro |      11 | 1.69%     |
-|  3 | bairro     |      33 | 5.07%     |
-|  9 | latitude   |      31 | 4.76%     |
-| 10 | longitude  |      31 | 4.76%     |
+|    | Coluna                      |   Nulos | % Nulos   |
+|----|-----------------------------|---------|-----------|
+|  1 | nome                        |       1 | 0.11%     |
+|  2 | logradouro                  |      42 | 4.66%     |
+|  3 | bairro                      |      70 | 7.76%     |
+|  4 | cidade                      |      22 | 2.44%     |
+|  5 | estado                      |      22 | 2.44%     |
+|  6 | regiao                      |      22 | 2.44%     |
+|  7 | cep                         |      31 | 3.44%     |
+|  8 | populacao                   |      22 | 2.44%     |
+|  9 | latitude                    |      47 | 5.21%     |
+| 10 | longitude                   |      47 | 5.21%     |
+| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
+| 12 | cod_cidade                  |      22 | 2.44%     |
 
 
 ============================================================
@@ -154,7 +165,7 @@ Valores nulos por coluna:
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 651
+--- Registros depois da carga: 902
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
@@ -182,5 +193,8 @@ Os dados carregados no **PostgreSQL** pelo **`petstore-etl`** devem ser consumid
 Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 
 * **Cobasi**
+* **Pet Camp**
 * **Petland**
+* **Petlove**
 * **Petz**
+* **Pop Pet Center**
