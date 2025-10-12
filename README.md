@@ -90,10 +90,10 @@ Dimensão: 902 linhas x 10 colunas
 Valores nulos por coluna:
 |    | Coluna    |   Nulos | % Nulos   |
 |----|-----------|---------|-----------|
-|  5 | estado    |      22 | 2.44%     |
-|  6 | cep       |      31 | 3.44%     |
-|  7 | latitude  |     692 | 76.72%    |
-|  8 | longitude |     692 | 76.72%    |
+|  5 | estado    |       1 | 0.13%     |
+|  6 | cep       |      22 | 2.84%     |
+|  7 | latitude  |     671 | 86.47%    |
+|  8 | longitude |     671 | 86.47%    |
 
 
 ============================================================
@@ -113,18 +113,18 @@ Dimensão: 902 linhas x 14 colunas
 Valores nulos por coluna:
 |    | Coluna                      |   Nulos | % Nulos   |
 |----|-----------------------------|---------|-----------|
-|  1 | nome                        |       1 | 0.11%     |
-|  2 | logradouro                  |      51 | 5.65%     |
-|  3 | bairro                      |     312 | 34.59%    |
-|  4 | cidade                      |      22 | 2.44%     |
-|  5 | estado                      |      22 | 2.44%     |
-|  6 | regiao                      |      22 | 2.44%     |
-|  7 | cep                         |      31 | 3.44%     |
-|  8 | populacao                   |      22 | 2.44%     |
-|  9 | latitude                    |     692 | 76.72%    |
-| 10 | longitude                   |     692 | 76.72%    |
-| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
-| 12 | cod_cidade                  |      22 | 2.44%     |
+|  1 | nome                        |       1 | 0.13%     |
+|  2 | logradouro                  |      15 | 1.93%     |
+|  3 | bairro                      |     276 | 35.57%    |
+|  4 | cidade                      |       1 | 0.13%     |
+|  5 | estado                      |       1 | 0.13%     |
+|  6 | regiao                      |       1 | 0.13%     |
+|  7 | cep                         |      22 | 2.84%     |
+|  8 | populacao                   |       1 | 0.13%     |
+|  9 | latitude                    |     671 | 86.47%    |
+| 10 | longitude                   |     671 | 86.47%    |
+| 11 | renda_domiciliar_per_capita |       1 | 0.13%     |
+| 12 | cod_cidade                  |       1 | 0.13%     |
 
 
 ============================================================
@@ -143,18 +143,18 @@ Dimensão: 902 linhas x 14 colunas
 Valores nulos por coluna:
 |    | Coluna                      |   Nulos | % Nulos   |
 |----|-----------------------------|---------|-----------|
-|  1 | nome                        |       1 | 0.11%     |
-|  2 | logradouro                  |      42 | 4.66%     |
-|  3 | bairro                      |      70 | 7.76%     |
-|  4 | cidade                      |      22 | 2.44%     |
-|  5 | estado                      |      22 | 2.44%     |
-|  6 | regiao                      |      22 | 2.44%     |
-|  7 | cep                         |      31 | 3.44%     |
-|  8 | populacao                   |      22 | 2.44%     |
-|  9 | latitude                    |      47 | 5.21%     |
-| 10 | longitude                   |      47 | 5.21%     |
-| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
-| 12 | cod_cidade                  |      22 | 2.44%     |
+|  1 | nome                        |       1 | 0.13%     |
+|  2 | logradouro                  |      12 | 1.55%     |
+|  3 | bairro                      |      40 | 5.15%     |
+|  4 | cidade                      |       1 | 0.13%     |
+|  5 | estado                      |       1 | 0.13%     |
+|  6 | regiao                      |       1 | 0.13%     |
+|  7 | cep                         |      22 | 2.84%     |
+|  8 | populacao                   |       1 | 0.13%     |
+|  9 | latitude                    |      37 | 4.77%     |
+| 10 | longitude                   |      37 | 4.77%     |
+| 11 | renda_domiciliar_per_capita |       1 | 0.13%     |
+| 12 | cod_cidade                  |       1 | 0.13%     |
 
 
 ============================================================
@@ -165,7 +165,7 @@ Valores nulos por coluna:
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 902
+--- Registros depois da carga: 776
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
@@ -197,4 +197,3 @@ Atualmente, o projeto coleta dados públicos das seguintes redes para estudo:
 * **Petland**
 * **Petlove**
 * **Petz**
-* **Pop Pet Center**

@@ -4,7 +4,7 @@
 
 - Processo concluído. Arquivo salvo em: data\bronze\lojas_bronze.csv
 
-Dimensão: 902 linhas x 10 colunas
+Dimensão: 776 linhas x 10 colunas
 
 🔹 Categóricas (object/category) (10 colunas):
 ['empresa', 'nome', 'endereco', 'bairro', 'cidade', 'estado', 'cep', 'latitude', 'longitude', 'data_extracao'] 
@@ -12,10 +12,10 @@ Dimensão: 902 linhas x 10 colunas
 Valores nulos por coluna:
 |    | Coluna    |   Nulos | % Nulos   |
 |----|-----------|---------|-----------|
-|  5 | estado    |      22 | 2.44%     |
-|  6 | cep       |      31 | 3.44%     |
-|  7 | latitude  |     692 | 76.72%    |
-|  8 | longitude |     692 | 76.72%    |
+|  5 | estado    |       1 | 0.13%     |
+|  6 | cep       |      22 | 2.84%     |
+|  7 | latitude  |     671 | 86.47%    |
+|  8 | longitude |     671 | 86.47%    |
 
 
 ============================================================
@@ -24,7 +24,7 @@ Valores nulos por coluna:
 
 - Processo concluído. Arquivo salvo em: data\silver\lojas_silver.csv
 
-Dimensão: 902 linhas x 14 colunas
+Dimensão: 776 linhas x 14 colunas
 
 🔹 Numéricas (2 colunas):
 ['renda_domiciliar_per_capita', 'cod_cidade'] 
@@ -35,929 +35,803 @@ Dimensão: 902 linhas x 14 colunas
 Valores nulos por coluna:
 |    | Coluna                      |   Nulos | % Nulos   |
 |----|-----------------------------|---------|-----------|
-|  1 | nome                        |       1 | 0.11%     |
-|  2 | logradouro                  |      51 | 5.65%     |
-|  3 | bairro                      |     312 | 34.59%    |
-|  4 | cidade                      |      22 | 2.44%     |
-|  5 | estado                      |      22 | 2.44%     |
-|  6 | regiao                      |      22 | 2.44%     |
-|  7 | cep                         |      31 | 3.44%     |
-|  8 | populacao                   |      22 | 2.44%     |
-|  9 | latitude                    |     692 | 76.72%    |
-| 10 | longitude                   |     692 | 76.72%    |
-| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
-| 12 | cod_cidade                  |      22 | 2.44%     |
+|  1 | nome                        |       1 | 0.13%     |
+|  2 | logradouro                  |      15 | 1.93%     |
+|  3 | bairro                      |     276 | 35.57%    |
+|  4 | cidade                      |       1 | 0.13%     |
+|  5 | estado                      |       1 | 0.13%     |
+|  6 | regiao                      |       1 | 0.13%     |
+|  7 | cep                         |      22 | 2.84%     |
+|  8 | populacao                   |       1 | 0.13%     |
+|  9 | latitude                    |     671 | 86.47%    |
+| 10 | longitude                   |     671 | 86.47%    |
+| 11 | renda_domiciliar_per_capita |       1 | 0.13%     |
+| 12 | cod_cidade                  |       1 | 0.13%     |
 
 
 ============================================================
 - CAMADA GOLD - Padronizando Dados...
 ============================================================
-- Processando (1/902): cobasi - Cobasi Getúlio Vargas - Osasco
-- Processando (2/902): cobasi - Cobasi Jandira Mall
-- Processando (3/902): cobasi - Cobasi João Pessoa
-- Processando (4/902): cobasi - Cobasi Marília Esmeralda
-- Processando (5/902): cobasi - Cobasi Presidente Prudente
-- Processando (6/902): cobasi - Cobasi Riviera de São Lourenço
-- Processando (7/902): cobasi - Pet Shop Cobasi Alphaville
-- Processando (8/902): cobasi - Pet Shop Cobasi Alto da Boa Vista
-- Processando (9/902): cobasi - Pet Shop Cobasi Alto de Pinheiros
-- Processando (10/902): cobasi - Pet Shop Cobasi Americana
-- Processando (11/902): cobasi - Pet Shop Cobasi Andradas
-- Processando (12/902): cobasi - Pet Shop Cobasi Aracaju Rio Mar
-- Processando (13/902): cobasi - Pet Shop Cobasi Araraquara
-- Processando (14/902): cobasi - Pet Shop Cobasi Araraquara Savegnago
-- Processando (15/902): cobasi - Pet Shop Cobasi Araçatuba
-- Processando (16/902): cobasi - Pet Shop Cobasi Assai Anhanguera
-- Processando (17/902): cobasi - Pet Shop Cobasi Assaí Interlagos
-- Processando (18/902): cobasi - Pet Shop Cobasi Assaí Marginal Tietê
-- Processando (19/902): cobasi - Pet Shop Cobasi Atibaia
-- Processando (20/902): cobasi - Pet Shop Cobasi Atibaia II
-- Processando (21/902): cobasi - Pet Shop Cobasi Atlântica
-- Processando (22/902): cobasi - Pet Shop Cobasi Augusta
-- Processando (23/902): cobasi - Pet Shop Cobasi Av. Jundiaí
-- Processando (24/902): cobasi - Pet Shop Cobasi Av. Morumbi
-- Processando (25/902): cobasi - Pet Shop Cobasi Avenida São Miguel
-- Processando (26/902): cobasi - Pet Shop Cobasi BH Belvedere
-- Processando (27/902): cobasi - Pet Shop Cobasi BH Castelo
-- Processando (28/902): cobasi - Pet Shop Cobasi BH Contorno
-- Processando (29/902): cobasi - Pet Shop Cobasi BH Del Rey
-- Processando (30/902): cobasi - Pet Shop Cobasi Barra Carrefour
-- Processando (31/902): cobasi - Pet Shop Cobasi Barra Guanabara
-- Processando (32/902): cobasi - Pet Shop Cobasi Barra Sul
-- Processando (33/902): cobasi - Pet Shop Cobasi Barreiros
-- Processando (34/902): cobasi - Pet Shop Cobasi Barretos
-- Processando (35/902): cobasi - Pet Shop Cobasi Bauru
-- Processando (36/902): cobasi - Pet Shop Cobasi Belém Bosque Grão Pará
-- Processando (37/902): cobasi - Pet Shop Cobasi Birigui
-- Processando (38/902): cobasi - Pet Shop Cobasi Blumenau Neumarkt
-- Processando (39/902): cobasi - Pet Shop Cobasi Blumenau Norte Shopping
-- Processando (40/902): cobasi - Pet Shop Cobasi Botafogo
-- Processando (41/902): cobasi - Pet Shop Cobasi Botucatu Mall
-- Processando (42/902): cobasi - Pet Shop Cobasi Bragança Paulista
-- Processando (43/902): cobasi - Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes
-- Processando (44/902): cobasi - Pet Shop Cobasi Brasilia Venancio
-- Processando (45/902): cobasi - Pet Shop Cobasi Brasília Asa Norte
-- Processando (46/902): cobasi - Pet Shop Cobasi Brasília CasaPark
-- Processando (47/902): cobasi - Pet Shop Cobasi Brasília Pistão Sul
-- Processando (48/902): cobasi - Pet Shop Cobasi Brasília Sia
-- Processando (49/902): cobasi - Pet Shop Cobasi Brasília Taquari
-- Processando (50/902): cobasi - Pet Shop Cobasi Braz Leme
-- Processando (51/902): cobasi - Pet Shop Cobasi Brooklin
-- Processando (52/902): cobasi - Pet Shop Cobasi Buritis
-- Processando (53/902): cobasi - Pet Shop Cobasi Butantã
-- Processando (54/902): cobasi - Pet Shop Cobasi Cachoeirinha
-- Processando (55/902): cobasi - Pet Shop Cobasi Caminho do Mar
-- Processando (56/902): cobasi - Pet Shop Cobasi Campinas Abolição
-- Processando (57/902): cobasi - Pet Shop Cobasi Campinas Amoreiras
-- Processando (58/902): cobasi - Pet Shop Cobasi Campinas Cambuí
-- Processando (59/902): cobasi - Pet Shop Cobasi Campinas Cambuí II
-- Processando (60/902): cobasi - Pet Shop Cobasi Campinas Princesa d’ Oeste
-- Processando (61/902): cobasi - Pet Shop Cobasi Campinas Shopping Galleria
-- Processando (62/902): cobasi - Pet Shop Cobasi Campinas Taquaral
-- Processando (63/902): cobasi - Pet Shop Cobasi Campo Grande MS
-- Processando (64/902): cobasi - Pet Shop Cobasi Campo Limpo
-- Processando (65/902): cobasi - Pet Shop Cobasi Candangolandia
-- Processando (66/902): cobasi - Pet Shop Cobasi Canoas
-- Processando (67/902): cobasi - Pet Shop Cobasi Canoas BR116
-- Processando (68/902): cobasi - Pet Shop Cobasi Cantareira Norte Shopping
-- Processando (69/902): cobasi - Pet Shop Cobasi Carapicuíba
-- Processando (70/902): cobasi - Pet Shop Cobasi Carrefour Nações
-- Processando (71/902): cobasi - Pet Shop Cobasi Carrão
-- Processando (72/902): cobasi - Pet Shop Cobasi Casa Forte
-- Processando (73/902): cobasi - Pet Shop Cobasi Cascavel
-- Processando (74/902): cobasi - Pet Shop Cobasi Caxias do Sul
-- Processando (75/902): cobasi - Pet Shop Cobasi Cerro Corá
-- Processando (76/902): cobasi - Pet Shop Cobasi Comendador Agostinho - Limeira II
-- Processando (77/902): cobasi - Pet Shop Cobasi Conselheiro Rodrigues Alves
-- Processando (78/902): cobasi - Pet Shop Cobasi Continente Shopping
-- Processando (79/902): cobasi - Pet Shop Cobasi Copacabana Posto 2
-- Processando (80/902): cobasi - Pet Shop Cobasi Corifeu
-- Processando (81/902): cobasi - Pet Shop Cobasi Cotia
-- Processando (82/902): cobasi - Pet Shop Cobasi Criciúma
-- Processando (83/902): cobasi - Pet Shop Cobasi Cuiabá CPA
-- Processando (84/902): cobasi - Pet Shop Cobasi Curitiba Linha Verde
-- Processando (85/902): cobasi - Pet Shop Cobasi Curitiba Mario Tourinho
-- Processando (86/902): cobasi - Pet Shop Cobasi Curitiba Novo Mundo
-- Processando (87/902): cobasi - Pet Shop Cobasi DF Gama
-- Processando (88/902): cobasi - Pet Shop Cobasi DF Planaltina
-- Processando (89/902): cobasi - Pet Shop Cobasi DF Plaza Shopping
-- Processando (90/902): cobasi - Pet Shop Cobasi Diadema
-- Processando (91/902): cobasi - Pet Shop Cobasi Eco Mall Pinheirinho
-- Processando (92/902): cobasi - Pet Shop Cobasi Embu das Artes
-- Processando (93/902): cobasi - Pet Shop Cobasi Embu das Artes II
-- Processando (94/902): cobasi - Pet Shop Cobasi Engenheiro Caetano Alvares
-- Processando (95/902): cobasi - Pet Shop Cobasi Epitácio Pessoa
-- Processando (96/902): cobasi - Pet Shop Cobasi Ermano Marchetti
-- Processando (97/902): cobasi - Pet Shop Cobasi Estr. do Campo Limpo
-- Processando (98/902): cobasi - Pet Shop Cobasi Estrada de Itapecerica
-- Processando (99/902): cobasi - Pet Shop Cobasi Feira de Santana
-- Processando (100/902): cobasi - Pet Shop Cobasi Florianópolis
-- Processando (101/902): cobasi - Pet Shop Cobasi Florianópolis Centro
-- Processando (102/902): cobasi - Pet Shop Cobasi Fortaleza Aldeota
-- Processando (103/902): cobasi - Pet Shop Cobasi Fortaleza Meireles
-- Processando (104/902): cobasi - Pet Shop Cobasi Fortaleza Open Mall
-- Processando (105/902): cobasi - Pet Shop Cobasi Franca
-- Processando (106/902): cobasi - Pet Shop Cobasi Frei Gaspar
-- Processando (107/902): cobasi - Pet Shop Cobasi Goiânia Decathlon
-- Processando (108/902): cobasi - Pet Shop Cobasi Goiânia T63
-- Processando (109/902): cobasi - Pet Shop Cobasi Granja Vianna
-- Processando (110/902): cobasi - Pet Shop Cobasi Guarujá
-- Processando (111/902): cobasi - Pet Shop Cobasi Guarulhos
-- Processando (112/902): cobasi - Pet Shop Cobasi Guarulhos Centro
-- Processando (113/902): cobasi - Pet Shop Cobasi Guarulhos Sakamoto
-- Processando (114/902): cobasi - Pet Shop Cobasi Guarulhos Timóteo Penteado
-- Processando (115/902): cobasi - Pet Shop Cobasi Higienópolis
-- Processando (116/902): cobasi - Pet Shop Cobasi Iguatemi Campinas
-- Processando (117/902): cobasi - Pet Shop Cobasi Iguatemi Fortaleza
-- Processando (118/902): cobasi - Pet Shop Cobasi Imigrantes
-- Processando (119/902): cobasi - Pet Shop Cobasi Imirim
-- Processando (120/902): cobasi - Pet Shop Cobasi Indaiatuba
-- Processando (121/902): cobasi - Pet Shop Cobasi Interlar Interlagos
-- Processando (122/902): cobasi - Pet Shop Cobasi Itajaí
-- Processando (123/902): cobasi - Pet Shop Cobasi Itaquaquecetuba D'avó
-- Processando (124/902): cobasi - Pet Shop Cobasi Itaquera
-- Processando (125/902): cobasi - Pet Shop Cobasi Jabaquara
-- Processando (126/902): cobasi - Pet Shop Cobasi Jaboatão Dos Guararapes
-- Processando (127/902): cobasi - Pet Shop Cobasi Jacareí Tenda
-- Processando (128/902): cobasi - Pet Shop Cobasi Jardim Japão
-- Processando (129/902): cobasi - Pet Shop Cobasi Jaú
-- Processando (130/902): cobasi - Pet Shop Cobasi Jd. Botânico
-- Processando (131/902): cobasi - Pet Shop Cobasi Joinville
-- Processando (132/902): cobasi - Pet Shop Cobasi Juiz de Fora Jardim Norte
-- Processando (133/902): cobasi - Pet Shop Cobasi Jundiaí
-- Processando (134/902): cobasi - Pet Shop Cobasi Lauro de Freitas
-- Processando (135/902): cobasi - Pet Shop Cobasi Limeira
-- Processando (136/902): cobasi - Pet Shop Cobasi Londrina Centro
-- Processando (137/902): cobasi - Pet Shop Cobasi Londrina Madre Leônia
-- Processando (138/902): cobasi - Pet Shop Cobasi M'Boi Mirim
-- Processando (139/902): cobasi - Pet Shop Cobasi Maceió Fernandes Lima
-- Processando (140/902): cobasi - Pet Shop Cobasi Maracanaú
-- Processando (141/902): cobasi - Pet Shop Cobasi Marechal Tito
-- Processando (142/902): cobasi - Pet Shop Cobasi Marginal Pinheiros
-- Processando (143/902): cobasi - Pet Shop Cobasi Marginal Tietê
-- Processando (144/902): cobasi - Pet Shop Cobasi Maringá
-- Processando (145/902): cobasi - Pet Shop Cobasi Marília
-- Processando (146/902): cobasi - Pet Shop Cobasi Minas Shopping
-- Processando (147/902): cobasi - Pet Shop Cobasi Moema Pássaros
-- Processando (148/902): cobasi - Pet Shop Cobasi Moinhos dos Ventos
-- Processando (149/902): cobasi - Pet Shop Cobasi Mooca
-- Processando (150/902): cobasi - Pet Shop Cobasi Morumbi
-- Processando (151/902): cobasi - Pet Shop Cobasi Natal
-- Processando (152/902): cobasi - Pet Shop Cobasi Niterói
-- Processando (153/902): cobasi - Pet Shop Cobasi Nossa Senhora do Carmo
-- Processando (154/902): cobasi - Pet Shop Cobasi Nova Cantareira
-- Processando (155/902): cobasi - Pet Shop Cobasi Novo Hamburgo
-- Processando (156/902): cobasi - Pet Shop Cobasi Osasco
-- Processando (157/902): cobasi - Pet Shop Cobasi Osasco João Andrade
-- Processando (158/902): cobasi - Pet Shop Cobasi POA Assis Brasil
-- Processando (159/902): cobasi - Pet Shop Cobasi POA Av. Brasil
-- Processando (160/902): cobasi - Pet Shop Cobasi POA Bollogna Mall
-- Processando (161/902): cobasi - Pet Shop Cobasi POA Central Parque
-- Processando (162/902): cobasi - Pet Shop Cobasi Palmas
-- Processando (163/902): cobasi - Pet Shop Cobasi Park Shopping Jacarepaguá
-- Processando (164/902): cobasi - Pet Shop Cobasi Parque Olímpico
-- Processando (165/902): cobasi - Pet Shop Cobasi Passo Fundo Shopping
-- Processando (166/902): cobasi - Pet Shop Cobasi Paulínia
-- Processando (167/902): cobasi - Pet Shop Cobasi Pelotas
-- Processando (168/902): cobasi - Pet Shop Cobasi Pinhais
-- Processando (169/902): cobasi - Pet Shop Cobasi Piracicaba
-- Processando (170/902): cobasi - Pet Shop Cobasi Piracicaba Independência
-- Processando (171/902): cobasi - Pet Shop Cobasi Poa Wenceslau Escobar
-- Processando (172/902): cobasi - Pet Shop Cobasi Pompéia
-- Processando (173/902): cobasi - Pet Shop Cobasi Ponta Grossa
-- Processando (174/902): cobasi - Pet Shop Cobasi Ponta Grossa II
-- Processando (175/902): cobasi - Pet Shop Cobasi Portal do Morumbi
-- Processando (176/902): cobasi - Pet Shop Cobasi Porto Alegre Iguatemi
-- Processando (177/902): cobasi - Pet Shop Cobasi Porto Alegre Ipiranga
-- Processando (178/902): cobasi - Pet Shop Cobasi Praia Grande
-- Processando (179/902): cobasi - Pet Shop Cobasi Praia Grande Ocian
-- Processando (180/902): cobasi - Pet Shop Cobasi Praça da Árvore
-- Processando (181/902): cobasi - Pet Shop Cobasi RJ Norte Shopping
-- Processando (182/902): cobasi - Pet Shop Cobasi Raposo Tavares
-- Processando (183/902): cobasi - Pet Shop Cobasi Rebouças
-- Processando (184/902): cobasi - Pet Shop Cobasi Recife
-- Processando (185/902): cobasi - Pet Shop Cobasi Ribeirão Dom Pedro I
-- Processando (186/902): cobasi - Pet Shop Cobasi Ribeirão Preto II (loja Maurilio Biagi)
-- Processando (187/902): cobasi - Pet Shop Cobasi Ribeirão Preto Iguatemi
-- Processando (188/902): cobasi - Pet Shop Cobasi Ribeirão Preto Presidente Vargas
-- Processando (189/902): cobasi - Pet Shop Cobasi Ricardo Jafet
-- Processando (190/902): cobasi - Pet Shop Cobasi Rio das Pedras
-- Processando (191/902): cobasi - Pet Shop Cobasi Rio de Janeiro Campo Grande
-- Processando (192/902): cobasi - Pet Shop Cobasi Rui Barbosa
-- Processando (193/902): cobasi - Pet Shop Cobasi SBC Faria Lima
-- Processando (194/902): cobasi - Pet Shop Cobasi SP Ipiranga
-- Processando (195/902): cobasi - Pet Shop Cobasi Sabará
-- Processando (196/902): cobasi - Pet Shop Cobasi Salto
-- Processando (197/902): cobasi - Pet Shop Cobasi Salvador Rio Vermelho
-- Processando (198/902): cobasi - Pet Shop Cobasi Santa Bárbara d’Oeste Tivoli
-- Processando (199/902): cobasi - Pet Shop Cobasi Santana
-- Processando (200/902): cobasi - Pet Shop Cobasi Santo André Av. dos Estados
-- Processando (201/902): cobasi - Pet Shop Cobasi Santo André P. Barreto
-- Processando (202/902): cobasi - Pet Shop Cobasi Santo André Prestes Maia
-- Processando (203/902): cobasi - Pet Shop Cobasi Santos Afonso Pena
-- Processando (204/902): cobasi - Pet Shop Cobasi Santos Conselheiro Nébias
-- Processando (205/902): cobasi - Pet Shop Cobasi Santos Francisco Glicério
-- Processando (206/902): cobasi - Pet Shop Cobasi Sena Madureira
-- Processando (207/902): cobasi - Pet Shop Cobasi Shop. Estação Cuiabá
-- Processando (208/902): cobasi - Pet Shop Cobasi Shopping Aricanduva
-- Processando (209/902): cobasi - Pet Shop Cobasi Shopping Eldorado
-- Processando (210/902): cobasi - Pet Shop Cobasi Sorocaba Av. São Paulo
-- Processando (211/902): cobasi - Pet Shop Cobasi Sorocaba Itavuvu
-- Processando (212/902): cobasi - Pet Shop Cobasi Sorocaba Pannunzio
-- Processando (213/902): cobasi - Pet Shop Cobasi Sorocaba Panorâmico
-- Processando (214/902): cobasi - Pet Shop Cobasi Sumaré
-- Processando (215/902): cobasi - Pet Shop Cobasi Sumaré ParkCity Shopping
-- Processando (216/902): cobasi - Pet Shop Cobasi São Bernardo Jurubatuba
-- Processando (217/902): cobasi - Pet Shop Cobasi São Caetano
-- Processando (218/902): cobasi - Pet Shop Cobasi São Carlos
-- Processando (219/902): cobasi - Pet Shop Cobasi São José do Rio Preto Falavina
-- Processando (220/902): cobasi - Pet Shop Cobasi São José do Rio Preto Iguatemi
-- Processando (221/902): cobasi - Pet Shop Cobasi São José dos Campos
-- Processando (222/902): cobasi - Pet Shop Cobasi São José dos Campos Jardim Oriente
-- Processando (223/902): cobasi - Pet Shop Cobasi São José dos Campos Nelson D'Ávila
-- Processando (224/902): cobasi - Pet Shop Cobasi São José dos Pinhais Av. Torres
-- Processando (225/902): cobasi - Pet Shop Cobasi São Judas
-- Processando (226/902): cobasi - Pet Shop Cobasi São Vicente
-- Processando (227/902): cobasi - Pet Shop Cobasi Tamboré
-- Processando (228/902): cobasi - Pet Shop Cobasi Tatuapé
-- Processando (229/902): cobasi - Pet Shop Cobasi Taubaté
-- Processando (230/902): cobasi - Pet Shop Cobasi Taubaté II
-- Processando (231/902): cobasi - Pet Shop Cobasi Teodoro Sampaio
-- Processando (232/902): cobasi - Pet Shop Cobasi Teotônio Vilela
-- Processando (233/902): cobasi - Pet Shop Cobasi Tutoia
-- Processando (234/902): cobasi - Pet Shop Cobasi Uberaba
-- Processando (235/902): cobasi - Pet Shop Cobasi Uberlândia
-- Processando (236/902): cobasi - Pet Shop Cobasi Valinhos
-- Processando (237/902): cobasi - Pet Shop Cobasi Via Parque Shopping
-- Processando (238/902): cobasi - Pet Shop Cobasi Viamão
-- Processando (239/902): cobasi - Pet Shop Cobasi Vila Velha
-- Processando (240/902): cobasi - Pet Shop Cobasi Villa Lobos
-- Processando (241/902): cobasi - Pet Shop Cobasi Vinhedo
-- Processando (242/902): cobasi - Pet Shop Cobasi Várzea Grande
-- Processando (243/902): cobasi - Pet Shop Cobasi Água Branca
-- Processando (244/902): cobasi - Pet Shop Cobasi Águas Claras
-- Processando (245/902): cobasi - Pet Shop Mundo Pet Cobasi Aldeota
-- Processando (246/902): cobasi - Pet Shop Mundo Pet Cobasi Batista Campos
-- Processando (247/902): cobasi - Pet Shop Mundo Pet Cobasi Brasília Águas Claras
-- Processando (248/902): cobasi - Pet Shop Mundo Pet Cobasi Eusébio
-- Processando (249/902): cobasi - Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares
-- Processando (250/902): cobasi - Pet Shop Mundo Pet Cobasi Goiânia Oeste
-- Processando (251/902): cobasi - Pet Shop Mundo Pet Cobasi Manaíra Shopping
-- Processando (252/902): cobasi - Pet Shop Mundo Pet Cobasi Salvador Graça
-- Processando (253/902): cobasi - Pet Shop Mundo Pet Cobasi Salvador Shopping
-- Processando (254/902): cobasi - Pet Shop Mundo Pet Cobasi Tirol Natal
-- Processando (255/902): cobasi - Pet&Fácil Washington Luis
-- Processando (256/902): PetCamp - nan
-- Processando (257/902): PetCamp - Americana - PetCamp Americana - Loja 049
-- Processando (258/902): PetCamp - Amparo - PetCamp Amparo - Loja 115
-- Processando (259/902): PetCamp - Araraquara - PetCamp Alameda - Loja 055
-- Processando (260/902): PetCamp - Araraquara - PetCamp Selmi - Loja 016
-- Processando (261/902): PetCamp - Araraquara - PetCamp Damha - Loja 051
-- Processando (262/902): PetCamp - Araras - PetCamp Araras - 092
-- Processando (263/902): PetCamp - Araras - PetCamp Araras Belvedere - Loja 113
-- Processando (264/902): PetCamp - Araçatuba - PetCamp Araçatuba - Loja 106
-- Processando (265/902): PetCamp - Avaré - Avaré - 080
-- Processando (266/902): PetCamp - Barretos - Petcamp Barretos Industrial - 097
-- Processando (267/902): PetCamp - Barretos - PetCamp Barretos - Loja 062
-- Processando (268/902): PetCamp - Bauru - PetCamp Bauru Centro- Loja 108
-- Processando (269/902): PetCamp - Bauru - PetCamp Bauru Aiello - Loja 089
-- Processando (270/902): PetCamp - Bauru - PetCamp Bauru - Loja 076
-- Processando (271/902): PetCamp - Birigui - PetCamp Birigui - Loja 094
-- Processando (272/902): PetCamp - Boituva - PetCamp Boituva - Loja 034
-- Processando (273/902): PetCamp - Botucatu - PetCamp Botucatu - Loja 081
-- Processando (274/902): PetCamp - Campinas - PetCamp Barão - Loja 031
-- Processando (275/902): PetCamp - Campinas - PetCamp Barão Geraldo - Loja 003
-- Processando (276/902): PetCamp - Campinas - PetCamp Barão de Itapura- Loja 102
-- Processando (277/902): PetCamp - Campinas - PetCamp Norte Sul - Loja 004
-- Processando (278/902): PetCamp - Campinas - PetCamp Aquidabã - Loja 005
-- Processando (279/902): PetCamp - Campinas - PetCamp Jasmim - Loja 029
-- Processando (280/902): PetCamp - Campinas - PetCamp Padre Anchieta - Loja 032
-- Processando (281/902): PetCamp - Campinas - PetCamp Rondon - Loja 002
-- Processando (282/902): PetCamp - Campinas - PetCamp Prado - Loja 028
-- Processando (283/902): PetCamp - Campinas - PetCamp Jd do Lago - Loja 007
-- Processando (284/902): PetCamp - Campinas - PetCamp Enxuto - Loja 065
-- Processando (285/902): PetCamp - Campinas - PetCamp Amoreiras - Loja 078
-- Processando (286/902): PetCamp - Campinas - PetCamp Ciro Leite - Loja 030
-- Processando (287/902): PetCamp - Campinas - PetCamp Taquaral - Loja 027
-- Processando (288/902): PetCamp - Campinas - PetCamp Suaçuna - Loja 086
-- Processando (289/902): PetCamp - Campinas - PetCamp Carmona - Loja 001
-- Processando (290/902): PetCamp - Campinas - PetCamp Abolição - Loja 083
-- Processando (291/902): PetCamp - Capivari - PetCamp Capivari - Loja 054
-- Processando (292/902): PetCamp - Catanduva - PetCamp Catanduva - Loja 060
-- Processando (293/902): PetCamp - Cosmópolis - PetCamp Cosmópolis - Loja 021
-- Processando (294/902): PetCamp - Franca - PetCamp Franca - Loja 068
-- Processando (295/902): PetCamp - Franca - PetCamp Franca BR - Loja 073
-- Processando (296/902): PetCamp - Guaratinguetá - PetCamp Guaratinguetá - Loja 107
-- Processando (297/902): PetCamp - Hortolândia - PetCamp Rosolem - Loja 026
-- Processando (298/902): PetCamp - Hortolândia - PetCamp Hortolândia - Loja 025
-- Processando (299/902): PetCamp - Indaiatuba - PetCamp Itaici - Loja 020
-- Processando (300/902): PetCamp - Indaiatuba - PetCamp Indaiatuba - Loja 022
-- Processando (301/902): PetCamp - Indaiatuba - PetCamp Indaiás - Loja 063
-- Processando (302/902): PetCamp - Itapetininga - PetCamp Itapetininga - Loja 036
-- Processando (303/902): PetCamp - Itaquaquecetuba - PetCamp Itaquaquecetuba - Loja 082
-- Processando (304/902): PetCamp - Itatiba - PetCamp Itatiba Centro - Loja 077
-- Processando (305/902): PetCamp - Itatiba - PetCamp Galetto - Loja 066
-- Processando (306/902): PetCamp - Itu - PetCamp Itu - Loja 037
-- Processando (307/902): PetCamp - Jaboticabal - PetCamp Jaboticabal - Loja 091
-- Processando (308/902): PetCamp - Jacareí - PetCamp Jacareí Letras - Loja 072
-- Processando (309/902): PetCamp - Jaguariúna - PetCamp Jaguariúna - Loja 019
-- Processando (310/902): PetCamp - Jundiaí - PetCamp Engordadouro - Loja 093
-- Processando (311/902): PetCamp - Jundiaí - PetCamp Colônia - Loja 043
-- Processando (312/902): PetCamp - Jundiaí - PetCamp Jd Retiro - Loja 052
-- Processando (313/902): PetCamp - Leme - PetCamp Leme - Loja 061
-- Processando (314/902): PetCamp - Limeira - PetCamp Ouro Verde - Loja 067
-- Processando (315/902): PetCamp - Limeira - PetCamp Limeira - Loja 009
-- Processando (316/902): PetCamp - Lins - PetCamp Lins - Loja 088
-- Processando (317/902): PetCamp - Matão - PetCamp Matão - Loja 071
-- Processando (318/902): PetCamp - Mogi Guaçu - PetCamp Mogi Guaçu - Loja 010
-- Processando (319/902): PetCamp - Mogi Mirim - PetCamp Mogi Mirim - Loja 017
-- Processando (320/902): PetCamp - Mogi das Cruzes - PetCamp Mogi das Cruzes - Loja 047
-- Processando (321/902): PetCamp - Monte Mor - PetCamp Monte Mor - Loja 064
-- Processando (322/902): PetCamp - Nova Odessa - PetCamp Nova Odessa - Loja 011
-- Processando (323/902): PetCamp - Paulínia - PetCamp João Aranha - Loja 018
-- Processando (324/902): PetCamp - Paulínia - PetCamp Paulínia - Loja 023
-- Processando (325/902): PetCamp - Pindamonhangaba - PetCamp Pindamonhangaba - Loja 090
-- Processando (326/902): PetCamp - Piracicaba - PetCamp Piracicaba Independência - Loja 075
-- Processando (327/902): PetCamp - Piracicaba - PetCamp Piracicaba - Loja 035
-- Processando (328/902): PetCamp - Pirassununga - PetCamp Pirassununga - Loja 033
-- Processando (329/902): PetCamp - Ribeirão Preto - PetCamp Caramuru - Loja 046
-- Processando (330/902): PetCamp - Ribeirão Preto - PetCamp Savegnago - Loja 044
-- Processando (331/902): PetCamp - Ribeirão Preto - PetCamp RP Nova Aliança- Loja 095
-- Processando (332/902): PetCamp - Ribeirão Preto - PetCamp Leão XIII - Loja 074
-- Processando (333/902): PetCamp - Ribeirão Preto - PetCamp Biagi - Loja 012
-- Processando (334/902): PetCamp - Rio Claro - PetCamp Rio Claro Av Brasil - 098
-- Processando (335/902): PetCamp - Rio Claro - PetCamp Rio Claro II - Loja 087
-- Processando (336/902): PetCamp - Rio Claro - PetCamp Rio Claro 29 - Loja 112
-- Processando (337/902): PetCamp - Rio Claro - PetCamp Rio Claro - Loja 038
-- Processando (338/902): PetCamp - Santa Barbara d'Oeste - PetCamp Santa Barbara d'Oeste - 099
-- Processando (339/902): PetCamp - Sorocaba - PetCamp Ipanema - Loja 014
-- Processando (340/902): PetCamp - Sorocaba - PetCamp Sorocaba Atanázio - Loja 105
-- Processando (341/902): PetCamp - Sorocaba - PetCamp Campolim - Loja 045
-- Processando (342/902): PetCamp - Sorocaba - PetCamp Sorocaba Independência - Loja 070
-- Processando (343/902): PetCamp - Sumaré - PetCamp Sumaré Real Park - Loja 085
-- Processando (344/902): PetCamp - Sumaré - PetCamp Sumaré Maria Luiza- Loja 103
-- Processando (345/902): PetCamp - Sumaré - PetCamp Sumaré - Loja 013
-- Processando (346/902): PetCamp - Sumaré - PetCamp Santa Rosa - Loja 015
-- Processando (347/902): PetCamp - São Carlos - PetCamp São Carlos - Loja 040
-- Processando (348/902): PetCamp - São José do Rio Preto - PetCamp Presidente - Loja 053
-- Processando (349/902): PetCamp - São José do Rio Preto - PetCamp Yolanda - Loja 057
-- Processando (350/902): PetCamp - São José do Rio Preto - PetCamp São Miguel- Loja 110
-- Processando (351/902): PetCamp - São José do Rio Preto - PetCamp Estudantes - Loja 041
-- Processando (352/902): PetCamp - São José do Rio Preto - PetCamp SJRP Coronel - Loja 079
-- Processando (353/902): PetCamp - São José dos Campos - PetCamp São José dos Campos Urbanova - Loja 118
-- Processando (354/902): PetCamp - São José dos Campos - PetCamp São José dos Campos Chaparral - Loja 119
-- Processando (355/902): PetCamp - São José dos Campos - PetCamp São José dos Campos Valesul - Loja 122
-- Processando (356/902): PetCamp - São José dos Campos - PetCamp São José dos Campos Aquarius - Loja 121
-- Processando (357/902): PetCamp - São José dos Campos - PetCamp São José dos Campos - Loja 101
-- Processando (358/902): PetCamp - São José dos Campos - PetCamp São José dos Campos JK - Loja 120
-- Processando (359/902): PetCamp - Tatuí - PetCamp Tatuí - Loja 116
-- Processando (360/902): PetCamp - Taubaté- PetCamp Taubaté Aparecida - Loja 104
-- Processando (361/902): PetCamp - Taubaté - PetCamp Taubaté - Loja 050
-- Processando (362/902): PetCamp - Uberaba - PetCamp Uberaba Leopoldino - Loja 109
-- Processando (363/902): PetCamp - Uberaba - PetCamp 3P Uberaba - Loja 084
-- Processando (364/902): PetCamp - Valinhos - PetCamp Valinhos - Loja 039
-- Processando (365/902): PetCamp - Vinhedo - PetCamp Vinhedo - Loja 008
-- Processando (366/902): PetCamp - Votorantim - PetCamp Votorantim - Loja 042
-- Processando (367/902): petland - Petland Lins
-- Processando (368/902): petland - Petland Vila Gumercindo
-- Processando (369/902): petland - Petland Textil
-- Processando (370/902): petland - Petland Menino Deus
-- Processando (371/902): petland - Petland Arvoredo
-- Processando (372/902): petland - Petland Lajeado
-- Processando (373/902): petland - Petland Ipiranga
-- Processando (374/902): petland - Petland Chácara Santo Antônio
-- Processando (375/902): petland - Petland Limeira
-- Processando (376/902): petland - Petland Vila Mascote
-- Processando (377/902): petland - Petland Tude Bastos
-- Processando (378/902): petland - Petland Araçatuba
-- Processando (379/902): petland - Petland Grageru
-- Processando (380/902): petland - Petland Aliança
-- Processando (381/902): petland - Petland Outlet Premium Imigrantes
-- Processando (382/902): petland - Petland Vila A
-- Processando (383/902): petland - Petland Tapejara
-- Processando (384/902): petland - Petland São Mateus
-- Processando (385/902): petland - Petland Rio Branco
-- Processando (386/902): petland - Petland Parque São Lucas
-- Processando (387/902): petland - Petland Novo Eldorado
-- Processando (388/902): petland - Petland Mexicão
-- Processando (389/902): petland - Petland Marco Belém
-- Processando (390/902): petland - Petland Jardim das Flores
-- Processando (391/902): petland - Petland Horto Florestal
-- Processando (392/902): petland - Petland Parque dos Anjos
-- Processando (393/902): petland - Petland Mongaguá
-- Processando (394/902): petland - Petland Campo Bom
-- Processando (395/902): petland - Petland Brasílio Mall
-- Processando (396/902): petland - Petland Bom Fim
-- Processando (397/902): petland - Petland Avenida T1
-- Processando (398/902): petland - Petland Enseada
-- Processando (399/902): petland - Petland Vinhais
-- Processando (400/902): petland - Petland Vila São Francisco
-- Processando (401/902): petland - Petland Vila Mirim
-- Processando (402/902): petland - Petland Vila Madalena
-- Processando (403/902): petland - Petland Presidente Prudente
-- Processando (404/902): petland - Petland Varginha
-- Processando (405/902): petland - Petland Unaí
-- Processando (406/902): petland - Petland Tirol
-- Processando (407/902): petland - Petland São Caetano do Sul
-- Processando (408/902): petland - Petland Santos Dumont
-- Processando (409/902): petland - Petland Santo Antônio
-- Processando (410/902): petland - Petland Saboo
-- Processando (411/902): petland - Petland Presidente Venceslau
-- Processando (412/902): petland - Petland Presidente Vargas
-- Processando (413/902): petland - Petland Petrópolis
-- Processando (414/902): petland - Petland Ilhabela
-- Processando (415/902): petland - Petland Perdizes
-- Processando (416/902): petland - Petland Península
-- Processando (417/902): petland - Petland Pedro Marques
-- Processando (418/902): petland - Petland Santana Pedro Doll
-- Processando (419/902): petland - Petland Paulista
-- Processando (420/902): petland - Petland Parque das Américas
-- Processando (421/902): petland - Petland Papini
-- Processando (422/902): petland - Petland Nicomedes
-- Processando (423/902): petland - Petland Nebraska
-- Processando (424/902): petland - Petland Matozinhos
-- Processando (425/902): petland - Petland Pinheiros – Mateus Grou
-- Processando (426/902): petland - Petland José Menino
-- Processando (427/902): petland - Petland Jasmim
-- Processando (428/902): petland - Petland Jardim dos Colibris
-- Processando (429/902): petland - Petland Janga
-- Processando (430/902): petland - Petland Jaguaribe
-- Processando (431/902): petland - Petland Jaboticabeiras
-- Processando (432/902): petland - Petland Independência
-- Processando (433/902): petland - Petland Higienópolis
-- Processando (434/902): petland - Petland Guaianazes Otelo
-- Processando (435/902): petland - Petland Jaú
-- Processando (436/902): petland - Petland Garcia
-- Processando (437/902): petland - Petland Formiga
-- Processando (438/902): petland - Petland Santa Rosa
-- Processando (439/902): petland - Petland Dom Nery
-- Processando (440/902): petland - Petland Dom Joaquim
-- Processando (441/902): petland - Petland Dom Bosco
-- Processando (442/902): petland - Petland Cupecê
-- Processando (443/902): petland - Petland Cidade Nova
-- Processando (444/902): petland - Petland Bento Gonçalves
-- Processando (445/902): petland - Petland Canal 3
-- Processando (446/902): petland - Petland Campo Belo
-- Processando (447/902): petland - Petland Cambuí
-- Processando (448/902): petland - Petland Botucatu
-- Processando (449/902): petland - Petland Bom Retiro
-- Processando (450/902): petland - Petland Benjamin Constant
-- Processando (451/902): petland - Petland 13 de Julho
-- Processando (452/902): petland - Petland Batatais
-- Processando (453/902): petland - Petland Barra Muriaé
-- Processando (454/902): petland - Petland Avenida Brasil
-- Processando (455/902): petland - Petland Araguaína
-- Processando (456/902): petland - Petland Anália Franco
-- Processando (457/902): petland - Petland Aclimação
-- Processando (458/902): petland - Petland 5 de novembro
-- Processando (459/902): petland - Petland Vila Mariana
-- Processando (460/902): petland - Petland Vila Clementino
-- Processando (461/902): petland - Petland Turu
-- Processando (462/902): petland - Petland Tatuapé
-- Processando (463/902): petland - Petland Sinop
-- Processando (464/902): petland - Petland Rudge Ramos
-- Processando (465/902): petland - Petland Rio Madeira
-- Processando (466/902): petland - Petland Renascença
-- Processando (467/902): petland - Petland Canal 6
-- Processando (468/902): petland - Petland Pompéia
-- Processando (469/902): petland - Petland Pedreira
-- Processando (470/902): petland - Petland Passos
-- Processando (471/902): petland - Petland Parque Pinheiros
-- Processando (472/902): petland - Petland Oficinas
-- Processando (473/902): petland - Petland Mooca
-- Processando (474/902): petland - Petland Moema Pássaros
-- Processando (475/902): petland - Petland Moema Índios
-- Processando (476/902): petland - Petland Marapé
-- Processando (477/902): petland - Petland Praia Grande Mallet
-- Processando (478/902): petland - Petland Mackenzie Mall
-- Processando (479/902): petland - Petland Jóquei Clube
-- Processando (480/902): petland - Petland João Fiúsa
-- Processando (481/902): petland - Petland Jardins
-- Processando (482/902): petland - Petland Jaguaríuna
-- Processando (483/902): petland - Petland Itararé
-- Processando (484/902): petland - Petland Homero
-- Processando (485/902): petland - Petland Guilhermina
-- Processando (486/902): petland - Petland Graça
-- Processando (487/902): petland - Petland Embaré
-- Processando (488/902): petland - Petland Canal 2
-- Processando (489/902): petland - Petland Canal 1
-- Processando (490/902): petland - Petland Campolim
-- Processando (491/902): petland - Petland Boqueirão
-- Processando (492/902): petland - Petland Batel
-- Processando (493/902): petland - Petland Aparecida
-- Processando (494/902): petland - Petland Alphaville
-- Processando (495/902): petland - Petland Holandeses
-- Processando (496/902): petland - Petland Cohatrac
-- Processando (497/902): petland - Petland Cohama
-- Processando (498/902): petland - Petland Belvedere
-- Processando (499/902): petlove - Loja Braz Leme
-- Processando (500/902): petlove - Loja Campo Belo
-- Processando (501/902): petlove - Loja Cidade Jardim
-- Processando (502/902): petlove - Loja Moema
-- Processando (503/902): petlove - Loja Oscar Freire
-- Processando (504/902): petlove - Loja Perdizes
-- Processando (505/902): petlove - Loja Petlove Ponta da Praia
-- Processando (506/902): petlove - Loja Portugal
-- Processando (507/902): petlove - Loja Ribeirão Preto
-- Processando (508/902): petlove - Loja Santos
-- Processando (509/902): petlove - Loja Sócrates
-- Processando (510/902): petlove - Loja Tatuapé
-- Processando (511/902): petlove - Loja Tutóia
-- Processando (512/902): petlove - Quiosque Veros Hospital Veterinário
-- Processando (513/902): petz - Petz Abelardo Bueno
-- Processando (514/902): petz - Petz Aclimação
-- Processando (515/902): petz - Petz Afonso Pena
-- Processando (516/902): petz - Petz Agamenon
-- Processando (517/902): petz - Petz Águas Claras
-- Processando (518/902): petz - Petz Alameda Santos
-- Processando (519/902): petz - Petz Aldeota
-- Processando (520/902): petz - Petz Alphaville
-- Processando (521/902): petz - Petz Alto da Boa Vista
-- Processando (522/902): petz - Petz Americana
-- Processando (523/902): petz - Petz Ana Costa
-- Processando (524/902): petz - Petz Anália Franco
-- Processando (525/902): petz - Petz Angélica
-- Processando (526/902): petz - Petz Anhaia Mello
-- Processando (527/902): petz - Petz Aracaju
-- Processando (528/902): petz - Petz Araçatuba
-- Processando (529/902): petz - Petz Araraquara
-- Processando (530/902): petz - Petz Arujá
-- Processando (531/902): petz - Petz Assaí Anchieta
-- Processando (532/902): petz - Petz Assaí Colinas
-- Processando (533/902): petz - Petz Assaí Maracanã
-- Processando (534/902): petz - Petz Assaí Penha
-- Processando (535/902): petz - Petz Assis Chateaubriand
-- Processando (536/902): petz - Petz Augusta
-- Processando (537/902): petz - Petz Avenida das Américas Recreio
-- Processando (538/902): petz - Petz Avenida do Contorno
-- Processando (539/902): petz - Petz Avenida Dos Estados
-- Processando (540/902): petz - Petz Avenida Goiás
-- Processando (541/902): petz - Petz Avenida Interlagos
-- Processando (542/902): petz - Petz Avenida Milão
-- Processando (543/902): petz - Petz Balneário Camboriú
-- Processando (544/902): petz - Petz Bandeirantes
-- Processando (545/902): petz - Petz Bangu Shopping
-- Processando (546/902): petz - Petz Barra Américas
-- Processando (547/902): petz - Petz Barreiro
-- Processando (548/902): petz - Petz Bauru
-- Processando (549/902): petz - Petz Belém
-- Processando (550/902): petz - Petz Belford Roxo
-- Processando (551/902): petz - Petz Bento Gonçalves
-- Processando (552/902): petz - Petz BestCenter Jacareí
-- Processando (553/902): petz - Petz Betim
-- Processando (554/902): petz - Petz Blumenau
-- Processando (555/902): petz - Petz Boa Viagem
-- Processando (556/902): petz - Petz Bosque Maia
-- Processando (557/902): petz - Petz Botafogo
-- Processando (558/902): petz - Petz Botucatu
-- Processando (559/902): petz - Petz Brasília Asa Norte
-- Processando (560/902): petz - Petz Brasília Epia
-- Processando (561/902): petz - Petz Brasília Jardim Botânico
-- Processando (562/902): petz - Petz Brasília SIA
-- Processando (563/902): petz - Petz Brasília W3 Norte
-- Processando (564/902): petz - Petz Brusque
-- Processando (565/902): petz - Petz Bueno T63
-- Processando (566/902): petz - Petz Butantã
-- Processando (567/902): petz - Petz Cambuí
-- Processando (568/902): petz - Petz Campinas Norte Sul
-- Processando (569/902): petz - Petz Campo Grande
-- Processando (570/902): petz - Petz Campo Grande Rio
-- Processando (571/902): petz - Petz Canoas
-- Processando (572/902): petz - Petz Caraguatatuba
-- Processando (573/902): petz - Petz Carapicuíba
-- Processando (574/902): petz - Petz Carlos Berta
-- Processando (575/902): petz - Petz Carlos Luz
-- Processando (576/902): petz - Petz Carrefour Anchieta
-- Processando (577/902): petz - Petz Carrefour Imigrantes
-- Processando (578/902): petz - Petz Carrefour Manilha
-- Processando (579/902): petz - Petz Carrefour Ribeirão Shopping
-- Processando (580/902): petz - Petz Carrefour São Caetano
-- Processando (581/902): petz - Petz Carrefour Tietê
-- Processando (582/902): petz - Petz Cascavel
-- Processando (583/902): petz - Petz Castelo
-- Processando (584/902): petz - Petz Catuai Londrina
-- Processando (585/902): petz - Petz Cavalhada
-- Processando (586/902): petz - Petz Caxias do Sul
-- Processando (587/902): petz - Petz Ceilândia
-- Processando (588/902): petz - Petz Center Minas
-- Processando (589/902): petz - Petz Center Shopping Uberlândia
-- Processando (590/902): petz - Petz Cerro Corá
-- Processando (591/902): petz - Petz Chapecó
-- Processando (592/902): petz - Petz Cidade Jardim
-- Processando (593/902): petz - Petz Congonhas
-- Processando (594/902): petz - Petz Contagem
-- Processando (595/902): petz - Petz Contagem João Cesar
-- Processando (596/902): petz - Petz Continente
-- Processando (597/902): petz - Petz Copacabana
-- Processando (598/902): petz - Petz Cotia
-- Processando (599/902): petz - Petz Criciúma
-- Processando (600/902): petz - Petz Cristiano Machado
-- Processando (601/902): petz - Petz Diadema
-- Processando (602/902): petz - Petz Diário de Notícias
-- Processando (603/902): petz - Petz Divinópolis
-- Processando (604/902): petz - Petz Djalma Batista
-- Processando (605/902): petz - Petz Dom Pedro
-- Processando (606/902): petz - Petz Dourados
-- Processando (607/902): petz - Petz Edgar Facó
-- Processando (608/902): petz - Petz Enseada
-- Processando (609/902): petz - Petz Estação Goiânia
-- Processando (610/902): petz - Petz Fernando Corrêa
-- Processando (611/902): petz - Petz Ferraz de Vasconcelos
-- Processando (612/902): petz - Petz Florianópolis
-- Processando (613/902): petz - Petz Foz do Iguaçu
-- Processando (614/902): petz - Petz Franca
-- Processando (615/902): petz - Petz Gama Leste
-- Processando (616/902): petz - Petz Gastão Vidigal
-- Processando (617/902): petz - Petz Gilberto Salomão
-- Processando (618/902): petz - Petz Giovanni Gronchi
-- Processando (619/902): petz - Petz Giovanni Pirelli
-- Processando (620/902): petz - Petz Governador Valadares
-- Processando (621/902): petz - Petz Gravataí
-- Processando (622/902): petz - Petz Guarujá
-- Processando (623/902): petz - Petz Guarulhos
-- Processando (624/902): petz - Petz Guarulhos Pimentas
-- Processando (625/902): petz - Petz Hiper Sales Aracaju
-- Processando (626/902): petz - Petz Hortolândia
-- Processando (627/902): petz - Petz Iguatemi Esplanada
-- Processando (628/902): petz - Petz Ilha do Governador
-- Processando (629/902): petz - Petz Indaiatuba
-- Processando (630/902): petz - Petz Independência Shopping
-- Processando (631/902): petz - Petz Ipatinga
-- Processando (632/902): petz - Petz Ipiranga
-- Processando (633/902): petz - Petz Itaim
-- Processando (634/902): petz - Petz Itajaí
-- Processando (635/902): petz - Petz Itanhaém
-- Processando (636/902): petz - Petz Itapecerica
-- Processando (637/902): petz - Petz Itapetininga
-- Processando (638/902): petz - Petz Itatiba
-- Processando (639/902): petz - Petz Itu
-- Processando (640/902): petz - Petz Jaboatão dos Guararapes
-- Processando (641/902): petz - Petz Jacu Pêssego
-- Processando (642/902): petz - Petz Jaguaré
-- Processando (643/902): petz - Petz Jardim Botânico
-- Processando (644/902): petz - Petz Jardim Icaraí
-- Processando (645/902): petz - Petz Jaú
-- Processando (646/902): petz - Petz João Firmino
-- Processando (647/902): petz - Petz João Pessoa
-- Processando (648/902): petz - Petz Joinville
-- Processando (649/902): petz - Petz Juiz de Fora
-- Processando (650/902): petz - Petz Jundiaí
-- Processando (651/902): petz - Petz Jundiaí Anhanguera
-- Processando (652/902): petz - Petz Lauzane Paulista
-- Processando (653/902): petz - Petz Limão
-- Processando (654/902): petz - Petz Linha Verde
-- Processando (655/902): petz - Petz Litoral Plaza
-- Processando (656/902): petz - Petz Londrina Tiradentes
-- Processando (657/902): petz - Petz Manuel Gaya
-- Processando (658/902): petz - Petz Maraponga
-- Processando (659/902): petz - Petz Marechal Tito
-- Processando (660/902): petz - Petz Marginal Tietê 24h
-- Processando (661/902): petz - Petz Maringá
-- Processando (662/902): petz - Petz Mateus Leme
-- Processando (663/902): petz - Petz Mauro Ramos
-- Processando (664/902): petz - Petz Miguel Sutil
-- Processando (665/902): petz - Petz Mogi das Cruzes
-- Processando (666/902): petz - Petz Mogi Guaçu
-- Processando (667/902): petz - Petz Moinhos de Vento
-- Processando (668/902): petz - Petz Mooca
-- Processando (669/902): petz - Petz Mooca Plaza Shopping
-- Processando (670/902): petz - Petz Morumbi
-- Processando (671/902): petz - Petz Nações Unidas
-- Processando (672/902): petz - Petz Natal
-- Processando (673/902): petz - Petz Natal Zona Norte
-- Processando (674/902): petz - Petz Nordestina
-- Processando (675/902): petz - Petz Norte Sul Plaza
-- Processando (676/902): petz - Petz Nossa Senhora do Carmo
-- Processando (677/902): petz - Petz Nova Iguaçu
-- Processando (678/902): petz - Petz Novo Hamburgo
-- Processando (679/902): petz - Petz Olinda
-- Processando (680/902): petz - Petz Osasco
-- Processando (681/902): petz - Petz Pacaembu
-- Processando (682/902): petz - Petz Palmas
-- Processando (683/902): petz - Petz Pampulha
-- Processando (684/902): petz - Petz Pão de Açúcar Jabaquara
-- Processando (685/902): petz - Petz Parada de Taipas
-- Processando (686/902): petz - Petz ParkShopping Brasília
-- Processando (687/902): petz - Petz Parnamirim
-- Processando (688/902): petz - Petz Parque Flamboyant
-- Processando (689/902): petz - Petz Parque Shopping Bahia
-- Processando (690/902): petz - Petz Parque Shopping Maceió
-- Processando (691/902): petz - Petz Passeio das Águas
-- Processando (692/902): petz - Petz Pelotas
-- Processando (693/902): petz - Petz Pereira Barreto
-- Processando (694/902): petz - Petz Pindamonhangaba
-- Processando (695/902): petz - Petz Piracicaba
-- Processando (696/902): petz - Petz Pituba
-- Processando (697/902): petz - Petz Plaza Avenida Shopping
-- Processando (698/902): petz - Petz Poços de Caldas
-- Processando (699/902): petz - Petz Pompeia
-- Processando (700/902): petz - Petz Ponta Verde
-- Processando (701/902): petz - Petz Porto Velho Shopping
-- Processando (702/902): petz - Petz Praia Grande
-- Processando (703/902): petz - Petz Presidente Kennedy
-- Processando (704/902): petz - Petz Presidente Prudente
-- Processando (705/902): petz - Petz Protásio Alves
-- Processando (706/902): petz - Petz Radial Leste
-- Processando (707/902): petz - Petz Raja Gabaglia
-- Processando (708/902): petz - Petz Ribeirão Independência
-- Processando (709/902): petz - Petz Ribeirão Presidente Vargas
-- Processando (710/902): petz - Petz Ricardo Jafet
-- Processando (711/902): petz - Petz Rio Claro
-- Processando (712/902): petz - Petz Rio Grande
-- Processando (713/902): petz - Petz Riomar
-- Processando (714/902): petz - Petz Rio Verde
-- Processando (715/902): petz - Petz Rita Maria
-- Processando (716/902): petz - Petz Roberto Freire
-- Processando (717/902): petz - Petz Ruben Bento Alves
-- Processando (718/902): petz - Petz Salvador Bonocô
-- Processando (719/902): petz - Petz Salvador Paralela
-- Processando (720/902): petz - Petz Samambaia do Sul
-- Processando (721/902): petz - Petz Santa Bárbara D'Oeste
-- Processando (722/902): petz - Petz Santa Cecília
-- Processando (723/902): petz - Petz Santa Maria
-- Processando (724/902): petz - Petz Santo André
-- Processando (725/902): petz - Petz Santo André Dom Pedro
-- Processando (726/902): petz - Petz Santos Dumont
-- Processando (727/902): petz - Petz Santos Macuco
-- Processando (728/902): petz - Petz São Bernardo
-- Processando (729/902): petz - Petz São Carlos
-- Processando (730/902): petz - Petz São José do Rio Preto
-- Processando (731/902): petz - Petz São Leopoldo
-- Processando (732/902): petz - Petz São Luís
-- Processando (733/902): petz - Petz São Miguel
-- Processando (734/902): petz - Petz São Vicente
-- Processando (735/902): petz - Petz Seminário
-- Processando (736/902): petz - Petz Serra
-- Processando (737/902): petz - Petz Sete Lagoas
-- Processando (738/902): petz - Petz Shopping CenterVale
-- Processando (739/902): petz - Petz Shopping Golden Square
-- Processando (740/902): petz - Petz Shopping Grande Rio
-- Processando (741/902): petz - Petz Shopping Grand Plaza
-- Processando (742/902): petz - Petz Shopping Itaguaçu
-- Processando (743/902): petz - Petz Shopping Jockey Plaza
-- Processando (744/902): petz - Petz Shopping Mauá
-- Processando (745/902): petz - Petz Shopping Pantanal
-- Processando (746/902): petz - Petz Shopping Sul Valparaíso
-- Processando (747/902): petz - Petz Silva Jardim
-- Processando (748/902): petz - Petz Silviano Brandão
-- Processando (749/902): petz - Petz Sorocaba
-- Processando (750/902): petz - Petz Sorocaba Tauste
-- Processando (751/902): petz - Petz Sumaré
-- Processando (752/902): petz - Petz Suzano
-- Processando (753/902): petz - Petz Taboão da Serra
-- Processando (754/902): petz - Petz Taguatinga
-- Processando (755/902): petz - Petz Tamboré
-- Processando (756/902): petz - Petz Tatuí
-- Processando (757/902): petz - Petz Tauste Campinas
-- Processando (758/902): petz - Petz Teodoro Sampaio
-- Processando (759/902): petz - Petz Teotônio Vilela
-- Processando (760/902): petz - Petz Teresina
-- Processando (761/902): petz - Petz Torquato Tapajós
-- Processando (762/902): petz - Petz Torres
-- Processando (763/902): petz - Petz Trimais
-- Processando (764/902): petz - Petz Uberaba
-- Processando (765/902): petz - Petz Uberlândia
-- Processando (766/902): petz - Petz Várzea Grande
-- Processando (767/902): petz - Petz Vicente Rao
-- Processando (768/902): petz - Petz Vila Galvão
-- Processando (769/902): petz - Petz Vila Isabel
-- Processando (770/902): petz - Petz Vila Mariana
-- Processando (771/902): petz - Petz Vila Matilde
-- Processando (772/902): petz - Petz Vila Velha
-- Processando (773/902): petz - Petz Vitória
-- Processando (774/902): petz - Petz Vitória da Conquista
-- Processando (775/902): petz - Petz Washington Luís
-- Processando (776/902): petz - Petz Washington Soares
-- Processando (777/902): POP Pet Center - Pop Pet Jardim Nova Esperança – Goiânia GO
-- Processando (778/902): POP Pet Center - Pop Pet Abadia de Goiás (Parque Izabel)
-- Processando (779/902): POP Pet Center - Pop Pet Morada Dos Passaros – Ap. de Goiânia GO
-- Processando (780/902): POP Pet Center - Pop Pet Madre Germana ll Etapa – Ap. de Goiânia GO
-- Processando (781/902): POP Pet Center - Pop Pet Goianira – GO
-- Processando (782/902): POP Pet Center - Pop Pet Jardim Balneario Meia Ponte – Goiânia GO
-- Processando (783/902): POP Pet Center - Pop Pet Senador Canedo (Jardim Das Oliveiras) – GO
-- Processando (784/902): POP Pet Center - Pop Pet Setor Cristina – Goiânia GO
-- Processando (785/902): POP Pet Center - Pop Pet Residencial Goiania Viva – GO
-- Processando (786/902): POP Pet Center - Pop Pet Parque Ibirapuera – Ap. de Goiânia GO
-- Processando (787/902): POP Pet Center - Pop Pet Setor Pai Eterno – Trindade GO
-- Processando (788/902): POP Pet Center - Pop Pet Inhumas (Setor Central) – GO
-- Processando (789/902): POP Pet Center - Pop Pet Retiro Do Bosque – Ap. de Goiânia GO
-- Processando (790/902): POP Pet Center - Pop Pet Solar Parque – Inhumas GO
-- Processando (791/902): POP Pet Center - Pop Pet Jardim Curitiba Iv – Goiânia GO
-- Processando (792/902): POP Pet Center - Pop Pet Loteamento Nova Vila – Goiânia GO
-- Processando (793/902): POP Pet Center - Pop Pet Setor Urias Magalhaes – Goiânia GO
-- Processando (794/902): POP Pet Center - Pop Pet Parque Das Nações – Ap. de Goiânia GO
-- Processando (795/902): POP Pet Center - Pop Pet Setor Alto Da Primavera I – Indiara GO
-- Processando (796/902): POP Pet Center - Pop Pet Bairro Santo Hilario – Goiânia GO
-- Processando (797/902): POP Pet Center - Pop Pet Riacho Fundo I – Brasília DF
-- Processando (798/902): POP Pet Center - Pop Pet Nova Maraba (Folha 21) – PA
-- Processando (799/902): POP Pet Center - Pop Pet Residencial Eli Forte – Goiânia GO
-- Processando (800/902): POP Pet Center - Pop Pet Vila Redenção – Goiânia GO
-- Processando (801/902): POP Pet Center - Pop Pet Setor Habitacional Vicente Pires – Brasília DF
-- Processando (802/902): POP Pet Center - Pop Pet Jardim Guanabara Ill – Goiânia GO
-- Processando (803/902): POP Pet Center - Pop Pet Jardim America (C-205) – Goiânia GO
-- Processando (804/902): POP Pet Center - Pop Pet Jardim America (T-9) – Goiânia GO
-- Processando (805/902): POP Pet Center - Pop Pet Vila Jayara – Anapolis GO
-- Processando (806/902): POP Pet Center - Pop Pet Vera Cruz (Centro) – Ap. de Goiânia GO
-- Processando (807/902): POP Pet Center - Pop Pet Setor Aeroporto – Goiânia GO
-- Processando (808/902): POP Pet Center - Pop Pet Santa Genoveva – Goiânia GO
-- Processando (809/902): POP Pet Center - Pop Pet Cardoso Continuação – Ap. de Goiânia GO
-- Processando (810/902): POP Pet Center - Pop Pet Jardim Bela Vista – Goânia GO
-- Processando (811/902): POP Pet Center - Pop Pet Bairro Goiá – Goiânia GO
-- Processando (812/902): POP Pet Center - Pop Pet Cidade Satelite São Luiz – Ap. de Goiânia GO
-- Processando (813/902): POP Pet Center - Pop Pet Campinas – Goiânia GO
-- Processando (814/902): POP Pet Center - Pop Pet Hidrolandia – GO
-- Processando (815/902): POP Pet Center - Pop Pet Perim – Goiânia GO
-- Processando (816/902): POP Pet Center - Pop Pet São Luis Montes Belos – GO
-- Processando (817/902): POP Pet Center - Pop Pet Cidade Nova (Av Transamazonica) – PA
-- Processando (818/902): POP Pet Center - Pop Pet São Judas Tadeu – Goiânia GO
-- Processando (819/902): POP Pet Center - Pop Pet Cidade Vera Cruz – Ap. de Goiânia GO
-- Processando (820/902): POP Pet Center - Pop Pet Sitio Santa Luzia – Ap. de Goiânia GO
-- Processando (821/902): POP Pet Center - Pop Pet Vianopolis – GO
-- Processando (822/902): POP Pet Center - Pop Pet Aragoiania – GO
-- Processando (823/902): POP Pet Center - Pop Pet Marechal Rondon – Goiânia GO
-- Processando (824/902): POP Pet Center - Pop Pet Jardim Planalto – Goiânia GO
-- Processando (825/902): POP Pet Center - Pop Pet Ipora – GO
-- Processando (826/902): POP Pet Center - Pop Pet Leste Universitario – Goiânia GO
-- Processando (827/902): POP Pet Center - Pop Pet Senador Canedo (Centro) – GO
-- Processando (828/902): POP Pet Center - Pop Pet Guaraí – TO
-- Processando (829/902): POP Pet Center - Pop Pet Vila Mauá (Bandeiras) – Goiânia GO
-- Processando (830/902): POP Pet Center - Pop Pet Jaraguá – GO
-- Processando (831/902): POP Pet Center - Pop Pet Conj. Vera Cruz – Goiânia GO
-- Processando (832/902): POP Pet Center - Pop Pet Dom Fernando – Goiânia GO
-- Processando (833/902): POP Pet Center - Pop Pet Vila Pedroso – Goiânia GO
-- Processando (834/902): POP Pet Center - Pop Pet Morrinhos – GO
-- Processando (835/902): POP Pet Center - Pop Pet Praça Da Biblia – Goiânia GO
-- Processando (836/902): POP Pet Center - Pop Pet Jardim Atlantico – Goiânia GO
-- Processando (837/902): POP Pet Center - Pop Pet Goianesia – GO
-- Processando (838/902): POP Pet Center - Pop Pet Curitiba (Jc-10) – Goiânia GO
-- Processando (839/902): POP Pet Center - Pop Pet Canarana – MT
-- Processando (840/902): POP Pet Center - Pop Pet Barra Do Garças – MT
-- Processando (841/902): POP Pet Center - Pop Pet Parque Trindade (Parque Atheneu) – Ap. de Goiânia GO
-- Processando (842/902): POP Pet Center - Pop Pet Araguaina – TO
-- Processando (843/902): POP Pet Center - Pop Pet Jardim Goias – Rio Verde GO
-- Processando (844/902): POP Pet Center - Pop Pet Senador Canedo (Morada Do Morro) – GO
-- Processando (845/902): POP Pet Center - Pop Pet Rubiataba – GO
-- Processando (846/902): POP Pet Center - Pop Pet Morada Do Sol (Mangalo) – Goiânia GO
-- Processando (847/902): POP Pet Center - Pop Pet São Miguel Do Araguaia – GO
-- Processando (848/902): POP Pet Center - Pop Pet Anapolis (Portal Do Cerrado) – GO
-- Processando (849/902): POP Pet Center - Pop Pet Vila Brasilia – Aparecida de Goiânia GO
-- Processando (850/902): POP Pet Center - Pop Pet Quarta Radial (Setor Bela Vista) – Goiânia GO
-- Processando (851/902): POP Pet Center - Pop Pet Mineiros – GO
-- Processando (852/902): POP Pet Center - Pop Pet Aragarças – GO
-- Processando (853/902): POP Pet Center - Pop Pet Jardim America (C-104) – Goiânia GO
-- Processando (854/902): POP Pet Center - Pop Pet Montividiu – GO
-- Processando (855/902): POP Pet Center - Pop Pet Palmeiras – GO
-- Processando (856/902): POP Pet Center - Pop Pet Nova Maraba (Folha 28) – PA
-- Processando (857/902): POP Pet Center - Pop Pet Imperatriz – MA
-- Processando (858/902): POP Pet Center - Pop Pet Jardim Tropical (Lago Dos Patos) Ap. de Goiânia – GO
-- Processando (859/902): POP Pet Center - Pop Pet Itapuranga – GO
-- Processando (860/902): POP Pet Center - Pop Pet Faiçalville (Av. Rio Verde) – Goiânia GO
-- Processando (861/902): POP Pet Center - Pop Pet Joao Pinheiro – MG
-- Processando (862/902): POP Pet Center - Pop Pet Anapolis (Jamel Cecilio) – GO
-- Processando (863/902): POP Pet Center - Pop Pet Santa Luzia – MG
-- Processando (864/902): POP Pet Center - Pop Pet Dourados – MS
-- Processando (865/902): POP Pet Center - Pop Pet Vila Regina – Goiânia GO
-- Processando (866/902): POP Pet Center - Pop Pet São Felix – PA
-- Processando (867/902): POP Pet Center - Pop Pet Orizona – GO
-- Processando (868/902): POP Pet Center - Pop Pet Trindade (Vila Joao Braz) – GO
-- Processando (869/902): POP Pet Center - Pop Pet Tucurui – PA
-- Processando (870/902): POP Pet Center - Pop Pet Novo Repartimento – PA
-- Processando (871/902): POP Pet Center - Pop Pet Varginha – MG
-- Processando (872/902): POP Pet Center - Pop Pet Agua Boa – MT
-- Processando (873/902): POP Pet Center - Pop Pet Cidade De Goias – GO
-- Processando (874/902): POP Pet Center - Pop Pet Porangatu – GO
-- Processando (875/902): POP Pet Center - Pop Pet Parque Amazonia – Goiânia GO
-- Processando (876/902): POP Pet Center - Pop Pet Itumbiara – GO
-- Processando (877/902): POP Pet Center - Pop Pet Edeia – GO
-- Processando (878/902): POP Pet Center - Pop Pet Primavera Do Leste – MT
-- Processando (879/902): POP Pet Center - Pop Pet Mangabeira – PB
-- Processando (880/902): POP Pet Center - Pop Pet Parauapebas – PA
-- Processando (881/902): POP Pet Center - Pop Pet Santarem – PA
-- Processando (882/902): POP Pet Center - Pop Pet Piracanjuba – GO
-- Processando (883/902): POP Pet Center - Pop Pet Neropolis – GO
-- Processando (884/902): POP Pet Center - Pop Pet Catalão – GO
-- Processando (885/902): POP Pet Center - Pop Pet Cidade Jardim Goiânia – GO
-- Processando (886/902): POP Pet Center - Pop Pet Bessa – João Pessoa PB
-- Processando (887/902): POP Pet Center - Pop Pet Av. São Paulo – Aparecida de Goiânia GO
-- Processando (888/902): POP Pet Center - Pop Pet Veiga Jardim – Aparecida de Goiânia GO
-- Processando (889/902): POP Pet Center - Pop Pet Vila Alzira – Aparecida de Goiânia GO
-- Processando (890/902): POP Pet Center - Pop Pet Novo Horizonte – Goiânia GO
-- Processando (891/902): POP Pet Center - Pop Pet Bela Vista de Goiás – GO
-- Processando (892/902): POP Pet Center - Pop Pet Indiara – GO
-- Processando (893/902): POP Pet Center - Pop Pet BH – Minas Gerais
-- Processando (894/902): POP Pet Center - Pop Pet Jardim América (C1) Goiânia – GO
-- Processando (895/902): POP Pet Center - Pop Pet Silvania – GO
-- Processando (896/902): POP Pet Center - Pop Pet Palmas (QD 804) – TO
-- Processando (897/902): POP Pet Center - Pop Pet Conj Riviera – Goiânia GO
-- Processando (898/902): POP Pet Center - Pop Pet Acreuna – GO
-- Processando (899/902): POP Pet Center - Pop Pet Canaa dos Carajas – PA
-- Processando (900/902): POP Pet Center - Pop Pet Colina Azul – Goiânia GO
-- Processando (901/902): POP Pet Center - Pop Pet Formosa – GO
-- Processando (902/902): POP Pet Center - Pop Pet Anicuns – GO
+- Processando (1/776): cobasi - Cobasi Getúlio Vargas - Osasco
+- Processando (2/776): cobasi - Cobasi Jandira Mall
+- Processando (3/776): cobasi - Cobasi João Pessoa
+- Processando (4/776): cobasi - Cobasi Marília Esmeralda
+- Processando (5/776): cobasi - Cobasi Presidente Prudente
+- Processando (6/776): cobasi - Cobasi Riviera de São Lourenço
+- Processando (7/776): cobasi - Pet Shop Cobasi Alphaville
+- Processando (8/776): cobasi - Pet Shop Cobasi Alto da Boa Vista
+- Processando (9/776): cobasi - Pet Shop Cobasi Alto de Pinheiros
+- Processando (10/776): cobasi - Pet Shop Cobasi Americana
+- Processando (11/776): cobasi - Pet Shop Cobasi Andradas
+- Processando (12/776): cobasi - Pet Shop Cobasi Aracaju Rio Mar
+- Processando (13/776): cobasi - Pet Shop Cobasi Araraquara
+- Processando (14/776): cobasi - Pet Shop Cobasi Araraquara Savegnago
+- Processando (15/776): cobasi - Pet Shop Cobasi Araçatuba
+- Processando (16/776): cobasi - Pet Shop Cobasi Assai Anhanguera
+- Processando (17/776): cobasi - Pet Shop Cobasi Assaí Interlagos
+- Processando (18/776): cobasi - Pet Shop Cobasi Assaí Marginal Tietê
+- Processando (19/776): cobasi - Pet Shop Cobasi Atibaia
+- Processando (20/776): cobasi - Pet Shop Cobasi Atibaia II
+- Processando (21/776): cobasi - Pet Shop Cobasi Atlântica
+- Processando (22/776): cobasi - Pet Shop Cobasi Augusta
+- Processando (23/776): cobasi - Pet Shop Cobasi Av. Jundiaí
+- Processando (24/776): cobasi - Pet Shop Cobasi Av. Morumbi
+- Processando (25/776): cobasi - Pet Shop Cobasi Avenida São Miguel
+- Processando (26/776): cobasi - Pet Shop Cobasi BH Belvedere
+- Processando (27/776): cobasi - Pet Shop Cobasi BH Castelo
+- Processando (28/776): cobasi - Pet Shop Cobasi BH Contorno
+- Processando (29/776): cobasi - Pet Shop Cobasi BH Del Rey
+- Processando (30/776): cobasi - Pet Shop Cobasi Barra Carrefour
+- Processando (31/776): cobasi - Pet Shop Cobasi Barra Guanabara
+- Processando (32/776): cobasi - Pet Shop Cobasi Barra Sul
+- Processando (33/776): cobasi - Pet Shop Cobasi Barreiros
+- Processando (34/776): cobasi - Pet Shop Cobasi Barretos
+- Processando (35/776): cobasi - Pet Shop Cobasi Bauru
+- Processando (36/776): cobasi - Pet Shop Cobasi Belém Bosque Grão Pará
+- Processando (37/776): cobasi - Pet Shop Cobasi Birigui
+- Processando (38/776): cobasi - Pet Shop Cobasi Blumenau Neumarkt
+- Processando (39/776): cobasi - Pet Shop Cobasi Blumenau Norte Shopping
+- Processando (40/776): cobasi - Pet Shop Cobasi Botafogo
+- Processando (41/776): cobasi - Pet Shop Cobasi Botucatu Mall
+- Processando (42/776): cobasi - Pet Shop Cobasi Bragança Paulista
+- Processando (43/776): cobasi - Pet Shop Cobasi Bragança Paulista - Av. dos Imigrantes
+- Processando (44/776): cobasi - Pet Shop Cobasi Brasilia Venancio
+- Processando (45/776): cobasi - Pet Shop Cobasi Brasília Asa Norte
+- Processando (46/776): cobasi - Pet Shop Cobasi Brasília CasaPark
+- Processando (47/776): cobasi - Pet Shop Cobasi Brasília Pistão Sul
+- Processando (48/776): cobasi - Pet Shop Cobasi Brasília Sia
+- Processando (49/776): cobasi - Pet Shop Cobasi Brasília Taquari
+- Processando (50/776): cobasi - Pet Shop Cobasi Braz Leme
+- Processando (51/776): cobasi - Pet Shop Cobasi Brooklin
+- Processando (52/776): cobasi - Pet Shop Cobasi Buritis
+- Processando (53/776): cobasi - Pet Shop Cobasi Butantã
+- Processando (54/776): cobasi - Pet Shop Cobasi Cachoeirinha
+- Processando (55/776): cobasi - Pet Shop Cobasi Caminho do Mar
+- Processando (56/776): cobasi - Pet Shop Cobasi Campinas Abolição
+- Processando (57/776): cobasi - Pet Shop Cobasi Campinas Amoreiras
+- Processando (58/776): cobasi - Pet Shop Cobasi Campinas Cambuí
+- Processando (59/776): cobasi - Pet Shop Cobasi Campinas Cambuí II
+- Processando (60/776): cobasi - Pet Shop Cobasi Campinas Princesa d’ Oeste
+- Processando (61/776): cobasi - Pet Shop Cobasi Campinas Shopping Galleria
+- Processando (62/776): cobasi - Pet Shop Cobasi Campinas Taquaral
+- Processando (63/776): cobasi - Pet Shop Cobasi Campo Grande MS
+- Processando (64/776): cobasi - Pet Shop Cobasi Campo Limpo
+- Processando (65/776): cobasi - Pet Shop Cobasi Candangolandia
+- Processando (66/776): cobasi - Pet Shop Cobasi Canoas
+- Processando (67/776): cobasi - Pet Shop Cobasi Canoas BR116
+- Processando (68/776): cobasi - Pet Shop Cobasi Cantareira Norte Shopping
+- Processando (69/776): cobasi - Pet Shop Cobasi Carapicuíba
+- Processando (70/776): cobasi - Pet Shop Cobasi Carrefour Nações
+- Processando (71/776): cobasi - Pet Shop Cobasi Carrão
+- Processando (72/776): cobasi - Pet Shop Cobasi Casa Forte
+- Processando (73/776): cobasi - Pet Shop Cobasi Cascavel
+- Processando (74/776): cobasi - Pet Shop Cobasi Caxias do Sul
+- Processando (75/776): cobasi - Pet Shop Cobasi Cerro Corá
+- Processando (76/776): cobasi - Pet Shop Cobasi Comendador Agostinho - Limeira II
+- Processando (77/776): cobasi - Pet Shop Cobasi Conselheiro Rodrigues Alves
+- Processando (78/776): cobasi - Pet Shop Cobasi Continente Shopping
+- Processando (79/776): cobasi - Pet Shop Cobasi Copacabana Posto 2
+- Processando (80/776): cobasi - Pet Shop Cobasi Corifeu
+- Processando (81/776): cobasi - Pet Shop Cobasi Cotia
+- Processando (82/776): cobasi - Pet Shop Cobasi Criciúma
+- Processando (83/776): cobasi - Pet Shop Cobasi Cuiabá CPA
+- Processando (84/776): cobasi - Pet Shop Cobasi Curitiba Linha Verde
+- Processando (85/776): cobasi - Pet Shop Cobasi Curitiba Mario Tourinho
+- Processando (86/776): cobasi - Pet Shop Cobasi Curitiba Novo Mundo
+- Processando (87/776): cobasi - Pet Shop Cobasi DF Gama
+- Processando (88/776): cobasi - Pet Shop Cobasi DF Planaltina
+- Processando (89/776): cobasi - Pet Shop Cobasi DF Plaza Shopping
+- Processando (90/776): cobasi - Pet Shop Cobasi Diadema
+- Processando (91/776): cobasi - Pet Shop Cobasi Eco Mall Pinheirinho
+- Processando (92/776): cobasi - Pet Shop Cobasi Embu das Artes
+- Processando (93/776): cobasi - Pet Shop Cobasi Embu das Artes II
+- Processando (94/776): cobasi - Pet Shop Cobasi Engenheiro Caetano Alvares
+- Processando (95/776): cobasi - Pet Shop Cobasi Epitácio Pessoa
+- Processando (96/776): cobasi - Pet Shop Cobasi Ermano Marchetti
+- Processando (97/776): cobasi - Pet Shop Cobasi Estr. do Campo Limpo
+- Processando (98/776): cobasi - Pet Shop Cobasi Estrada de Itapecerica
+- Processando (99/776): cobasi - Pet Shop Cobasi Feira de Santana
+- Processando (100/776): cobasi - Pet Shop Cobasi Florianópolis
+- Processando (101/776): cobasi - Pet Shop Cobasi Florianópolis Centro
+- Processando (102/776): cobasi - Pet Shop Cobasi Fortaleza Aldeota
+- Processando (103/776): cobasi - Pet Shop Cobasi Fortaleza Meireles
+- Processando (104/776): cobasi - Pet Shop Cobasi Fortaleza Open Mall
+- Processando (105/776): cobasi - Pet Shop Cobasi Franca
+- Processando (106/776): cobasi - Pet Shop Cobasi Frei Gaspar
+- Processando (107/776): cobasi - Pet Shop Cobasi Goiânia Decathlon
+- Processando (108/776): cobasi - Pet Shop Cobasi Goiânia T63
+- Processando (109/776): cobasi - Pet Shop Cobasi Granja Vianna
+- Processando (110/776): cobasi - Pet Shop Cobasi Guarujá
+- Processando (111/776): cobasi - Pet Shop Cobasi Guarulhos
+- Processando (112/776): cobasi - Pet Shop Cobasi Guarulhos Centro
+- Processando (113/776): cobasi - Pet Shop Cobasi Guarulhos Sakamoto
+- Processando (114/776): cobasi - Pet Shop Cobasi Guarulhos Timóteo Penteado
+- Processando (115/776): cobasi - Pet Shop Cobasi Higienópolis
+- Processando (116/776): cobasi - Pet Shop Cobasi Iguatemi Campinas
+- Processando (117/776): cobasi - Pet Shop Cobasi Iguatemi Fortaleza
+- Processando (118/776): cobasi - Pet Shop Cobasi Imigrantes
+- Processando (119/776): cobasi - Pet Shop Cobasi Imirim
+- Processando (120/776): cobasi - Pet Shop Cobasi Indaiatuba
+- Processando (121/776): cobasi - Pet Shop Cobasi Interlar Interlagos
+- Processando (122/776): cobasi - Pet Shop Cobasi Itajaí
+- Processando (123/776): cobasi - Pet Shop Cobasi Itaquaquecetuba D'avó
+- Processando (124/776): cobasi - Pet Shop Cobasi Itaquera
+- Processando (125/776): cobasi - Pet Shop Cobasi Jabaquara
+- Processando (126/776): cobasi - Pet Shop Cobasi Jaboatão Dos Guararapes
+- Processando (127/776): cobasi - Pet Shop Cobasi Jacareí Tenda
+- Processando (128/776): cobasi - Pet Shop Cobasi Jardim Japão
+- Processando (129/776): cobasi - Pet Shop Cobasi Jaú
+- Processando (130/776): cobasi - Pet Shop Cobasi Jd. Botânico
+- Processando (131/776): cobasi - Pet Shop Cobasi Joinville
+- Processando (132/776): cobasi - Pet Shop Cobasi Juiz de Fora Jardim Norte
+- Processando (133/776): cobasi - Pet Shop Cobasi Jundiaí
+- Processando (134/776): cobasi - Pet Shop Cobasi Lauro de Freitas
+- Processando (135/776): cobasi - Pet Shop Cobasi Limeira
+- Processando (136/776): cobasi - Pet Shop Cobasi Londrina Centro
+- Processando (137/776): cobasi - Pet Shop Cobasi Londrina Madre Leônia
+- Processando (138/776): cobasi - Pet Shop Cobasi M'Boi Mirim
+- Processando (139/776): cobasi - Pet Shop Cobasi Maceió Fernandes Lima
+- Processando (140/776): cobasi - Pet Shop Cobasi Maracanaú
+- Processando (141/776): cobasi - Pet Shop Cobasi Marechal Tito
+- Processando (142/776): cobasi - Pet Shop Cobasi Marginal Pinheiros
+- Processando (143/776): cobasi - Pet Shop Cobasi Marginal Tietê
+- Processando (144/776): cobasi - Pet Shop Cobasi Maringá
+- Processando (145/776): cobasi - Pet Shop Cobasi Marília
+- Processando (146/776): cobasi - Pet Shop Cobasi Minas Shopping
+- Processando (147/776): cobasi - Pet Shop Cobasi Moema Pássaros
+- Processando (148/776): cobasi - Pet Shop Cobasi Moinhos dos Ventos
+- Processando (149/776): cobasi - Pet Shop Cobasi Mooca
+- Processando (150/776): cobasi - Pet Shop Cobasi Morumbi
+- Processando (151/776): cobasi - Pet Shop Cobasi Natal
+- Processando (152/776): cobasi - Pet Shop Cobasi Niterói
+- Processando (153/776): cobasi - Pet Shop Cobasi Nossa Senhora do Carmo
+- Processando (154/776): cobasi - Pet Shop Cobasi Nova Cantareira
+- Processando (155/776): cobasi - Pet Shop Cobasi Novo Hamburgo
+- Processando (156/776): cobasi - Pet Shop Cobasi Osasco
+- Processando (157/776): cobasi - Pet Shop Cobasi Osasco João Andrade
+- Processando (158/776): cobasi - Pet Shop Cobasi POA Assis Brasil
+- Processando (159/776): cobasi - Pet Shop Cobasi POA Av. Brasil
+- Processando (160/776): cobasi - Pet Shop Cobasi POA Bollogna Mall
+- Processando (161/776): cobasi - Pet Shop Cobasi POA Central Parque
+- Processando (162/776): cobasi - Pet Shop Cobasi Palmas
+- Processando (163/776): cobasi - Pet Shop Cobasi Park Shopping Jacarepaguá
+- Processando (164/776): cobasi - Pet Shop Cobasi Parque Olímpico
+- Processando (165/776): cobasi - Pet Shop Cobasi Passo Fundo Shopping
+- Processando (166/776): cobasi - Pet Shop Cobasi Paulínia
+- Processando (167/776): cobasi - Pet Shop Cobasi Pelotas
+- Processando (168/776): cobasi - Pet Shop Cobasi Pinhais
+- Processando (169/776): cobasi - Pet Shop Cobasi Piracicaba
+- Processando (170/776): cobasi - Pet Shop Cobasi Piracicaba Independência
+- Processando (171/776): cobasi - Pet Shop Cobasi Poa Wenceslau Escobar
+- Processando (172/776): cobasi - Pet Shop Cobasi Pompéia
+- Processando (173/776): cobasi - Pet Shop Cobasi Ponta Grossa
+- Processando (174/776): cobasi - Pet Shop Cobasi Ponta Grossa II
+- Processando (175/776): cobasi - Pet Shop Cobasi Portal do Morumbi
+- Processando (176/776): cobasi - Pet Shop Cobasi Porto Alegre Iguatemi
+- Processando (177/776): cobasi - Pet Shop Cobasi Porto Alegre Ipiranga
+- Processando (178/776): cobasi - Pet Shop Cobasi Praia Grande
+- Processando (179/776): cobasi - Pet Shop Cobasi Praia Grande Ocian
+- Processando (180/776): cobasi - Pet Shop Cobasi Praça da Árvore
+- Processando (181/776): cobasi - Pet Shop Cobasi RJ Norte Shopping
+- Processando (182/776): cobasi - Pet Shop Cobasi Raposo Tavares
+- Processando (183/776): cobasi - Pet Shop Cobasi Rebouças
+- Processando (184/776): cobasi - Pet Shop Cobasi Recife
+- Processando (185/776): cobasi - Pet Shop Cobasi Ribeirão Dom Pedro I
+- Processando (186/776): cobasi - Pet Shop Cobasi Ribeirão Preto II (loja Maurilio Biagi)
+- Processando (187/776): cobasi - Pet Shop Cobasi Ribeirão Preto Iguatemi
+- Processando (188/776): cobasi - Pet Shop Cobasi Ribeirão Preto Presidente Vargas
+- Processando (189/776): cobasi - Pet Shop Cobasi Ricardo Jafet
+- Processando (190/776): cobasi - Pet Shop Cobasi Rio das Pedras
+- Processando (191/776): cobasi - Pet Shop Cobasi Rio de Janeiro Campo Grande
+- Processando (192/776): cobasi - Pet Shop Cobasi Rui Barbosa
+- Processando (193/776): cobasi - Pet Shop Cobasi SBC Faria Lima
+- Processando (194/776): cobasi - Pet Shop Cobasi SP Ipiranga
+- Processando (195/776): cobasi - Pet Shop Cobasi Sabará
+- Processando (196/776): cobasi - Pet Shop Cobasi Salto
+- Processando (197/776): cobasi - Pet Shop Cobasi Salvador Rio Vermelho
+- Processando (198/776): cobasi - Pet Shop Cobasi Santa Bárbara d’Oeste Tivoli
+- Processando (199/776): cobasi - Pet Shop Cobasi Santana
+- Processando (200/776): cobasi - Pet Shop Cobasi Santo André Av. dos Estados
+- Processando (201/776): cobasi - Pet Shop Cobasi Santo André P. Barreto
+- Processando (202/776): cobasi - Pet Shop Cobasi Santo André Prestes Maia
+- Processando (203/776): cobasi - Pet Shop Cobasi Santos Afonso Pena
+- Processando (204/776): cobasi - Pet Shop Cobasi Santos Conselheiro Nébias
+- Processando (205/776): cobasi - Pet Shop Cobasi Santos Francisco Glicério
+- Processando (206/776): cobasi - Pet Shop Cobasi Sena Madureira
+- Processando (207/776): cobasi - Pet Shop Cobasi Shop. Estação Cuiabá
+- Processando (208/776): cobasi - Pet Shop Cobasi Shopping Aricanduva
+- Processando (209/776): cobasi - Pet Shop Cobasi Shopping Eldorado
+- Processando (210/776): cobasi - Pet Shop Cobasi Sorocaba Av. São Paulo
+- Processando (211/776): cobasi - Pet Shop Cobasi Sorocaba Itavuvu
+- Processando (212/776): cobasi - Pet Shop Cobasi Sorocaba Pannunzio
+- Processando (213/776): cobasi - Pet Shop Cobasi Sorocaba Panorâmico
+- Processando (214/776): cobasi - Pet Shop Cobasi Sumaré
+- Processando (215/776): cobasi - Pet Shop Cobasi Sumaré ParkCity Shopping
+- Processando (216/776): cobasi - Pet Shop Cobasi São Bernardo Jurubatuba
+- Processando (217/776): cobasi - Pet Shop Cobasi São Caetano
+- Processando (218/776): cobasi - Pet Shop Cobasi São Carlos
+- Processando (219/776): cobasi - Pet Shop Cobasi São José do Rio Preto Falavina
+- Processando (220/776): cobasi - Pet Shop Cobasi São José do Rio Preto Iguatemi
+- Processando (221/776): cobasi - Pet Shop Cobasi São José dos Campos
+- Processando (222/776): cobasi - Pet Shop Cobasi São José dos Campos Jardim Oriente
+- Processando (223/776): cobasi - Pet Shop Cobasi São José dos Campos Nelson D'Ávila
+- Processando (224/776): cobasi - Pet Shop Cobasi São José dos Pinhais Av. Torres
+- Processando (225/776): cobasi - Pet Shop Cobasi São Judas
+- Processando (226/776): cobasi - Pet Shop Cobasi São Vicente
+- Processando (227/776): cobasi - Pet Shop Cobasi Tamboré
+- Processando (228/776): cobasi - Pet Shop Cobasi Tatuapé
+- Processando (229/776): cobasi - Pet Shop Cobasi Taubaté
+- Processando (230/776): cobasi - Pet Shop Cobasi Taubaté II
+- Processando (231/776): cobasi - Pet Shop Cobasi Teodoro Sampaio
+- Processando (232/776): cobasi - Pet Shop Cobasi Teotônio Vilela
+- Processando (233/776): cobasi - Pet Shop Cobasi Tutoia
+- Processando (234/776): cobasi - Pet Shop Cobasi Uberaba
+- Processando (235/776): cobasi - Pet Shop Cobasi Uberlândia
+- Processando (236/776): cobasi - Pet Shop Cobasi Valinhos
+- Processando (237/776): cobasi - Pet Shop Cobasi Via Parque Shopping
+- Processando (238/776): cobasi - Pet Shop Cobasi Viamão
+- Processando (239/776): cobasi - Pet Shop Cobasi Vila Velha
+- Processando (240/776): cobasi - Pet Shop Cobasi Villa Lobos
+- Processando (241/776): cobasi - Pet Shop Cobasi Vinhedo
+- Processando (242/776): cobasi - Pet Shop Cobasi Várzea Grande
+- Processando (243/776): cobasi - Pet Shop Cobasi Água Branca
+- Processando (244/776): cobasi - Pet Shop Cobasi Águas Claras
+- Processando (245/776): cobasi - Pet Shop Mundo Pet Cobasi Aldeota
+- Processando (246/776): cobasi - Pet Shop Mundo Pet Cobasi Batista Campos
+- Processando (247/776): cobasi - Pet Shop Mundo Pet Cobasi Brasília Águas Claras
+- Processando (248/776): cobasi - Pet Shop Mundo Pet Cobasi Eusébio
+- Processando (249/776): cobasi - Pet Shop Mundo Pet Cobasi Fortaleza Washington Soares
+- Processando (250/776): cobasi - Pet Shop Mundo Pet Cobasi Goiânia Oeste
+- Processando (251/776): cobasi - Pet Shop Mundo Pet Cobasi Manaíra Shopping
+- Processando (252/776): cobasi - Pet Shop Mundo Pet Cobasi Salvador Graça
+- Processando (253/776): cobasi - Pet Shop Mundo Pet Cobasi Salvador Shopping
+- Processando (254/776): cobasi - Pet Shop Mundo Pet Cobasi Tirol Natal
+- Processando (255/776): cobasi - Pet&Fácil Washington Luis
+- Processando (256/776): PetCamp - nan
+- Processando (257/776): PetCamp - Americana - PetCamp Americana - Loja 049
+- Processando (258/776): PetCamp - Amparo - PetCamp Amparo - Loja 115
+- Processando (259/776): PetCamp - Araraquara - PetCamp Alameda - Loja 055
+- Processando (260/776): PetCamp - Araraquara - PetCamp Selmi - Loja 016
+- Processando (261/776): PetCamp - Araraquara - PetCamp Damha - Loja 051
+- Processando (262/776): PetCamp - Araras - PetCamp Araras - 092
+- Processando (263/776): PetCamp - Araras - PetCamp Araras Belvedere - Loja 113
+- Processando (264/776): PetCamp - Araçatuba - PetCamp Araçatuba - Loja 106
+- Processando (265/776): PetCamp - Avaré - Avaré - 080
+- Processando (266/776): PetCamp - Barretos - Petcamp Barretos Industrial - 097
+- Processando (267/776): PetCamp - Barretos - PetCamp Barretos - Loja 062
+- Processando (268/776): PetCamp - Bauru - PetCamp Bauru Centro- Loja 108
+- Processando (269/776): PetCamp - Bauru - PetCamp Bauru Aiello - Loja 089
+- Processando (270/776): PetCamp - Bauru - PetCamp Bauru - Loja 076
+- Processando (271/776): PetCamp - Birigui - PetCamp Birigui - Loja 094
+- Processando (272/776): PetCamp - Boituva - PetCamp Boituva - Loja 034
+- Processando (273/776): PetCamp - Botucatu - PetCamp Botucatu - Loja 081
+- Processando (274/776): PetCamp - Campinas - PetCamp Barão - Loja 031
+- Processando (275/776): PetCamp - Campinas - PetCamp Barão Geraldo - Loja 003
+- Processando (276/776): PetCamp - Campinas - PetCamp Barão de Itapura- Loja 102
+- Processando (277/776): PetCamp - Campinas - PetCamp Norte Sul - Loja 004
+- Processando (278/776): PetCamp - Campinas - PetCamp Aquidabã - Loja 005
+- Processando (279/776): PetCamp - Campinas - PetCamp Jasmim - Loja 029
+- Processando (280/776): PetCamp - Campinas - PetCamp Padre Anchieta - Loja 032
+- Processando (281/776): PetCamp - Campinas - PetCamp Rondon - Loja 002
+- Processando (282/776): PetCamp - Campinas - PetCamp Prado - Loja 028
+- Processando (283/776): PetCamp - Campinas - PetCamp Jd do Lago - Loja 007
+- Processando (284/776): PetCamp - Campinas - PetCamp Enxuto - Loja 065
+- Processando (285/776): PetCamp - Campinas - PetCamp Amoreiras - Loja 078
+- Processando (286/776): PetCamp - Campinas - PetCamp Ciro Leite - Loja 030
+- Processando (287/776): PetCamp - Campinas - PetCamp Taquaral - Loja 027
+- Processando (288/776): PetCamp - Campinas - PetCamp Suaçuna - Loja 086
+- Processando (289/776): PetCamp - Campinas - PetCamp Carmona - Loja 001
+- Processando (290/776): PetCamp - Campinas - PetCamp Abolição - Loja 083
+- Processando (291/776): PetCamp - Capivari - PetCamp Capivari - Loja 054
+- Processando (292/776): PetCamp - Catanduva - PetCamp Catanduva - Loja 060
+- Processando (293/776): PetCamp - Cosmópolis - PetCamp Cosmópolis - Loja 021
+- Processando (294/776): PetCamp - Franca - PetCamp Franca - Loja 068
+- Processando (295/776): PetCamp - Franca - PetCamp Franca BR - Loja 073
+- Processando (296/776): PetCamp - Guaratinguetá - PetCamp Guaratinguetá - Loja 107
+- Processando (297/776): PetCamp - Hortolândia - PetCamp Rosolem - Loja 026
+- Processando (298/776): PetCamp - Hortolândia - PetCamp Hortolândia - Loja 025
+- Processando (299/776): PetCamp - Indaiatuba - PetCamp Itaici - Loja 020
+- Processando (300/776): PetCamp - Indaiatuba - PetCamp Indaiatuba - Loja 022
+- Processando (301/776): PetCamp - Indaiatuba - PetCamp Indaiás - Loja 063
+- Processando (302/776): PetCamp - Itapetininga - PetCamp Itapetininga - Loja 036
+- Processando (303/776): PetCamp - Itaquaquecetuba - PetCamp Itaquaquecetuba - Loja 082
+- Processando (304/776): PetCamp - Itatiba - PetCamp Itatiba Centro - Loja 077
+- Processando (305/776): PetCamp - Itatiba - PetCamp Galetto - Loja 066
+- Processando (306/776): PetCamp - Itu - PetCamp Itu - Loja 037
+- Processando (307/776): PetCamp - Jaboticabal - PetCamp Jaboticabal - Loja 091
+- Processando (308/776): PetCamp - Jacareí - PetCamp Jacareí Letras - Loja 072
+- Processando (309/776): PetCamp - Jaguariúna - PetCamp Jaguariúna - Loja 019
+- Processando (310/776): PetCamp - Jundiaí - PetCamp Engordadouro - Loja 093
+- Processando (311/776): PetCamp - Jundiaí - PetCamp Colônia - Loja 043
+- Processando (312/776): PetCamp - Jundiaí - PetCamp Jd Retiro - Loja 052
+- Processando (313/776): PetCamp - Leme - PetCamp Leme - Loja 061
+- Processando (314/776): PetCamp - Limeira - PetCamp Ouro Verde - Loja 067
+- Processando (315/776): PetCamp - Limeira - PetCamp Limeira - Loja 009
+- Processando (316/776): PetCamp - Lins - PetCamp Lins - Loja 088
+- Processando (317/776): PetCamp - Matão - PetCamp Matão - Loja 071
+- Processando (318/776): PetCamp - Mogi Guaçu - PetCamp Mogi Guaçu - Loja 010
+- Processando (319/776): PetCamp - Mogi Mirim - PetCamp Mogi Mirim - Loja 017
+- Processando (320/776): PetCamp - Mogi das Cruzes - PetCamp Mogi das Cruzes - Loja 047
+- Processando (321/776): PetCamp - Monte Mor - PetCamp Monte Mor - Loja 064
+- Processando (322/776): PetCamp - Nova Odessa - PetCamp Nova Odessa - Loja 011
+- Processando (323/776): PetCamp - Paulínia - PetCamp João Aranha - Loja 018
+- Processando (324/776): PetCamp - Paulínia - PetCamp Paulínia - Loja 023
+- Processando (325/776): PetCamp - Pindamonhangaba - PetCamp Pindamonhangaba - Loja 090
+- Processando (326/776): PetCamp - Piracicaba - PetCamp Piracicaba Independência - Loja 075
+- Processando (327/776): PetCamp - Piracicaba - PetCamp Piracicaba - Loja 035
+- Processando (328/776): PetCamp - Pirassununga - PetCamp Pirassununga - Loja 033
+- Processando (329/776): PetCamp - Ribeirão Preto - PetCamp Caramuru - Loja 046
+- Processando (330/776): PetCamp - Ribeirão Preto - PetCamp Savegnago - Loja 044
+- Processando (331/776): PetCamp - Ribeirão Preto - PetCamp RP Nova Aliança- Loja 095
+- Processando (332/776): PetCamp - Ribeirão Preto - PetCamp Leão XIII - Loja 074
+- Processando (333/776): PetCamp - Ribeirão Preto - PetCamp Biagi - Loja 012
+- Processando (334/776): PetCamp - Rio Claro - PetCamp Rio Claro Av Brasil - 098
+- Processando (335/776): PetCamp - Rio Claro - PetCamp Rio Claro II - Loja 087
+- Processando (336/776): PetCamp - Rio Claro - PetCamp Rio Claro 29 - Loja 112
+- Processando (337/776): PetCamp - Rio Claro - PetCamp Rio Claro - Loja 038
+- Processando (338/776): PetCamp - Santa Barbara d'Oeste - PetCamp Santa Barbara d'Oeste - 099
+- Processando (339/776): PetCamp - Sorocaba - PetCamp Ipanema - Loja 014
+- Processando (340/776): PetCamp - Sorocaba - PetCamp Sorocaba Atanázio - Loja 105
+- Processando (341/776): PetCamp - Sorocaba - PetCamp Campolim - Loja 045
+- Processando (342/776): PetCamp - Sorocaba - PetCamp Sorocaba Independência - Loja 070
+- Processando (343/776): PetCamp - Sumaré - PetCamp Sumaré Real Park - Loja 085
+- Processando (344/776): PetCamp - Sumaré - PetCamp Sumaré Maria Luiza- Loja 103
+- Processando (345/776): PetCamp - Sumaré - PetCamp Sumaré - Loja 013
+- Processando (346/776): PetCamp - Sumaré - PetCamp Santa Rosa - Loja 015
+- Processando (347/776): PetCamp - São Carlos - PetCamp São Carlos - Loja 040
+- Processando (348/776): PetCamp - São José do Rio Preto - PetCamp Presidente - Loja 053
+- Processando (349/776): PetCamp - São José do Rio Preto - PetCamp Yolanda - Loja 057
+- Processando (350/776): PetCamp - São José do Rio Preto - PetCamp São Miguel- Loja 110
+- Processando (351/776): PetCamp - São José do Rio Preto - PetCamp Estudantes - Loja 041
+- Processando (352/776): PetCamp - São José do Rio Preto - PetCamp SJRP Coronel - Loja 079
+- Processando (353/776): PetCamp - São José dos Campos - PetCamp São José dos Campos Urbanova - Loja 118
+- Processando (354/776): PetCamp - São José dos Campos - PetCamp São José dos Campos Chaparral - Loja 119
+- Processando (355/776): PetCamp - São José dos Campos - PetCamp São José dos Campos Valesul - Loja 122
+- Processando (356/776): PetCamp - São José dos Campos - PetCamp São José dos Campos Aquarius - Loja 121
+- Processando (357/776): PetCamp - São José dos Campos - PetCamp São José dos Campos - Loja 101
+- Processando (358/776): PetCamp - São José dos Campos - PetCamp São José dos Campos JK - Loja 120
+- Processando (359/776): PetCamp - Tatuí - PetCamp Tatuí - Loja 116
+- Processando (360/776): PetCamp - Taubaté- PetCamp Taubaté Aparecida - Loja 104
+- Processando (361/776): PetCamp - Taubaté - PetCamp Taubaté - Loja 050
+- Processando (362/776): PetCamp - Uberaba - PetCamp Uberaba Leopoldino - Loja 109
+- Processando (363/776): PetCamp - Uberaba - PetCamp 3P Uberaba - Loja 084
+- Processando (364/776): PetCamp - Valinhos - PetCamp Valinhos - Loja 039
+- Processando (365/776): PetCamp - Vinhedo - PetCamp Vinhedo - Loja 008
+- Processando (366/776): PetCamp - Votorantim - PetCamp Votorantim - Loja 042
+- Processando (367/776): petland - Petland Lins
+- Processando (368/776): petland - Petland Vila Gumercindo
+- Processando (369/776): petland - Petland Textil
+- Processando (370/776): petland - Petland Menino Deus
+- Processando (371/776): petland - Petland Arvoredo
+- Processando (372/776): petland - Petland Lajeado
+- Processando (373/776): petland - Petland Ipiranga
+- Processando (374/776): petland - Petland Chácara Santo Antônio
+- Processando (375/776): petland - Petland Limeira
+- Processando (376/776): petland - Petland Vila Mascote
+- Processando (377/776): petland - Petland Tude Bastos
+- Processando (378/776): petland - Petland Araçatuba
+- Processando (379/776): petland - Petland Grageru
+- Processando (380/776): petland - Petland Aliança
+- Processando (381/776): petland - Petland Outlet Premium Imigrantes
+- Processando (382/776): petland - Petland Vila A
+- Processando (383/776): petland - Petland Tapejara
+- Processando (384/776): petland - Petland São Mateus
+- Processando (385/776): petland - Petland Rio Branco
+- Processando (386/776): petland - Petland Parque São Lucas
+- Processando (387/776): petland - Petland Novo Eldorado
+- Processando (388/776): petland - Petland Mexicão
+- Processando (389/776): petland - Petland Marco Belém
+- Processando (390/776): petland - Petland Jardim das Flores
+- Processando (391/776): petland - Petland Horto Florestal
+- Processando (392/776): petland - Petland Parque dos Anjos
+- Processando (393/776): petland - Petland Mongaguá
+- Processando (394/776): petland - Petland Campo Bom
+- Processando (395/776): petland - Petland Brasílio Mall
+- Processando (396/776): petland - Petland Bom Fim
+- Processando (397/776): petland - Petland Avenida T1
+- Processando (398/776): petland - Petland Enseada
+- Processando (399/776): petland - Petland Vinhais
+- Processando (400/776): petland - Petland Vila São Francisco
+- Processando (401/776): petland - Petland Vila Mirim
+- Processando (402/776): petland - Petland Vila Madalena
+- Processando (403/776): petland - Petland Presidente Prudente
+- Processando (404/776): petland - Petland Varginha
+- Processando (405/776): petland - Petland Unaí
+- Processando (406/776): petland - Petland Tirol
+- Processando (407/776): petland - Petland São Caetano do Sul
+- Processando (408/776): petland - Petland Santos Dumont
+- Processando (409/776): petland - Petland Santo Antônio
+- Processando (410/776): petland - Petland Saboo
+- Processando (411/776): petland - Petland Presidente Venceslau
+- Processando (412/776): petland - Petland Presidente Vargas
+- Processando (413/776): petland - Petland Petrópolis
+- Processando (414/776): petland - Petland Ilhabela
+- Processando (415/776): petland - Petland Perdizes
+- Processando (416/776): petland - Petland Península
+- Processando (417/776): petland - Petland Pedro Marques
+- Processando (418/776): petland - Petland Santana Pedro Doll
+- Processando (419/776): petland - Petland Paulista
+- Processando (420/776): petland - Petland Parque das Américas
+- Processando (421/776): petland - Petland Papini
+- Processando (422/776): petland - Petland Nicomedes
+- Processando (423/776): petland - Petland Nebraska
+- Processando (424/776): petland - Petland Matozinhos
+- Processando (425/776): petland - Petland Pinheiros – Mateus Grou
+- Processando (426/776): petland - Petland José Menino
+- Processando (427/776): petland - Petland Jasmim
+- Processando (428/776): petland - Petland Jardim dos Colibris
+- Processando (429/776): petland - Petland Janga
+- Processando (430/776): petland - Petland Jaguaribe
+- Processando (431/776): petland - Petland Jaboticabeiras
+- Processando (432/776): petland - Petland Independência
+- Processando (433/776): petland - Petland Higienópolis
+- Processando (434/776): petland - Petland Guaianazes Otelo
+- Processando (435/776): petland - Petland Jaú
+- Processando (436/776): petland - Petland Garcia
+- Processando (437/776): petland - Petland Formiga
+- Processando (438/776): petland - Petland Santa Rosa
+- Processando (439/776): petland - Petland Dom Nery
+- Processando (440/776): petland - Petland Dom Joaquim
+- Processando (441/776): petland - Petland Dom Bosco
+- Processando (442/776): petland - Petland Cupecê
+- Processando (443/776): petland - Petland Cidade Nova
+- Processando (444/776): petland - Petland Bento Gonçalves
+- Processando (445/776): petland - Petland Canal 3
+- Processando (446/776): petland - Petland Campo Belo
+- Processando (447/776): petland - Petland Cambuí
+- Processando (448/776): petland - Petland Botucatu
+- Processando (449/776): petland - Petland Bom Retiro
+- Processando (450/776): petland - Petland Benjamin Constant
+- Processando (451/776): petland - Petland 13 de Julho
+- Processando (452/776): petland - Petland Batatais
+- Processando (453/776): petland - Petland Barra Muriaé
+- Processando (454/776): petland - Petland Avenida Brasil
+- Processando (455/776): petland - Petland Araguaína
+- Processando (456/776): petland - Petland Anália Franco
+- Processando (457/776): petland - Petland Aclimação
+- Processando (458/776): petland - Petland 5 de novembro
+- Processando (459/776): petland - Petland Vila Mariana
+- Processando (460/776): petland - Petland Vila Clementino
+- Processando (461/776): petland - Petland Turu
+- Processando (462/776): petland - Petland Tatuapé
+- Processando (463/776): petland - Petland Sinop
+- Processando (464/776): petland - Petland Rudge Ramos
+- Processando (465/776): petland - Petland Rio Madeira
+- Processando (466/776): petland - Petland Renascença
+- Processando (467/776): petland - Petland Canal 6
+- Processando (468/776): petland - Petland Pompéia
+- Processando (469/776): petland - Petland Pedreira
+- Processando (470/776): petland - Petland Passos
+- Processando (471/776): petland - Petland Parque Pinheiros
+- Processando (472/776): petland - Petland Oficinas
+- Processando (473/776): petland - Petland Mooca
+- Processando (474/776): petland - Petland Moema Pássaros
+- Processando (475/776): petland - Petland Moema Índios
+- Processando (476/776): petland - Petland Marapé
+- Processando (477/776): petland - Petland Praia Grande Mallet
+- Processando (478/776): petland - Petland Mackenzie Mall
+- Processando (479/776): petland - Petland Jóquei Clube
+- Processando (480/776): petland - Petland João Fiúsa
+- Processando (481/776): petland - Petland Jardins
+- Processando (482/776): petland - Petland Jaguaríuna
+- Processando (483/776): petland - Petland Itararé
+- Processando (484/776): petland - Petland Homero
+- Processando (485/776): petland - Petland Guilhermina
+- Processando (486/776): petland - Petland Graça
+- Processando (487/776): petland - Petland Embaré
+- Processando (488/776): petland - Petland Canal 2
+- Processando (489/776): petland - Petland Canal 1
+- Processando (490/776): petland - Petland Campolim
+- Processando (491/776): petland - Petland Boqueirão
+- Processando (492/776): petland - Petland Batel
+- Processando (493/776): petland - Petland Aparecida
+- Processando (494/776): petland - Petland Alphaville
+- Processando (495/776): petland - Petland Holandeses
+- Processando (496/776): petland - Petland Cohatrac
+- Processando (497/776): petland - Petland Cohama
+- Processando (498/776): petland - Petland Belvedere
+- Processando (499/776): petlove - Loja Braz Leme
+- Processando (500/776): petlove - Loja Campo Belo
+- Processando (501/776): petlove - Loja Cidade Jardim
+- Processando (502/776): petlove - Loja Moema
+- Processando (503/776): petlove - Loja Oscar Freire
+- Processando (504/776): petlove - Loja Perdizes
+- Processando (505/776): petlove - Loja Petlove Ponta da Praia
+- Processando (506/776): petlove - Loja Portugal
+- Processando (507/776): petlove - Loja Ribeirão Preto
+- Processando (508/776): petlove - Loja Santos
+- Processando (509/776): petlove - Loja Sócrates
+- Processando (510/776): petlove - Loja Tatuapé
+- Processando (511/776): petlove - Loja Tutóia
+- Processando (512/776): petlove - Quiosque Veros Hospital Veterinário
+- Processando (513/776): petz - Petz Abelardo Bueno
+- Processando (514/776): petz - Petz Aclimação
+- Processando (515/776): petz - Petz Afonso Pena
+- Processando (516/776): petz - Petz Agamenon
+- Processando (517/776): petz - Petz Águas Claras
+- Processando (518/776): petz - Petz Alameda Santos
+- Processando (519/776): petz - Petz Aldeota
+- Processando (520/776): petz - Petz Alphaville
+- Processando (521/776): petz - Petz Alto da Boa Vista
+- Processando (522/776): petz - Petz Americana
+- Processando (523/776): petz - Petz Ana Costa
+- Processando (524/776): petz - Petz Anália Franco
+- Processando (525/776): petz - Petz Angélica
+- Processando (526/776): petz - Petz Anhaia Mello
+- Processando (527/776): petz - Petz Aracaju
+- Processando (528/776): petz - Petz Araçatuba
+- Processando (529/776): petz - Petz Araraquara
+- Processando (530/776): petz - Petz Arujá
+- Processando (531/776): petz - Petz Assaí Anchieta
+- Processando (532/776): petz - Petz Assaí Colinas
+- Processando (533/776): petz - Petz Assaí Maracanã
+- Processando (534/776): petz - Petz Assaí Penha
+- Processando (535/776): petz - Petz Assis Chateaubriand
+- Processando (536/776): petz - Petz Augusta
+- Processando (537/776): petz - Petz Avenida das Américas Recreio
+- Processando (538/776): petz - Petz Avenida do Contorno
+- Processando (539/776): petz - Petz Avenida Dos Estados
+- Processando (540/776): petz - Petz Avenida Goiás
+- Processando (541/776): petz - Petz Avenida Interlagos
+- Processando (542/776): petz - Petz Avenida Milão
+- Processando (543/776): petz - Petz Balneário Camboriú
+- Processando (544/776): petz - Petz Bandeirantes
+- Processando (545/776): petz - Petz Bangu Shopping
+- Processando (546/776): petz - Petz Barra Américas
+- Processando (547/776): petz - Petz Barreiro
+- Processando (548/776): petz - Petz Bauru
+- Processando (549/776): petz - Petz Belém
+- Processando (550/776): petz - Petz Belford Roxo
+- Processando (551/776): petz - Petz Bento Gonçalves
+- Processando (552/776): petz - Petz BestCenter Jacareí
+- Processando (553/776): petz - Petz Betim
+- Processando (554/776): petz - Petz Blumenau
+- Processando (555/776): petz - Petz Boa Viagem
+- Processando (556/776): petz - Petz Bosque Maia
+- Processando (557/776): petz - Petz Botafogo
+- Processando (558/776): petz - Petz Botucatu
+- Processando (559/776): petz - Petz Brasília Asa Norte
+- Processando (560/776): petz - Petz Brasília Epia
+- Processando (561/776): petz - Petz Brasília Jardim Botânico
+- Processando (562/776): petz - Petz Brasília SIA
+- Processando (563/776): petz - Petz Brasília W3 Norte
+- Processando (564/776): petz - Petz Brusque
+- Processando (565/776): petz - Petz Bueno T63
+- Processando (566/776): petz - Petz Butantã
+- Processando (567/776): petz - Petz Cambuí
+- Processando (568/776): petz - Petz Campinas Norte Sul
+- Processando (569/776): petz - Petz Campo Grande
+- Processando (570/776): petz - Petz Campo Grande Rio
+- Processando (571/776): petz - Petz Canoas
+- Processando (572/776): petz - Petz Caraguatatuba
+- Processando (573/776): petz - Petz Carapicuíba
+- Processando (574/776): petz - Petz Carlos Berta
+- Processando (575/776): petz - Petz Carlos Luz
+- Processando (576/776): petz - Petz Carrefour Anchieta
+- Processando (577/776): petz - Petz Carrefour Imigrantes
+- Processando (578/776): petz - Petz Carrefour Manilha
+- Processando (579/776): petz - Petz Carrefour Ribeirão Shopping
+- Processando (580/776): petz - Petz Carrefour São Caetano
+- Processando (581/776): petz - Petz Carrefour Tietê
+- Processando (582/776): petz - Petz Cascavel
+- Processando (583/776): petz - Petz Castelo
+- Processando (584/776): petz - Petz Catuai Londrina
+- Processando (585/776): petz - Petz Cavalhada
+- Processando (586/776): petz - Petz Caxias do Sul
+- Processando (587/776): petz - Petz Ceilândia
+- Processando (588/776): petz - Petz Center Minas
+- Processando (589/776): petz - Petz Center Shopping Uberlândia
+- Processando (590/776): petz - Petz Cerro Corá
+- Processando (591/776): petz - Petz Chapecó
+- Processando (592/776): petz - Petz Cidade Jardim
+- Processando (593/776): petz - Petz Congonhas
+- Processando (594/776): petz - Petz Contagem
+- Processando (595/776): petz - Petz Contagem João Cesar
+- Processando (596/776): petz - Petz Continente
+- Processando (597/776): petz - Petz Copacabana
+- Processando (598/776): petz - Petz Cotia
+- Processando (599/776): petz - Petz Criciúma
+- Processando (600/776): petz - Petz Cristiano Machado
+- Processando (601/776): petz - Petz Diadema
+- Processando (602/776): petz - Petz Diário de Notícias
+- Processando (603/776): petz - Petz Divinópolis
+- Processando (604/776): petz - Petz Djalma Batista
+- Processando (605/776): petz - Petz Dom Pedro
+- Processando (606/776): petz - Petz Dourados
+- Processando (607/776): petz - Petz Edgar Facó
+- Processando (608/776): petz - Petz Enseada
+- Processando (609/776): petz - Petz Estação Goiânia
+- Processando (610/776): petz - Petz Fernando Corrêa
+- Processando (611/776): petz - Petz Ferraz de Vasconcelos
+- Processando (612/776): petz - Petz Florianópolis
+- Processando (613/776): petz - Petz Foz do Iguaçu
+- Processando (614/776): petz - Petz Franca
+- Processando (615/776): petz - Petz Gama Leste
+- Processando (616/776): petz - Petz Gastão Vidigal
+- Processando (617/776): petz - Petz Gilberto Salomão
+- Processando (618/776): petz - Petz Giovanni Gronchi
+- Processando (619/776): petz - Petz Giovanni Pirelli
+- Processando (620/776): petz - Petz Governador Valadares
+- Processando (621/776): petz - Petz Gravataí
+- Processando (622/776): petz - Petz Guarujá
+- Processando (623/776): petz - Petz Guarulhos
+- Processando (624/776): petz - Petz Guarulhos Pimentas
+- Processando (625/776): petz - Petz Hiper Sales Aracaju
+- Processando (626/776): petz - Petz Hortolândia
+- Processando (627/776): petz - Petz Iguatemi Esplanada
+- Processando (628/776): petz - Petz Ilha do Governador
+- Processando (629/776): petz - Petz Indaiatuba
+- Processando (630/776): petz - Petz Independência Shopping
+- Processando (631/776): petz - Petz Ipatinga
+- Processando (632/776): petz - Petz Ipiranga
+- Processando (633/776): petz - Petz Itaim
+- Processando (634/776): petz - Petz Itajaí
+- Processando (635/776): petz - Petz Itanhaém
+- Processando (636/776): petz - Petz Itapecerica
+- Processando (637/776): petz - Petz Itapetininga
+- Processando (638/776): petz - Petz Itatiba
+- Processando (639/776): petz - Petz Itu
+- Processando (640/776): petz - Petz Jaboatão dos Guararapes
+- Processando (641/776): petz - Petz Jacu Pêssego
+- Processando (642/776): petz - Petz Jaguaré
+- Processando (643/776): petz - Petz Jardim Botânico
+- Processando (644/776): petz - Petz Jardim Icaraí
+- Processando (645/776): petz - Petz Jaú
+- Processando (646/776): petz - Petz João Firmino
+- Processando (647/776): petz - Petz João Pessoa
+- Processando (648/776): petz - Petz Joinville
+- Processando (649/776): petz - Petz Juiz de Fora
+- Processando (650/776): petz - Petz Jundiaí
+- Processando (651/776): petz - Petz Jundiaí Anhanguera
+- Processando (652/776): petz - Petz Lauzane Paulista
+- Processando (653/776): petz - Petz Limão
+- Processando (654/776): petz - Petz Linha Verde
+- Processando (655/776): petz - Petz Litoral Plaza
+- Processando (656/776): petz - Petz Londrina Tiradentes
+- Processando (657/776): petz - Petz Manuel Gaya
+- Processando (658/776): petz - Petz Maraponga
+- Processando (659/776): petz - Petz Marechal Tito
+- Processando (660/776): petz - Petz Marginal Tietê 24h
+- Processando (661/776): petz - Petz Maringá
+- Processando (662/776): petz - Petz Mateus Leme
+- Processando (663/776): petz - Petz Mauro Ramos
+- Processando (664/776): petz - Petz Miguel Sutil
+- Processando (665/776): petz - Petz Mogi das Cruzes
+- Processando (666/776): petz - Petz Mogi Guaçu
+- Processando (667/776): petz - Petz Moinhos de Vento
+- Processando (668/776): petz - Petz Mooca
+- Processando (669/776): petz - Petz Mooca Plaza Shopping
+- Processando (670/776): petz - Petz Morumbi
+- Processando (671/776): petz - Petz Nações Unidas
+- Processando (672/776): petz - Petz Natal
+- Processando (673/776): petz - Petz Natal Zona Norte
+- Processando (674/776): petz - Petz Nordestina
+- Processando (675/776): petz - Petz Norte Sul Plaza
+- Processando (676/776): petz - Petz Nossa Senhora do Carmo
+- Processando (677/776): petz - Petz Nova Iguaçu
+- Processando (678/776): petz - Petz Novo Hamburgo
+- Processando (679/776): petz - Petz Olinda
+- Processando (680/776): petz - Petz Osasco
+- Processando (681/776): petz - Petz Pacaembu
+- Processando (682/776): petz - Petz Palmas
+- Processando (683/776): petz - Petz Pampulha
+- Processando (684/776): petz - Petz Pão de Açúcar Jabaquara
+- Processando (685/776): petz - Petz Parada de Taipas
+- Processando (686/776): petz - Petz ParkShopping Brasília
+- Processando (687/776): petz - Petz Parnamirim
+- Processando (688/776): petz - Petz Parque Flamboyant
+- Processando (689/776): petz - Petz Parque Shopping Bahia
+- Processando (690/776): petz - Petz Parque Shopping Maceió
+- Processando (691/776): petz - Petz Passeio das Águas
+- Processando (692/776): petz - Petz Pelotas
+- Processando (693/776): petz - Petz Pereira Barreto
+- Processando (694/776): petz - Petz Pindamonhangaba
+- Processando (695/776): petz - Petz Piracicaba
+- Processando (696/776): petz - Petz Pituba
+- Processando (697/776): petz - Petz Plaza Avenida Shopping
+- Processando (698/776): petz - Petz Poços de Caldas
+- Processando (699/776): petz - Petz Pompeia
+- Processando (700/776): petz - Petz Ponta Verde
+- Processando (701/776): petz - Petz Porto Velho Shopping
+- Processando (702/776): petz - Petz Praia Grande
+- Processando (703/776): petz - Petz Presidente Kennedy
+- Processando (704/776): petz - Petz Presidente Prudente
+- Processando (705/776): petz - Petz Protásio Alves
+- Processando (706/776): petz - Petz Radial Leste
+- Processando (707/776): petz - Petz Raja Gabaglia
+- Processando (708/776): petz - Petz Ribeirão Independência
+- Processando (709/776): petz - Petz Ribeirão Presidente Vargas
+- Processando (710/776): petz - Petz Ricardo Jafet
+- Processando (711/776): petz - Petz Rio Claro
+- Processando (712/776): petz - Petz Rio Grande
+- Processando (713/776): petz - Petz Riomar
+- Processando (714/776): petz - Petz Rio Verde
+- Processando (715/776): petz - Petz Rita Maria
+- Processando (716/776): petz - Petz Roberto Freire
+- Processando (717/776): petz - Petz Ruben Bento Alves
+- Processando (718/776): petz - Petz Salvador Bonocô
+- Processando (719/776): petz - Petz Salvador Paralela
+- Processando (720/776): petz - Petz Samambaia do Sul
+- Processando (721/776): petz - Petz Santa Bárbara D'Oeste
+- Processando (722/776): petz - Petz Santa Cecília
+- Processando (723/776): petz - Petz Santa Maria
+- Processando (724/776): petz - Petz Santo André
+- Processando (725/776): petz - Petz Santo André Dom Pedro
+- Processando (726/776): petz - Petz Santos Dumont
+- Processando (727/776): petz - Petz Santos Macuco
+- Processando (728/776): petz - Petz São Bernardo
+- Processando (729/776): petz - Petz São Carlos
+- Processando (730/776): petz - Petz São José do Rio Preto
+- Processando (731/776): petz - Petz São Leopoldo
+- Processando (732/776): petz - Petz São Luís
+- Processando (733/776): petz - Petz São Miguel
+- Processando (734/776): petz - Petz São Vicente
+- Processando (735/776): petz - Petz Seminário
+- Processando (736/776): petz - Petz Serra
+- Processando (737/776): petz - Petz Sete Lagoas
+- Processando (738/776): petz - Petz Shopping CenterVale
+- Processando (739/776): petz - Petz Shopping Golden Square
+- Processando (740/776): petz - Petz Shopping Grande Rio
+- Processando (741/776): petz - Petz Shopping Grand Plaza
+- Processando (742/776): petz - Petz Shopping Itaguaçu
+- Processando (743/776): petz - Petz Shopping Jockey Plaza
+- Processando (744/776): petz - Petz Shopping Mauá
+- Processando (745/776): petz - Petz Shopping Pantanal
+- Processando (746/776): petz - Petz Shopping Sul Valparaíso
+- Processando (747/776): petz - Petz Silva Jardim
+- Processando (748/776): petz - Petz Silviano Brandão
+- Processando (749/776): petz - Petz Sorocaba
+- Processando (750/776): petz - Petz Sorocaba Tauste
+- Processando (751/776): petz - Petz Sumaré
+- Processando (752/776): petz - Petz Suzano
+- Processando (753/776): petz - Petz Taboão da Serra
+- Processando (754/776): petz - Petz Taguatinga
+- Processando (755/776): petz - Petz Tamboré
+- Processando (756/776): petz - Petz Tatuí
+- Processando (757/776): petz - Petz Tauste Campinas
+- Processando (758/776): petz - Petz Teodoro Sampaio
+- Processando (759/776): petz - Petz Teotônio Vilela
+- Processando (760/776): petz - Petz Teresina
+- Processando (761/776): petz - Petz Torquato Tapajós
+- Processando (762/776): petz - Petz Torres
+- Processando (763/776): petz - Petz Trimais
+- Processando (764/776): petz - Petz Uberaba
+- Processando (765/776): petz - Petz Uberlândia
+- Processando (766/776): petz - Petz Várzea Grande
+- Processando (767/776): petz - Petz Vicente Rao
+- Processando (768/776): petz - Petz Vila Galvão
+- Processando (769/776): petz - Petz Vila Isabel
+- Processando (770/776): petz - Petz Vila Mariana
+- Processando (771/776): petz - Petz Vila Matilde
+- Processando (772/776): petz - Petz Vila Velha
+- Processando (773/776): petz - Petz Vitória
+- Processando (774/776): petz - Petz Vitória da Conquista
+- Processando (775/776): petz - Petz Washington Luís
+- Processando (776/776): petz - Petz Washington Soares
 
 - Processo concluído. Arquivo salvo em: data\gold\lojas_gold.csv
 
-Dimensão: 902 linhas x 14 colunas
+Dimensão: 776 linhas x 14 colunas
 
 🔹 Numéricas (2 colunas):
 ['renda_domiciliar_per_capita', 'cod_cidade'] 
@@ -968,18 +842,18 @@ Dimensão: 902 linhas x 14 colunas
 Valores nulos por coluna:
 |    | Coluna                      |   Nulos | % Nulos   |
 |----|-----------------------------|---------|-----------|
-|  1 | nome                        |       1 | 0.11%     |
-|  2 | logradouro                  |      42 | 4.66%     |
-|  3 | bairro                      |      70 | 7.76%     |
-|  4 | cidade                      |      22 | 2.44%     |
-|  5 | estado                      |      22 | 2.44%     |
-|  6 | regiao                      |      22 | 2.44%     |
-|  7 | cep                         |      31 | 3.44%     |
-|  8 | populacao                   |      22 | 2.44%     |
-|  9 | latitude                    |      47 | 5.21%     |
-| 10 | longitude                   |      47 | 5.21%     |
-| 11 | renda_domiciliar_per_capita |      22 | 2.44%     |
-| 12 | cod_cidade                  |      22 | 2.44%     |
+|  1 | nome                        |       1 | 0.13%     |
+|  2 | logradouro                  |      12 | 1.55%     |
+|  3 | bairro                      |      40 | 5.15%     |
+|  4 | cidade                      |       1 | 0.13%     |
+|  5 | estado                      |       1 | 0.13%     |
+|  6 | regiao                      |       1 | 0.13%     |
+|  7 | cep                         |      22 | 2.84%     |
+|  8 | populacao                   |       1 | 0.13%     |
+|  9 | latitude                    |      37 | 4.77%     |
+| 10 | longitude                   |      37 | 4.77%     |
+| 11 | renda_domiciliar_per_capita |       1 | 0.13%     |
+| 12 | cod_cidade                  |       1 | 0.13%     |
 
 
 ============================================================
@@ -990,7 +864,7 @@ Valores nulos por coluna:
 3. Constraint única verificada/criada.
 4. Dados carregados na tabela temporária 'lojas_gold_staging'.
 --- Registros antes da carga: 0
---- Registros depois da carga: 902
+--- Registros depois da carga: 776
 5. Dados mesclados na tabela 'lojas_gold' com sucesso.
 6. Processo de carga concluído com sucesso!
 7. Dados carregados com sucesso no PostgreSQL.
